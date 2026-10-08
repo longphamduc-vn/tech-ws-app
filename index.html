@@ -2,7 +2,10 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0d14">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>White Star Quiz Pro - Ứng Dụng Ôn Thi Kỹ Thuật</title>
   <meta name="description" content="Ứng dụng trắc nghiệm và ôn thi kỹ thuật White Star: Điện - Điện tử, PLC, Khí nén, Linh kiện máy với hơn 880 câu hỏi và 200+ sơ đồ kỹ thuật.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +25,7 @@
           <h2>WHITE STAR</h2>
           <span>Quiz Technical System</span>
         </div>
+        <button class="sidebar-close-btn" id="sidebar-close-btn" onclick="closeSidebar()" title="Đóng menu">✕</button>
       </div>
 
       <nav class="nav-menu">
@@ -55,6 +59,9 @@
         <div class="version-tag">Version 2.0 • Data 2026</div>
       </div>
     </aside>
+
+    <!-- Mobile Sidebar Backdrop Overlay -->
+    <div class="sidebar-backdrop" id="sidebar-backdrop" onclick="closeSidebar()"></div>
 
     <!-- Main Content Area -->
     <main class="main-content" id="main-content">
@@ -465,8 +472,14 @@
               <span class="timer-display" id="exam-timer-text">60:00</span>
             </div>
 
-            <button class="btn btn-danger" id="btn-submit-exam" onclick="confirmSubmitExam()">Nộp bài thi</button>
+            <div class="exam-header-actions">
+              <button class="btn btn-sm btn-outline mobile-palette-toggle" id="btn-toggle-palette" onclick="toggleExamPalette()">📋 Bảng câu (<span id="exam-palette-status-count">1/80</span>)</button>
+              <button class="btn btn-danger btn-sm" id="btn-submit-exam" onclick="confirmSubmitExam()">Nộp bài thi</button>
+            </div>
           </div>
+
+          <!-- Mobile Palette Backdrop -->
+          <div class="palette-backdrop" id="palette-backdrop" onclick="closeExamPalette()"></div>
 
           <div class="exam-layout-body">
             <!-- Question Box -->
@@ -474,9 +487,12 @@
               <!-- Rendered via JS -->
             </div>
 
-            <!-- Question Palette Grid -->
-            <div class="exam-palette-sidebar">
-              <h4>Bảng câu hỏi</h4>
+            <!-- Question Palette Grid / Drawer -->
+            <div class="exam-palette-sidebar" id="exam-palette-sidebar">
+              <div class="palette-header-row">
+                <h4>Bảng câu hỏi</h4>
+                <button class="palette-close-btn" onclick="closeExamPalette()">✕ Đóng</button>
+              </div>
               <div class="palette-legend">
                 <span><span class="dot done"></span> Đã làm</span>
                 <span><span class="dot current"></span> Đang làm</span>
@@ -486,6 +502,13 @@
                 <!-- Buttons rendered via JS -->
               </div>
             </div>
+          </div>
+
+          <!-- Exam Sticky Mobile Bottom Controls -->
+          <div class="exam-mobile-bottom-bar" id="exam-mobile-bottom-bar">
+            <button class="btn btn-secondary btn-sm" id="btn-exam-prev-mobile" onclick="navigateExamPrev()">← Trước</button>
+            <button class="btn btn-outline btn-sm" id="btn-exam-palette-mobile" onclick="toggleExamPalette()">📋 Bảng câu (<span id="exam-palette-status-count-b">1/80</span>)</button>
+            <button class="btn btn-primary btn-sm" id="btn-exam-next-mobile" onclick="navigateExamNext()">Tiếp →</button>
           </div>
         </div>
 
@@ -621,6 +644,30 @@
       </section>
 
     </main>
+
+    <!-- Mobile Bottom Navigation Bar (App-like UX) -->
+    <nav class="mobile-bottom-nav" id="mobile-bottom-nav">
+      <button class="bottom-nav-item active" id="bottom-nav-dashboard" onclick="switchTab('dashboard')">
+        <span class="b-icon">📊</span>
+        <span class="b-label">Tổng quan</span>
+      </button>
+      <button class="bottom-nav-item" id="bottom-nav-practice" onclick="switchTab('practice')">
+        <span class="b-icon">🎯</span>
+        <span class="b-label">Luyện tập</span>
+      </button>
+      <button class="bottom-nav-item" id="bottom-nav-exam" onclick="switchTab('exam')">
+        <span class="b-icon">⏱️</span>
+        <span class="b-label">Thi thử</span>
+      </button>
+      <button class="bottom-nav-item" id="bottom-nav-history" onclick="switchTab('history')">
+        <span class="b-icon">📜</span>
+        <span class="b-label">Lịch sử</span>
+      </button>
+      <button class="bottom-nav-item" id="bottom-nav-gallery" onclick="switchTab('gallery')">
+        <span class="b-icon">🖼️</span>
+        <span class="b-label">Sơ đồ</span>
+      </button>
+    </nav>
   </div>
 
   <!-- Image Modal Viewer -->

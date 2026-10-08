@@ -166,6 +166,21 @@ function switchTab(tabId) {
   const activeBtn = document.getElementById(`nav-${tabId}`);
   if (activeBtn) activeBtn.classList.add('active');
 
+  // Update mobile bottom nav active buttons
+  document.querySelectorAll('.bottom-nav-item').forEach(btn => btn.classList.remove('active'));
+  const activeBottomBtn = document.getElementById(`bottom-nav-${tabId}`);
+  if (activeBottomBtn) activeBottomBtn.classList.add('active');
+
+  // Auto-close mobile sidebar if open
+  closeSidebar();
+
+  // Show bottom nav unless taking an active exam
+  const bottomNav = document.getElementById('mobile-bottom-nav');
+  if (bottomNav) {
+    const isExamActive = (tabId === 'exam' && document.getElementById('exam-active-view')?.style.display === 'block');
+    bottomNav.style.display = isExamActive ? 'none' : '';
+  }
+
   // Update views
   document.querySelectorAll('.tab-view').forEach(view => view.classList.remove('active'));
   const activeView = document.getElementById(`view-${tabId}`);
@@ -415,7 +430,49 @@ function toggleTheme() {
 
 function toggleSidebar() {
   const sidebar = document.getElementById('sidebar');
-  if (sidebar) sidebar.classList.toggle('open');
+  const backdrop = document.getElementById('sidebar-backdrop');
+  if (sidebar) {
+    sidebar.classList.toggle('open');
+    if (backdrop) backdrop.classList.toggle('active', sidebar.classList.contains('open'));
+  }
+}
+
+function closeSidebar() {
+  const sidebar = document.getElementById('sidebar');
+  const backdrop = document.getElementById('sidebar-backdrop');
+  if (sidebar) sidebar.classList.remove('open');
+  if (backdrop) backdrop.classList.remove('active');
+}
+
+function toggleExamPalette() {
+  const palette = document.getElementById('exam-palette-sidebar');
+  const backdrop = document.getElementById('palette-backdrop');
+  if (palette) {
+    palette.classList.toggle('mobile-open');
+    if (backdrop) backdrop.classList.toggle('active', palette.classList.contains('mobile-open'));
+  }
+}
+
+function closeExamPalette() {
+  const palette = document.getElementById('exam-palette-sidebar');
+  const backdrop = document.getElementById('palette-backdrop');
+  if (palette) palette.classList.remove('mobile-open');
+  if (backdrop) backdrop.classList.remove('active');
+}
+
+function navigateExamPrev() {
+  if (APP_STATE.activeExam && APP_STATE.examCurrentIndex > 0) {
+    jumpToExamQuestion(APP_STATE.examCurrentIndex - 1);
+  }
+}
+
+function navigateExamNext() {
+  if (!APP_STATE.activeExam) return;
+  if (APP_STATE.examCurrentIndex < APP_STATE.activeExam.questions.length - 1) {
+    jumpToExamQuestion(APP_STATE.examCurrentIndex + 1);
+  } else {
+    confirmSubmitExam();
+  }
 }
 
 // =============================================================================
@@ -898,6 +955,10 @@ function startSelectedExam() {
   document.getElementById('exam-result-view').style.display = 'none';
   document.getElementById('exam-active-view').style.display = 'block';
 
+  // Hide mobile bottom nav during exam
+  const bottomNav = document.getElementById('mobile-bottom-nav');
+  if (bottomNav) bottomNav.style.display = 'none';
+
   setText('active-exam-title', APP_STATE.activeExam.title);
   buildExamPalette();
   renderExamQuestion(0);
@@ -961,8 +1022,25 @@ function renderExamQuestion(index) {
   APP_STATE.examCurrentIndex = index;
   const q = exam.questions[index];
 
-  // Update header progress
-  setText('exam-progress-counter', `Câu ${index + 1} / ${exam.questions.length}`);
+  // Update header progress and mobile status counters
+  const statusStr = `${index + 1} / ${exam.questions.length}`;
+  setText('exam-progress-counter', `Câu ${statusStr}`);
+  setText('exam-palette-status-count', `${index + 1}/${exam.questions.length}`);
+  setText('exam-palette-status-count-b', `${index + 1}/${exam.questions.length}`);
+
+  // Update mobile bottom controls state
+  const prevMobBtn = document.getElementById('btn-exam-prev-mobile');
+  const nextMobBtn = document.getElementById('btn-exam-next-mobile');
+  if (prevMobBtn) prevMobBtn.disabled = (index === 0);
+  if (nextMobBtn) {
+    if (index === exam.questions.length - 1) {
+      nextMobBtn.innerText = 'Nộp bài 🏁';
+      nextMobBtn.className = 'btn btn-danger btn-sm';
+    } else {
+      nextMobBtn.innerText = 'Tiếp →';
+      nextMobBtn.className = 'btn btn-primary btn-sm';
+    }
+  }
 
   // Update palette active states
   exam.questions.forEach((_, i) => {
@@ -1039,6 +1117,7 @@ function selectExamAnswer(qIndex, key) {
 }
 
 function jumpToExamQuestion(index) {
+  closeExamPalette();
   renderExamQuestion(index);
 }
 
@@ -1146,6 +1225,10 @@ function submitExam() {
   document.getElementById('exam-active-view').style.display = 'none';
   document.getElementById('exam-result-view').style.display = 'block';
 
+  // Restore mobile bottom nav
+  const bottomNav = document.getElementById('mobile-bottom-nav');
+  if (bottomNav) bottomNav.style.display = '';
+
   setText('result-score-percent', `${percent}%`);
   setText('result-score-fraction', `${correctCount} / ${exam.questions.length} câu đúng`);
 
@@ -1180,6 +1263,8 @@ function submitExam() {
 function restartExamSelection() {
   document.getElementById('exam-result-view').style.display = 'none';
   document.getElementById('exam-setup-view').style.display = 'block';
+  const bottomNav = document.getElementById('mobile-bottom-nav');
+  if (bottomNav) bottomNav.style.display = '';
 }
 
 function reviewExamAnswers() {
