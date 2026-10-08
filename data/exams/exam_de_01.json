@@ -1,0 +1,2222 @@
+{
+  "id": "EXAM_DE_01",
+  "title": "Đề thi thử White Star - Đề số 01",
+  "total_questions": 78,
+  "questions": [
+    {
+      "id": "EXAM_DE_01_Q01",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 1,
+      "question": "Giải thích nào không đúng về cấu tạo của nguyên tử?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hạt nhân nguyên tử: Cấu thành bởi hạt proton và hạt neutron."
+        },
+        {
+          "key": "B",
+          "text": "Khối lượng của hạt proton và hạt neutron gần như giống nhau và gấp khoảng 1.840 lần khối lượng hạt electron."
+        },
+        {
+          "key": "C",
+          "text": "Số hạt proton Z = Số điện tích dương = Số nguyên tử => Đồng nhất với số electron."
+        },
+        {
+          "key": "D",
+          "text": "Số proton và số neutron có thể có một vài giá trị."
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q02",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 2,
+      "question": "Yếu tố nào không phải là yếu tố quyết định điện trở của vật chất?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hằng số theo chủng loại của vật chất"
+        },
+        {
+          "key": "B",
+          "text": "Chiều dài"
+        },
+        {
+          "key": "C",
+          "text": "Mặt cắt ngang"
+        },
+        {
+          "key": "D",
+          "text": "Cân nặng"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q04",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 4,
+      "question": "Nếu số nguyên tử của Titan là 22 thì số electron của góc N trong số electron của mỗi quỹ đạo là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "10"
+        },
+        {
+          "key": "C",
+          "text": "12"
+        },
+        {
+          "key": "D",
+          "text": "2"
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q05",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 5,
+      "question": "Giá trị đo được khi đo điện áp ổ cắm bằng đồng hồ đo điện (DVM) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giá trị tối đa"
+        },
+        {
+          "key": "B",
+          "text": "Giá trị hiệu dụng"
+        },
+        {
+          "key": "C",
+          "text": "Giá trị tức thời"
+        },
+        {
+          "key": "D",
+          "text": "Giá trị trung bình"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q06",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 6,
+      "question": "Trong công tác nối đất, điện trở nối đất của công tác nối đất loại 3 đặc biệt là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dưới 100 Ohm"
+        },
+        {
+          "key": "B",
+          "text": "Dưới 10 Ohm"
+        },
+        {
+          "key": "C",
+          "text": "Dưới 1 Ohm"
+        },
+        {
+          "key": "D",
+          "text": "Dưới 1000 Ohm"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q07",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 7,
+      "question": "Hiện tượng giống như hình trong quá trình nhiễu là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sụt áp"
+        },
+        {
+          "key": "B",
+          "text": "Chattering"
+        },
+        {
+          "key": "C",
+          "text": "Tăng áp do sét"
+        },
+        {
+          "key": "D",
+          "text": "Nhảy nút"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q08",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 8,
+      "question": "Khi bị điện giật, chỉ số dòng điện “làm sốc mạnh nhưng có thể gây rung thất” trong các phản ứng sinh lý của cơ thể là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "5~30mA"
+        },
+        {
+          "key": "B",
+          "text": "30~50mA"
+        },
+        {
+          "key": "C",
+          "text": "50~100mA"
+        },
+        {
+          "key": "D",
+          "text": "Trên 100mA"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q09",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 9,
+      "question": "Trong cảm biến quang, bộ lọc phân cực được chèn vào là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Loại phản xạ hồi quy"
+        },
+        {
+          "key": "B",
+          "text": "Loại điện dung"
+        },
+        {
+          "key": "C",
+          "text": "Loại truyền qua"
+        },
+        {
+          "key": "D",
+          "text": "Loại phản xạ khuếch tán"
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q10",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 10,
+      "question": "Khi nút kiểm tra màu xanh dương hoặc xanh lá cây của cầu dao chống dò điện (ELB) không hoạt động thì đó là hiện tượng gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rò rỉ điện"
+        },
+        {
+          "key": "B",
+          "text": "Chập điện"
+        },
+        {
+          "key": "C",
+          "text": "Tiếp địa"
+        },
+        {
+          "key": "D",
+          "text": "Quá tải"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q11",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 11,
+      "question": "Đâu không phải là mục đích của việc tiếp địa?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phòng ngừa thương tích cho người (điện giật)"
+        },
+        {
+          "key": "B",
+          "text": "Bảo vệ thiết bị"
+        },
+        {
+          "key": "C",
+          "text": "Bảo vệ thiết bị khi điện áp tăng vọt"
+        },
+        {
+          "key": "D",
+          "text": "Cung cấp tiêu chuẩn của điện áp nguồn"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q12",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 12,
+      "question": "Thiết bị nào dùng để đo điện trở cách điện khi dòng điện rò rỉ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Máy đo điện trở cách điện(Mega tester)"
+        },
+        {
+          "key": "B",
+          "text": "Đồng hồ kẹp"
+        },
+        {
+          "key": "C",
+          "text": "Đồng hồ đo điện (DVM)"
+        },
+        {
+          "key": "D",
+          "text": "Đồng hồ đo LCR"
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q14",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 14,
+      "question": "Điện trở dưới đây là gì? \u000b“Được phủ một lớp nhựa không cháy vì vậy không bắt lửa ngay ở nhiệt độ cao và dễ dàng lắp đặt nhờ khả năng cách điện tốt”.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Điện trở màng kim loại"
+        },
+        {
+          "key": "B",
+          "text": "Điện trở cacbon loại nhỏ"
+        },
+        {
+          "key": "C",
+          "text": "Điện trở sứ xi măng"
+        },
+        {
+          "key": "D",
+          "text": "Điện trở rắn"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q15",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 15,
+      "question": "Vật liệu trở kháng nào không được sử dụng trong biến trở?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Màng cacbon"
+        },
+        {
+          "key": "B",
+          "text": "Màng kim loại"
+        },
+        {
+          "key": "C",
+          "text": "Dây cuốn"
+        },
+        {
+          "key": "D",
+          "text": "Màng gốm sứ"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q16",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 16,
+      "question": "Tụ điện nào được sử dụng như bình ngưng dòng của nguồn điện?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tụ Tantalum"
+        },
+        {
+          "key": "B",
+          "text": "Tụ điện Styrene"
+        },
+        {
+          "key": "C",
+          "text": "Tụ gốm"
+        },
+        {
+          "key": "D",
+          "text": "Tụ điện điện phân"
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_DE_01_s2_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q17",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 17,
+      "question": "Mạch nào không thể tạo nên bởi tụ điện?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mạch lọc điện (Smoothing circuit)"
+        },
+        {
+          "key": "B",
+          "text": "Mạch trễ thời gian"
+        },
+        {
+          "key": "C",
+          "text": "Mạch Filter"
+        },
+        {
+          "key": "D",
+          "text": "Mạch điện áp không đổi"
+        }
+      ],
+      "correct_answer": "D",
+      "images": [
+        "images/exams/EXAM_DE_01_s2_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q18",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 18,
+      "question": "Hiện tượng lực điện động xảy ra khi thay đổi từ thông đi qua cuộn dây là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hiện tượng tự cảm"
+        },
+        {
+          "key": "B",
+          "text": "Cảm ứng điện từ"
+        },
+        {
+          "key": "C",
+          "text": "Suất điện động cảm ứng"
+        },
+        {
+          "key": "D",
+          "text": "Định luật Lenz"
+        }
+      ],
+      "correct_answer": "B",
+      "images": [
+        "images/exams/EXAM_DE_01_s2_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q19",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 19,
+      "question": "C trong hình sau tương ứng với hiện tượng gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phục hồi"
+        },
+        {
+          "key": "B",
+          "text": "Phóng bức xạ điện từ"
+        },
+        {
+          "key": "C",
+          "text": "Điện ly"
+        },
+        {
+          "key": "D",
+          "text": "Kích thích"
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_DE_01_s2_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q20",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Điện tử điện cơ",
+      "question_number": 20,
+      "question": "Giá trị Vrms của dạng sóng có giá trị cực đại là 10 V, 500 Hz là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "3,5 V"
+        },
+        {
+          "key": "B",
+          "text": "5,3V"
+        },
+        {
+          "key": "C",
+          "text": "7,07V"
+        },
+        {
+          "key": "D",
+          "text": "0,7V"
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_DE_01_s2_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q21",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 21,
+      "question": "Đáp án nào sau đây là thứ tự của hoạt động PLC?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bắt đầu vận hành → Refresh khu vực đầu vào → Scan → Refresh khu vực đầu ra → Kết thúc"
+        },
+        {
+          "key": "B",
+          "text": "Bắt đầu vận hành → Scan → Refresh khu vực đầu vào → Refresh khu vực đầu ra → Kết thúc"
+        },
+        {
+          "key": "C",
+          "text": "Bắt đầu vận hành → Scan → Refresh khu vực đầu ra → Refresh khu vực đầu vào → Kết thúc"
+        },
+        {
+          "key": "D",
+          "text": "Bắt đầu vận hành → Refresh khu vực đầu vào \u000b→ Refresh khu vực đầu ra → Scan→ Kết thúc"
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q22",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 22,
+      "question": "Mô tảo dưới đây không đúng về Data Resister “D”?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nếu Reset lại PLC sau khi lưu dữ liệu trên Data Resister thì dữ liệu sẽ được lưu lại."
+        },
+        {
+          "key": "B",
+          "text": "1 điểm trên Data Resister bao gồm 16 bit. Data Register có thể đọc/ghi (Read/Write) theo đơn vị 16 bit."
+        },
+        {
+          "key": "C",
+          "text": "Khi xử lý dữ liệu 32 bit thì sẽ sử dụng 2 điểm."
+        },
+        {
+          "key": "D",
+          "text": "Dữ liệu đang được lưu trên Data Resister sẽ bị xóa (Clear) khi bật nguồn hoặc khi vận hành bằng nút cài đặt lại (Reset Switch)."
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q23",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 23,
+      "question": "Rơ le nội bộ nào dưới đây dùng cho Data Link?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Z"
+        },
+        {
+          "key": "B",
+          "text": "M"
+        },
+        {
+          "key": "C",
+          "text": "B"
+        },
+        {
+          "key": "D",
+          "text": "W"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q24",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 24,
+      "question": "Bộ nhớ nào sau đây không thể sử dụng khi cài đặt File Register R?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bộ nhớ chương trình"
+        },
+        {
+          "key": "B",
+          "text": "RAM tiêu chuẩn"
+        },
+        {
+          "key": "C",
+          "text": "Bộ nhớ chỉ đọc (ROM)"
+        },
+        {
+          "key": "D",
+          "text": "Bộ nhớ tạm (RAM)"
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q25",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 25,
+      "question": "Tính năng nào đúng với giải thích dưới đây? \u000b“Nếu có file nhận xét được lưu sau khi đọc PLC của thiết bị thì ta có thể sao chép và sử dụng nhận xét.”",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cắt"
+        },
+        {
+          "key": "B",
+          "text": "Sao chép"
+        },
+        {
+          "key": "C",
+          "text": "Lấy file"
+        },
+        {
+          "key": "D",
+          "text": "Dán"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q26",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 26,
+      "question": "Đâu không phải là lí do sử dụng nhiều chương trình?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Quản lý chương trình một cách hiệu quả"
+        },
+        {
+          "key": "B",
+          "text": "Dễ dàng bảo trì và lập trình"
+        },
+        {
+          "key": "C",
+          "text": "Giảm thời gian quét và quản lý thiết bị ổn định hơn"
+        },
+        {
+          "key": "D",
+          "text": "Giảm sử dụng các thiết bị trùng lặp"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q27",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 27,
+      "question": "Giải thích nào về lệnh SET/RST không đúng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nếu điều kiện đầu vào SET là ON thì đầu ra được chỉ định sẽ là ON."
+        },
+        {
+          "key": "B",
+          "text": "Nếu điều kiện đầu vào là OFF thì đầu ra cũng sẽ OFF."
+        },
+        {
+          "key": "C",
+          "text": "Ngay cả đi điều kiện đầu vào SET là OFF thì đầu ra được chỉ định vẫn duy trì trạng thái ON."
+        },
+        {
+          "key": "D",
+          "text": "Nếu điều kiện RST là ON thì đầu ra sẽ OFF."
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q28",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 28,
+      "question": "Số trình điều khiển và tên bộ nhớ nội bộ PLC CPU nào không đúng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ổ đĩa số 0 bộ nhớ chương trình"
+        },
+        {
+          "key": "B",
+          "text": "Ổ đĩa Số 1 Thẻ nhớ RAM"
+        },
+        {
+          "key": "C",
+          "text": "Ổ đĩa Số 3 Thẻ nhớ ROM"
+        },
+        {
+          "key": "D",
+          "text": "Ổ đĩa số 4 ROM tiêu chuẩn"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q29",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 29,
+      "question": "Dưới đây là trình tự hoạt động khi tháo thẻ nhớ khi bật nguồn PLC. Chọn phương án sai",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tắt rơle đặc biệt SM609."
+        },
+        {
+          "key": "B",
+          "text": "Xác nhận rơ le đặc biệt SM604 (đang sử dụng) đã ở trạng thái OFF."
+        },
+        {
+          "key": "C",
+          "text": "Xác nhận rơ le đặc biệt SM605 (không được tháo) đã ở trạng thái OFF."
+        },
+        {
+          "key": "D",
+          "text": "Nhấn nút EJECT thẻ nhớ để loại bỏ."
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q30",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 30,
+      "question": "Thời gian backup của tụ điện bên trong khi thay pin CPU là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 phút"
+        },
+        {
+          "key": "B",
+          "text": "2 phút"
+        },
+        {
+          "key": "C",
+          "text": "3 phút"
+        },
+        {
+          "key": "D",
+          "text": "5 phút"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q31",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 31,
+      "question": "Hãy chuyển đổi nhị phân 1110 1010 0111 sang thập lục phân.",
+      "options": [
+        {
+          "key": "A",
+          "text": "EB7"
+        },
+        {
+          "key": "B",
+          "text": "DA7"
+        },
+        {
+          "key": "C",
+          "text": "DB7"
+        },
+        {
+          "key": "D",
+          "text": "EA7"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q32",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 32,
+      "question": "Phạm vi input/output của module Q64DA trong cấu hình PLC ở trên là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Y130~Y13F"
+        },
+        {
+          "key": "B",
+          "text": "Y140~Y14F"
+        },
+        {
+          "key": "C",
+          "text": "YC0~YCF"
+        },
+        {
+          "key": "D",
+          "text": "YE0~YEF"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q33",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 33,
+      "question": "Thiết bị nào duy trì giá trị hiện tại khi mất điện?",
+      "options": [
+        {
+          "key": "A",
+          "text": "M"
+        },
+        {
+          "key": "B",
+          "text": "Y"
+        },
+        {
+          "key": "C",
+          "text": "L"
+        },
+        {
+          "key": "D",
+          "text": "X"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q34",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 34,
+      "question": "Đây là giải thích về Link Relay trong thiết bị PLC. Hãy chọn giải thích sai.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Là rơ le nội bộ dùng cho Data Link và không thể xuất ra bên ngoài."
+        },
+        {
+          "key": "B",
+          "text": "Được cấu tạo bởi 1 điểm 16 bit dùng cho Data Link, có thể đọc/ghi theo đơn vị 16 bit."
+        },
+        {
+          "key": "C",
+          "text": "Không giới hạn số lượng sử dụng trong chương trình."
+        },
+        {
+          "key": "D",
+          "text": "Phạm vi không được đặt làm cài đặt thông tin liên kết Link ban đầu được sử dụng làm rơ le nội bộ."
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q35",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 35,
+      "question": "Nội dung nào sai khi giải thích về COUNT?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nếu có tín hiệu đầu vào ngay cả sau khi COUNT UP thì sẽ được tính."
+        },
+        {
+          "key": "B",
+          "text": "COUNT được tính khi tín hiệu đầu vào là ON."
+        },
+        {
+          "key": "C",
+          "text": "Sau khi COUNT UP, trạng thái tiếp điểm hoặc giá trị hiện tại sẽ không đổi cho đến khi lệnh RST được thực hiện."
+        },
+        {
+          "key": "D",
+          "text": "Nếu lệnh RST được thực thi trước khi COUNT UP thì giá trị hiện tại sẽ đổi thành 0."
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q36",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 36,
+      "question": "Thiết bị nào được điền vào dấu ( ) dưới đây?",
+      "options": [
+        {
+          "key": "A",
+          "text": "N0"
+        },
+        {
+          "key": "B",
+          "text": "M0"
+        },
+        {
+          "key": "C",
+          "text": "M98"
+        },
+        {
+          "key": "D",
+          "text": "K98"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q37",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 37,
+      "question": "Sau khi ON/OFF X0 trong 1 giây, chương trình nào sẽ làm Y40 chuyển thành trạng thái ON trong 3 giây tiếp theo?",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q38",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 38,
+      "question": "Vùng Data device được phân bổ đến 12K. Phạm vi có khả năng sử dụng là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "D0~D12000"
+        },
+        {
+          "key": "B",
+          "text": "D0~D1200"
+        },
+        {
+          "key": "C",
+          "text": "D0~D12287"
+        },
+        {
+          "key": "D",
+          "text": "D0~D12999"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q39",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 39,
+      "question": "Nếu lệnh MC là OFF thì giải thích nào về kết quả tính toán giữa MC và MCR là đúng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giá trị hiện tại của 100 ms, 10 ms TIMER được duy trì."
+        },
+        {
+          "key": "B",
+          "text": "Các giá trị TIMER, COUNT tích lũy sẽ bị xóa thành “0”."
+        },
+        {
+          "key": "C",
+          "text": "Lệnh OUT vẫn duy trì ở trạng thái đó."
+        },
+        {
+          "key": "D",
+          "text": "Lệnh SET/RST, SFT vẫn duy trì ở trạng thái đó."
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q40",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – PLC",
+      "question_number": 40,
+      "question": "Sau khi ON X1 trong vòng 5 giây rồi OFF thì giá trị C0 là?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "50"
+        },
+        {
+          "key": "D",
+          "text": "0"
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q41",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 41,
+      "question": "Điều nào không đúng về ưu điểm của công nghệ khí nén?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dễ dàng khuếch đại lực."
+        },
+        {
+          "key": "B",
+          "text": "Không có nguy cơ dẫn hỏa."
+        },
+        {
+          "key": "C",
+          "text": "Dễ dàng tích lũy năng lượng."
+        },
+        {
+          "key": "D",
+          "text": "Có thể kiểm soát tốc độ chính xác và mang lại hiệu quả tốt."
+        }
+      ],
+      "correct_answer": "D",
+      "images": [
+        "images/exams/EXAM_DE_01_s5_1.png",
+        "images/exams/EXAM_DE_01_s5_2.png",
+        "images/exams/EXAM_DE_01_s5_3.png",
+        "images/exams/EXAM_DE_01_s5_4.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q42",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 42,
+      "question": "Điều nào không đúng về nhược điểm của công nghệ khí nén?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Khả năng phản hồi kém."
+        },
+        {
+          "key": "B",
+          "text": "Khó kiểm soát tốc độc một cách chính xác."
+        },
+        {
+          "key": "C",
+          "text": "Khó tích lũy năng lượng."
+        },
+        {
+          "key": "D",
+          "text": "Tiếng ồn lớn."
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_DE_01_s5_1.png",
+        "images/exams/EXAM_DE_01_s5_2.png",
+        "images/exams/EXAM_DE_01_s5_3.png",
+        "images/exams/EXAM_DE_01_s5_4.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q43",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 43,
+      "question": "Quy tắc nào đúng với quy luật thay đổi trạng thái của một bình kín trong điều kiện áp suất khí không đổi?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Định luật Boyle"
+        },
+        {
+          "key": "B",
+          "text": "Định luật Charles"
+        },
+        {
+          "key": "C",
+          "text": "Định luật pascal"
+        },
+        {
+          "key": "D",
+          "text": "Quy tắc Charles- Boyle"
+        }
+      ],
+      "correct_answer": "B",
+      "images": [
+        "images/exams/EXAM_DE_01_s5_1.png",
+        "images/exams/EXAM_DE_01_s5_2.png",
+        "images/exams/EXAM_DE_01_s5_3.png",
+        "images/exams/EXAM_DE_01_s5_4.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q44",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 44,
+      "question": "Đâu không phải là phương pháp sấy của máy sấy khí tạo ra khí nén khô?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phương pháp làm lạnh không khí"
+        },
+        {
+          "key": "B",
+          "text": "Phương pháp làm đông"
+        },
+        {
+          "key": "C",
+          "text": "Phương pháp kết dính"
+        },
+        {
+          "key": "D",
+          "text": "Phương pháp hấp thụ"
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_DE_01_s5_1.png",
+        "images/exams/EXAM_DE_01_s5_2.png",
+        "images/exams/EXAM_DE_01_s5_3.png",
+        "images/exams/EXAM_DE_01_s5_4.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q45",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 45,
+      "question": "Máy nén khí nào được sử dụng nhiều làm nguồn cấp của mô tơ khí nén do việc cấp khí nén được thực hiện liên tục, dễ dàng nên xung và tiếng ồn nhỏ, kích thước nhỏ?",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_DE_01_s5_1.png",
+        "images/exams/EXAM_DE_01_s5_2.png",
+        "images/exams/EXAM_DE_01_s5_3.png",
+        "images/exams/EXAM_DE_01_s5_4.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q46",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 46,
+      "question": "Tên gọi xi lanh tác động kép có gì sai?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đáp án A / Hình A (Xem sơ đồ minh họa)"
+        },
+        {
+          "key": "B",
+          "text": "Đáp án B / Hình B (Xem sơ đồ minh họa)"
+        },
+        {
+          "key": "C",
+          "text": "Đáp án C / Hình C (Xem sơ đồ minh họa)"
+        },
+        {
+          "key": "D",
+          "text": "Đáp án D / Hình D (Xem sơ đồ minh họa)"
+        }
+      ],
+      "correct_answer": "D",
+      "images": [
+        "images/exams/EXAM_DE_01_s5_1.png",
+        "images/exams/EXAM_DE_01_s5_2.png",
+        "images/exams/EXAM_DE_01_s5_3.png",
+        "images/exams/EXAM_DE_01_s5_4.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q47",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 47,
+      "question": "Thiết bị đệm nào của xi lanh chủ yếu được sử dụng trong các xi lanh có đường kính trên 20 mm?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Van cao su"
+        },
+        {
+          "key": "B",
+          "text": "Bộ giảm xung"
+        },
+        {
+          "key": "C",
+          "text": "Aircushion"
+        },
+        {
+          "key": "D",
+          "text": "Xy lanh hãm (Stopper)"
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_DE_01_s5_1.png",
+        "images/exams/EXAM_DE_01_s5_2.png",
+        "images/exams/EXAM_DE_01_s5_3.png",
+        "images/exams/EXAM_DE_01_s5_4.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q48",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 48,
+      "question": "Cấu trúc nào của bộ truyền động quay không phải là loại piston?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thiết bị truyền động kiểu cánh gạt (vane)"
+        },
+        {
+          "key": "B",
+          "text": "Thiết bị truyền động tay quay (crank)"
+        },
+        {
+          "key": "C",
+          "text": "Thiết bị truyền động kiểu yoke"
+        },
+        {
+          "key": "D",
+          "text": "Thiết bị truyền động quay Rack-Pinion"
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_DE_01_s5_1.png",
+        "images/exams/EXAM_DE_01_s5_2.png",
+        "images/exams/EXAM_DE_01_s5_3.png",
+        "images/exams/EXAM_DE_01_s5_4.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q49",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 49,
+      "question": "Loại van nào đúng với hình khí nén sau đây?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Van tiết lưu"
+        },
+        {
+          "key": "B",
+          "text": "Van tuần tự"
+        },
+        {
+          "key": "C",
+          "text": "Van giảm áp"
+        },
+        {
+          "key": "D",
+          "text": "Van xả áp"
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_DE_01_s5_1.png",
+        "images/exams/EXAM_DE_01_s5_2.png",
+        "images/exams/EXAM_DE_01_s5_3.png",
+        "images/exams/EXAM_DE_01_s5_4.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q50",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 50,
+      "question": "Giải thích nào đúng cho hình sau?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đây là van làm tăng tốc độ xi lanh bằng cách làm giảm sức cản khí thải của không khí thoát ra từ xi lanh."
+        },
+        {
+          "key": "B",
+          "text": "Đây là van điều khiển lưu lượng, làm thay đổi mặt cắt ngang của dòng chảy."
+        },
+        {
+          "key": "C",
+          "text": "Được sử dụng như một bộ hẹn giờ cùng với bình khí nén hoặc điều tiết nguồn cung và thải khí của xi lanh khí nén."
+        },
+        {
+          "key": "D",
+          "text": "Đây là van kết nối với ống xả van điện tử để kiểm soát tốc độ xi lanh."
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_DE_01_s5_1.png",
+        "images/exams/EXAM_DE_01_s5_2.png",
+        "images/exams/EXAM_DE_01_s5_3.png",
+        "images/exams/EXAM_DE_01_s5_4.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q51",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 51,
+      "question": "Đâu không phải là mô tả về phương pháp Meter - in của bộ điều khiển tốc độ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Do khả năng nén của không khí nên rất khó để ngăn chặn hoàn toàn sự khởi động nhanh của piston."
+        },
+        {
+          "key": "B",
+          "text": "Vì áp suất của ⓑ ở trạng thái dòng chảy tự do nên sẽ nhanh chóng giảm xuống mức áp suất khí quyển."
+        },
+        {
+          "key": "C",
+          "text": "Vì không khí cung cấp được điều tiết nên cần có thời gian để áp suất ở phía ⓐ tăng lên."
+        },
+        {
+          "key": "D",
+          "text": "Chuyển động của piston không ổn định do áp suất của ⓐ và ⓑ không cân bằng."
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_DE_01_s5_1.png",
+        "images/exams/EXAM_DE_01_s5_2.png",
+        "images/exams/EXAM_DE_01_s5_3.png",
+        "images/exams/EXAM_DE_01_s5_4.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q52",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 52,
+      "question": "Trong số các ký hiệu khí nén của van điều khiển hướng, đường kẻ ngắn ở bên ngoài hộp hình vuông thể hiện cho điều gì? (hình mũi tên)",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dòng chảy của chất lỏng"
+        },
+        {
+          "key": "B",
+          "text": "Biểu thị cổng"
+        },
+        {
+          "key": "C",
+          "text": "Số switching"
+        },
+        {
+          "key": "D",
+          "text": "Chặn dòng chảy của chất lỏng"
+        }
+      ],
+      "correct_answer": "B",
+      "images": [
+        "images/exams/EXAM_DE_01_s5_1.png",
+        "images/exams/EXAM_DE_01_s5_2.png",
+        "images/exams/EXAM_DE_01_s5_3.png",
+        "images/exams/EXAM_DE_01_s5_4.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q53",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 53,
+      "question": "Tên gọi chính xác của đế xi lanh \u000btrong dưới là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dạng Foot"
+        },
+        {
+          "key": "B",
+          "text": "Dạng Trunnion"
+        },
+        {
+          "key": "C",
+          "text": "Dạng Flange"
+        },
+        {
+          "key": "D",
+          "text": "Dạng Clevis"
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_DE_01_s5_1.png",
+        "images/exams/EXAM_DE_01_s5_2.png",
+        "images/exams/EXAM_DE_01_s5_3.png",
+        "images/exams/EXAM_DE_01_s5_4.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q54",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 54,
+      "question": "Van poppete có đặc điểm gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phù hợp với áp suất cao hoặc van điều khiển tự động."
+        },
+        {
+          "key": "B",
+          "text": "Cấu trúc đơn giản và dễ dàng chế tác với độ chính xác cao."
+        },
+        {
+          "key": "C",
+          "text": "Lực hoạt động của van nhỏ."
+        },
+        {
+          "key": "D",
+          "text": "Khoảng cách di chuyển của bộ phận hoạt động là ngắn, tốc độ đóng/mở nhanh."
+        }
+      ],
+      "correct_answer": "D",
+      "images": [
+        "images/exams/EXAM_DE_01_s6_1.png",
+        "images/exams/EXAM_DE_01_s6_2.png",
+        "images/exams/EXAM_DE_01_s6_3.png",
+        "images/exams/EXAM_DE_01_s6_4.png",
+        "images/exams/EXAM_DE_01_s6_5.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q55",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 55,
+      "question": "Khi cung cấp áp suất khác nhau tại hai đầu nhập thì áp suất của đầu ra là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "9kgf/㎠"
+        },
+        {
+          "key": "B",
+          "text": "4kgf/㎠"
+        },
+        {
+          "key": "C",
+          "text": "1kgf/㎠"
+        },
+        {
+          "key": "D",
+          "text": "5kgf/㎠"
+        }
+      ],
+      "correct_answer": "B",
+      "images": [
+        "images/exams/EXAM_DE_01_s6_1.png",
+        "images/exams/EXAM_DE_01_s6_2.png",
+        "images/exams/EXAM_DE_01_s6_3.png",
+        "images/exams/EXAM_DE_01_s6_4.png",
+        "images/exams/EXAM_DE_01_s6_5.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q56",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 56,
+      "question": "Van nào cho phép dòng chảy theo một hướng nhưng chặn dòng chảy theo hướng ngược lại và được sử dụng để ngăn dòng chảy ngược?",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_DE_01_s6_1.png",
+        "images/exams/EXAM_DE_01_s6_2.png",
+        "images/exams/EXAM_DE_01_s6_3.png",
+        "images/exams/EXAM_DE_01_s6_4.png",
+        "images/exams/EXAM_DE_01_s6_5.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q57",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 57,
+      "question": "Thiết bị khí nén nào không được sử dụng với máy phun chân không khí nén?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Van điện tử"
+        },
+        {
+          "key": "B",
+          "text": "Bộ lọc"
+        },
+        {
+          "key": "C",
+          "text": "Van một chiều"
+        },
+        {
+          "key": "D",
+          "text": "Công tắc áp suất"
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_DE_01_s6_1.png",
+        "images/exams/EXAM_DE_01_s6_2.png",
+        "images/exams/EXAM_DE_01_s6_3.png",
+        "images/exams/EXAM_DE_01_s6_4.png",
+        "images/exams/EXAM_DE_01_s6_5.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q58",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 58,
+      "question": "Đâu không phải là loại công tắc phát hiện có thể phát hiện khi không tiếp xúc với vật thể phát hiện?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Công tắc tiệm cận"
+        },
+        {
+          "key": "B",
+          "text": "Công tắc hành trình"
+        },
+        {
+          "key": "C",
+          "text": "Công tắc mức siêu âm"
+        },
+        {
+          "key": "D",
+          "text": "Công tắc quang điện"
+        }
+      ],
+      "correct_answer": "B",
+      "images": [
+        "images/exams/EXAM_DE_01_s6_1.png",
+        "images/exams/EXAM_DE_01_s6_2.png",
+        "images/exams/EXAM_DE_01_s6_3.png",
+        "images/exams/EXAM_DE_01_s6_4.png",
+        "images/exams/EXAM_DE_01_s6_5.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q59",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 59,
+      "question": "Giải thích nào đúng khi nói về tính năng bộ nhớ trong các tính năng tiêu biểu của rơ le?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Trạng thái đầu vào có thể được duy trì bởi tiếp điểm tiếp xúc của rơ le và có thể ghi nhớ tín hiệu hoạt động."
+        },
+        {
+          "key": "B",
+          "text": "Khi số lượng tiếp điểm đầu ra về tín hiệu đầu vào của 1 cuộn dây nhiều thì tín hiệu được phân nhánh và có thể điều khiển đồng thời một số thiết bị."
+        },
+        {
+          "key": "C",
+          "text": "Khi lấy điện năng tiêu thụ của cuộn dây là đầu vào thì ở tiếp điểm đầu ra điện năng có thể tăng gấp mấy chục lần đầu vào."
+        },
+        {
+          "key": "D",
+          "text": "Do phần cuộn dây và phần tiếp điểm được phân tách bằng điện nên có thể xử lý tín hiệu của các thuộc tính khác nhau."
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_DE_01_s6_1.png",
+        "images/exams/EXAM_DE_01_s6_2.png",
+        "images/exams/EXAM_DE_01_s6_3.png",
+        "images/exams/EXAM_DE_01_s6_4.png",
+        "images/exams/EXAM_DE_01_s6_5.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q60",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Khí nén",
+      "question_number": 60,
+      "question": "Đâu không phải loại hình dòng chảy ở vị trí trung lập?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Loại đóng giữa"
+        },
+        {
+          "key": "B",
+          "text": "Loại nhấn giữa"
+        },
+        {
+          "key": "C",
+          "text": "Loại kết nối PAR"
+        },
+        {
+          "key": "D",
+          "text": "Loại xả giữa"
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_DE_01_s6_1.png",
+        "images/exams/EXAM_DE_01_s6_2.png",
+        "images/exams/EXAM_DE_01_s6_3.png",
+        "images/exams/EXAM_DE_01_s6_4.png",
+        "images/exams/EXAM_DE_01_s6_5.png"
+      ]
+    },
+    {
+      "id": "EXAM_DE_01_Q61",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 61,
+      "question": "Ký hiệu nào không đúng với tiêu chuẩn công nghiệp ở mỗi quốc gia?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anh - BM"
+        },
+        {
+          "key": "B",
+          "text": "Đức - DIN"
+        },
+        {
+          "key": "C",
+          "text": "Thụy Sĩ - VSM"
+        },
+        {
+          "key": "D",
+          "text": "Hoa Kỳ – ANSI"
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q62",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 62,
+      "question": "Giải thích nào không đúng về động cơ trục chính?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Trục có đường kính lớn và trục dài"
+        },
+        {
+          "key": "B",
+          "text": "Xoay với tốc độ cao 10.000 RPM."
+        },
+        {
+          "key": "C",
+          "text": "Bị xoắn và uốn đồng thời."
+        },
+        {
+          "key": "D",
+          "text": "Số lượng biến dạng phải cực nhỏ."
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q63",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 63,
+      "question": "Đáp án nào không đúng trong phân loại theo mục đích sử dụng của trục?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Trục xe"
+        },
+        {
+          "key": "B",
+          "text": "Trục truyền"
+        },
+        {
+          "key": "C",
+          "text": "Trục khuỷu"
+        },
+        {
+          "key": "D",
+          "text": "Cổ trục"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q64",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 64,
+      "question": "Giải thích nào không đúng về các hạng mục cần lưu ý khi sử dụng trục?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tránh tải trọng ngang quá mức."
+        },
+        {
+          "key": "B",
+          "text": "Không bảo quản ở nơi có sự thay đổi về nhiệt độ."
+        },
+        {
+          "key": "C",
+          "text": "Khi bảo quản chỉ cần chú ý tới phần journal bị đâm."
+        },
+        {
+          "key": "D",
+          "text": "Không để tiếp xúc với khí ga."
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q65",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 65,
+      "question": "Khớp nối nào không được sử dụng khi đường trục nằm trên cùng một đường?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Khớp nối ống"
+        },
+        {
+          "key": "B",
+          "text": "Khớp nối mặt bích"
+        },
+        {
+          "key": "C",
+          "text": "Khớp nối Sellers"
+        },
+        {
+          "key": "D",
+          "text": "Khớp nối Oldham"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q66",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 66,
+      "question": "Đặc điểm nào đúng với vòng bi rãnh sâu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Press Retainer của tấm thép thường được sử dụng."
+        },
+        {
+          "key": "B",
+          "text": "Chỉ chịu được tải theo hướng trục."
+        },
+        {
+          "key": "C",
+          "text": "Góc tiếp xúc càng lớn thì khả năng hỗ trợ trục càng lớn."
+        },
+        {
+          "key": "D",
+          "text": "Nếu góc tiếp xúc nhỏ thì có lợi trong việc quay nhanh."
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q67",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 67,
+      "question": "Đâu không phải là đặc điểm của ổ bi tiếp xúc 4 điểm?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vòng trong được chia thành 2 phần."
+        },
+        {
+          "key": "B",
+          "text": "Góc tiếp xúc giữa vòng trong và vòng ngoài là 35 độ."
+        },
+        {
+          "key": "C",
+          "text": "Có thể sử dụng thay cho vòng bi đỡ chặn tiếp xúc."
+        },
+        {
+          "key": "D",
+          "text": "Press Retainer của tấm thép thường được sử dụng."
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q68",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 68,
+      "question": "Bu lông ốc vít nào được dùng để kết hợp?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ren vuông"
+        },
+        {
+          "key": "B",
+          "text": "Ren chặn"
+        },
+        {
+          "key": "C",
+          "text": "Ren tròn"
+        },
+        {
+          "key": "D",
+          "text": "Ren hợp nhất"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q69",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 69,
+      "question": "Tên gọi bộ phận của bu lông ốc vít bị sai?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bước ren “Pitch”: Là khoảng cách của đỉnh ren và bu lông"
+        },
+        {
+          "key": "B",
+          "text": "Đường kính danh nghĩa: Đường kính ngoài của bu lông"
+        },
+        {
+          "key": "C",
+          "text": "Phai: Điểm kết nối phía cuối hai đầu của đỉnh ren"
+        },
+        {
+          "key": "D",
+          "text": "Chân ren: Mặt mà hai bên phai của rãnh ốc vít được nối với nhau"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q70",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 70,
+      "question": "Giải thích nào về chốt ghim không đúng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chốt ghim được sử dụng ở những nơi có tải trọng lớn như bánh răng, ròng rọc và phương pháp lắp đặt đơn giản."
+        },
+        {
+          "key": "B",
+          "text": "Chốt côn có loại tách và không tách ở phần đuôi."
+        },
+        {
+          "key": "C",
+          "text": "Chốt bản lề cơ cấu lái được kết nối để 2 thanh có thể hoạt động."
+        },
+        {
+          "key": "D",
+          "text": "Chốt định vị được sử dụng để nối các thanh với nhau."
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q71",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 71,
+      "question": "Trong các loại then (key), đâu là loại nên được sử dụng với áp lực bên thấp?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Then ma sát (saddle key)"
+        },
+        {
+          "key": "B",
+          "text": "Then bán nguyệt (woodruff key)"
+        },
+        {
+          "key": "C",
+          "text": "Then bằng (flat key)"
+        },
+        {
+          "key": "D",
+          "text": "Then trượt (sliding key)"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q72",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 72,
+      "question": "Mô tả nào không đúng về đặc điểm của then bán nguyệt (woodruff key)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Được sử dụng cho các trục nhỏ dưới 60 mm."
+        },
+        {
+          "key": "B",
+          "text": "Độ sâu của rãnh làm tăng độ cứng của trục."
+        },
+        {
+          "key": "C",
+          "text": "Phù hợp với trục taper của máy móc chế tạo."
+        },
+        {
+          "key": "D",
+          "text": "Dễ dàng gia công và điều chỉnh."
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q73",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 73,
+      "question": "Trong phương pháp phân loại bánh răng (trục song song) dưới đây, loại nào khác với những loại còn lại?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bánh răng trụ tròn (spur gear)"
+        },
+        {
+          "key": "B",
+          "text": "Bánh răng ăn khớp trong (internal gear)"
+        },
+        {
+          "key": "C",
+          "text": "Bánh răng côn xoắn (helical gear)"
+        },
+        {
+          "key": "D",
+          "text": "Bánh răng xoắn ốc (srew gear)"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q74",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 74,
+      "question": "Bánh răng nào có đặc điểm là trục trung tâm của bánh răng và bánh răng nhỏ (pinion) không giao nhau mà đan chéo nhau?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bánh răng côn xoắn (Helical gear)"
+        },
+        {
+          "key": "B",
+          "text": "Bánh răng hypoid (Hypoid gear)\nBánh răng côn spiral (Spiral bevel gear)\nThanh răng (Rack gear)"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q75",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 75,
+      "question": "Mô tả nào không đúng về bộ giảm tốc?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bộ giảm tốc bánh răng côn xoắn (helical gear) có 2 chục chéo nhau."
+        },
+        {
+          "key": "B",
+          "text": "Bộ giảm tốc bánh răng nón (bevel gear) có 2 trục giao nhau tại 1 điểm."
+        },
+        {
+          "key": "C",
+          "text": "Bộ truyền Harmonic Drive có khe hở nhỏ."
+        },
+        {
+          "key": "D",
+          "text": "Hộp giảm tốc nhiều bánh răng có thể được chế tác cho tải cao."
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q76",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 76,
+      "question": "Bộ giảm tốc bánh răng sâu (worm gear) có đặc tính gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tuy cấu trúc phức tạp nhưng khi vận hành sẽ ít gây rung và tiếng ồn."
+        },
+        {
+          "key": "B",
+          "text": "Tải trọng tác động mạnh và chỉ có thể nhập vào trục vuông góc."
+        },
+        {
+          "key": "C",
+          "text": "Cần vận hành sơ bộ thích hợp."
+        },
+        {
+          "key": "D",
+          "text": "Hiệu quả cao và không phát nhiệt."
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q77",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 77,
+      "question": "Mô tả nào về truyền động dây đai không đúng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dây đai V có độ linh hoạt cao và độ trượt nhỏ."
+        },
+        {
+          "key": "B",
+          "text": "Dây đai V có thể truyền động lực lớn do sức căng nhỏ của mối nối."
+        },
+        {
+          "key": "C",
+          "text": "Dây đai Timing cần lực căng ban đầu và có thể đạt được hiệu suất cao."
+        },
+        {
+          "key": "D",
+          "text": "Dây đai Timing có thể ngăn ngừa tổn thất truyền động do nhiệt ma sát, tối thiểu hoá phụ tải của vòng bi."
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q78",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 78,
+      "question": "Đâu không phải là đặc tính của truyền động xích?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Không tăng tải trọng lên vòng bi."
+        },
+        {
+          "key": "B",
+          "text": "Cần lực căng ban đầu và lực căng tĩnh không hoạt động."
+        },
+        {
+          "key": "C",
+          "text": "Khả năng chống ẩm cao."
+        },
+        {
+          "key": "D",
+          "text": "Hiệu quả là hơn 95%."
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q79",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 79,
+      "question": "Đâu không phải là đặc tính của thanh trượt dẫn hướng tuyến tính (LM)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phương thức hướng dẫn trượt có hệ số ma sát cao nên hiệu quả thấp."
+        },
+        {
+          "key": "B",
+          "text": "Ống lót tuyến tính có tải trọng cho phép lớn."
+        },
+        {
+          "key": "C",
+          "text": "Thanh trượt dẫn hướng tuyến tính hầu như không có sự quay trượt và chảy không tải."
+        },
+        {
+          "key": "D",
+          "text": "Vít me bi (ball screw) có thể giảm thiểu khe hở."
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_DE_01_Q80",
+      "exam_id": "EXAM_DE_01",
+      "section": "Đánh giá WS – Yếu tố máy móc",
+      "question_number": 80,
+      "question": "Trong những giải thích về bôi trơn, tính năng nào giúp làm giảm ma sát và hư hỏng, kéo dài tuổi thọ thiết bị?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tác động làm mát"
+        },
+        {
+          "key": "B",
+          "text": "Tác động phân tán ứng lực"
+        },
+        {
+          "key": "C",
+          "text": "Tác động niêm phong"
+        },
+        {
+          "key": "D",
+          "text": "Tác động Gamma"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    }
+  ]
+}

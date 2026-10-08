@@ -1,0 +1,2441 @@
+{
+  "id": "EXAM_TEST_01",
+  "title": "Đề thi thử White Star - Test 01",
+  "total_questions": 80,
+  "questions": [
+    {
+      "id": "EXAM_TEST_01_Q01",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 1,
+      "question": "Giải thích nào là đúng ?\n[Các electron nằm ở quỹ đạo ngoài cùng của nguyên tử chịu lực tác động của hạt nhân nhỏ. ]",
+      "options": [
+        {
+          "key": "A",
+          "text": "Electron tự do"
+        },
+        {
+          "key": "B",
+          "text": "Dải hóa trị"
+        },
+        {
+          "key": "C",
+          "text": "Hạt nhân nguyên tử"
+        },
+        {
+          "key": "D",
+          "text": "Hạt Proton"
+        }
+      ],
+      "correct_answer": "",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q02",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 2,
+      "question": "Đáp án nào sai về số lượng hạt của các lớp Electron ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lớp M = 18"
+        },
+        {
+          "key": "B",
+          "text": "Lớp K = 4"
+        },
+        {
+          "key": "C",
+          "text": "Lớp N = 32"
+        },
+        {
+          "key": "D",
+          "text": "Lớp L = 8"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q03",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 3,
+      "question": "Nội dung dưới đây đang mô tả điều gì?\n[Năng lượng được tăng lên và dịch chuyển ra vòng xa hơn]",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kích thích"
+        },
+        {
+          "key": "B",
+          "text": "Lượng tử ánh sáng"
+        },
+        {
+          "key": "C",
+          "text": "Ion hóa"
+        },
+        {
+          "key": "D",
+          "text": "Phóng xung điện."
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q04",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 4,
+      "question": "Độ lệch pha trong trường hợp 3 pha 220V 60㎐ là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "90"
+        },
+        {
+          "key": "B",
+          "text": "120"
+        },
+        {
+          "key": "C",
+          "text": "180"
+        },
+        {
+          "key": "D",
+          "text": "240"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q05",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 5,
+      "question": "Dòng điện gây co cơ mạnh khi bị điện giật là bao nhiêu mA?",
+      "options": [
+        {
+          "key": "A",
+          "text": "5 ~ 30"
+        },
+        {
+          "key": "B",
+          "text": "30 ~ 50"
+        },
+        {
+          "key": "C",
+          "text": "50 ~ 100"
+        },
+        {
+          "key": "D",
+          "text": "Hơn 100"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q06",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 6,
+      "question": "Giá trị đỉnh - đỉnh là 10V, vậy Vrms là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "7,07"
+        },
+        {
+          "key": "B",
+          "text": "6,37"
+        },
+        {
+          "key": "C",
+          "text": "3.535"
+        },
+        {
+          "key": "D",
+          "text": "3,185"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q07",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 7,
+      "question": "Oscilloscope không được dùng để đo giá trị của?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đỉnh"
+        },
+        {
+          "key": "B",
+          "text": "Tần số"
+        },
+        {
+          "key": "C",
+          "text": "Xung giảm"
+        },
+        {
+          "key": "D",
+          "text": "Chu kỳ"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q08",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 8,
+      "question": "Khi mã màu của điện trở là [Đỏ Đỏ Nâu Bạc]\nGiá trị là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "220Ω"
+        },
+        {
+          "key": "B",
+          "text": "330Ω"
+        },
+        {
+          "key": "C",
+          "text": "2200Ω"
+        },
+        {
+          "key": "D",
+          "text": "3300Ω"
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q09",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 9,
+      "question": "Điện trở nào được sử dụng cho các mạch Analog cơ bản, yêu cầu độ chính xác cao?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Điện trở màng kim loại (dạng sợi)"
+        },
+        {
+          "key": "B",
+          "text": "Điện trở xi măng"
+        },
+        {
+          "key": "C",
+          "text": "Điện trở màng kim loại (màng mỏng)"
+        },
+        {
+          "key": "D",
+          "text": "Điện trở màng carbon nhỏ"
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q10",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 10,
+      "question": "Mạch nào sau đây không sử dụng chức năng của tụ điện?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mạch làm trơn"
+        },
+        {
+          "key": "B",
+          "text": "Mạch chỉnh lưu"
+        },
+        {
+          "key": "C",
+          "text": "Mạch hẹn giờ"
+        },
+        {
+          "key": "D",
+          "text": "Mạch lọc"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q11",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 11,
+      "question": "Tụ điện nào sau đây được dùng ở dải tần cao?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tụ điện Mylar"
+        },
+        {
+          "key": "B",
+          "text": "Tụ sứ"
+        },
+        {
+          "key": "C",
+          "text": "Tụ Tantal"
+        },
+        {
+          "key": "D",
+          "text": "Tụ điện Styrol"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q12",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 12,
+      "question": "Dòng dưới đây đang nói về điều gì?\n[Sự biến thiên của từ thông quyết định phương hướng của lực điện động cảm ứng.]",
+      "options": [
+        {
+          "key": "A",
+          "text": "cảm ứng điện từ"
+        },
+        {
+          "key": "B",
+          "text": "Suất điện động cảm ứng"
+        },
+        {
+          "key": "C",
+          "text": "Định luật Lenz"
+        },
+        {
+          "key": "D",
+          "text": "Điện cảm"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q13",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 13,
+      "question": "Tên gọi của cuộn dây nào cho tiếp xúc song song cuộn cảm và tụ điện?",
+      "options": [
+        {
+          "key": "A",
+          "text": "FCZ"
+        },
+        {
+          "key": "B",
+          "text": "FFC"
+        },
+        {
+          "key": "C",
+          "text": "RFC"
+        },
+        {
+          "key": "D",
+          "text": "IFT"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q14",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 14,
+      "question": "Điện áp ngưỡng thuận của diode Zener 6.2V / Si là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0,2V"
+        },
+        {
+          "key": "B",
+          "text": "0,7V"
+        },
+        {
+          "key": "C",
+          "text": "5,8V"
+        },
+        {
+          "key": "D",
+          "text": "6.2V"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q15",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 15,
+      "question": "Dòng hoạt động của Transistor dùng cho tín hiệu nhỏ là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dưới 100㎃"
+        },
+        {
+          "key": "B",
+          "text": "200㎃ trở xuống"
+        },
+        {
+          "key": "C",
+          "text": "300㎃ trở xuống"
+        },
+        {
+          "key": "D",
+          "text": "400㎃ trở xuống"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q16",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 16,
+      "question": "Đâu không phải là đặc điểm của Photo Coupler?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tốc độ phản hồi nhanh"
+        },
+        {
+          "key": "B",
+          "text": "Đầu vào và đầu ra được cách điện"
+        },
+        {
+          "key": "C",
+          "text": "Có độ tin cậy cao"
+        },
+        {
+          "key": "D",
+          "text": "Chống rung"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q17",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 17,
+      "question": "Đâu không phải là đặc điểm của Điện trở nhiệt?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Do hệ số nhiệt độ điện trở nhỏ so với nhiệt độ, nên việc đo\nnhiệt độ nhỏ và chính xác tốt."
+        },
+        {
+          "key": "B",
+          "text": "Cấu trúc đơn giản, có thể thu nhỏ"
+        },
+        {
+          "key": "C",
+          "text": "Sản xuất đại trà, có thể cung cấp số lượng lớn với giá thành ổn định"
+        },
+        {
+          "key": "D",
+          "text": "Độ bền cơ khí và tính gia công vượt trội."
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q18",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 18,
+      "question": "Hiệu điện thế qua điện trở trong đoạn mạch sau là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0V"
+        },
+        {
+          "key": "B",
+          "text": "0,2V"
+        },
+        {
+          "key": "C",
+          "text": "0,7V"
+        },
+        {
+          "key": "D",
+          "text": "4,8V"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q19",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 19,
+      "question": "Hiệu điện thế qua điện trở trong đoạn mạch sau là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0V"
+        },
+        {
+          "key": "B",
+          "text": "2,9V"
+        },
+        {
+          "key": "C",
+          "text": "9.1V"
+        },
+        {
+          "key": "D",
+          "text": "11,3V"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q20",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 20,
+      "question": "Tần số của dạng sóng phía dưới là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "200 hz"
+        },
+        {
+          "key": "B",
+          "text": "250 hz"
+        },
+        {
+          "key": "C",
+          "text": "500 hz"
+        },
+        {
+          "key": "D",
+          "text": "1khz"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q21",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 21,
+      "question": "Điều gì sai trong phần giải thích về bảng điều khiển PLC?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Không tiếp xúc"
+        },
+        {
+          "key": "B",
+          "text": "Điều khiển bằng cách đấu dây giữa các bộ phận."
+        },
+        {
+          "key": "C",
+          "text": "Bảo trì và sửa chữa dễ dàng"
+        },
+        {
+          "key": "D",
+          "text": "Có thể mở rộng hệ thống"
+        }
+      ],
+      "correct_answer": "",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q22",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 22,
+      "question": "Là Data Register lưu trữ kết quả tính toán của mệnh lệnh ứng dụng , mệnh lệnh cơ bản.?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Timer"
+        },
+        {
+          "key": "B",
+          "text": "File Register"
+        },
+        {
+          "key": "C",
+          "text": "Link Register"
+        },
+        {
+          "key": "D",
+          "text": "Accumulator"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q23",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 23,
+      "question": "Parameter → Device đặt trong dấu (1)\nDự liệu đã khởi tạo có thể được xóa bằng bằng gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reset"
+        },
+        {
+          "key": "B",
+          "text": "L.CLR"
+        },
+        {
+          "key": "C",
+          "text": "Dip Switch"
+        },
+        {
+          "key": "D",
+          "text": "Stop Switch"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q24",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 24,
+      "question": "Nội dung bộ nhớ nào của CPU PLC là sai?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bộ nhớ PLC là bộ nhớ chương trình người dùng và bộ nhớ dữ liệu. Nó được chia thành ba loại bộ nhớ."
+        },
+        {
+          "key": "B",
+          "text": "RAM là bộ nhớ chứa các chương trình được sử dụng và nội dung điều khiển có thể thay đổi."
+        },
+        {
+          "key": "C",
+          "text": "Data Memory là khu vực lưu trữ trạng thái tiếp điểm của đầu vào / đầu ra, bộ đếm thời gian và bộ đếm và thông tin như giá trị đặt và giá trị hiện tại."
+        },
+        {
+          "key": "D",
+          "text": "RAM được sử dụng như chương trình hệ thống để xác định chức năng hoặc hiệu suất của PLC."
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q25",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 25,
+      "question": "Để mô tả thiết bị khi viết PLC dạng ngôn ngữ Ladder\nCần làm gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ghi bình luận"
+        },
+        {
+          "key": "B",
+          "text": "Thêm ghi chú"
+        },
+        {
+          "key": "C",
+          "text": "Ghi báo cáo"
+        },
+        {
+          "key": "D",
+          "text": "Ghi tham số"
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q26",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 26,
+      "question": "Điều gì sai với mô tả của Counter?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bộ đếm đếm khi tín hiệu đầu vào tăng lên."
+        },
+        {
+          "key": "B",
+          "text": "Khi bộ đếm đạt giá trị Counter Up, bộ đếm sẽ dừng lại ngay cả khi tín hiệu đầu vào vẫn tiếp tục tăng lên."
+        },
+        {
+          "key": "C",
+          "text": "Sau khi bộ đếm đặt giá trị Counter Up lần 1, có thể Reset Counter bằng lệnh [MOV k0 C0]."
+        },
+        {
+          "key": "D",
+          "text": "Giá trị cài đặt bộ đếm là K1 ~ K32767"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q27",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 27,
+      "question": "Khi thay pin CPU, thời gian dự phòng của tụ điện bên trong là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 phút"
+        },
+        {
+          "key": "B",
+          "text": "2 phút"
+        },
+        {
+          "key": "C",
+          "text": "3 phút"
+        },
+        {
+          "key": "D",
+          "text": "5 phút"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q28",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 28,
+      "question": "Điều khiển hoạt động tăng tốc, giảm tốc và tốc độ cố định của động cơ. Là chức năng của bộ nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bộ định vị"
+        },
+        {
+          "key": "B",
+          "text": "Bộ đếm tốc độ cao"
+        },
+        {
+          "key": "C",
+          "text": "Bộ chuyển đổi AD"
+        },
+        {
+          "key": "D",
+          "text": "Bộ chuyển đổi DA"
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q29",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 29,
+      "question": "Trong cấu hình PLC phía dưới, phạm vi I/O của Mô-đun Q64AD là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Y160 ~ Y16F,"
+        },
+        {
+          "key": "B",
+          "text": "Y100 ~ Y10F"
+        },
+        {
+          "key": "C",
+          "text": "Y80 ~ Y8F"
+        },
+        {
+          "key": "D",
+          "text": "Y170 ~ Y17F"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q30",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 30,
+      "question": "Số nhị phân 110111 khi chuyển thành số hệ thập phân là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "37"
+        },
+        {
+          "key": "B",
+          "text": "27"
+        },
+        {
+          "key": "C",
+          "text": "55"
+        },
+        {
+          "key": "D",
+          "text": "103"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q31",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 31,
+      "question": "Không thuộc Word Device?",
+      "options": [
+        {
+          "key": "A",
+          "text": "D"
+        },
+        {
+          "key": "B",
+          "text": "A"
+        },
+        {
+          "key": "C",
+          "text": "R"
+        },
+        {
+          "key": "D",
+          "text": "S"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q32",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 32,
+      "question": "Điều gì không được thực hiện trong cài đặt Parameter PLC?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kiểm tra thiết bị"
+        },
+        {
+          "key": "B",
+          "text": "Cài đặt các chương trình"
+        },
+        {
+          "key": "C",
+          "text": "Thay đổi điểm thiết bị (DEV.Point)"
+        },
+        {
+          "key": "D",
+          "text": "Cài đặt sử dụng đăng ký tệp"
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q33",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 33,
+      "question": "Khi nguồn PLC được chuyển từ ON hoặc STOP sang RUN\nChương trình nào chỉ chạy một lần?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chương trình thực hiện ban đầu"
+        },
+        {
+          "key": "B",
+          "text": "Chương trình thực hiện quét"
+        },
+        {
+          "key": "C",
+          "text": "Chương trình thực hiện tốc độ thấp"
+        },
+        {
+          "key": "D",
+          "text": "Chương trình kiểu chờ đợi"
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q34",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 34,
+      "question": "Hoạt động giữa MC và MCR khi lệnh MC TẮT\nMô tả kết quả nào là đúng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giá trị Timer 100ms, 10ms được duy trì."
+        },
+        {
+          "key": "B",
+          "text": "Các giá trị đếm và đếm thời gian tích lũy được xóa thành “0”"
+        },
+        {
+          "key": "C",
+          "text": "Lệnh OUT vẫn được duy trì ở trạng thái trước đó"
+        },
+        {
+          "key": "D",
+          "text": "Các lệnh SET, RST, SFT vẫn duy trì trạng thái của chúng"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q35",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 35,
+      "question": "Khi X1 bật trong 5 giây rồi TẮT, giá trị hiện tại của C0 là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "50"
+        },
+        {
+          "key": "D",
+          "text": "0"
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q36",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 36,
+      "question": "Điều khiển đầu ra M0 bằng cách bật tắt X5 như trong biểu đồ bên dưới. Kết quả của đầu ra M0 khác biệt nhất?",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "correct_answer": "B",
+      "images": [
+        "images/exams/EXAM_TEST_01_s4_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q37",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 37,
+      "question": "Khi điều kiện đầu vào X0 được BẬT, muốn truyền dữ liệu từ M10 ~ M13 sang M100 ~ M103 trong 1 Scan.\nChương trình nào phù hợp ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "MOVP K1M10 K1M100"
+        },
+        {
+          "key": "B",
+          "text": "FMOV M10 M100 K4"
+        },
+        {
+          "key": "C",
+          "text": "BMOVP M10 M100 K4"
+        },
+        {
+          "key": "D",
+          "text": "BMOV K1M10 K1M100 K4"
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_TEST_01_s4_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q38",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 38,
+      "question": "Trong menu Project của GPPW, CPU hiện đang giao tiếp\nđể so sánh sự khác biệt với nội dung được lưu trữ trong PC. Menu là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tương phản"
+        },
+        {
+          "key": "B",
+          "text": "Sao chép"
+        },
+        {
+          "key": "C",
+          "text": "Chỉnh sửa dữ liệu"
+        },
+        {
+          "key": "D",
+          "text": "Macro"
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_TEST_01_s4_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q39",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 39,
+      "question": "Như hình dưới đây, điều kiện đầu vào X0 là Bật và đầu ra Y76. Khu vực A nhập Lệnh là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "RST"
+        },
+        {
+          "key": "B",
+          "text": "SET"
+        },
+        {
+          "key": "C",
+          "text": "PLS"
+        },
+        {
+          "key": "D",
+          "text": "PLF"
+        }
+      ],
+      "correct_answer": "D",
+      "images": [
+        "images/exams/EXAM_TEST_01_s4_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q40",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 40,
+      "question": "Trong mạch điều khiển chính (MC) dưới đây, A, B lần lượt là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A: M2, B: M1"
+        },
+        {
+          "key": "B",
+          "text": "A: M1, B: M2"
+        },
+        {
+          "key": "C",
+          "text": "A: N2, B: N1"
+        },
+        {
+          "key": "D",
+          "text": "A: N1, B: N2"
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_TEST_01_s4_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q41",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 41,
+      "question": "Thiết bị khí nén tạo chân không theo nguyên lý Venturi là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Công tắc áp suất"
+        },
+        {
+          "key": "B",
+          "text": "Ejector"
+        },
+        {
+          "key": "C",
+          "text": "Tấm đệm"
+        },
+        {
+          "key": "D",
+          "text": "Van điện từ"
+        }
+      ],
+      "correct_answer": "",
+      "images": [
+        "images/exams/EXAM_TEST_01_s5_1.png",
+        "images/exams/EXAM_TEST_01_s5_2.png",
+        "images/exams/EXAM_TEST_01_s5_3.png",
+        "images/exams/EXAM_TEST_01_s5_4.png",
+        "images/exams/EXAM_TEST_01_s5_5.png",
+        "images/exams/EXAM_TEST_01_s5_6.png",
+        "images/exams/EXAM_TEST_01_s5_7.png",
+        "images/exams/EXAM_TEST_01_s5_8.png",
+        "images/exams/EXAM_TEST_01_s5_9.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q42",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 42,
+      "question": "Khi áp suất không khí trong mạch vượt quá giá trị đặt,\nĐể điều chỉnh áp suất, sử dụng van nào dưới đây?",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_TEST_01_s5_1.png",
+        "images/exams/EXAM_TEST_01_s5_2.png",
+        "images/exams/EXAM_TEST_01_s5_3.png",
+        "images/exams/EXAM_TEST_01_s5_4.png",
+        "images/exams/EXAM_TEST_01_s5_5.png",
+        "images/exams/EXAM_TEST_01_s5_6.png",
+        "images/exams/EXAM_TEST_01_s5_7.png",
+        "images/exams/EXAM_TEST_01_s5_8.png",
+        "images/exams/EXAM_TEST_01_s5_9.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q43",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 43,
+      "question": "Chức năng nào không phải của bộ giảm thanh khí nén?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hiệu quả giảm tiếng ồn tốt."
+        },
+        {
+          "key": "B",
+          "text": "Không bị biến dạng do va đập hoặc rung động của ống xả"
+        },
+        {
+          "key": "C",
+          "text": "Lực kháng xả phải lớn và không làm ảnh hưởng tới hoạt động của bộ truyền động."
+        },
+        {
+          "key": "D",
+          "text": "Nó phải có hình dạng nhỏ gọn, dễ lắp vào van điện từ, v.v."
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_TEST_01_s5_1.png",
+        "images/exams/EXAM_TEST_01_s5_2.png",
+        "images/exams/EXAM_TEST_01_s5_3.png",
+        "images/exams/EXAM_TEST_01_s5_4.png",
+        "images/exams/EXAM_TEST_01_s5_5.png",
+        "images/exams/EXAM_TEST_01_s5_6.png",
+        "images/exams/EXAM_TEST_01_s5_7.png",
+        "images/exams/EXAM_TEST_01_s5_8.png",
+        "images/exams/EXAM_TEST_01_s5_9.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q44",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 44,
+      "question": "Đáp án nào khác biệt khi mô tả mạch Meter In và Meter Out ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Khi mặt buồng ngược ở trạng thái tự do, áp suất khí nén tăng ngay lập tức."
+        },
+        {
+          "key": "B",
+          "text": "Vì áp suất trong buồng chuyển tiếp ở trạng thái dòng chảy tự do, giảm xuống áp suất khí quyển"
+        },
+        {
+          "key": "C",
+          "text": "Do không khí có khả năng nén nên quá trình khởi động nhanh của piston khó ngăn chặn hoàn toàn."
+        },
+        {
+          "key": "D",
+          "text": "Do lực đẩy gây ra bởi chênh lệch áp suất giữa buồng tiến và buồng lùi, pít-tông di chuyển tương đối đồng đều"
+        }
+      ],
+      "correct_answer": "B",
+      "images": [
+        "images/exams/EXAM_TEST_01_s5_1.png",
+        "images/exams/EXAM_TEST_01_s5_2.png",
+        "images/exams/EXAM_TEST_01_s5_3.png",
+        "images/exams/EXAM_TEST_01_s5_4.png",
+        "images/exams/EXAM_TEST_01_s5_5.png",
+        "images/exams/EXAM_TEST_01_s5_6.png",
+        "images/exams/EXAM_TEST_01_s5_7.png",
+        "images/exams/EXAM_TEST_01_s5_8.png",
+        "images/exams/EXAM_TEST_01_s5_9.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q45",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 45,
+      "question": "Trong số các máy nén piston, phương pháp làm mát nào được sử dụng cho cỡ trung bình / lớn?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Loại làm mát bằng nước"
+        },
+        {
+          "key": "B",
+          "text": "Loại làm lạnh"
+        },
+        {
+          "key": "C",
+          "text": "Loại làm mát bằng không khí"
+        },
+        {
+          "key": "D",
+          "text": "Loại hấp phụ"
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_TEST_01_s5_1.png",
+        "images/exams/EXAM_TEST_01_s5_2.png",
+        "images/exams/EXAM_TEST_01_s5_3.png",
+        "images/exams/EXAM_TEST_01_s5_4.png",
+        "images/exams/EXAM_TEST_01_s5_5.png",
+        "images/exams/EXAM_TEST_01_s5_6.png",
+        "images/exams/EXAM_TEST_01_s5_7.png",
+        "images/exams/EXAM_TEST_01_s5_8.png",
+        "images/exams/EXAM_TEST_01_s5_9.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q46",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 46,
+      "question": "Đặc điểm nào không phải của van đệm?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lực hoạt động của van nhỏ"
+        },
+        {
+          "key": "B",
+          "text": "Thích hợp cho van vận hành tự động hoặc áp suất cao"
+        },
+        {
+          "key": "C",
+          "text": "Cấu trúc đơn giản và dễ sản xuất với độ chính xác cao"
+        },
+        {
+          "key": "D",
+          "text": "Quãng đường di chuyển của bộ phận chuyển động ngắn nên tốc độ đóng mở nhanh."
+        }
+      ],
+      "correct_answer": "D",
+      "images": [
+        "images/exams/EXAM_TEST_01_s5_1.png",
+        "images/exams/EXAM_TEST_01_s5_2.png",
+        "images/exams/EXAM_TEST_01_s5_3.png",
+        "images/exams/EXAM_TEST_01_s5_4.png",
+        "images/exams/EXAM_TEST_01_s5_5.png",
+        "images/exams/EXAM_TEST_01_s5_6.png",
+        "images/exams/EXAM_TEST_01_s5_7.png",
+        "images/exams/EXAM_TEST_01_s5_8.png",
+        "images/exams/EXAM_TEST_01_s5_9.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q47",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 47,
+      "question": "Quay đĩa quay với tốc độ cao, tăng lượng chuyển động của chất khí thông qua cánh làm tăng tốc độ và áp suất.\nĐộng cơ khí nén trên là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Động cơ bánh răng"
+        },
+        {
+          "key": "B",
+          "text": "Động cơ piston"
+        },
+        {
+          "key": "C",
+          "text": "Động cơ kiểu tuabin"
+        },
+        {
+          "key": "D",
+          "text": "Động cơ kiểu cánh gạt"
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_TEST_01_s5_1.png",
+        "images/exams/EXAM_TEST_01_s5_2.png",
+        "images/exams/EXAM_TEST_01_s5_3.png",
+        "images/exams/EXAM_TEST_01_s5_4.png",
+        "images/exams/EXAM_TEST_01_s5_5.png",
+        "images/exams/EXAM_TEST_01_s5_6.png",
+        "images/exams/EXAM_TEST_01_s5_7.png",
+        "images/exams/EXAM_TEST_01_s5_8.png",
+        "images/exams/EXAM_TEST_01_s5_9.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q48",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 48,
+      "question": "Đâu không phải là nhược điểm của kỹ thuật khí nén?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Không có độ đàn hồi"
+        },
+        {
+          "key": "B",
+          "text": "Khó kiểm soát tốc độ chính xác"
+        },
+        {
+          "key": "C",
+          "text": "Hiệu quả kém"
+        },
+        {
+          "key": "D",
+          "text": "Ngừng giữa chừng khó khăn."
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_TEST_01_s5_1.png",
+        "images/exams/EXAM_TEST_01_s5_2.png",
+        "images/exams/EXAM_TEST_01_s5_3.png",
+        "images/exams/EXAM_TEST_01_s5_4.png",
+        "images/exams/EXAM_TEST_01_s5_5.png",
+        "images/exams/EXAM_TEST_01_s5_6.png",
+        "images/exams/EXAM_TEST_01_s5_7.png",
+        "images/exams/EXAM_TEST_01_s5_8.png",
+        "images/exams/EXAM_TEST_01_s5_9.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q49",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 49,
+      "question": "Tùy theo phương thức hoạt động mà loại van điều hướng nào khác biệt nhất?",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "correct_answer": "D",
+      "images": [
+        "images/exams/EXAM_TEST_01_s5_1.png",
+        "images/exams/EXAM_TEST_01_s5_2.png",
+        "images/exams/EXAM_TEST_01_s5_3.png",
+        "images/exams/EXAM_TEST_01_s5_4.png",
+        "images/exams/EXAM_TEST_01_s5_5.png",
+        "images/exams/EXAM_TEST_01_s5_6.png",
+        "images/exams/EXAM_TEST_01_s5_7.png",
+        "images/exams/EXAM_TEST_01_s5_8.png",
+        "images/exams/EXAM_TEST_01_s5_9.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q50",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 50,
+      "question": "Điều gì sai với tên của ký hiệu van điều khiển hướng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "㉠ loại hoạt động trực tiếp"
+        },
+        {
+          "key": "B",
+          "text": "㉡ hoạt động thủ công"
+        },
+        {
+          "key": "C",
+          "text": "㉢ vị trí ban đầu của van"
+        },
+        {
+          "key": "D",
+          "text": "㉣ tín hiệu điện"
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_TEST_01_s5_1.png",
+        "images/exams/EXAM_TEST_01_s5_2.png",
+        "images/exams/EXAM_TEST_01_s5_3.png",
+        "images/exams/EXAM_TEST_01_s5_4.png",
+        "images/exams/EXAM_TEST_01_s5_5.png",
+        "images/exams/EXAM_TEST_01_s5_6.png",
+        "images/exams/EXAM_TEST_01_s5_7.png",
+        "images/exams/EXAM_TEST_01_s5_8.png",
+        "images/exams/EXAM_TEST_01_s5_9.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q51",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 51,
+      "question": "Câu nào sai khi nói về cách thức hoạt động của van điện từ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chống va đập tốt"
+        },
+        {
+          "key": "B",
+          "text": "Tiếng ồn van thấp và sinh nhiệt"
+        },
+        {
+          "key": "C",
+          "text": "Thời gian chuyển đổi van nhanh chóng"
+        },
+        {
+          "key": "D",
+          "text": "Tiêu thụ điện thấp"
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_TEST_01_s5_1.png",
+        "images/exams/EXAM_TEST_01_s5_2.png",
+        "images/exams/EXAM_TEST_01_s5_3.png",
+        "images/exams/EXAM_TEST_01_s5_4.png",
+        "images/exams/EXAM_TEST_01_s5_5.png",
+        "images/exams/EXAM_TEST_01_s5_6.png",
+        "images/exams/EXAM_TEST_01_s5_7.png",
+        "images/exams/EXAM_TEST_01_s5_8.png",
+        "images/exams/EXAM_TEST_01_s5_9.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q52",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 52,
+      "question": "Đâu không phải là phương pháp làm khô của máy sấy khí?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Máy sấy khí làm mát bằng nước"
+        },
+        {
+          "key": "B",
+          "text": "Máy sấy khí hấp thụ"
+        },
+        {
+          "key": "C",
+          "text": "Máy sấy khí làm mát"
+        },
+        {
+          "key": "D",
+          "text": "Máy sấy khí hấp phụ"
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_TEST_01_s6_1.png",
+        "images/exams/EXAM_TEST_01_s6_2.png",
+        "images/exams/EXAM_TEST_01_s6_3.png",
+        "images/exams/EXAM_TEST_01_s6_4.png",
+        "images/exams/EXAM_TEST_01_s6_5.png",
+        "images/exams/EXAM_TEST_01_s6_6.png",
+        "images/exams/EXAM_TEST_01_s6_7.png",
+        "images/exams/EXAM_TEST_01_s6_8.png",
+        "images/exams/EXAM_TEST_01_s6_9.png",
+        "images/exams/EXAM_TEST_01_s6_10.png",
+        "images/exams/EXAM_TEST_01_s6_11.png",
+        "images/exams/EXAM_TEST_01_s6_12.png",
+        "images/exams/EXAM_TEST_01_s6_13.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q53",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 53,
+      "question": "Đâu không phải là ưu điểm của ống nhựa?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Có khả năng tăng dung lượng nhiều hơn so với tỷ lệ đường kính ống."
+        },
+        {
+          "key": "B",
+          "text": "Giá thành đắt"
+        },
+        {
+          "key": "C",
+          "text": "Dễ duy trì, bảo dưỡng"
+        },
+        {
+          "key": "D",
+          "text": "Có tính mềm dẻo, linh động nên dễ thao tác và dễ sử dụng với cả ống dẫn của máy có bộ phận quay."
+        }
+      ],
+      "correct_answer": "B",
+      "images": [
+        "images/exams/EXAM_TEST_01_s6_1.png",
+        "images/exams/EXAM_TEST_01_s6_2.png",
+        "images/exams/EXAM_TEST_01_s6_3.png",
+        "images/exams/EXAM_TEST_01_s6_4.png",
+        "images/exams/EXAM_TEST_01_s6_5.png",
+        "images/exams/EXAM_TEST_01_s6_6.png",
+        "images/exams/EXAM_TEST_01_s6_7.png",
+        "images/exams/EXAM_TEST_01_s6_8.png",
+        "images/exams/EXAM_TEST_01_s6_9.png",
+        "images/exams/EXAM_TEST_01_s6_10.png",
+        "images/exams/EXAM_TEST_01_s6_11.png",
+        "images/exams/EXAM_TEST_01_s6_12.png",
+        "images/exams/EXAM_TEST_01_s6_13.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q54",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 54,
+      "question": "Hoạt động độc lập ở hai hoặc nhiều vị trí điều khiển, có thể được gọi là van kiểm tra đôi. Là loại van nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "correct_answer": "D",
+      "images": [
+        "images/exams/EXAM_TEST_01_s6_1.png",
+        "images/exams/EXAM_TEST_01_s6_2.png",
+        "images/exams/EXAM_TEST_01_s6_3.png",
+        "images/exams/EXAM_TEST_01_s6_4.png",
+        "images/exams/EXAM_TEST_01_s6_5.png",
+        "images/exams/EXAM_TEST_01_s6_6.png",
+        "images/exams/EXAM_TEST_01_s6_7.png",
+        "images/exams/EXAM_TEST_01_s6_8.png",
+        "images/exams/EXAM_TEST_01_s6_9.png",
+        "images/exams/EXAM_TEST_01_s6_10.png",
+        "images/exams/EXAM_TEST_01_s6_11.png",
+        "images/exams/EXAM_TEST_01_s6_12.png",
+        "images/exams/EXAM_TEST_01_s6_13.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q55",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 55,
+      "question": "Duy trì áp suất chất khí cố định và khi nhiệt độ và thể tích thay đổi thì nhiệt độ và thể tích tỷ lệ thuận với nhau.\nLà định luật nào ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Định luật Pascal"
+        },
+        {
+          "key": "B",
+          "text": "Định luật Charles-Boyle"
+        },
+        {
+          "key": "C",
+          "text": "Định luật Charles"
+        },
+        {
+          "key": "D",
+          "text": "Định luật Boyle"
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_TEST_01_s6_1.png",
+        "images/exams/EXAM_TEST_01_s6_2.png",
+        "images/exams/EXAM_TEST_01_s6_3.png",
+        "images/exams/EXAM_TEST_01_s6_4.png",
+        "images/exams/EXAM_TEST_01_s6_5.png",
+        "images/exams/EXAM_TEST_01_s6_6.png",
+        "images/exams/EXAM_TEST_01_s6_7.png",
+        "images/exams/EXAM_TEST_01_s6_8.png",
+        "images/exams/EXAM_TEST_01_s6_9.png",
+        "images/exams/EXAM_TEST_01_s6_10.png",
+        "images/exams/EXAM_TEST_01_s6_11.png",
+        "images/exams/EXAM_TEST_01_s6_12.png",
+        "images/exams/EXAM_TEST_01_s6_13.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q56",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 56,
+      "question": "Cho khí nén đi qua tại một vị trí điều khiển nào đó và dừng tại vị trí điều khiển khác, được sử dụng chủ yếu với vai trò là van chuyên để dừng. Là loại van nào ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Van 3 cửa 2 vị trí"
+        },
+        {
+          "key": "B",
+          "text": "Van chặn"
+        },
+        {
+          "key": "C",
+          "text": "Van áp suất"
+        },
+        {
+          "key": "D",
+          "text": "Van 2 cửa 2 vị trí"
+        }
+      ],
+      "correct_answer": "D",
+      "images": [
+        "images/exams/EXAM_TEST_01_s6_1.png",
+        "images/exams/EXAM_TEST_01_s6_2.png",
+        "images/exams/EXAM_TEST_01_s6_3.png",
+        "images/exams/EXAM_TEST_01_s6_4.png",
+        "images/exams/EXAM_TEST_01_s6_5.png",
+        "images/exams/EXAM_TEST_01_s6_6.png",
+        "images/exams/EXAM_TEST_01_s6_7.png",
+        "images/exams/EXAM_TEST_01_s6_8.png",
+        "images/exams/EXAM_TEST_01_s6_9.png",
+        "images/exams/EXAM_TEST_01_s6_10.png",
+        "images/exams/EXAM_TEST_01_s6_11.png",
+        "images/exams/EXAM_TEST_01_s6_12.png",
+        "images/exams/EXAM_TEST_01_s6_13.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q57",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 57,
+      "question": "Có ưu điểm là tối thiểu hóa diện tích lắp đặt, lực đẩy tiến / lùi đồng nhất, dừng giữa chừng tốt.\nĐang nói tới loại xilanh nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_TEST_01_s6_1.png",
+        "images/exams/EXAM_TEST_01_s6_2.png",
+        "images/exams/EXAM_TEST_01_s6_3.png",
+        "images/exams/EXAM_TEST_01_s6_4.png",
+        "images/exams/EXAM_TEST_01_s6_5.png",
+        "images/exams/EXAM_TEST_01_s6_6.png",
+        "images/exams/EXAM_TEST_01_s6_7.png",
+        "images/exams/EXAM_TEST_01_s6_8.png",
+        "images/exams/EXAM_TEST_01_s6_9.png",
+        "images/exams/EXAM_TEST_01_s6_10.png",
+        "images/exams/EXAM_TEST_01_s6_11.png",
+        "images/exams/EXAM_TEST_01_s6_12.png",
+        "images/exams/EXAM_TEST_01_s6_13.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q58",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 58,
+      "question": "Chọn đáp án có cấu trúc bên trong của van điều khiển hướng so với ký hiệu và vị trí cổng không khớp.",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_TEST_01_s6_1.png",
+        "images/exams/EXAM_TEST_01_s6_2.png",
+        "images/exams/EXAM_TEST_01_s6_3.png",
+        "images/exams/EXAM_TEST_01_s6_4.png",
+        "images/exams/EXAM_TEST_01_s6_5.png",
+        "images/exams/EXAM_TEST_01_s6_6.png",
+        "images/exams/EXAM_TEST_01_s6_7.png",
+        "images/exams/EXAM_TEST_01_s6_8.png",
+        "images/exams/EXAM_TEST_01_s6_9.png",
+        "images/exams/EXAM_TEST_01_s6_10.png",
+        "images/exams/EXAM_TEST_01_s6_11.png",
+        "images/exams/EXAM_TEST_01_s6_12.png",
+        "images/exams/EXAM_TEST_01_s6_13.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q59",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 59,
+      "question": "Giải thích đúng về chức năng của rơle dưới đây là gì?\n\nCó thể cho dòng điện gấp hàng chục lần dòng điện nhập ở tiếp điểm đầu ra khi nhập lực điện từ tiêu thụ của coil rơ le.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chức năng bộ nhớ"
+        },
+        {
+          "key": "B",
+          "text": "Chức năng rẽ nhánh"
+        },
+        {
+          "key": "C",
+          "text": "Chức năng khuếch đại"
+        },
+        {
+          "key": "D",
+          "text": "Chức năng chuyển đổi"
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_TEST_01_s6_1.png",
+        "images/exams/EXAM_TEST_01_s6_2.png",
+        "images/exams/EXAM_TEST_01_s6_3.png",
+        "images/exams/EXAM_TEST_01_s6_4.png",
+        "images/exams/EXAM_TEST_01_s6_5.png",
+        "images/exams/EXAM_TEST_01_s6_6.png",
+        "images/exams/EXAM_TEST_01_s6_7.png",
+        "images/exams/EXAM_TEST_01_s6_8.png",
+        "images/exams/EXAM_TEST_01_s6_9.png",
+        "images/exams/EXAM_TEST_01_s6_10.png",
+        "images/exams/EXAM_TEST_01_s6_11.png",
+        "images/exams/EXAM_TEST_01_s6_12.png",
+        "images/exams/EXAM_TEST_01_s6_13.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q60",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 60,
+      "question": "Sơ đồ mạch khí nén của van trễ thời gian là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "correct_answer": "B",
+      "images": [
+        "images/exams/EXAM_TEST_01_s6_1.png",
+        "images/exams/EXAM_TEST_01_s6_2.png",
+        "images/exams/EXAM_TEST_01_s6_3.png",
+        "images/exams/EXAM_TEST_01_s6_4.png",
+        "images/exams/EXAM_TEST_01_s6_5.png",
+        "images/exams/EXAM_TEST_01_s6_6.png",
+        "images/exams/EXAM_TEST_01_s6_7.png",
+        "images/exams/EXAM_TEST_01_s6_8.png",
+        "images/exams/EXAM_TEST_01_s6_9.png",
+        "images/exams/EXAM_TEST_01_s6_10.png",
+        "images/exams/EXAM_TEST_01_s6_11.png",
+        "images/exams/EXAM_TEST_01_s6_12.png",
+        "images/exams/EXAM_TEST_01_s6_13.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q61",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 61,
+      "question": "Điều gì sai với mô tả kỹ thuật của máy?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Máy được cấu thành bởi tổng hợp các linh kiện"
+        },
+        {
+          "key": "B",
+          "text": "Chuyển đổi cung cấp năng lượng hữu hạn"
+        },
+        {
+          "key": "C",
+          "text": "Có những chuyển động phù hợp với mục đích của con người"
+        },
+        {
+          "key": "D",
+          "text": "Cần cung cấp năng lượng để làm việc"
+        }
+      ],
+      "correct_answer": "",
+      "images": [
+        "images/exams/EXAM_TEST_01_s7_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q62",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 62,
+      "question": "Phân loại TRỤC (Shaft) nào sau đây là sai?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phân loại theo chất liệu vật liệu"
+        },
+        {
+          "key": "B",
+          "text": "Phân loại theo mục đích sử dụng"
+        },
+        {
+          "key": "C",
+          "text": "Phân loại theo hình dạng"
+        },
+        {
+          "key": "D",
+          "text": "Phân loại theo cấu trúc mặt cắt"
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_TEST_01_s7_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q63",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 63,
+      "question": "Khớp nối nào sau đây được sử dụng để nối các trục\ncắt nhau?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Universal Coupling"
+        },
+        {
+          "key": "B",
+          "text": "Oldham Coupling"
+        },
+        {
+          "key": "C",
+          "text": "Flange Coupling"
+        },
+        {
+          "key": "D",
+          "text": "Flexible coupling"
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_TEST_01_s7_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q64",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 64,
+      "question": "Hình dưới đây là loại vòng bi nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Single row deep groove ball bearing"
+        },
+        {
+          "key": "B",
+          "text": "Magneto ball Bearing"
+        },
+        {
+          "key": "C",
+          "text": "Angular ball bearing"
+        },
+        {
+          "key": "D",
+          "text": "Self-aligning ball bearing"
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_TEST_01_s7_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q65",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 65,
+      "question": "Vòng bi có chỉ số như sau 62 08 C2 P6\nĐáp án nào sai?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Là Self-aligning ball bearing ."
+        },
+        {
+          "key": "B",
+          "text": "Đường kính trong là 40mm."
+        },
+        {
+          "key": "C",
+          "text": "C2 là ký hiệu Clearance."
+        },
+        {
+          "key": "D",
+          "text": "Độ chính xác là cấp 6."
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_TEST_01_s7_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q66",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 66,
+      "question": "Loại đinh ốc nào sau đây dùng để nối?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đinh ốc Square"
+        },
+        {
+          "key": "B",
+          "text": "Đinh ốc buttress screw"
+        },
+        {
+          "key": "C",
+          "text": "Đinh ốc knuckle"
+        },
+        {
+          "key": "D",
+          "text": "Đinh ốc unified thread"
+        }
+      ],
+      "correct_answer": "D",
+      "images": [
+        "images/exams/EXAM_TEST_01_s7_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q67",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 67,
+      "question": "Chốt Pin nào được sử dụng để ngăn chặn việc nới lỏng bu lông và đai ốc, và để kết nối các bản lề?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Parallel pin"
+        },
+        {
+          "key": "B",
+          "text": "Taper pin"
+        },
+        {
+          "key": "C",
+          "text": "Split Pin"
+        },
+        {
+          "key": "D",
+          "text": "Spring pin"
+        }
+      ],
+      "correct_answer": "D",
+      "images": [
+        "images/exams/EXAM_TEST_01_s7_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q68",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 68,
+      "question": "Điều gì là chính xác từ lời giải thích của Woodruff key?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thường được sử dụng cho các trục lớn"
+        },
+        {
+          "key": "B",
+          "text": "Độ bền của trục vượt trội"
+        },
+        {
+          "key": "C",
+          "text": "Thích hợp cho trục côn của ô tô và máy công cụ"
+        },
+        {
+          "key": "D",
+          "text": "Rất khó để xử lý và điều chỉnh."
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_TEST_01_s7_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q69",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 69,
+      "question": "Bánh răng nào sau đây không thuộc trục song song?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Worm Gear"
+        },
+        {
+          "key": "B",
+          "text": "Internal Gear"
+        },
+        {
+          "key": "C",
+          "text": "Helical Gear"
+        },
+        {
+          "key": "D",
+          "text": "Rack Gear"
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_TEST_01_s7_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q70",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 70,
+      "question": "Có răng trên mặt nón, bánh răng có đường răng đồng nhất trên mặt trụ tròn. Bánh răng nào đang được nhắc tới?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bánh răng vít Hypoid"
+        },
+        {
+          "key": "B",
+          "text": "Bánh răng Helicon"
+        },
+        {
+          "key": "C",
+          "text": "Bánh răng xoắn ốc"
+        },
+        {
+          "key": "D",
+          "text": "Bánh răng côn thẳng"
+        }
+      ],
+      "correct_answer": "D",
+      "images": [
+        "images/exams/EXAM_TEST_01_s7_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q71",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 71,
+      "question": "Nêu tính năng của hộp giảm tốc đa hệ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ít được sử dụng"
+        },
+        {
+          "key": "B",
+          "text": "Được sử dụng cho tải trọng không cố định"
+        },
+        {
+          "key": "C",
+          "text": "Khi sử dụng góc xiên, nó sẽ trở thành trục chéo"
+        },
+        {
+          "key": "D",
+          "text": "Có thể sử dụng ở tốc độ quay cao, tiếng ồn thấp"
+        }
+      ],
+      "correct_answer": "D",
+      "images": [
+        "images/exams/EXAM_TEST_01_s7_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q72",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 72,
+      "question": "Điều nào không đúng với đặc điểm của Timing Belt?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hoạt động chính xác, không bị trơn trượt"
+        },
+        {
+          "key": "B",
+          "text": "Lực căng căng ban đầu cao"
+        },
+        {
+          "key": "C",
+          "text": "Chịu tải trọng tốt"
+        },
+        {
+          "key": "D",
+          "text": "Tiếng ồn thấp"
+        }
+      ],
+      "correct_answer": "B",
+      "images": [
+        "images/exams/EXAM_TEST_01_s7_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q73",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 73,
+      "question": "Điều nào không đúng với đặc điểm của Ball Screw?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hiệu quả cao vì được truyền bằng ma sát lăn"
+        },
+        {
+          "key": "B",
+          "text": "Có thể giảm thiểu Backlash"
+        },
+        {
+          "key": "C",
+          "text": "Lực kháng lăn lớn."
+        },
+        {
+          "key": "D",
+          "text": "Tuổi thọ cao hơn so với thiết bị sử dụng ma sát trượt"
+        }
+      ],
+      "correct_answer": "C",
+      "images": [
+        "images/exams/EXAM_TEST_01_s7_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q74",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 74,
+      "question": "Điều gì không đúng với các đặc điểm của Thanh dẫn LM?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Xảy ra trơn trượt và không bị mất chuyển động."
+        },
+        {
+          "key": "B",
+          "text": "Cho tải trọng ban đầu phù hợp nên có thể tạo nên độ bền cao."
+        },
+        {
+          "key": "C",
+          "text": "Có thể duy trì mức độ trong thời gian dài"
+        },
+        {
+          "key": "D",
+          "text": "Hệ số ma sát thấp nên hiệu suất chuyển động cao"
+        }
+      ],
+      "correct_answer": "A",
+      "images": [
+        "images/exams/EXAM_TEST_01_s7_1.png"
+      ]
+    },
+    {
+      "id": "EXAM_TEST_01_Q75",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 75,
+      "question": "Tính năng đặc trưng của Ball Spline là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Có thể cho tải trọng ban đầu"
+        },
+        {
+          "key": "B",
+          "text": "Không thể truyền mô-men xoắn"
+        },
+        {
+          "key": "C",
+          "text": "Không được dùng cho có tải trọng quá mức."
+        },
+        {
+          "key": "D",
+          "text": "Không có Stick slip và Lost motion."
+        }
+      ],
+      "correct_answer": "A",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q76",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 76,
+      "question": "Thay đổi Home Pitch của Nut rồi cung cấp Preload.\nPhương pháp Ball Screw nào đang được nhắc đến?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Double Nut Type"
+        },
+        {
+          "key": "B",
+          "text": "Precison(Grinding) Ball Screw"
+        },
+        {
+          "key": "C",
+          "text": "Offset Preload Type"
+        },
+        {
+          "key": "D",
+          "text": "Static Pressure Preload Type"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q77",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 77,
+      "question": "Điều gì không đúng với mô tả về chất bôi trơn?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hầu hết các chất bôi trơn đều có nguồn gốc từ\ndầu khoáng"
+        },
+        {
+          "key": "B",
+          "text": "Cần có đủ độ dính (nhớt)"
+        },
+        {
+          "key": "C",
+          "text": "Tính nhớt có thể chịu được ở trạng thái bôi trơn có giới hạn"
+        },
+        {
+          "key": "D",
+          "text": "Phải có độ ổn định cao chống lại quá trình oxy hóa hoặc nhiệt"
+        }
+      ],
+      "correct_answer": "C",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q78",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 78,
+      "question": "Đâu không phải là một trong ba yếu tố chính của thành phần bôi trơn?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chất làm cô đặc"
+        },
+        {
+          "key": "B",
+          "text": "Chất ức chế gỉ"
+        },
+        {
+          "key": "C",
+          "text": "Chất phụ gia"
+        },
+        {
+          "key": "D",
+          "text": "Dầu cơ bản"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q79",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 79,
+      "question": "Trong vẽ kỹ thuật, Đường vẽ nào được sử dụng ở đường quỹ đạo bước răng ghi trên răng của xích v.v?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Leader line"
+        },
+        {
+          "key": "B",
+          "text": "Pitch Line"
+        },
+        {
+          "key": "C",
+          "text": "Imaginary line"
+        },
+        {
+          "key": "D",
+          "text": "Cutting Plane Line"
+        }
+      ],
+      "correct_answer": "B",
+      "images": []
+    },
+    {
+      "id": "EXAM_TEST_01_Q80",
+      "exam_id": "EXAM_TEST_01",
+      "section": "",
+      "question_number": 80,
+      "question": "Khi chia 1 vạch lớn thước cặp Vernier Calipers thành 20 phần bằng nhau. Giá trị đo tối thiểu 1 vạch nhỏ là bao nhiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0,01 ㎜"
+        },
+        {
+          "key": "B",
+          "text": "0,02 ㎜"
+        },
+        {
+          "key": "C",
+          "text": "0,04 ㎜"
+        },
+        {
+          "key": "D",
+          "text": "0,05 ㎜"
+        }
+      ],
+      "correct_answer": "D",
+      "images": []
+    }
+  ]
+}

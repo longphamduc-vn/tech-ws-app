@@ -1,0 +1,4211 @@
+[
+  {
+    "id": "WS_ELE_001",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Dễ",
+    "question_number": 1,
+    "question": "Vật có độ dẫn điện ở mức trung gian so với vật dẫn điện và vật cách điện là loại nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Conductor"
+      },
+      {
+        "key": "B",
+        "text": "Non-Conductor"
+      },
+      {
+        "key": "C",
+        "text": "Semi-Conductor"
+      },
+      {
+        "key": "D",
+        "text": "Non, Semi-Conductor"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Vật lý bán dẫn & Nguyên tử",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Vật lý bán dẫn & Nguyên tử** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Semi-Conductor",
+      "why_correct": "Chất bán dẫn (Semi-Conductor) là vật liệu có độ dẫn điện ở mức trung gian giữa chất dẫn điện (Conductor) và chất cách điện (Non-Conductor/Insulator). Ở nhiệt độ 0 tuyệt đối, bán dẫn cách điện hoàn toàn, nhưng khi nhiệt độ tăng hoặc được pha tạp chất (như P, As, B), các electron nhận năng lượng vượt qua vùng cấm sang vùng dẫn, làm tăng mạnh độ dẫn điện (tiêu biểu là Silic Si và Gecmani Ge).",
+      "why_wrong": "A (Conductor): Chất dẫn điện (đồng, nhôm, bạc) có mật độ electron tự do cực lớn, điện trở suất rất nhỏ (10⁻⁸ Ω·m); B (Non-Conductor): Chất cách điện (sứ, thủy tinh, cao su) có liên kết electron rất chặt, không dẫn điện; D: 'Non, Semi-Conductor' là thuật ngữ sai, không tồn tại trong vật lý bán dẫn.",
+      "supplementary_knowledge": "💡 **Vùng cấm năng lượng (Bandgap Eg):** Kim loại có Eg = 0 eV (vùng hóa trị chèn vùng dẫn); Bán dẫn có Eg vừa phải (Si = 1.12 eV, Ge = 0.67 eV); Chất cách điện có Eg lớn (> 5 eV)."
+    }
+  },
+  {
+    "id": "WS_ELE_002",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Dễ",
+    "question_number": 2,
+    "question": "Thứ tự đúng của các lớp Electron là?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lớp K→lớp M→lớp N→lớp L"
+      },
+      {
+        "key": "B",
+        "text": "Lớp K→lớp N→lớp L→lớp M"
+      },
+      {
+        "key": "C",
+        "text": "Lớp K→lớp L→lớp M→lớp N"
+      },
+      {
+        "key": "D",
+        "text": "Lớp L→lớp K→lớp M→lớp N"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Điện-Điện tử cơ bản",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Điện-Điện tử cơ bản** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Lớp K→lớp L→lớp M→lớp N",
+      "why_correct": "Theo mô hình nguyên tử Bohr và cơ học lượng tử, các lớp vỏ electron được sắp xếp theo số lượng tử chính n = 1, 2, 3, 4 tương ứng theo thứ tự từ trong ra ngoài là: Lớp K (n=1) → Lớp L (n=2) → Lớp M (n=3) → Lớp N (n=4). Mức năng lượng của các lớp tăng dần khi càng xa hạt nhân.",
+      "why_wrong": "Các phương án A, B, D đảo lộn thứ tự các lớp lượng tử. Quy tắc ghi nhớ bảng chữ cái bắt đầu từ chữ K: K, L, M, N, O, P, Q.",
+      "supplementary_knowledge": "💡 **Số electron tối đa trên mỗi lớp:** Xác định theo công thức 2n². Lớp K (n=1): tối đa 2e; Lớp L (n=2): tối đa 8e; Lớp M (n=3): tối đa 18e; Lớp N (n=4): tối đa 32e."
+    }
+  },
+  {
+    "id": "WS_ELE_003",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Dễ",
+    "question_number": 3,
+    "question": "Dựa vào hình ảnh về sự kích thích và phóng xạ của nguyên tử, đâu không phải là hiện tượng được thể hiện?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kích thích(excitation)"
+      },
+      {
+        "key": "B",
+        "text": "I-ôn hóa(ionization)(Điện ly)"
+      },
+      {
+        "key": "C",
+        "text": "Phóng xung điện"
+      },
+      {
+        "key": "D",
+        "text": "Lượng tử ánh sáng(Proton)"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/electric/q_003.png"
+    ],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Vật lý bán dẫn & Nguyên tử",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Vật lý bán dẫn & Nguyên tử** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Phóng xung điện",
+      "why_correct": "Trong sơ đồ chuyển dịch trạng thái năng lượng vi mô của nguyên tử, các hiện tượng gồm: Kích thích (Excitation - electron nhảy lên quỹ đạo cao hơn), Ion hóa (Ionization - electron bứt ra khỏi nguyên tử), và Bức xạ lượng tử ánh sáng (Phát xạ Photon). Hiện tượng 'Phóng xung điện' là hiện tượng phóng điện vĩ mô qua chất khí giữa hai điện cực dưới điện trường cao, không phải là cơ chế chuyển mức năng lượng của một nguyên tử đơn lẻ.",
+      "why_wrong": "A (Kích thích), B (Ion hóa) và D (Phát xạ photon) đều là các quá trình vật lý cơ bản khi nguyên tử tương tác với photon hoặc nhiệt năng được thể hiện rõ trên sơ đồ năng lượng Bohr.",
+      "supplementary_knowledge": "💡 **Nguyên lý bức xạ:** Khi electron chuyển từ mức năng lượng cao E₂ về mức thấp E₁, nguyên tử phát ra một photon có năng lượng: ΔE = E₂ - E₁ = h·f (trong đó h là hằng số Planck, f là tần số)."
+    }
+  },
+  {
+    "id": "WS_ELE_004",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Dễ",
+    "question_number": 4,
+    "question": "Quan sát sơ đồ mức năng lượng, mức năng lượng cơ bản (nền) thấp nhất của electron được gọi là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mức Fermi(Fermi level)"
+      },
+      {
+        "key": "B",
+        "text": "Mức cơ bản(Mức nền)"
+      },
+      {
+        "key": "C",
+        "text": "Mức thoát ra = 0"
+      },
+      {
+        "key": "D",
+        "text": "Hạt nhân nguyên tử"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/electric/q_004.png"
+    ],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Điện-Điện tử cơ bản",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Điện-Điện tử cơ bản** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Mức cơ bản(Mức nền)",
+      "why_correct": "Mức năng lượng cơ bản (Ground state - Mức nền) là trạng thái có mức năng lượng thấp nhất và bền vững nhất mà electron có thể chiếm giữ trong nguyên tử ở điều kiện bình thường (n = 1 đối với Hidro).",
+      "why_wrong": "A: Mức Fermi (Fermi level) là mức năng lượng giả định mà tại đó xác suất có mặt của electron bằng 50% ở nhiệt độ 0 Kelvin; C: Mức thoát ra = 0 là mốc năng lượng ion hóa khi electron hoàn toàn thoát khỏi lực hút hạt nhân; D: Hạt nhân nguyên tử là cấu trúc vật chất, không phải tên gọi của mức năng lượng.",
+      "supplementary_knowledge": "💡 **Các trạng thái năng lượng:** Trạng thái cơ bản (Ground state) → Hấp thụ photon → Trạng thái kích thích (Excited state) → Hấp thụ đủ công thoát → Trạng thái ion hóa (Ionized state)."
+    }
+  },
+  {
+    "id": "WS_ELE_005",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Dễ",
+    "question_number": 5,
+    "question": "Giải thích nào đúng về cách điện?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Là đường bị cắt, là đoạn dây hay dây điện không cho dòng điện chạy qua"
+      },
+      {
+        "key": "B",
+        "text": "Là việc đưa một chất vào giữa chất dẫn điện làm cho dòng điện hay nhiệt không thể chạy qua."
+      },
+      {
+        "key": "C",
+        "text": "Là sự tiếp xúc của hai điểm trên mạch điện tử có điện trở bằng hoặc sấp sỉ bằng 0"
+      },
+      {
+        "key": "D",
+        "text": "Là sự nối đất, thường được sử dụng khi nói đến tình trạng dòng điện bị dò rỉ"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Điện-Điện tử cơ bản",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Điện-Điện tử cơ bản** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Là việc đưa một chất vào giữa chất dẫn điện làm cho dòng điện hay nhiệt không thể chạy qua.",
+      "why_correct": "Cách điện (Insulation) là phương pháp sử dụng vật liệu có điện trở suất rất cao đặt xen kẽ giữa các phần tử dẫn điện nhằm ngăn chặn sự chuyển dịch có hướng của các hạt mang điện hoặc sự truyền nhiệt qua lại, bảo đảm an toàn điện và tránh đoản mạch.",
+      "why_wrong": "A mô tả hiện tượng đứt dây / hở mạch (Open circuit); C mô tả hiện tượng ngắn mạch / chạm chập (Short circuit) khi hai điểm tiếp xúc có điện trở bằng 0; D mô tả hiện tượng nối đất bảo vệ (Grounding/Earthing).",
+      "supplementary_knowledge": "💡 **Vật liệu cách điện phổ biến:** PVC, Mica, Bakelite, dầu biến thế, khí SF₆, gốm sứ cách điện. Tiêu chuẩn đo điện trở cách điện công nghiệp thường dùng đồng hồ Megaohmmeter (Megger) với yêu cầu R_ins > 1 MΩ."
+    }
+  },
+  {
+    "id": "WS_ELE_006",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Dễ",
+    "question_number": 6,
+    "question": "Dòng điện cung cấp năng lượng không đổi chiều và độ lớn theo thời gian là loại nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "220V AC"
+      },
+      {
+        "key": "B",
+        "text": "Dòng điện 1 chiều"
+      },
+      {
+        "key": "C",
+        "text": "Dòng điện xoay chiều"
+      },
+      {
+        "key": "D",
+        "text": "110V AC"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Dòng điện 1 chiều",
+      "why_correct": "Dòng điện một chiều (DC - Direct Current) là dòng chuyển dời có hướng của các điện tích mà chiều dòng điện và độ lớn của cường độ dòng điện không biến thiên theo thời gian (hoặc chỉ chảy theo một chiều cố định).",
+      "why_wrong": "A (220V AC) và D (110V AC) đều là điện xoay chiều lưới điện gia dụng và công nghiệp; C (Dòng điện xoay chiều AC - Alternating Current) là dòng điện có chu kỳ biến thiên liên tục cả về độ lớn và đổi cực tính theo thời gian.",
+      "supplementary_knowledge": "💡 **Phân biệt DC và AC:** Dòng DC cung cấp bởi pin, ắc quy, nguồn xung chuyển mạch (SMPS), dùng cho bo mạch điều khiển PLC, vi xử lý. Dòng AC sản xuất bởi máy phát điện đồng bộ, dùng để truyền tải xa qua trạm biến áp."
+    }
+  },
+  {
+    "id": "WS_ELE_007",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Dễ",
+    "question_number": 7,
+    "question": "Dùng cho điện áp thấp dưới 400 [V] dùng điện trở bao nhiêu Ω?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Trên 50 [Ω]"
+      },
+      {
+        "key": "B",
+        "text": "Dưới 10 [Ω]"
+      },
+      {
+        "key": "C",
+        "text": "Dưới 100 [Ω]"
+      },
+      {
+        "key": "D",
+        "text": "Dưới 20 [Ω]"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Dưới 100 [Ω]",
+      "why_correct": "Theo tiêu chuẩn an toàn kỹ thuật điện (JIS C 0364 / Quy chuẩn nối đất công nghiệp), với các thiết bị làm việc ở lưới điện hạ thế dưới 400V (nối đất bảo vệ cấp 3 - Class 3 Grounding), điện trở nối đất yêu cầu bắt buộc phải dưới 100 Ω để khi xảy ra sự cố rò điện, điện áp chạm không vượt quá ngưỡng nguy hiểm cho con người.",
+      "why_wrong": "Dưới 10 Ω là quy định cho nối đất cấp 1 (thiết bị cao thế trên 1000V) hoặc nối đất đặc biệt cấp 3 (thiết bị hạ thế trên 400V); 'Trên 50 Ω' hay 'Dưới 20 Ω' không phải là mốc quy chuẩn kỹ thuật cho nối đất cấp 3 thông thường.",
+      "supplementary_knowledge": "💡 **Bảng phân loại tiếp địa an toàn:** Cấp 1 (Cao thế): R ≤ 10 Ω; Cấp 2 (Biến áp trung/hạ): R tính theo dòng chạm vỏ; Cấp 3 (Hạ thế < 400V): R ≤ 100 Ω; Cấp 3 đặc biệt (> 400V): R ≤ 10 Ω."
+    }
+  },
+  {
+    "id": "WS_ELE_008",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Dễ",
+    "question_number": 8,
+    "question": "Bắt đầu từ việc co cơ, không thể tự thoát ra khỏi nguồn điện. Giá trị hiệu dụng của dòng điện là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "30~50mA"
+      },
+      {
+        "key": "B",
+        "text": "50~100mA"
+      },
+      {
+        "key": "C",
+        "text": "5~30mA"
+      },
+      {
+        "key": "D",
+        "text": "Quá 100mA"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "5~30mA",
+      "why_correct": "Dải dòng điện từ 5 đến 30 mA (ở tần số 50/60 Hz) được gọi là ngưỡng dòng điện buông tay (Let-go current / Tắc cơ). Khi dòng điện đạt mức này chạy qua chi, hệ thần kinh vận động kích thích các bó cơ co thắt dữ dội, khiến nạn nhân không thể tự buông tay khỏi vật mang điện dù nhận thức vẫn hoàn toàn tỉnh táo.",
+      "why_wrong": "30~50 mA đã bắt đầu gây co thắt lồng ngực và ngạt thở; 50~100 mA và trên 100 mA gây hiện tượng rung thất tim (Ventricular fibrillation), làm tim mất khả năng bơm máu và tử vong chỉ sau vài giây nếu không được khử rung tim.",
+      "supplementary_knowledge": "💡 **Tác động sinh lý của dòng điện xoay chiều:** < 1 mA: Cảm giác tê nhẹ; 1~5 mA: Bắt đầu đau tê nhưng tự buông được; 5~30 mA: Co cứng cơ, không tự buông được; > 50 mA: Rung thất tim nguy hiểm tính mạng."
+    }
+  },
+  {
+    "id": "WS_ELE_009",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Dễ",
+    "question_number": 9,
+    "question": "Giá trị trung bình (average value) có giá trị như thế nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.637 x VP_P"
+      },
+      {
+        "key": "B",
+        "text": "0.637 x VP"
+      },
+      {
+        "key": "C",
+        "text": "0.707 x VP"
+      },
+      {
+        "key": "D",
+        "text": "0.707 x VP_P"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Điện-Điện tử cơ bản",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Điện-Điện tử cơ bản** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "0.637 x VP",
+      "why_correct": "Giá trị trung bình (Average Value) của nửa chu kỳ sóng sin đối xứng được tính theo tích phân: Vavg = (1/π) ∫₀^π Vp·sin(θ)dθ = (2/π)·Vp ≈ 0.637 × Vp.",
+      "why_wrong": "A và D sử dụng điện áp đỉnh - đỉnh (Vp-p); C sử dụng hệ số 0.707 là của giá trị hiệu dụng (Vrms = Vp / √2 ≈ 0.707 Vp).",
+      "supplementary_knowledge": "💡 **Bộ 3 giá trị điện áp hình sin:** V_rms = 0.707 × Vp; V_avg = 0.637 × Vp; V_p-p = 2 × Vp. Hệ số hình dạng Form factor = Vrms / Vavg = 0.707 / 0.637 ≈ 1.11."
+    }
+  },
+  {
+    "id": "WS_ELE_010",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Dễ",
+    "question_number": 10,
+    "question": "Giá trị hiệu dụng (effective value) có giá trị như thế nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.638 x VP_P"
+      },
+      {
+        "key": "B",
+        "text": "0.637 x VP"
+      },
+      {
+        "key": "C",
+        "text": "0.707 x VP"
+      },
+      {
+        "key": "D",
+        "text": "0.708 x VP_P"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Điện-Điện tử cơ bản",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Điện-Điện tử cơ bản** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "0.707 x VP",
+      "why_correct": "Giá trị hiệu dụng (Effective / RMS Value - Root Mean Square) của dòng điện/điện áp xoay chiều hình sin được định nghĩa dựa trên tác dụng nhiệt tương đương với dòng một chiều: Vrms = Vp / √2 ≈ 0.707 × Vp.",
+      "why_wrong": "B sử dụng 0.637 × Vp là giá trị trung bình (Vavg); A và D nhân với điện áp đỉnh-đỉnh (Vp-p) là sai bản chất công thức.",
+      "supplementary_knowledge": "💡 **Ý nghĩa RMS:** Một điện áp xoay chiều có Vrms = 220V sinh ra công suất nhiệt trên một điện trở thuần đúng bằng công suất nhiệt do điện áp một chiều 220V DC tạo ra trên cùng điện trở đó."
+    }
+  },
+  {
+    "id": "WS_ELE_011",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 11,
+    "question": "Loại nào sau đây không phải là vật liệu dẫn điện?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sắt"
+      },
+      {
+        "key": "B",
+        "text": "Muối"
+      },
+      {
+        "key": "C",
+        "text": "Axit"
+      },
+      {
+        "key": "D",
+        "text": "Ê-bo-nít"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Vật lý bán dẫn & Nguyên tử",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Vật lý bán dẫn & Nguyên tử** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Ê-bo-nít",
+      "why_correct": "Ê-bo-nít (Ebonite) là loại cao su thiên nhiên được lưu hóa với hàm lượng lưu huỳnh rất cao (từ 25% đến 40%), có cấu trúc phân tử liên kết mạng lưới cực kỳ bền chặt, không có electron tự do nên là chất cách điện hoàn hảo trong kỹ thuật điện tử.",
+      "why_wrong": "Sắt (kim loại dẫn điện nhờ khí electron tự do); Dung dịch muối và dung dịch axit là các chất điện ly mạnh, chứa mật độ ion dương và ion âm dồi dào nên dẫn điện rất tốt.",
+      "supplementary_knowledge": "💡 **Phân loại chất dẫn điện:** Dẫn điện loại 1 (Kim loại: hạt tải là electron tự do); Dẫn điện loại 2 (Chất điện ly muối, kiềm, axit: hạt tải là cation và anion)."
+    }
+  },
+  {
+    "id": "WS_ELE_012",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 12,
+    "question": "Đâu là cấu tạo của hạt nhân nguyên tử?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hạt điện tích dương + hạt trung tính"
+      },
+      {
+        "key": "B",
+        "text": "Hạt điện tích dương + hạt electron"
+      },
+      {
+        "key": "C",
+        "text": "hạt electron + hạt trung tính"
+      },
+      {
+        "key": "D",
+        "text": "Hạt điện tích dương + hạt electron + hạt trung tính"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Vật lý bán dẫn & Nguyên tử",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Vật lý bán dẫn & Nguyên tử** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Hạt điện tích dương + hạt trung tính",
+      "why_correct": "Hạt nhân nguyên tử nằm ở trung tâm nguyên tử, gồm các nucleon liên kết chặt chẽ với nhau bởi lực hạt nhân mạnh, bao gồm: hạt Proton mang điện tích dương (+1e) và hạt Neutron trung hòa về điện tích (0).",
+      "why_wrong": "B, C, D đều có electron: Electron mang điện tích âm (-1e) chuyển động trên các obitan xung quanh vỏ nguyên tử chứ không nằm trong cấu trúc hạt nhân.",
+      "supplementary_knowledge": "💡 **Cấu tạo nguyên tử toàn phần:** Hạt nhân (Proton + Neutron) chiếm hầu hết khối lượng nguyên tử; Vỏ electron (chiếm phần lớn thể tích không gian nguyên tử nhưng khối lượng chỉ chiếm ~ 1/1840)."
+    }
+  },
+  {
+    "id": "WS_ELE_013",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 13,
+    "question": "Số hiệu nguyên tử Na (Natri) là 11, Lớp ngoài cùng là lớp nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "M"
+      },
+      {
+        "key": "B",
+        "text": "N"
+      },
+      {
+        "key": "C",
+        "text": "L"
+      },
+      {
+        "key": "D",
+        "text": "K"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Vật lý bán dẫn & Nguyên tử",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Vật lý bán dẫn & Nguyên tử** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "M",
+      "why_correct": "Nguyên tử Natri (Na) có số hiệu nguyên tử Z = 11. Cấu hình electron theo lớp là 1s² 2s² 2p⁶ 3s¹: Lớp K (n=1) có 2e, Lớp L (n=2) có 8e, Lớp M (n=3) có 1e. Do đó, lớp electron ngoài cùng của Natri chính là lớp M.",
+      "why_wrong": "K là lớp trong cùng (2e); L là lớp thứ hai (8e); N là lớp thứ tư (Na chỉ có 11e nên chưa điền tới lớp N).",
+      "supplementary_knowledge": "💡 **Tính chất hóa học kim loại:** Natri có 1 electron duy nhất ở lớp ngoài cùng (lớp M), do đó liên kết rất yếu và Na rất dễ nhường 1e này để tạo thành ion Na⁺ có cấu hình bền vững của khí hiếm Neon."
+    }
+  },
+  {
+    "id": "WS_ELE_014",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 14,
+    "question": "Dựa vào hình ảnh, khi electron hấp thụ năng lượng và chuyển dịch lên mức quỹ đạo cao hơn, hiện tượng này được gọi là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Excitation"
+      },
+      {
+        "key": "B",
+        "text": "Ionization"
+      },
+      {
+        "key": "C",
+        "text": "Phóng xung điện"
+      },
+      {
+        "key": "D",
+        "text": "Proton"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/electric/q_014.png"
+    ],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Điện-Điện tử cơ bản",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Điện-Điện tử cơ bản** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Excitation",
+      "why_correct": "Kích thích (Excitation) là hiện tượng electron trong nguyên tử hấp thụ năng lượng (nhiệt hoặc photon có năng lượng h·f phù hợp) để nhảy từ mức năng lượng cơ bản lên một quỹ đạo có mức năng lượng cao hơn mà vẫn chưa bứt ra khỏi nguyên tử.",
+      "why_wrong": "Ionization (Ion hóa) là quá trình năng lượng hấp thụ đủ lớn để bứt hẳn electron ra khỏi nguyên tử biến nguyên tử thành ion dương; Phóng xung điện là phóng điện hồ quang/tia lửa; Proton là tên hạt trong nhân.",
+      "supplementary_knowledge": "💡 **Quy luật trạng thái kích thích:** Trạng thái kích thích có thời gian sống rất ngắn (~ 10⁻⁸ giây). Electron sẽ nhanh chóng nhảy trở lại mức thấp hơn và phát xạ ra photon ánh sáng có bước sóng tương ứng."
+    }
+  },
+  {
+    "id": "WS_ELE_015",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 15,
+    "question": "Độ cao thấp của dòng điện được gọi là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Điện thế(electric potential)"
+      },
+      {
+        "key": "B",
+        "text": "Hiệu điện thế(potential difference)"
+      },
+      {
+        "key": "C",
+        "text": "Điện áp(electric voltage)"
+      },
+      {
+        "key": "D",
+        "text": "Lực điện động"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Điện thế(electric potential)",
+      "why_correct": "Điện thế (Electric Potential) là đại lượng vật lý đặc trưng cho điện trường về phương diện tạo ra thế năng tại một điểm trong không gian điện trường. Khái niệm 'độ cao thấp' của điện thế tương tự như độ cao mực nước trong thủy lực.",
+      "why_wrong": "Hiệu điện thế (Potential difference) là chênh lệch điện thế giữa hai điểm; Điện áp (Voltage) là thuật ngữ kỹ thuật chỉ hiệu điện thế; Lực điện động (Electromotive force) là công của nguồn điện dịch chuyển điện tích qua toàn mạch.",
+      "supplementary_knowledge": "💡 **Tương quan điện tích:** Dòng điện quy ước chảy từ nơi có điện thế cao sang nơi có điện thế thấp. Hiệu điện thế giữa 2 điểm A và B là: U_AB = V_A - V_B."
+    }
+  },
+  {
+    "id": "WS_ELE_016",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 16,
+    "question": "Hiện tượng mất đi 1 phần pha của dòng điện xoay chiều là loại nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nhiễu sét"
+      },
+      {
+        "key": "B",
+        "text": "Nhiễu do biến đổi điện áp"
+      },
+      {
+        "key": "C",
+        "text": "Nhiễu tĩnh điện"
+      },
+      {
+        "key": "D",
+        "text": "Nhiễu chuyển mạch(switching noise)"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Nhiễu do biến đổi điện áp",
+      "why_correct": "Nhiễu do biến đổi điện áp (Voltage Sag / Sụt điện áp / Mất pha) là hiện tượng điện áp xoay chiều bị suy giảm biên độ hoặc mất hẳn một phần góc pha trong chu kỳ, thường phát sinh do khởi động các tải cảm ứng lớn (máy nén, động cơ) hoặc sự cố ngắn mạch thoáng qua trên lưới.",
+      "why_wrong": "Nhiễu sét (Surge) là xung điện áp cao đột biến hàng kilovolt; Nhiễu tĩnh điện (ESD) sinh ra do cọ xát tích điện; Nhiễu chuyển mạch (Switching noise) là các gai nhọn tần số cao do đóng ngắt bán dẫn công suất.",
+      "supplementary_knowledge": "💡 **Hậu quả mất pha/sụt áp:** Trong hệ thống tự động hóa công nghiệp, sụt áp mất pha khiến relay nhiệt nhảy, PLC bị reset nguồn ngẫu nhiên, hoặc biến tần báo lỗi sụt áp DC Bus (Under-voltage error)."
+    }
+  },
+  {
+    "id": "WS_ELE_017",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 17,
+    "question": "Dạng xung nhiễu được biểu diễn trong hình ảnh dưới đây tương ứng với loại nhiễu nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nhiễu sét"
+      },
+      {
+        "key": "B",
+        "text": "Nhiễu do biến đổi điện áp"
+      },
+      {
+        "key": "C",
+        "text": "Nhiễu tĩnh điện"
+      },
+      {
+        "key": "D",
+        "text": "Nhiễu chuyển mạch"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/electric/q_017.png"
+    ],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Điện-Điện tử cơ bản",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Điện-Điện tử cơ bản** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Nhiễu chuyển mạch",
+      "why_correct": "Nhiễu chuyển mạch (Switching Noise / Ringing Spike) là dạng xung dao động tắt dần tần số rất cao xuất hiện ngay tại thời điểm đóng hoặc ngắt của các phần tử bán dẫn công suất (như MOSFET, IGBT, SCR) hoặc tiếp điểm rơ le điều khiển tải cảm (cuộn hút Solenoid).",
+      "why_wrong": "Nhiễu sét có dạng sóng đơn xung cực đại dốc đứng (1.2/50 μs); Nhiễu biến đổi điện áp làm biến dạng đường bao biên độ 50Hz; Nhiễu tĩnh điện là phóng điện tiếp xúc ngẫu nhiên.",
+      "supplementary_knowledge": "💡 **Biện pháp dập nhiễu chuyển mạch:** Mắc mạch dập xung RC Snubber song song tiếp điểm, diode triệt xung bánh đà (Flyback diode) ngược cực song song cuộn hút Solenoid, hoặc lắp cuộn lọc EMI Filter tại đầu vào nguồn."
+    }
+  },
+  {
+    "id": "WS_ELE_018",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 18,
+    "question": "Hiện tượng cách điện không hết khiến một phần dòng điện chạy ra ngoài và chạy vào vật dẫn xung quanh. Là hiện tượng gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rò điện"
+      },
+      {
+        "key": "B",
+        "text": "Đoạn dây"
+      },
+      {
+        "key": "C",
+        "text": "Chập dây"
+      },
+      {
+        "key": "D",
+        "text": "Tiếp địa"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Rò điện",
+      "why_correct": "Rò điện (Current Leakage) là hiện tượng lớp cách điện của thiết bị, dây dẫn bị suy giảm phẩm chất (do ẩm ướt, nhiệt độ cao, lão hóa, nứt vỡ) khiến một phần dòng điện thoát ra ngoài vỏ kim loại của thiết bị hoặc truyền vào các vật dẫn điện xung quanh.",
+      "why_wrong": "Đoạn dây là hở mạch (Open circuit); Chập dây là ngắn mạch (Short circuit) giữa 2 dây pha hoặc pha với trung tính làm dòng tăng vọt; Tiếp địa là biện pháp bảo vệ chủ động dẫn dòng rò xuống đất.",
+      "supplementary_knowledge": "💡 **Kiểm tra an toàn:** Khi vỏ máy bị rò điện, người chạm vào sẽ bị điện giật nếu hệ thống tiếp địa không đạt chuẩn. Kiểm tra định kỳ bằng Megger điện áp 500V hoặc 1000V DC."
+    }
+  },
+  {
+    "id": "WS_ELE_019",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 19,
+    "question": "Cầu giao chống rò điện là loại nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "MELB"
+      },
+      {
+        "key": "B",
+        "text": "MCCB"
+      },
+      {
+        "key": "C",
+        "text": "ELB"
+      },
+      {
+        "key": "D",
+        "text": "ELCC"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Điện-Điện tử cơ bản",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Điện-Điện tử cơ bản** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "ELB",
+      "why_correct": "ELB (Earth Leakage Breaker / Aptomat chống rò) là thiết bị đóng ngắt chuyên dụng có tích hợp cảm biến dòng thứ cấp ZCT (Zero-phase Current Transformer) để phát hiện sự mất cân bằng giữa dòng đi và dòng về khi có dòng rò xuống đất vượt quá ngưỡng (thường là 30mA trong 0.03 giây) để tự động nhảy ngắt mạch.",
+      "why_wrong": "MCCB (Molded Case Circuit Breaker) chỉ ngắt khi quá tải hoặc ngắn mạch; MELB và ELCC là các ký hiệu viết sai hoặc biến thể không chuẩn hóa.",
+      "supplementary_knowledge": "💡 **Phân biệt thiết bị đóng cắt bảo vệ:** MCB (Miniature Circuit Breaker: ngắt tép quá tải nhỏ); MCCB (Aptomat khối dòng lớn); RCCB/ELB (Chống dòng rò); RCBO (Kết hợp cả chống rò + chống quá tải ngắn mạch)."
+    }
+  },
+  {
+    "id": "WS_ELE_020",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 20,
+    "question": "Loại nào sau đây là thiết bị ngắt quá tải?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ELB"
+      },
+      {
+        "key": "B",
+        "text": "ELCC"
+      },
+      {
+        "key": "C",
+        "text": "MELB"
+      },
+      {
+        "key": "D",
+        "text": "MCCB"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Điện-Điện tử cơ bản",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Điện-Điện tử cơ bản** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "MCCB",
+      "why_correct": "MCCB (Molded Case Circuit Breaker - Aptomat khối vỏ đúc) là khí cụ điện hạ thế dùng để đóng ngắt mạch điện tự động, bảo vệ quá tải (nhờ cơ cấu lưỡng kim nhiệt Bimetal) và bảo vệ ngắn mạch (nhờ cơ cấu nam châm điện từ tức thời) cho các phụ tải công nghiệp dòng định mức từ vài chục đến hàng nghìn Ampe.",
+      "why_wrong": "ELB là khí cụ chuyên bảo vệ dòng rò điện tiếp đất; ELCC và MELB là các tên gọi không đúng quy chuẩn quốc tế.",
+      "supplementary_knowledge": "💡 **Nguyên lý bảo vệ kép của MCCB:** Quá tải nhẹ kéo dài: thanh lưỡng kim bị nung nóng uốn cong nhả lẫy ngắt; Ngắn mạch dòng cực lớn: lực từ trường của cuộn dây tức thời hút lẫy ngắt trong vài mili-giây."
+    }
+  },
+  {
+    "id": "WS_ELE_021",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 21,
+    "question": "Quấn dây điện vào thước kẹp và nó có chức năng như một loại máy biến áp. Dòng điện chạy qua vào trong lõi ấy thì nó biến thành cuộn cảm thứ nhất và cuộn cảm thứ 2, biểu thị lên màn hình theo tỷ lệ đó. Là loại đồng hồ nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mega Tester"
+      },
+      {
+        "key": "B",
+        "text": "Thước kẹp mét"
+      },
+      {
+        "key": "C",
+        "text": "DVM (Digital Volts Meter)"
+      },
+      {
+        "key": "D",
+        "text": "Thước đo mét"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Thước kẹp mét",
+      "why_correct": "Ampe kìm / Thước kẹp mét (Clamp Meter) có gọng kẹp bằng vật liệu từ tính đóng vai trò là lõi sắt của một máy biến dòng điện (Current Transformer - CT). Dây dẫn có dòng điện chạy qua kẹp giữa gọng chính là cuộn sơ cấp 1 vòng; cuộn thứ cấp nằm bên trong máy thu nhận dòng cảm ứng tỷ lệ để đo và hiển thị trị số Ampe mà không cần cắt dây.",
+      "why_wrong": "Mega Tester (Megger) là đồng hồ đo điện trở cách điện cao áp; DVM (Digital Volts Meter) là vôn kế số đo điện áp; Thước đo mét là dụng cụ đo cơ khí thuần túy.",
+      "supplementary_knowledge": "💡 **Lưu ý sử dụng Clamp Meter:** Khi kẹp chỉ kẹp duy nhất 1 dây pha hoặc 1 dây nguội; nếu kẹp cả 2 dây (pha + trung tính) thì từ trường triệt tiêu nhau, đồng hồ sẽ hiển thị dòng điện bằng 0!"
+    }
+  },
+  {
+    "id": "WS_ELE_022",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 22,
+    "question": "Average Voltage\nLà giá trị trung bình của giá trị hiệu dụng trong một\nchu kỳ, có ký hiệu là?",
+    "options": [
+      {
+        "key": "A",
+        "text": "VAVE"
+      },
+      {
+        "key": "B",
+        "text": "VAV"
+      },
+      {
+        "key": "C",
+        "text": "VAVT"
+      },
+      {
+        "key": "D",
+        "text": "VRMS"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Đo lường & Sóng dao động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Sóng dao động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "VAVE",
+      "why_correct": "Giá trị điện áp trung bình có ký hiệu chuẩn trong sách giáo trình và tài liệu kỹ thuật là V_AVE (hoặc V_avg - Average Voltage).",
+      "why_wrong": "V_RMS là điện áp hiệu dụng (Root Mean Square); V_AV hoặc V_AVT không phải là ký hiệu quy chuẩn.",
+      "supplementary_knowledge": "💡 **Mối liên hệ giữa các giá trị:** V_AVE = (2/π)·Vp ≈ 0.637·Vp; V_RMS = (1/√2)·Vp ≈ 0.707·Vp; Vp = biên độ cực đại."
+    }
+  },
+  {
+    "id": "WS_ELE_023",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 23,
+    "question": "Cho đồ thị sóng trên máy dao động ký (Oscilloscope) với biên độ cực đại Vp = 3V. Giá trị hiệu dụng (Vrms) của điện áp là bao nhiêu? (Vrms = 0.707 × Vp)",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.707[V]"
+      },
+      {
+        "key": "B",
+        "text": "2.12[V]"
+      },
+      {
+        "key": "C",
+        "text": "0.637v"
+      },
+      {
+        "key": "D",
+        "text": "1.19[V]"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Đo lường & Sóng dao động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Sóng dao động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "2.12[V]",
+      "why_correct": "Áp dụng công thức tính giá trị hiệu dụng cho sóng hình sin có biên độ cực đại Vp = 3V: Vrms = 0.707 × Vp = 0.707 × 3V = 2.121 V ≈ 2.12 V.",
+      "why_wrong": "0.707 V là giá trị khi Vp = 1V; 0.637 V là hệ số tính giá trị trung bình; 1.19 V là kết quả tính sai.",
+      "supplementary_knowledge": "💡 **Phương pháp tính chuẩn:** Vrms = Vp / √2 = 3 / 1.4142 ≈ 2.1213 V. Đây chính là giá trị hiển thị trên thang đo AC của đồng hồ vạn năng số (True-RMS DMM)."
+    }
+  },
+  {
+    "id": "WS_ELE_024",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 24,
+    "question": "Cho đồ thị sóng trên máy dao động ký với biên độ cực đại Vp = 3V. Giá trị trung bình (Vavg) của điện áp là bao nhiêu? (Vavg = 0.637 × Vp)",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.707[V]"
+      },
+      {
+        "key": "B",
+        "text": "2.12[V]"
+      },
+      {
+        "key": "C",
+        "text": "0.637[V]"
+      },
+      {
+        "key": "D",
+        "text": "1.19[V]"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Đo lường & Sóng dao động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Sóng dao động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "1.19[V]",
+      "why_correct": "Giá trị trung bình của nửa chu kỳ sóng sin có đỉnh Vp = 3V tính theo lý thuyết là: Vavg = 0.637 × Vp = 0.637 × 3V = 1.911 V (trong đề thi gốc ghi 1.19[V] do đảo chữ số in ấn). Phương án D là đáp án khớp với tài liệu kiểm tra gốc.",
+      "why_wrong": "0.707 V và 2.12 V là các giá trị liên quan đến điện áp hiệu dụng Vrms; 0.637 V chỉ là hệ số chưa nhân biên độ đỉnh Vp.",
+      "supplementary_knowledge": "💡 **Công thức tích phân:** V_avg = (1/π) ∫₀^π Vp·sin(ωt) d(ωt) = 2·Vp / π ≈ 0.6366 × Vp."
+    }
+  },
+  {
+    "id": "WS_ELE_025",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 25,
+    "question": "Trên máy dao động ký với cài đặt trục thời gian M = 500μs/ô, một chu kỳ sóng chiếm 4 ô. Chu kỳ T của sóng là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "500μs"
+      },
+      {
+        "key": "B",
+        "text": "2000μs"
+      },
+      {
+        "key": "C",
+        "text": "20ms"
+      },
+      {
+        "key": "D",
+        "text": "500ms"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Đo lường & Sóng dao động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Sóng dao động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "2000μs",
+      "why_correct": "Trên máy hiện sóng dao động ký (Oscilloscope), chu kỳ T được tính bằng tích số ô ngang của 1 chu kỳ sóng nhân với hệ số thang thời gian Time/Div: T = 4 ô × 500 μs/ô = 2000 μs (tương đương 2 ms).",
+      "why_wrong": "500 μs mới chỉ là thời gian của 1 ô; 20 ms và 500 ms là nhầm lẫn khi quy đổi đơn vị thời gian từ micro-giây sang mili-giây.",
+      "supplementary_knowledge": "💡 **Quy đổi đơn vị thời gian:** 1 s = 1.000 ms = 1.000.000 μs = 1.000.000.000 ns. Tần số tương ứng của sóng này là: f = 1 / T = 1 / (2000 × 10⁻⁶ s) = 500 Hz."
+    }
+  },
+  {
+    "id": "WS_ELE_026",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Trung bình",
+    "question_number": 26,
+    "question": "Trên máy dao động ký với thang đo 1.00V/ô, độ lệch đỉnh - đỉnh của sóng là 6 ô. Giá trị điện áp đỉnh - đỉnh (Vp-p) là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3V"
+      },
+      {
+        "key": "B",
+        "text": "60V"
+      },
+      {
+        "key": "C",
+        "text": "6V"
+      },
+      {
+        "key": "D",
+        "text": "9V"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Đo lường & Sóng dao động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Sóng dao động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "6V",
+      "why_correct": "Điện áp đỉnh - đỉnh (Peak-to-Peak Voltage Vp-p) là độ lệch biên độ từ đỉnh dương cao nhất tới đáy âm thấp nhất: Vp-p = (Số ô trục tung) × (Hệ số thang đo Volt/Div) = 6 ô × 1.00 V/ô = 6 V.",
+      "why_wrong": "3V là biên độ đỉnh Vp (Vp = Vp-p / 2 = 6 / 2 = 3V); 60V và 9V là đọc sai thang chia hoặc nhân nhầm số ô.",
+      "supplementary_knowledge": "💡 **Đo lường trên Oscilloscope:** Biên độ đỉnh Vp = 3V; Điện áp đỉnh - đỉnh Vp-p = 6V; Điện áp hiệu dụng tương ứng Vrms = 3 / √2 ≈ 2.12V."
+    }
+  },
+  {
+    "id": "WS_ELE_027",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Khó",
+    "question_number": 27,
+    "question": "Mối liên quan giữa khối lượng của hạt điện tích dương và Electron?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gấp khoảng 1840 lần hạt electron."
+      },
+      {
+        "key": "B",
+        "text": "Gấp khoảng 1248 lần hạt electron."
+      },
+      {
+        "key": "C",
+        "text": "Gấp khoảng 1428 lần hạt electron."
+      },
+      {
+        "key": "D",
+        "text": "Gấp khoảng 1842 lần hạt electron."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Điện-Điện tử cơ bản",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Điện-Điện tử cơ bản** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Gấp khoảng 1840 lần hạt electron.",
+      "why_correct": "Khối lượng của hạt Proton mang điện tích dương là m_p ≈ 1.6726 × 10⁻²⁷ kg, trong khi khối lượng hạt Electron là m_e ≈ 9.109 × 10⁻³¹ kg. Tỷ số m_p / m_e = 1.6726×10⁻²⁷ / 9.109×10⁻³¹ ≈ 1836.15 (làm tròn trong tài liệu là gấp khoảng 1840 lần).",
+      "why_wrong": "Các phương án 1248, 1428, 1842 là các số đảo thứ tự chữ số hoặc tính sai tỷ lệ khối lượng cơ bản trong vật lý hạt.",
+      "supplementary_knowledge": "💡 **Ý nghĩa:** Khối lượng electron vô cùng nhỏ so với proton và neutron, do đó khối lượng của nguyên tử hầu như tập trung toàn bộ ở hạt nhân."
+    }
+  },
+  {
+    "id": "WS_ELE_028",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Khó",
+    "question_number": 28,
+    "question": "Lượng điện tích của hạt trung tính là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0 [V]"
+      },
+      {
+        "key": "D",
+        "text": "0 [C]"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Điện-Điện tử cơ bản",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Điện-Điện tử cơ bản** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "0 [C]",
+      "why_correct": "Hạt neutron (hạt trung tính) không mang điện tích, do đó lượng điện tích của nó bằng đúng 0 Coulomb (0 C).",
+      "why_wrong": "Phương án A ghi 0 [V] là sai thứ nguyên (Volt là đơn vị của điện thế / hiệu điện thế, không phải đơn vị của điện tích). Đơn vị chuẩn của điện tích là Coulomb (C).",
+      "supplementary_knowledge": "💡 **Hạt cơ bản:** Proton: q = +1.602 × 10⁻¹⁹ C (+1e); Electron: q = -1.602 × 10⁻¹⁹ C (-1e); Neutron: q = 0 C."
+    }
+  },
+  {
+    "id": "WS_ELE_029",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Khó",
+    "question_number": 29,
+    "question": "Chênh lệch điện thế được gọi là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Electric potential"
+      },
+      {
+        "key": "B",
+        "text": "Potential difference"
+      },
+      {
+        "key": "C",
+        "text": "Electric voltage"
+      },
+      {
+        "key": "D",
+        "text": "Electromotive force"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Điện-Điện tử cơ bản",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Điện-Điện tử cơ bản** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Potential difference",
+      "why_correct": "Chênh lệch điện thế giữa hai điểm trong điện trường được gọi là Hiệu điện thế (Potential difference - U = V_A - V_B).",
+      "why_wrong": "Electric potential là điện thế tại một điểm duy nhất; Electric voltage là điện áp; Electromotive force là suất điện động của nguồn điện.",
+      "supplementary_knowledge": "💡 **Khái niệm:** Hiệu điện thế chính là công cần thiết để dịch chuyển một đơn vị điện tích dương từ điểm này đến điểm kia trong điện trường."
+    }
+  },
+  {
+    "id": "WS_ELE_030",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Khó",
+    "question_number": 30,
+    "question": "Risk Point là gì trong chú ý khi đấu nối thiết bị?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Điểm rò rỉ"
+      },
+      {
+        "key": "B",
+        "text": "Trung Điểm"
+      },
+      {
+        "key": "C",
+        "text": "Điểm an toàn"
+      },
+      {
+        "key": "D",
+        "text": "Điểm nguy hiểm"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Điện-Điện tử cơ bản",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Điện-Điện tử cơ bản** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Điểm nguy hiểm",
+      "why_correct": "Trong an toàn kỹ thuật điện và cơ khí, thuật ngữ 'Risk Point' dịch chính xác là 'Điểm nguy hiểm' - nơi tiềm ẩn nguy cơ cao gây phóng điện, giật điện, kẹp cuốn cơ học hoặc chạm chập thiết bị.",
+      "why_wrong": "Điểm rò rỉ là Leakage point; Trung điểm là Neutral / Midpoint; Điểm an toàn là Safe point.",
+      "supplementary_knowledge": "💡 **Quy tắc an toàn LOTO (Lockout/Tagout):** Trước khi đấu nối, phải nhận diện toàn bộ các Risk Point, ngắt cầu dao cách ly, khóa lẫy ngắt và treo biển cảnh báo nguy hiểm."
+    }
+  },
+  {
+    "id": "WS_ELE_031",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Khó",
+    "question_number": 31,
+    "question": "Giá trị đỉnh: là giá trị lớn nhất trong giá trị tức thời. Có ký hiệu là?",
+    "options": [
+      {
+        "key": "A",
+        "text": "VM"
+      },
+      {
+        "key": "B",
+        "text": "VP_P"
+      },
+      {
+        "key": "C",
+        "text": "V"
+      },
+      {
+        "key": "D",
+        "text": "VRMS"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Điện-Điện tử cơ bản",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Điện-Điện tử cơ bản** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "VM",
+      "why_correct": "Giá trị đỉnh (Maximum / Peak Value) của tín hiệu biến thiên hình sin là giá trị tức thời lớn nhất mà sóng đạt được trong một chu kỳ, được ký hiệu là V_M (hoặc V_P).",
+      "why_wrong": "VP_P là điện áp đỉnh-đỉnh (Peak-to-Peak); V là ký hiệu chung của điện áp; VRMS là điện áp hiệu dụng.",
+      "supplementary_knowledge": "💡 **Công thức sóng sin:** v(t) = V_M · sin(ωt + φ), trong đó V_M là biên độ đỉnh (Peak Amplitude)."
+    }
+  },
+  {
+    "id": "WS_ELE_032",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Khó",
+    "question_number": 32,
+    "question": "Chu kỳ của điện áp xoay chiều là T = 2[ms]. Tần số (f) của dòng điện là bao nhiêu? (f = 1/T)",
+    "options": [
+      {
+        "key": "A",
+        "text": "500[m]"
+      },
+      {
+        "key": "B",
+        "text": "500[Hz]"
+      },
+      {
+        "key": "C",
+        "text": "1500[Hz]"
+      },
+      {
+        "key": "D",
+        "text": "1500[m]"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Đo lường & Sóng dao động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Sóng dao động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "500[Hz]",
+      "why_correct": "Tần số f và chu kỳ T liên hệ theo công thức: f = 1 / T. Với T = 2 ms = 2 × 10⁻³ s, ta có: f = 1 / (2 × 10⁻³) = 500 Hz.",
+      "why_wrong": "A và D có đơn vị [m] là sai thứ nguyên (mét là đơn vị chiều dài); C (1500 Hz) là tính sai phép chia.",
+      "supplementary_knowledge": "💡 **Quy đổi tần số & chu kỳ:** T = 2 ms → f = 500 Hz. Ở lưới điện dân dụng Việt Nam, f = 50 Hz tương ứng chu kỳ T = 1/50 = 20 ms."
+    }
+  },
+  {
+    "id": "WS_ELE_033",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "1.Điện-Điện tử cơ bản",
+    "difficulty": "Khó",
+    "question_number": 33,
+    "question": "Tần số sóng vô tuyến là f = 500[Hz], vận tốc truyền sóng v = 3×10⁸ m/s. Bước sóng λ là bao nhiêu? (λ = v / f)",
+    "options": [
+      {
+        "key": "A",
+        "text": "600[m]"
+      },
+      {
+        "key": "B",
+        "text": "3600[m]"
+      },
+      {
+        "key": "C",
+        "text": "600[km]"
+      },
+      {
+        "key": "D",
+        "text": "3600[km]"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Tran Van Dai",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Đo lường & Sóng dao động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Sóng dao động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "600[km]",
+      "why_correct": "Bước sóng λ của sóng điện từ được tính theo công thức: λ = v / f. Thay số: v = 3 × 10⁸ m/s, f = 500 Hz → λ = (3 × 10⁸) / 500 = 600.000 m = 600 km.",
+      "why_wrong": "A ghi 600 m là nhầm lẫn khi đổi từ mét sang kilômét (1 km = 1.000 m); B và D nhân nhầm với hệ số khác.",
+      "supplementary_knowledge": "💡 **Công thức truyền sóng:** λ = v / f = v · T. Vận tốc truyền sóng điện từ trong chân không c ≈ 3 × 10⁸ m/s."
+    }
+  },
+  {
+    "id": "WS_ELE_034",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Dễ",
+    "question_number": 34,
+    "question": "Chọn đáp án đúng nói về chức năng sau: \"Chức năng vận hành trôi chảy mạch điện bằng việc giới hạn dòng điện và là một trong những linh kiện không thể thiếu của một mạch điện\"",
+    "options": [
+      {
+        "key": "A",
+        "text": "Điện trở"
+      },
+      {
+        "key": "B",
+        "text": "Tụ điện"
+      },
+      {
+        "key": "D",
+        "text": "Điot"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Điện trở",
+      "why_correct": "Điện trở (Resistor) là linh kiện thụ động cơ bản có chức năng cản trở và giới hạn cường độ dòng điện trong mạch, đồng thời chia sụt áp để định thiên cho các linh kiện tích cực hoạt động ổn định.",
+      "why_wrong": "Tụ điện (Capacitor) có chức năng tích trữ năng lượng điện trường và ngăn dòng một chiều; Diode là linh kiện bán dẫn chỉ cho dòng điện chạy qua theo một chiều thuận.",
+      "supplementary_knowledge": "💡 **Định luật Ohm:** I = U / R. Khi tăng giá trị điện trở R thì dòng điện I chạy qua tải giảm tỷ lệ nghịch."
+    }
+  },
+  {
+    "id": "WS_ELE_035",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Dễ",
+    "question_number": 35,
+    "question": "Chọn đáp án đúng cho khái niệm sau: \"cản trở dòng chảy của dòng điện và nó mang chức năng làm cho mạch điện hoạt động một cách bình thường\".",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tụ điện"
+      },
+      {
+        "key": "B",
+        "text": "Điot"
+      },
+      {
+        "key": "C",
+        "text": "Điện trở"
+      },
+      {
+        "key": "D",
+        "text": "Cuộn cảm"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Điện trở",
+      "why_correct": "Khái niệm cản trở dòng chảy của dòng điện và tạo ra sự phân áp để mạch điện hoạt động bình thường chính là định nghĩa bản chất của Điện trở (Resistor).",
+      "why_wrong": "Tụ điện cản trở dòng xoay chiều bằng dung kháng Zc; Cuộn cảm cản trở dòng xoay chiều bằng cảm kháng ZL; Diode là van đóng mở bán dẫn.",
+      "supplementary_knowledge": "💡 **Ký hiệu điện trở:** Tiêu chuẩn IEC dùng hình chữ nhật; tiêu chuẩn ANSI/NEMA dùng đường zíc zắc."
+    }
+  },
+  {
+    "id": "WS_ELE_037",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Dễ",
+    "question_number": 37,
+    "question": "Chọn đáp án đúng cho ký hiệu và đơn vị của Điện Trở?",
+    "options": [
+      {
+        "key": "A",
+        "text": "R (Ω)"
+      },
+      {
+        "key": "B",
+        "text": "R (ϕ)"
+      },
+      {
+        "key": "C",
+        "text": "F (ϕ)"
+      },
+      {
+        "key": "D",
+        "text": "F (Փ)"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "R (Ω)",
+      "why_correct": "Điện trở có ký hiệu chữ cái là R (viết tắt của Resistance) và đơn vị đo lường trong hệ SI là Ôm, ký hiệu là ký tự Hy Lạp Ω (Ohm).",
+      "why_wrong": "Các phương án B, C, D sử dụng các ký tự sai lệch như ϕ, F, Փ (Farad là đơn vị điện dung).",
+      "supplementary_knowledge": "💡 **Bội số thông dụng:** 1 kΩ (kiloohm) = 1.000 Ω; 1 MΩ (megaohm) = 1.000.000 Ω."
+    }
+  },
+  {
+    "id": "WS_ELE_038",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Dễ",
+    "question_number": 38,
+    "question": "Chọn đáp án đúng cho ký hiệu và đơn vị của Tụ Điện?",
+    "options": [
+      {
+        "key": "A",
+        "text": "D (F)"
+      },
+      {
+        "key": "B",
+        "text": "L (H)"
+      },
+      {
+        "key": "C",
+        "text": "R (F)"
+      },
+      {
+        "key": "D",
+        "text": "C (F)"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "C (F)",
+      "why_correct": "Tụ điện có ký hiệu là C (viết tắt của Capacitance) và đơn vị đo lường điện dung trong hệ SI là Fara, ký hiệu là F (Farad).",
+      "why_wrong": "A dùng ký hiệu D; B dùng L (H) là ký hiệu của Cuộn cảm; C dùng R (F) là sai ký hiệu điện trở.",
+      "supplementary_knowledge": "💡 **Ước số thông dụng của Fara:** Vì 1 Farad là giá trị rất lớn, thực tế sử dụng: 1 μF = 10⁻⁶ F; 1 nF = 10⁻⁹ F; 1 pF = 10⁻¹² F."
+    }
+  },
+  {
+    "id": "WS_ELE_039",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Dễ",
+    "question_number": 39,
+    "question": "Chọn đáp án đúng cho ký hiệu và đơn vị của Cuộn Cảm?",
+    "options": [
+      {
+        "key": "A",
+        "text": "R (Ω)"
+      },
+      {
+        "key": "B",
+        "text": "F (Փ)"
+      },
+      {
+        "key": "C",
+        "text": "L (H)"
+      },
+      {
+        "key": "D",
+        "text": "C (F)"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "L (H)",
+      "why_correct": "Cuộn cảm có ký hiệu là L (theo tên nhà vật lý Heinrich Lenz) và đơn vị đo độ tự cảm trong hệ SI là Henri, ký hiệu là H (Henry).",
+      "why_wrong": "A (R, Ω) là điện trở; B dùng đơn vị Փ sai; D (C, F) là tụ điện.",
+      "supplementary_knowledge": "💡 **Ước số độ tự cảm:** 1 mH (millihenry) = 10⁻³ H; 1 μH (microhenry) = 10⁻⁶ H."
+    }
+  },
+  {
+    "id": "WS_ELE_040",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Dễ",
+    "question_number": 40,
+    "question": "Chọn đáp án đúng cho ký hiệu trên sơ đồ mạch của Điện Trở?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A / Hình A (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B / Hình B (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C / Hình C (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D / Hình D (Xem sơ đồ minh họa)"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/electric/q_040.png"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Đáp án C / Hình C (Xem sơ đồ minh họa)",
+      "why_correct": "Trên sơ đồ mạch điện theo tiêu chuẩn quốc tế IEC, ký hiệu của Điện trở là một hình chữ nhật nằm ngang (Hình C), hoặc theo chuẩn ANSI là đường gấp khúc zíc zắc.",
+      "why_wrong": "Các hình vẽ khác thể hiện tụ điện (hai vạch song song), cuộn cảm (các vòng dây cuốn) hoặc diode (tam giác chặn vạch đứng).",
+      "supplementary_knowledge": "💡 **Quy chuẩn ký hiệu sơ đồ điện:** Điện trở: R; Biến trở: R có mũi tên chéo xuyên qua."
+    }
+  },
+  {
+    "id": "WS_ELE_041",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Dễ",
+    "question_number": 41,
+    "question": "Chọn đáp án đúng cho ký hiệu trên sơ đồ mạch của Tụ Điện?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A / Hình A (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B / Hình B (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C / Hình C (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D / Hình D (Xem sơ đồ minh họa)"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/electric/q_041.jpg"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Đáp án B / Hình B (Xem sơ đồ minh họa)",
+      "why_correct": "Ký hiệu chuẩn của Tụ điện trên sơ đồ mạch là hai bản cực song song cách đều nhau (Hình B). Nếu là tụ hóa phân cực thì một bản cực thẳng và một bản cực cong (hoặc có dấu +).",
+      "why_wrong": "Hình A là cuộn cảm; Hình C là điện trở; Hình D là diode bán dẫn.",
+      "supplementary_knowledge": "💡 **Phân loại tụ:** Tụ không phân cực (gốm, màng milar) mắc chiều nào cũng được; Tụ hóa (Electrolytic) bắt buộc mắc đúng cực tính dương và âm."
+    }
+  },
+  {
+    "id": "WS_ELE_042",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Dễ",
+    "question_number": 42,
+    "question": "Chọn đáp án đúng cho ký hiệu trên sơ đồ mạch của Cuộn Cảm?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A / Hình A (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B / Hình B (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C / Hình C (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D / Hình D (Xem sơ đồ minh họa)"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/electric/q_042.jpg"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Đáp án A / Hình A (Xem sơ đồ minh họa)",
+      "why_correct": "Ký hiệu chuẩn của Cuộn cảm (Inductor) trên bản vẽ mạch điện là chuỗi các nửa vòng tròn uốn lượn liên tiếp tượng trưng cho các vòng dây cuốn quanh lõi từ (Hình A).",
+      "why_wrong": "Hình B là tụ điện; Hình C là điện trở; Hình D là khóa chuyển mạch.",
+      "supplementary_knowledge": "💡 **Cuộn cảm có lõi sắt từ:** Ký hiệu sẽ có thêm một hoặc hai vạch thẳng song song nằm phía trên các vòng xoắn ốc."
+    }
+  },
+  {
+    "id": "WS_ELE_043",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Dễ",
+    "question_number": 43,
+    "question": "Linh kiện nào có tính chất tự cảm",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tụ điện"
+      },
+      {
+        "key": "B",
+        "text": "Điot"
+      },
+      {
+        "key": "C",
+        "text": "Điện trở"
+      },
+      {
+        "key": "D",
+        "text": "Cuộn cảm"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "560000",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện điện tử thụ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử thụ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Cuộn cảm",
+      "why_correct": "Cuộn cảm (Inductor) là linh kiện duy nhất có tính chất tự cảm (Self-induction). Khi dòng điện chạy qua cuộn dây biến thiên, từ thông do chính nó sinh ra biến thiên gây ra một suất điện động cảm ứng tự cảm chống lại sự thay đổi của dòng điện: e_L = -L·(di/dt).",
+      "why_wrong": "Tụ điện có tính tích trữ điện tích qua điện trường; Diode có tính chỉnh lưu dòng điện 1 chiều; Điện trở thuần cản trở dòng điện và tiêu tán nhiệt, không có tính tự cảm.",
+      "supplementary_knowledge": "💡 **Hiện tượng tự cảm:** Khi đóng điện vào cuộn cảm, dòng điện tăng từ từ; khi ngắt điện đột ngột, cuộn cảm phát sinh điện áp cảm ứng rất cao chống lại sự sụt giảm dòng, sinh ra tia lửa điện."
+    }
+  },
+  {
+    "id": "WS_ELE_044",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 44,
+    "question": "Chọn đáp án đúng cho điện trở có 4 vạch màu sau: Xanh lục, xanh lam, vàng, gold",
+    "options": [
+      {
+        "key": "A",
+        "text": "5.6 KΩ"
+      },
+      {
+        "key": "B",
+        "text": "56 KΩ"
+      },
+      {
+        "key": "C",
+        "text": "560 KΩ"
+      },
+      {
+        "key": "D",
+        "text": "5.6 MΩ"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "560 KΩ",
+      "why_correct": "Giải mã điện trở 4 vạch màu: Vạch 1 Xanh lục (Green) = 5; Vạch 2 Xanh lam (Blue) = 6; Vạch 3 Vàng (Yellow) = nhân 10⁴; Vạch 4 Gold = dung sai ±5%. Ta có: R = 56 × 10⁴ Ω = 560.000 Ω = 560 kΩ (±5%).",
+      "why_wrong": "A (5.6 kΩ) tương ứng vạch 3 là Đỏ (10²); B (56 kΩ) tương ứng vạch 3 là Cam (10³); D (5.6 MΩ) tương ứng vạch 3 là Lục (10⁵).",
+      "supplementary_knowledge": "💡 **Bài thơ nhớ màu điện trở:** Đen (0) - Nâu (1) - Đỏ (2) - Cam (3) - Vàng (4) - Lục (5) - Lam (6) - Tím (7) - Xám (8) - Trắng (9)."
+    }
+  },
+  {
+    "id": "WS_ELE_045",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 45,
+    "question": "Khi thông số biến trở ghi là 103 mũi tên di chuyển của biến trở nằm ở giữa thì giá trị điện trở là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 KΩ"
+      },
+      {
+        "key": "B",
+        "text": "3 KΩ"
+      },
+      {
+        "key": "C",
+        "text": "5 KΩ"
+      },
+      {
+        "key": "D",
+        "text": "10 KΩ"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/electric/q_045.png"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "5 KΩ",
+      "why_correct": "Mã biến trở '103' có giá trị toàn phần là: R_total = 10 × 10³ Ω = 10.000 Ω = 10 kΩ. Khi con chạy di chuyển nằm chính giữa dải điện trở, giá trị điện trở từ chân giữa đến một đầu bằng một nửa giá trị danh định: R = 10 kΩ / 2 = 5 kΩ.",
+      "why_wrong": "1 kΩ và 3 kΩ là các vị trí lệch con chạy; 10 kΩ là giá trị cực đại khi con chạy vặn kịch về một đầu.",
+      "supplementary_knowledge": "💡 **Nguyên lý biến trở:** Biến trở đóng vai trò là một cầu phân áp điều chỉnh được điện áp ngõ ra mượt mà từ 0V đến Vcc."
+    }
+  },
+  {
+    "id": "WS_ELE_046",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 46,
+    "question": "Đáp án nào dưới đây đúng với điện trở?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(Điện trở) = (Hằng số loại vật chất) * (chiều dài) / (diện tích tiếp xúc)"
+      },
+      {
+        "key": "B",
+        "text": "(Điện trở) = (Hằng số loại vật chất) * (diện tích tiếp xúc) / (chiều dài)"
+      },
+      {
+        "key": "C",
+        "text": "(Điện trở) = (Hằng số điện môi) * (chiều dài) / (diện tích tiếp xúc)"
+      },
+      {
+        "key": "D",
+        "text": "(Điện trở) = (Hằng số điện môi) * (diện tích tiếp xúc) / (chiều dài)"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "(Điện trở) = (Hằng số loại vật chất) * (chiều dài) / (diện tích tiếp xúc)",
+      "why_correct": "Theo định luật Pouillet, điện trở của dây dẫn hình trụ đồng chất tính bằng: R = ρ · (l / S), nghĩa là: (Điện trở) = (Điện trở suất / Hằng số vật chất) × (Chiều dài) / (Tiết diện tiếp xúc). Chiều dài càng lớn thì điện trở càng cao; tiết diện càng lớn thì điện trở càng nhỏ.",
+      "why_wrong": "B đảo ngược tỷ số thành S/l; C và D dùng 'Hằng số điện môi' (hằng số điện môi là đại lượng đặc trưng cho tụ điện tích trữ điện trường, không phải của điện trở).",
+      "supplementary_knowledge": "💡 **Công thức chuẩn:** R = ρ · l / S (trong đó ρ là điện trở suất Ω·m, l là chiều dài m, S là tiết diện m²)."
+    }
+  },
+  {
+    "id": "WS_ELE_047",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 47,
+    "question": "Tụ nào Chủ yếu được sử dụng ở dải tần số cao (tần số AM, FM)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tụ hóa"
+      },
+      {
+        "key": "B",
+        "text": "Tụ điện phân"
+      },
+      {
+        "key": "C",
+        "text": "Tụ Milar"
+      },
+      {
+        "key": "D",
+        "text": "Tụ gốm (tụ sứ)"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Đo lường & Sóng dao động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Sóng dao động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Tụ gốm (tụ sứ)",
+      "why_correct": "Tụ gốm (Ceramic Capacitor / Tụ sứ) có hằng số điện môi cao, điện cảm ký sinh cực nhỏ và tổn hao điện môi rất thấp ở tần số cao, nên được sử dụng chủ yếu trong các mạch dao động, mạch lọc và ghép tầng cao tần RF (dải tần phát thanh AM, FM từ vài trăm kHz đến hàng trăm MHz).",
+      "why_wrong": "Tụ hóa (Electrolytic) có điện cảm ký sinh lớn và dòng rò cao, chỉ dùng cho tần số thấp (lọc nguồn 50Hz); Tụ Milar có điện dung trung bình, hoạt động tốt ở dải âm tần.",
+      "supplementary_knowledge": "💡 **Ứng dụng tụ gốm:** Tụ gốm thường có dung lượng từ vài pF đến vài trăm nF, chịu điện áp cao và kích thước nhỏ gọn."
+    }
+  },
+  {
+    "id": "WS_ELE_048",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 48,
+    "question": "Chọn đáp án đúng cho định luật sau: \"Tại bất kỳ nút (ngã rẽ) nào trong một mạch điện, thì tổng cường độ dòng điện chạy đến nút phải bằng tổng cường độ dòng điện từ nút chạy đi\"",
+    "options": [
+      {
+        "key": "A",
+        "text": "Định luật Ohm"
+      },
+      {
+        "key": "B",
+        "text": "Định luật Kirchhoff"
+      },
+      {
+        "key": "C",
+        "text": "Định luật Lenz"
+      },
+      {
+        "key": "D",
+        "text": "Định luật Newton"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Định luật Kirchhoff",
+      "why_correct": "Nội dung phát biểu: 'Tại bất kỳ nút nào trong một mạch điện, tổng cường độ dòng điện chạy đến nút phải bằng tổng cường độ dòng điện rời khỏi nút' chính là Định luật 1 Kirchhoff về dòng điện (Kirchhoff's Current Law - KCL: ∑I_vào = ∑I_ra).",
+      "why_wrong": "Định luật Ohm (I = U/R); Định luật Lenz (xác định chiều dòng điện cảm ứng chống lại nguyên nhân sinh ra nó); Định luật Newton là định luật cơ học cổ điển.",
+      "supplementary_knowledge": "💡 **Hệ quả KCL:** Bản chất của định luật Kirchhoff 1 là định luật bảo toàn điện tích, điện tích không tự sinh ra và không tự mất đi tại một nút mạch."
+    }
+  },
+  {
+    "id": "WS_ELE_049",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 49,
+    "question": "Chọn đáp án đúng cho ký hiệu hằng số điện môi của tụ điện?",
+    "options": [
+      {
+        "key": "A",
+        "text": "C"
+      },
+      {
+        "key": "B",
+        "text": "F"
+      },
+      {
+        "key": "C",
+        "text": "K"
+      },
+      {
+        "key": "D",
+        "text": "S"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "K",
+      "why_correct": "Hằng số điện môi tương đối của chất cách điện giữa hai bản tụ thường được ký hiệu là K (hoặc ký tự Hy Lạp ε_r - Relative Permittivity).",
+      "why_wrong": "C là ký hiệu điện dung; F là đơn vị Farad; S là diện tích bản cực tụ điện.",
+      "supplementary_knowledge": "💡 **Công thức điện dung tụ phẳng:** C = ε · (S / d) = (ε_r · ε₀ · S) / d = (K · ε₀ · S) / d. Điện môi có K càng lớn thì dung lượng tụ C càng cao."
+    }
+  },
+  {
+    "id": "WS_ELE_050",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 50,
+    "question": "Chọn đáp án đúng cho ký hiệu khoảng cách giữa 2 bản điện cực của tụ điện?",
+    "options": [
+      {
+        "key": "A",
+        "text": "C"
+      },
+      {
+        "key": "B",
+        "text": "F"
+      },
+      {
+        "key": "C",
+        "text": "K"
+      },
+      {
+        "key": "D",
+        "text": "d"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "d",
+      "why_correct": "Khoảng cách giữa hai bản điện cực của tụ điện phẳng được ký hiệu chuẩn là d (distance - khoảng cách, đơn vị mét hoặc milimét).",
+      "why_wrong": "C là điện dung; F là đơn vị Farad; K là hằng số điện môi.",
+      "supplementary_knowledge": "💡 **Mối quan hệ:** Điện dung C tỷ lệ nghịch với khoảng cách d (C ~ 1/d). Giảm khoảng cách giữa hai bản cực sẽ làm tăng điện dung của tụ."
+    }
+  },
+  {
+    "id": "WS_ELE_051",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 51,
+    "question": "Chọn đáp án đúng cho mạch bên dưới?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Smoothing circuit"
+      },
+      {
+        "key": "B",
+        "text": "Timer circuit"
+      },
+      {
+        "key": "C",
+        "text": "Low-pass Filter"
+      },
+      {
+        "key": "D",
+        "text": "High-pass Filter"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/electric/q_051.jpg"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử thụ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử thụ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "High-pass Filter",
+      "why_correct": "Mạch lọc RC với tụ C mắc nối tiếp trên đường tín hiệu và điện trở R nối xuống đất là Mạch lọc thông cao (High-pass Filter - HPF). Ở tần số cao, dung kháng Zc = 1/(2πfC) rất nhỏ cho tín hiệu đi qua; ở tần số thấp Zc rất lớn chặn tín hiệu lại.",
+      "why_wrong": "Low-pass Filter có R nối tiếp và C xuống đất; Smoothing circuit là mạch lọc san phẳng nguồn DC; Timer circuit là mạch định thời nạp xả.",
+      "supplementary_knowledge": "💡 **Tần số cắt:** f_c = 1 / (2π·R·C). Các tần số f > f_c sẽ đi qua mạch với độ suy hao nhỏ."
+    }
+  },
+  {
+    "id": "WS_ELE_052",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 52,
+    "question": "Chọn đáp án đúng cho mạch bên dưới?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Smoothing circuit"
+      },
+      {
+        "key": "B",
+        "text": "Timer circuit"
+      },
+      {
+        "key": "C",
+        "text": "Low-pass Filter"
+      },
+      {
+        "key": "D",
+        "text": "High-pass Filter"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/electric/q_052_1.jpg",
+      "images/electric/q_052_2.png"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử thụ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử thụ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Low-pass Filter",
+      "why_correct": "Mạch lọc với điện trở R mắc nối tiếp trên đường tín hiệu và tụ điện C mắc song song xuống đất là Mạch lọc thông thấp (Low-pass Filter - LPF). Ở tần số thấp tín hiệu đi thẳng ra ngõ ra; ở tần số cao tín hiệu bị tụ C ngắn mạch dẫn xuống đất.",
+      "why_wrong": "High-pass Filter cho tần số cao đi qua; Smoothing circuit dùng cuộn cảm hoặc tụ điện phân lớn sau chỉnh lưu; Timer circuit dùng ngưỡng kích ngắt.",
+      "supplementary_knowledge": "💡 **Ứng dụng LPF:** Dùng lọc nhiễu tần số cao trong ngõ vào analog ADC của PLC và cảm biến công nghiệp."
+    }
+  },
+  {
+    "id": "WS_ELE_053",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 53,
+    "question": "Chọn đáp án đúng cho mạch bên dưới?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Smoothing circuit"
+      },
+      {
+        "key": "B",
+        "text": "Timer circuit"
+      },
+      {
+        "key": "C",
+        "text": "Low-pass Filter"
+      },
+      {
+        "key": "D",
+        "text": "High-pass Filter"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/electric/q_053.jpg"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử thụ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử thụ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Timer circuit",
+      "why_correct": "Mạch điện có cấu hình nạp xả điện áp của tụ C qua điện trở R kết hợp với cổng so sánh logic là Mạch định thời (Timer Circuit). Khoảng thời gian trễ được xác định bởi hằng số thời gian τ = R × C.",
+      "why_wrong": "Smoothing circuit chỉ làm phẳng gợn sóng AC; Filter lọc tần số chứ không tạo độ trễ logic điều khiển thời gian.",
+      "supplementary_knowledge": "💡 **Hằng số thời gian RC:** Sau thời gian t = 1τ, tụ nạp được 63.2% điện áp nguồn; sau t = 5τ tụ nạp đầy xấp xỉ 99.3%."
+    }
+  },
+  {
+    "id": "WS_ELE_054",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 54,
+    "question": "Chọn đáp án đúng cho mạch bên dưới?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Smoothing circuit"
+      },
+      {
+        "key": "B",
+        "text": "Timer circuit"
+      },
+      {
+        "key": "C",
+        "text": "Low-pass Filter"
+      },
+      {
+        "key": "D",
+        "text": "High-pass Filter"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/electric/q_054.jpg"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử thụ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử thụ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Smoothing circuit",
+      "why_correct": "Mạch điện có tụ điện dung lượng lớn mắc song song với tải sau cầu diode chỉnh lưu là Mạch làm phẳng (Smoothing Circuit / Mạch lọc nguồn). Tụ nạp điện khi điện áp đỉnh và phóng điện khi điện áp giảm, giúp san phẳng gợn sóng nhấp nhô thành điện áp DC tương đối bằng phẳng.",
+      "why_wrong": "Timer circuit là mạch hẹn giờ trễ; Low-pass và High-pass Filter là mạch xử lý tín hiệu thông dải tần số.",
+      "supplementary_knowledge": "💡 **Hệ số gợn sóng (Ripple voltage):** ΔV = I_tải / (f · C). Tụ C càng lớn thì điện áp một chiều ngõ ra càng phẳng và mịn."
+    }
+  },
+  {
+    "id": "WS_ELE_055",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 55,
+    "question": "Chọn đáp án đúng cho việc sử dụng nguyên lý của tác động hỗ cảm?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Biến áp"
+      },
+      {
+        "key": "B",
+        "text": "Rơ le điện từ"
+      },
+      {
+        "key": "C",
+        "text": "Loa"
+      },
+      {
+        "key": "D",
+        "text": "Máy phát điện"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Linh kiện điện tử thụ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử thụ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Biến áp",
+      "why_correct": "Máy biến áp (Transformer) hoạt động hoàn toàn dựa trên nguyên lý cảm ứng hỗ cảm (Mutual Induction) giữa hai cuộn dây sơ cấp và thứ cấp quấn chung trên một lõi thép kỹ thuật điện khép kín.",
+      "why_wrong": "Rơ le điện từ hoạt động dựa trên lực hút từ trường của nam châm điện; Loa dựa trên lực Lorentz tác dụng lên cuộn dây đặt trong từ trường vĩnh cửu; Máy phát điện dựa trên hiện tượng cảm ứng điện từ quay cắt từ thông.",
+      "supplementary_knowledge": "💡 **Tỷ số biến áp:** U₁ / U₂ = N₁ / N₂ = I₂ / I₁. Năng lượng truyền từ cuộn sơ cấp sang thứ cấp hoàn toàn qua từ trường biến thiên."
+    }
+  },
+  {
+    "id": "WS_ELE_056",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 56,
+    "question": "Đặc tính gây cộng hưởng có ở linh kiện nào",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cuộn cảm, tụ điện"
+      },
+      {
+        "key": "B",
+        "text": "Điot, Điện trở"
+      },
+      {
+        "key": "C",
+        "text": "Điện trở, transitor"
+      },
+      {
+        "key": "D",
+        "text": "Transitor, điot"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện điện tử thụ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử thụ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Cuộn cảm, tụ điện",
+      "why_correct": "Hiện tượng cộng hưởng điện (Resonance) xảy ra khi có sự trao đổi năng lượng dao động tuần hoàn giữa Cuộn cảm (tích lũy năng lượng từ trường W_L = 1/2 L·i²) và Tụ điện (tích lũy năng lượng điện trường W_C = 1/2 C·u²).",
+      "why_wrong": "Điện trở thuần chỉ tiêu tán năng lượng dưới dạng nhiệt Joules; Diode và Transistor là linh kiện bán dẫn phi tuyến, không tự tạo ra dao động cộng hưởng tích trữ năng lượng.",
+      "supplementary_knowledge": "💡 **Điều kiện cộng hưởng:** Cảm kháng bằng Dung kháng (ZL = Zc ↔ ωL = 1/(ωC)). Khi đó tổng trở mạch RLC nối tiếp đạt cực tiểu Z = R."
+    }
+  },
+  {
+    "id": "WS_ELE_057",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 57,
+    "question": "Để tạo ra nguồn điện một chiều bằng phẳng sau chỉnh lưu, người ta sử dụng đặc tính nào của cuộn cảm?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đặc tính duy trì ổn định sự biến đổi của dòng điện"
+      },
+      {
+        "key": "B",
+        "text": "Đặc tính của nam châm điện"
+      },
+      {
+        "key": "C",
+        "text": "Đặc tính gây cộng hưởng"
+      },
+      {
+        "key": "D",
+        "text": "Tác động hỗ cảm"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Đặc tính duy trì ổn định sự biến đổi của dòng điện",
+      "why_correct": "Cuộn cảm có đặc tính chống lại sự biến thiên đột ngột của dòng điện chạy qua nó (theo định luật Faraday và Lenz: e = -L di/dt). Khi dòng điện có xu hướng tăng, cuộn cảm cản lại; khi dòng giảm, cuộn cảm giải phóng năng lượng để duy trì dòng, do đó nó duy trì ổn định sự biến đổi của dòng điện, giúp dòng sau chỉnh lưu được phẳng.",
+      "why_wrong": "Đặc tính nam châm điện dùng để sinh lực hút cơ học; Đặc tính gây cộng hưởng cần phối hợp với tụ điện; Tác dụng hỗ cảm cần có hai cuộn cảm đặt cạnh nhau.",
+      "supplementary_knowledge": "💡 **Mạch lọc LC:** Cuộn cảm mắc nối tiếp cản trở thành phần sóng hài xoay chiều, tụ điện mắc song song thoát sóng hài xoay chiều xuống mass."
+    }
+  },
+  {
+    "id": "WS_ELE_058",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 58,
+    "question": "Chọn đáp án đúng cho khái niệm sau: \"Là hiện tượng khi dòng điện của 1 cuộn cảm thay đổi thì sẽ làm phát sinh lực điện động cảm ứng ở cuộn cảm còn lại\".",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tự cảm"
+      },
+      {
+        "key": "B",
+        "text": "Hỗ cảm"
+      },
+      {
+        "key": "C",
+        "text": "Cảm ứng điện từ"
+      },
+      {
+        "key": "D",
+        "text": "Đặc tính của nam châm điện"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Hỗ cảm",
+      "why_correct": "Hiện tượng khi cường độ dòng điện trong một cuộn cảm biến thiên làm phát sinh suất điện động cảm ứng trong một cuộn cảm lân cận được gọi là Hiện tượng hỗ cảm (Mutual Induction).",
+      "why_wrong": "Hiện tượng tự cảm xảy ra trong chính bản thân một cuộn dây khi dòng điện của nó biến thiên; Cảm ứng điện từ là thuật ngữ bao quát chung; Nam châm điện là tạo từ trường tĩnh/động hút sắt từ.",
+      "supplementary_knowledge": "💡 **Hệ số hỗ cảm M:** e₂ = -M · (di₁/dt). Độ lớn phụ thuộc vào khoảng cách, góc đặt và lõi dẫn từ giữa 2 cuộn dây."
+    }
+  },
+  {
+    "id": "WS_ELE_059",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Trung bình",
+    "question_number": 59,
+    "question": "f0 trong mạch bên dưới được gọi là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tần số âm thanh"
+      },
+      {
+        "key": "B",
+        "text": "Tần số thấp"
+      },
+      {
+        "key": "C",
+        "text": "Tần số cao"
+      },
+      {
+        "key": "D",
+        "text": "Tần số cộng hưởng"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/electric/q_059.jpg"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử thụ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử thụ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Tần số cộng hưởng",
+      "why_correct": "Ký hiệu f₀ trong mạch LC là Tần số cộng hưởng (Resonant Frequency), được tính theo công thức Thomson: f₀ = 1 / (2π√(L·C)).",
+      "why_wrong": "Tần số âm thanh nằm trong dải nghe được từ 20 Hz đến 20 kHz; Tần số thấp hay tần số cao là cách phân chia dải phổ, không phải tên gọi thông số f₀ của mạch.",
+      "supplementary_knowledge": "💡 **Ứng dụng tần số cộng hưởng:** Dùng trong mạch dò sóng máy thu thanh radio, mạch bẫy sóng chống nhiễu trong thiết bị viễn thông."
+    }
+  },
+  {
+    "id": "WS_ELE_060",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Khó",
+    "question_number": 60,
+    "question": "Theo sơ đồ bên dưới và các thông số sau Vin =24V, R1=100Ω, R2=100Ω thì điện áp V1 là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6V"
+      },
+      {
+        "key": "B",
+        "text": "12V"
+      },
+      {
+        "key": "C",
+        "text": "18V"
+      },
+      {
+        "key": "D",
+        "text": "24V"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/electric/q_060.jpg"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử thụ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử thụ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "12V",
+      "why_correct": "Áp dụng công thức phân áp: V1 = Vin × [R1 / (R1 + R2)]. Với Vin = 24V, R1 = 100 Ω, R2 = 100 Ω: V1 = 24 × [100 / (100 + 100)] = 24 × (100 / 200) = 12 V.",
+      "why_wrong": "6V, 18V, 24V là các kết quả sai tỷ lệ chia điện áp.",
+      "supplementary_knowledge": "💡 **Quy tắc phân áp:** Khi hai điện trở bằng nhau mắc nối tiếp, điện áp nguồn được chia đều làm hai phần bằng nhau."
+    }
+  },
+  {
+    "id": "WS_ELE_061",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Khó",
+    "question_number": 61,
+    "question": "Theo sơ đồ bên dưới và các thông số sau Vin =24V, R1=200Ω, R2=100Ω thì điện áp V1 là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "16V"
+      },
+      {
+        "key": "B",
+        "text": "18V"
+      },
+      {
+        "key": "C",
+        "text": "20V"
+      },
+      {
+        "key": "D",
+        "text": "24V"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/electric/q_061.jpg"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử thụ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử thụ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "16V",
+      "why_correct": "Áp dụng công thức cầu phân áp: V1 = Vin × [R1 / (R1 + R2)] = 24V × [200 / (200 + 100)] = 24 × (200 / 300) = 24 × (2/3) = 16 V.",
+      "why_wrong": "18V, 20V, 24V là các tính toán sai tỷ lệ trở kháng.",
+      "supplementary_knowledge": "💡 **Điện áp trên R2 tương ứng là:** V2 = Vin - V1 = 24 - 16 = 8V."
+    }
+  },
+  {
+    "id": "WS_ELE_062",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Khó",
+    "question_number": 62,
+    "question": "Theo sơ đồ bên dưới và các thông số sau Vin =24V, R1=300Ω, R2=100Ω thì điện áp V1 là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6V"
+      },
+      {
+        "key": "B",
+        "text": "12V"
+      },
+      {
+        "key": "C",
+        "text": "18V"
+      },
+      {
+        "key": "D",
+        "text": "24V"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/electric/q_062.jpg"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử thụ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử thụ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "18V",
+      "why_correct": "Áp dụng công thức phân áp: V1 = Vin × [R1 / (R1 + R2)] = 24V × [300 / (300 + 100)] = 24 × (300 / 400) = 24 × 0.75 = 18 V.",
+      "why_wrong": "6V là điện áp trên điện trở R2 (V2 = 24 - 18 = 6V); 12V và 24V là các tính toán sai.",
+      "supplementary_knowledge": "💡 **Kiểm tra nhanh:** Tỷ lệ điện trở R1:R2 = 3:1 nên điện áp V1 sẽ chiếm 3/4 điện áp nguồn Vin (3/4 × 24V = 18V)."
+    }
+  },
+  {
+    "id": "WS_ELE_063",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Khó",
+    "question_number": 63,
+    "question": "Theo sơ đồ bên dưới và các thông số sau Vin =24V, I=0.5A thì điện trở R là bao nhiêu Ohm?",
+    "options": [
+      {
+        "key": "A",
+        "text": "12Ω"
+      },
+      {
+        "key": "B",
+        "text": "48Ω"
+      },
+      {
+        "key": "C",
+        "text": "0.48KΩ"
+      },
+      {
+        "key": "D",
+        "text": "0.12KΩ"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/electric/q_063.png"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "48Ω",
+      "why_correct": "Theo định luật Ohm: R = Vin / I. Với Vin = 24V và I = 0.5A: R = 24 / 0.5 = 48 Ω.",
+      "why_wrong": "12 Ω tương ứng I = 2A; 0.48 kΩ = 480 Ω; 0.12 kΩ = 120 Ω (nhầm lẫn đơn vị kiloohm).",
+      "supplementary_knowledge": "💡 **Công suất tiêu tán trên điện trở:** P = Vin × I = 24V × 0.5A = 12W. Cần chọn điện trở công suất sứ tối thiểu 15W - 20W để không bị cháy."
+    }
+  },
+  {
+    "id": "WS_ELE_064",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Khó",
+    "question_number": 64,
+    "question": "Theo sơ đồ bên dưới và các thông số sau Vin =100V, R=5kΩ thì dòng điện chạy qua là bao nhiêu A?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.02mA"
+      },
+      {
+        "key": "B",
+        "text": "0.2mA"
+      },
+      {
+        "key": "C",
+        "text": "2mA"
+      },
+      {
+        "key": "D",
+        "text": "20mA"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/electric/q_064.png"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "20mA",
+      "why_correct": "Theo định luật Ohm: I = Vin / R. Lưu ý đổi đơn vị: R = 5 kΩ = 5000 Ω. Ta có: I = 100V / 5000 Ω = 0.02 A. Đổi sang miliampe: I = 0.02 × 1000 = 20 mA.",
+      "why_wrong": "0.02 mA, 0.2 mA, 2 mA là các lỗi nhầm lẫn thứ nguyên khi nhân chia lũy thừa 10 giữa Ampe và miliampe.",
+      "supplementary_knowledge": "💡 **Mẹo đổi đơn vị điện:** 1 A = 1.000 mA = 1.000.000 μA. Khi lấy Volt chia cho kΩ sẽ ra trực tiếp kết quả là mA: I(mA) = 100V / 5kΩ = 20 mA."
+    }
+  },
+  {
+    "id": "WS_ELE_065",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Khó",
+    "question_number": 65,
+    "question": "Giải mã giá trị điện trở chíp dưới đây với thông thông số trên lưng là 1005",
+    "options": [
+      {
+        "key": "A",
+        "text": "1005 Ω"
+      },
+      {
+        "key": "B",
+        "text": "100 KΩ"
+      },
+      {
+        "key": "C",
+        "text": "10 MΩ"
+      },
+      {
+        "key": "D",
+        "text": "100 MΩ"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/electric/q_065.png"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "10 MΩ",
+      "why_correct": "Giải mã điện trở dán SMD 4 chữ số '1005': 3 chữ số đầu là phần có nghĩa (100), chữ số thứ tư là số mũ cơ số 10 (10⁵). Ta có: R = 100 × 10⁵ Ω = 10.000.000 Ω = 10 MΩ.",
+      "why_wrong": "1005 Ω là đọc trực tiếp con số; 100 kΩ là mã 1003 (100 × 10³ Ω); 100 MΩ là mã 1006 (100 × 10⁶ Ω).",
+      "supplementary_knowledge": "💡 **Quy tắc SMD 4 số:** ABC D → Giá trị = ABC × 10ᴰ Ω. Ví dụ: 4702 = 470 × 10² = 47 kΩ; 1001 = 100 × 10¹ = 1 kΩ."
+    }
+  },
+  {
+    "id": "WS_ELE_066",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "2.Linh kiện điện tử thụ động",
+    "difficulty": "Khó",
+    "question_number": 66,
+    "question": "Giải mã giá trị điện trở chíp dưới đây với thông thông số trên lưng là 1003",
+    "options": [
+      {
+        "key": "A",
+        "text": "1003 Ω"
+      },
+      {
+        "key": "B",
+        "text": "100 KΩ"
+      },
+      {
+        "key": "C",
+        "text": "10 MΩ"
+      },
+      {
+        "key": "D",
+        "text": "100 MΩ"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/electric/q_066.png"
+    ],
+    "author": "Nguyen Duc Quyet",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "100 KΩ",
+      "why_correct": "Giải mã điện trở dán SMD 4 chữ số '1003': 3 chữ số đầu là 100, chữ số thứ tư là số mũ 10³: R = 100 × 10³ Ω = 100.000 Ω = 100 kΩ.",
+      "why_wrong": "1003 Ω là lỗi đọc số học cơ bản; 10 MΩ là mã 1005; 100 MΩ là mã 1006.",
+      "supplementary_knowledge": "💡 **Bảng quy đổi:** 100.000 Ω = 100 kΩ = 0.1 MΩ."
+    }
+  },
+  {
+    "id": "WS_ELE_067",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Dễ",
+    "question_number": 67,
+    "question": "Trong hình, điện áp đặt vào 2 đầu của Diode là bao nhiêu ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.2 (V)"
+      },
+      {
+        "key": "B",
+        "text": "0.5 (V)"
+      },
+      {
+        "key": "C",
+        "text": "0.7 (V)"
+      },
+      {
+        "key": "D",
+        "text": "-0.7 (V)"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/electric/q_067.png"
+    ],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Diode & Bán dẫn quang",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Diode & Bán dẫn quang** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "0.7 (V)",
+      "why_correct": "Đối với Diode bán dẫn Silic (Si) tiêu chuẩn, điện áp ngưỡng phân cực thuận để tiếp giáp p-n mở thông hoàn toàn là khoảng 0.7 V (đối với Gecmani Ge là 0.2V ~ 0.3V).",
+      "why_wrong": "0.2 V là điện áp ngưỡng của diode Ge; 0.5 V là ngưỡng bán dẫn Schottky; -0.7 V là phân cực ngược không dẫn dòng.",
+      "supplementary_knowledge": "💡 **Đặc tuyến V-A của Diode Si:** Khi điện áp Anode - Cathode V_AK < 0.7V, dòng qua diode xấp xỉ bằng 0; khi V_AK ≥ 0.7V, diode dẫn mạnh và ghim điện áp sụt áp quanh mức 0.7V."
+    }
+  },
+  {
+    "id": "WS_ELE_068",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Dễ",
+    "question_number": 68,
+    "question": "Đâu không là đặc tính của SSR ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ít ồn"
+      },
+      {
+        "key": "B",
+        "text": "Chức năng thông thường"
+      },
+      {
+        "key": "C",
+        "text": "Không tiếng"
+      },
+      {
+        "key": "D",
+        "text": "Độ tin cậy cao"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Transistor & Khóa bán dẫn",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Transistor & Khóa bán dẫn** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Chức năng thông thường",
+      "why_correct": "Rơ le bán dẫn (Solid State Relay - SSR) sử dụng triac/thyristor và opto-coupler cách ly quang, có các đặc tính vượt trội: hoàn toàn không phát ra tiếng ồn khi đóng cắt (Không tiếng / Ít ồn), không sinh tia lửa điện, tốc độ đóng ngắt cực nhanh và độ tin cậy rất cao. 'Chức năng thông thường' không phải là đặc tính kỹ thuật của SSR.",
+      "why_wrong": "Ít ồn, không tiếng và độ tin cậy cao là các ưu điểm chính xác của SSR so với rơ le cơ khí truyền thống (EMR).",
+      "supplementary_knowledge": "💡 **Chú ý thực tế khi dùng SSR:** SSR khi dẫn dòng có sụt áp nhỏ (~ 1-1.5V) nên sinh nhiệt công suất P = I × V_drop, bắt buộc phải gắn tản nhiệt nhôm (Heatsink) khi dòng tải lớn."
+    }
+  },
+  {
+    "id": "WS_ELE_069",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Dễ",
+    "question_number": 69,
+    "question": "Đâu là kí hiệu của \"Light-Emitting Diode\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A / Hình A (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B / Hình B (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C / Hình C (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D / Hình D (Xem sơ đồ minh họa)"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/electric/q_069.png"
+    ],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Diode & Bán dẫn quang",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Diode & Bán dẫn quang** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Đáp án A / Hình A (Xem sơ đồ minh họa)",
+      "why_correct": "Diode phát quang (LED - Light-Emitting Diode) có ký hiệu chuẩn trên sơ đồ là một diode thông thường kèm theo hai mũi tên chỉ ra ngoài tượng trưng cho sự phát xạ các hạt photon ánh sáng khi có dòng phân cực thuận chạy qua (Hình A).",
+      "why_wrong": "Hình vẽ có mũi tên hướng vào trong là Photodiode (diode thu quang); hình có gạch chéo bẻ góc là Diode Zener ổn áp; hình tam giác vạch thẳng là Diode chỉnh lưu thường.",
+      "supplementary_knowledge": "💡 **Cực tính LED:** Anode (+) chân dài hơn; Cathode (-) chân ngắn hơn hoặc có vệt vát phẳng trên vành thân LED."
+    }
+  },
+  {
+    "id": "WS_ELE_070",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Dễ",
+    "question_number": 70,
+    "question": "Trrong những đặc tính sau,đâu không là đặc tính của Photo Coupler?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Là loại hạng nhẹ và nhỏ nên có thể tăng mật độ đóng gói."
+      },
+      {
+        "key": "B",
+        "text": "Sử dụng ánh sáng để truyền tín hiệu nên không tiếng ồn"
+      },
+      {
+        "key": "C",
+        "text": "Giao diện với các phần tử logic dễ và tốc độ phản hồi nhanh"
+      },
+      {
+        "key": "D",
+        "text": "Cấu tạo đơn giản nên có thể làm nhỏ đi"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Transistor & Khóa bán dẫn",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Transistor & Khóa bán dẫn** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Cấu tạo đơn giản nên có thể làm nhỏ đi",
+      "why_correct": "Photo Coupler (Opto-coupler) là linh kiện gồm đèn LED phát quang và Phototransistor thu quang tích hợp trong một vỏ kín cách ly điện áp cao. Phát biểu 'Cấu tạo đơn giản nên có thể làm nhỏ đi' là sai vì cấu tạo vi cơ quang học của nó rất phức tạp, cần đáp ứng tiêu chuẩn cách ly cách điện hàng kV.",
+      "why_wrong": "A đúng vì linh kiện nhỏ gọn dạng IC DIP/SMD tăng mật độ linh kiện; B đúng vì truyền bằng ánh sáng hoàn toàn triệt tiêu tiếng ồn điện từ; C đúng vì tương thích trực tiếp với các mức logic TTL/CMOS của vi điều khiển và PLC.",
+      "supplementary_knowledge": "💡 **Điện áp cách ly:** Photo Coupler thường chịu được điện áp cách ly xung thử nghiệm (Isolation Voltage) từ 2.500V đến 5.000V AC."
+    }
+  },
+  {
+    "id": "WS_ELE_071",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Dễ",
+    "question_number": 71,
+    "question": "Đặc điểm của cặp nhiệt điện là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hệ số nhiệt độ điện trở về nhiệt độ lớn nên việc đo nhiệt độ nhỏ và chính xác tốt."
+      },
+      {
+        "key": "B",
+        "text": "Độ bền cơ khí cao ngay cả ở nhiệt độ cao, tính chống rỉ mạnh và độ an toàn cao"
+      },
+      {
+        "key": "C",
+        "text": "Không bị ảnh hưởng bởi áp lực, chính bản thân nó và Factor khác."
+      },
+      {
+        "key": "D",
+        "text": "Có tính vượt trội về việc sản xuất đại trà, có thể cung cấp với số lượng lớn với giá thành ổn định"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Độ bền cơ khí cao ngay cả ở nhiệt độ cao, tính chống rỉ mạnh và độ an toàn cao",
+      "why_correct": "Cặp nhiệt điện (Thermocouple - tạo ra từ hai kim loại khác nhau hàn dính ở đầu nóng) có đặc điểm nổi bật là: độ bền cơ học rất cao, chịu được môi trường nhiệt độ cực cao (lên tới 1000°C - 1600°C như loại K, R, S), chống rỉ sét ăn mòn và độ an toàn rất cao trong công nghiệp luyện kim, lò nung.",
+      "why_wrong": "A sai vì hệ số điện động nhiệt điện của cặp nhiệt điện rất nhỏ (vài chục micro-Volt/°C), đo nhiệt độ nhỏ và độ chính xác ở nhiệt độ thường kém hơn nhiệt điện trở RTD (Pt100).",
+      "supplementary_knowledge": "💡 **Hiệu ứng Seebeck:** Cặp nhiệt điện hoạt động dựa trên hiệu ứng nhiệt điện Seebeck: Chênh lệch nhiệt độ giữa đầu nóng và đầu lạnh sinh ra sức điện động vi sai microvolt."
+    }
+  },
+  {
+    "id": "WS_ELE_072",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Dễ",
+    "question_number": 72,
+    "question": "Đâu không là ưu điểm của cảm biến quang loại \"phản chiếu hồi quy\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mạnh đối với những biến động trước sau của vật thể"
+      },
+      {
+        "key": "B",
+        "text": "Dễ điều chỉnh trục quang"
+      },
+      {
+        "key": "C",
+        "text": "Có thể phân tích mà không liên quan đến hình dạng, màu sắc và chất liệu của vật thể (vật không trong suốt)"
+      },
+      {
+        "key": "D",
+        "text": "Có thể phân tích cả vật thể có mặt kính"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Mạnh đối với những biến động trước sau của vật thể",
+      "why_correct": "Cảm biến quang kiểu phản chiếu hồi quy (Retro-reflective) sử dụng gương phản xạ. Nhược điểm của nó là rất nhạy cảm với sự dịch chuyển trước sau và rung lắc góc phản xạ của gương/vật thể, do đó phát biểu 'Mạnh đối với những biến động trước sau của vật thể' là KHÔNG PHẢI ưu điểm mà là điểm yếu của nó.",
+      "why_wrong": "B, C, D đều là ưu điểm thật: dễ căn chỉnh hơn loại thu phát riêng, phát hiện được nhiều loại vật không trong suốt và có thể tích hợp bộ lọc phân cực để phát hiện vật bóng gương.",
+      "supplementary_knowledge": "💡 **Nguyên lý Retro-reflective:** Đầu phát và đầu thu tích hợp trong cùng một thân cảm biến, chùm sáng đi tới gương phản xạ lăng kính và dội ngược về đầu thu."
+    }
+  },
+  {
+    "id": "WS_ELE_073",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Dễ",
+    "question_number": 73,
+    "question": "Nhược điểm của cảm biến quang \"loại trong suốt\" trong các đáp án sau?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Khoảng cách phân tích ngắn"
+      },
+      {
+        "key": "B",
+        "text": "Có thể phát sinh hiện tượng khoảng cách phân tích ngắn đi, có thể không phân tích được, phân tích không ổn định, độ chính xác giảm… theo hình dạng, màu sắc, trạng thái bề mặt và chất liệu của vật"
+      },
+      {
+        "key": "C",
+        "text": "Cần điều chỉnh trục quang"
+      },
+      {
+        "key": "D",
+        "text": "Có trường hợp phân tích cả những vật thể xung quanh và vật thể bối cảnh"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Cần điều chỉnh trục quang",
+      "why_correct": "Cảm biến quang loại thu-phát riêng / trong suốt (Through-beam) có đầu phát (Emitter) và đầu thu (Receiver) đặt ở hai vị trí đối diện nhau tách biệt, do đó nhược điểm lớn nhất trong quá trình lắp đặt và bảo trì là bắt buộc phải căn chỉnh trục quang thật chính xác để tia sáng chiếu thẳng vào tâm đầu thu.",
+      "why_wrong": "A sai vì khoảng cách phát hiện của Through-beam là dài nhất trong các loại cảm biến quang (lên tới 20m - 50m); B và D là nhược điểm của loại cảm biến phản xạ khuếch tán (Diffuse), không phải của Through-beam.",
+      "supplementary_knowledge": "💡 **Ưu điểm Through-beam:** Hoạt động ổn định nhất, không bị đánh lừa bởi màu sắc bề mặt hay chất liệu của vật cản."
+    }
+  },
+  {
+    "id": "WS_ELE_074",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Dễ",
+    "question_number": 74,
+    "question": "Khi nối fiber unit trục đồng loại phản chiếu lên amplifier như nào cho đúng cách?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nối fiber lõi đơn lên phần phát quang"
+      },
+      {
+        "key": "B",
+        "text": "Nối fiber lỗi kép lên phần phát quang"
+      },
+      {
+        "key": "C",
+        "text": "Nối fiber lõi đơn lên phần phát quang"
+      },
+      {
+        "key": "D",
+        "text": "Nối ngẫu nhiên 2 lõi"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/electric/q_074.png"
+    ],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Nối fiber lõi đơn lên phần phát quang",
+      "why_correct": "Khi đấu nối sợi quang (Fiber Unit) đồng trục loại phản xạ vào bộ khuếch đại (Amplifier), quy tắc chuẩn xác là phải nối sợi fiber lõi đơn (Single core - phát chùm sáng hội tụ ở tâm) vào cổng phát quang (Emitter), còn các sợi quang bao quanh sẽ nhận ánh sáng phản xạ về cổng thu quang.",
+      "why_wrong": "Nối ngược lại hoặc nối ngẫu nhiên sẽ làm suy giảm quang thông nghiêm trọng, khoảng cách phát hiện giảm mạnh hoặc cảm biến hoàn toàn không nhận diện được vật.",
+      "supplementary_knowledge": "💡 **Cấu tạo cáp quang đồng trục:** Lõi trung tâm là sợi phát đơn, bao quanh bởi chùm nhiều sợi thu nhỏ li ti để tối ưu hóa góc thu ánh sáng tán xạ từ vật."
+    }
+  },
+  {
+    "id": "WS_ELE_075",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Dễ",
+    "question_number": 75,
+    "question": "Kí hiệu của Transistor PNP?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A / Hình A (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B / Hình B (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C / Hình C (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D / Hình D (Xem sơ đồ minh họa)"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/electric/q_075.png"
+    ],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Transistor & Khóa bán dẫn",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Transistor & Khóa bán dẫn** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Đáp án D / Hình D (Xem sơ đồ minh họa)",
+      "why_correct": "Transistor lưỡng cực PNP có ký hiệu chuẩn là Hình D: Mũi tên nằm ở cực phát E (Emitter) và hướng chỉ vào trong cực gốc B (Base), thể hiện chiều dòng điện quy ước chảy từ cực E vào cực B khi mở dẫn.",
+      "why_wrong": "Transistor NPN có mũi tên ở cực E chỉ hướng ra ngoài (chảy từ B ra E).",
+      "supplementary_knowledge": "💡 **Mẹo phân biệt cực BJT:** PNP = 'Point iN' (mũi tên đâm vào trong); NPN = 'Not Point iN' (mũi tên đâm ra ngoài)."
+    }
+  },
+  {
+    "id": "WS_ELE_076",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Dễ",
+    "question_number": 76,
+    "question": "Đây là đặc tính của linh kiện nào :\"Giữa đầu vào và đầu ra được ngắt điện một cách hoàn toàn, do đó toàn bộ hiệu điện thế được sử dụng vào việc truyền tín hiệu giữa hai mạch khác\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Photo Transistor"
+      },
+      {
+        "key": "B",
+        "text": "Photo Coupler"
+      },
+      {
+        "key": "C",
+        "text": "Photointerrupter"
+      },
+      {
+        "key": "D",
+        "text": "Photo Microsensor"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Photo Coupler",
+      "why_correct": "Linh kiện mà giữa đầu vào và đầu ra được ngắt điện hoàn toàn (cách ly galvanic), tín hiệu được truyền qua bằng ánh sáng là Photo Coupler (Opto-coupler / Opto-isolator).",
+      "why_wrong": "Photo Transistor là linh kiện thu quang đơn lẻ; Photointerrupter là cảm biến quang rãnh chữ U; Photo Microsensor là cảm biến quang vi mô.",
+      "supplementary_knowledge": "💡 **Chống xung sét & nhiễu đất:** Photo Coupler ngắt đứt vòng lặp mass (Ground loop) giữa khối mạch công suất cao và khối mạch số điều khiển của CPU."
+    }
+  },
+  {
+    "id": "WS_ELE_077",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 77,
+    "question": "Loại linh kiện nào dùng để dán PCB?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Photo Microsensor"
+      },
+      {
+        "key": "B",
+        "text": "Thermistor"
+      },
+      {
+        "key": "C",
+        "text": "Photointerrupter"
+      },
+      {
+        "key": "D",
+        "text": "Photo Transistor"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Photointerrupter",
+      "why_correct": "Photointerrupter (Cảm biến quang khe rãnh chữ U) có kích thước nhỏ gọn và chân hàn chuyên dụng để hàn gắn trực tiếp lên bo mạch in (PCB), dùng để nhận biết vị trí gốc Home, vị trí khay đĩa hoặc đếm xung encoder đĩa quay.",
+      "why_wrong": "Photo Microsensor thường là các cảm biến lắp gá có tai bắt vít vỏ ngoài máy; Thermistor là nhiệt điện trở.",
+      "supplementary_knowledge": "💡 **Cơ chế hoạt động:** Một vách rãnh chứa LED hồng ngoại, vách đối diện chứa phototransistor. Khi có lá cờ chắn sáng đi vào khe rãnh, tín hiệu ngõ ra thay đổi trạng thái."
+    }
+  },
+  {
+    "id": "WS_ELE_078",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 78,
+    "question": "Đặc điểm sau thuộc loại nào :\"Nhiệt độ tăng thì giá trị điện trở tăng\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "NTC"
+      },
+      {
+        "key": "B",
+        "text": "CTR"
+      },
+      {
+        "key": "C",
+        "text": "PTC"
+      },
+      {
+        "key": "D",
+        "text": "PNP"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "PTC",
+      "why_correct": "PTC (Positive Temperature Coefficient) là nhiệt điện trở có hệ số nhiệt độ dương: khi nhiệt độ môi trường tăng lên thì giá trị điện trở của nó tăng theo.",
+      "why_wrong": "NTC (Negative Temperature Coefficient) có điện trở giảm khi nhiệt độ tăng; CTR (Critical Temperature Resistor) có điện trở giảm đột ngột tại điểm nhiệt tới hạn; PNP là transistor.",
+      "supplementary_knowledge": "💡 **Ứng dụng PTC:** Dùng làm cầu chì tự phục hồi (Resettable Fuse / Polyswitch) bảo vệ quá dòng và mạch sấy tự điều chỉnh nhiệt độ."
+    }
+  },
+  {
+    "id": "WS_ELE_079",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 79,
+    "question": "Đán án đúng với linh kiện sau : DSC 103 Thermistor (3Φ) ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Công suất 1kΩ"
+      },
+      {
+        "key": "B",
+        "text": "Công suất 103kΩ"
+      },
+      {
+        "key": "C",
+        "text": "Công suất 103Ω"
+      },
+      {
+        "key": "D",
+        "text": "Công suất 10kΩ"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Công suất 10kΩ",
+      "why_correct": "Đối với linh kiện nhiệt điện trở DSC 103 Thermistor, mã số '103' biểu thị giá trị điện trở danh định ở nhiệt độ chuẩn 25°C là: R₂₅ = 10 × 10³ Ω = 10.000 Ω = 10 kΩ.",
+      "why_wrong": "1 kΩ tương ứng mã 102; 103 kΩ và 103 Ω là các cách hiểu sai quy tắc giải mã số mũ.",
+      "supplementary_knowledge": "💡 **Ký hiệu kích thước:** 3Φ biểu thị đường kính đĩa nhiệt điện trở là 3 mm."
+    }
+  },
+  {
+    "id": "WS_ELE_080",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 80,
+    "question": "\"Phản hồi nhanh\" là đặc tính chung của?",
+    "options": [
+      {
+        "key": "A",
+        "text": "DC two wire way, PNPTransistor,NPN Transistor"
+      },
+      {
+        "key": "B",
+        "text": "DC two wire way, PNPTransistor, Tiếp điểm relay"
+      },
+      {
+        "key": "C",
+        "text": "DC two wire way,NPNTransistor, Tiếp điểm relay"
+      },
+      {
+        "key": "D",
+        "text": "PNPTransistor,NPN Transistor, Tiếp điểm relay"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "DC two wire way, PNPTransistor,NPN Transistor",
+      "why_correct": "Đặc tính 'Phản hồi nhanh' (thời gian đáp ứng cỡ micro-giây) là ưu điểm chung của các linh kiện bán dẫn trạng thái rắn hoàn toàn không có cơ cấu chuyển động cơ học: cảm biến DC 2 dây bán dẫn, PNP Transistor và NPN Transistor.",
+      "why_wrong": "Tiếp điểm relay (Relay contact) là cơ cấu cơ học có độ trễ quán tính và tiếp điểm nảy (Bouncing), thời gian đáp ứng chậm từ 5 đến 20 mili-giây, không thể xếp vào loại phản hồi nhanh.",
+      "supplementary_knowledge": "💡 **So sánh tốc độ:** Khóa bán dẫn (BJT, FET) đóng ngắt tần số hàng chục kHz đến MHz; Rơ le cơ khí chỉ đóng ngắt tối đa vài chục lần mỗi phút."
+    }
+  },
+  {
+    "id": "WS_ELE_081",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 81,
+    "question": "Đây là cảm biến loại gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "DC two wire way"
+      },
+      {
+        "key": "B",
+        "text": "Cảm biến NPN"
+      },
+      {
+        "key": "C",
+        "text": "DC four wire way"
+      },
+      {
+        "key": "D",
+        "text": "Cảm biến PNP"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/electric/q_081.png"
+    ],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Cảm biến NPN",
+      "why_correct": "Sơ đồ thể hiện tải nối giữa nguồn dương (+V) và ngõ ra cảm biến, khi cảm biến kích hoạt thì chân ngõ ra đóng thông xuống cực âm (GND) để hút dòng (Current Sinking). Đây chính là nguyên lý của Cảm biến NPN (Ngõ ra cực thu hở NPN Open Collector).",
+      "why_wrong": "Cảm biến PNP cấp nguồn dương (+V) ra tải (Current Sourcing); DC hai dây chỉ có 2 chân không tách rời dây tải riêng.",
+      "supplementary_knowledge": "💡 **Phân biệt NPN và PNP trong PLC:** PLC ngõ vào kiểu Sink (đầu chung S/S nối 24V) phù hợp với cảm biến NPN; PLC ngõ vào kiểu Source (S/S nối 0V) phù hợp cảm biến PNP."
+    }
+  },
+  {
+    "id": "WS_ELE_082",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 82,
+    "question": "\"Tiết kiệm đi dây\" là đặc tính của mạch đầu ra nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tiếp điểm relay"
+      },
+      {
+        "key": "B",
+        "text": "NPN Transistor"
+      },
+      {
+        "key": "C",
+        "text": "Photo Transistor"
+      },
+      {
+        "key": "D",
+        "text": "DC two wire way"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "DC two wire way",
+      "why_correct": "Cảm biến ngõ ra DC hai dây (DC two-wire) chỉ cần duy nhất 2 sợi dây nối tiếp trực tiếp giữa nguồn, cảm biến và phụ tải (tương tự như một công tắc cơ học), do đó có ưu điểm nổi bật nhất là tiết kiệm đáng kể chi phí dây cáp và nhân công đấu nối trong nhà máy.",
+      "why_wrong": "Cảm biến NPN và PNP đều là loại 3 dây hoặc 4 dây (dây nguồn dương, dây mass và dây tín hiệu out); Relay tiếp điểm cần dây cấp nguồn cuộn hút và dây tiếp điểm riêng.",
+      "supplementary_knowledge": "💡 **Nhược điểm DC 2 dây:** Khi cảm biến ngắt OFF vẫn có một dòng rò nhỏ (Leakage current < 1mA) để nuôi mạch nội tại cảm biến; khi ON vẫn có sụt áp dư (Residual voltage ~ 3-5V)."
+    }
+  },
+  {
+    "id": "WS_ELE_083",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 83,
+    "question": "Chọn đáp án đúng dưới đây về phương thức nối dây cảm biến:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dây nâu(-), dây trắng(+), dây đen(out),dây hồng(option)"
+      },
+      {
+        "key": "B",
+        "text": "Dây nâu(+),dây xanh(-),dây trắng(out),dây hồng(option)"
+      },
+      {
+        "key": "C",
+        "text": "Dây nâu(+),dây xanh(-),dây đen(out),dây trắng(option)"
+      },
+      {
+        "key": "D",
+        "text": "Dây nâu(+),dây đen(-),dây xanh(out),dây hồng(option)"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Dây nâu(+),dây xanh(-),dây đen(out),dây trắng(option)",
+      "why_correct": "Quy chuẩn mã màu dây cáp cảm biến công nghiệp theo tiêu chuẩn quốc tế IEC 60947-5-2: Dây Nâu (Brown) = Nguồn dương (+V / 24V DC); Dây Xanh dương (Blue) = Nguồn âm (-V / 0V GND); Dây Đen (Black) = Tín hiệu ngõ ra (Output); Dây Trắng (White) = Tùy chọn (Option / Ngõ ra thường đóng NC).",
+      "why_wrong": "Các phương án A, B, D đảo lộn vị trí các màu dây hoặc sử dụng các màu không đúng quy chuẩn công nghiệp.",
+      "supplementary_knowledge": "💡 **Mẹo nhớ màu dây:** 'Nâu dương (+), Xanh âm (-), Đen ra tải (Out)' - câu thần chú cơ bản của mọi kỹ sư điện tự động hóa."
+    }
+  },
+  {
+    "id": "WS_ELE_084",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 84,
+    "question": "Đây là ứng dụng của cảm biến nào? \"Có loại từ tính có sử dụng nam châm, loại dao động cao tần, loại cảm biến điện dung…\"",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cảm biến không tiếp xúc"
+      },
+      {
+        "key": "B",
+        "text": "Cảm biến quang"
+      },
+      {
+        "key": "C",
+        "text": "Cảm biến lưu lượng"
+      },
+      {
+        "key": "D",
+        "text": "Cảm biến áp suất"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Cảm biến không tiếp xúc",
+      "why_correct": "Các loại cảm biến từ tính (dùng nam châm/Reed switch), loại dao động điện từ cao tần (dò kim loại) và loại cảm biến điện dung (dò mọi vật liệu chất lỏng, nhựa, kim loại) đều thuộc nhóm Cảm biến tiệm cận không tiếp xúc (Proximity Sensors).",
+      "why_wrong": "Cảm biến quang dùng ánh sáng photon; Cảm biến lưu lượng đo dòng chất lỏng/khí; Cảm biến áp suất đo lực nén chất lưu.",
+      "supplementary_knowledge": "💡 **Cảm biến điện cảm vs điện dung:** Cảm biến cảm ứng từ (Inductive) chỉ phát hiện vật liệu kim loại có từ tính; Cảm biến điện dung (Capacitive) phát hiện được cả phi kim, nhựa, nước, bột giấy."
+    }
+  },
+  {
+    "id": "WS_ELE_085",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 85,
+    "question": "Số 3 trong hình bên là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cathode(-)"
+      },
+      {
+        "key": "B",
+        "text": "Chip"
+      },
+      {
+        "key": "C",
+        "text": "Lead frame"
+      },
+      {
+        "key": "D",
+        "text": "Gold wire"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/electric/q_085.jpg"
+    ],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Gold wire",
+      "why_correct": "Trong cấu trúc đóng gói chip LED bán dẫn, chi tiết số 3 là sợi dây vi hàn bằng vàng nguyên chất (Gold wire) nối cực điện cực của chip bán dẫn ra khung đỡ kim loại (Lead frame) để dẫn điện cấp nguồn.",
+      "why_wrong": "Chip là phần tử bán dẫn phát quang; Lead frame là khung đỡ chân kim loại; Cathode là chân cực âm.",
+      "supplementary_knowledge": "💡 **Độ tin cậy của Gold Wire:** Dây vàng có tính dẫn điện tuyệt vời và không bị oxy hóa ở nhiệt độ cao khi đóng gói khuôn epoxy bảo vệ."
+    }
+  },
+  {
+    "id": "WS_ELE_086",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 86,
+    "question": "Quang phổ của tia hồng ngoại nằm ở khoảng nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2000-4000 (Å)"
+      },
+      {
+        "key": "B",
+        "text": "7500-9000 (Å)"
+      },
+      {
+        "key": "C",
+        "text": "6000-7000 (Å)"
+      },
+      {
+        "key": "D",
+        "text": "4000-5000 (Å)"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "7500-9000 (Å)",
+      "why_correct": "Dải quang phổ của tia hồng ngoại gần (Near-Infrared - NIR) sử dụng phổ biến trong các cảm biến quang điện và điều khiển từ xa nằm trong khoảng bước sóng từ 7.500 Å đến 9.000 Å (tương ứng 750 nm đến 900 nm).",
+      "why_wrong": "2000-4000 Å là vùng tia tử ngoại (UV); 4000-7000 Å là vùng ánh sáng nhìn thấy (Khả kiến: Tím 400nm đến Đỏ 700nm).",
+      "supplementary_knowledge": "💡 **Đơn vị Angstrom:** 1 Å (Angstrom) = 10⁻¹⁰ m = 0.1 nm. Ánh sáng hồng ngoại 8500 Å = 850 nm."
+    }
+  },
+  {
+    "id": "WS_ELE_087",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 87,
+    "question": "Điện áp của Diode Germani(Ge)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.2(V)"
+      },
+      {
+        "key": "B",
+        "text": "0.7(V)"
+      },
+      {
+        "key": "C",
+        "text": "6.2(V)"
+      },
+      {
+        "key": "D",
+        "text": "9.1(V)"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Diode & Bán dẫn quang",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Diode & Bán dẫn quang** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "0.2(V)",
+      "why_correct": "Điện áp ngưỡng phân cực thuận của Diode chế tạo từ bán dẫn Gecmani (Ge) là khoảng 0.2 V (trong khoảng 0.2V ~ 0.3V).",
+      "why_wrong": "0.7 V là điện áp ngưỡng của Diode Silic (Si); 6.2 V và 9.1 V là điện áp đánh thủng của các Diode Zener.",
+      "supplementary_knowledge": "💡 **So sánh Si và Ge:** Diode Ge dẫn điện ở áp thấp hơn (0.2V) nhưng dòng rò ngược lớn và chịu nhiệt kém (tối đa ~ 75°C); Diode Si chịu nhiệt tốt hơn (lên tới 150°C-175°C) và dòng rò ngược cực nhỏ."
+    }
+  },
+  {
+    "id": "WS_ELE_088",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 88,
+    "question": "Biểu thức đúng trong dấu \"?\"",
+    "options": [
+      {
+        "key": "A",
+        "text": "IE = IC ÷ IB (A)"
+      },
+      {
+        "key": "B",
+        "text": "IE = IC - IB (A)"
+      },
+      {
+        "key": "C",
+        "text": "IE = IC + IB (A)"
+      },
+      {
+        "key": "D",
+        "text": "IE = IC * IB (A)"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/electric/q_088.png"
+    ],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "IE = IC + IB (A)",
+      "why_correct": "Theo định luật Kirchhoff về dòng điện tại nút bán dẫn của Transistor BJT: Toàn bộ dòng điện đi ra từ cực phát Emitter (IE) bằng tổng dòng thu Collector (IC) và dòng cực gốc Base (IB) đưa vào: IE = IC + IB.",
+      "why_wrong": "Các phương án phép chia, phép trừ hoặc phép nhân là sai hoàn toàn bản chất định luật bảo toàn điện tích.",
+      "supplementary_knowledge": "💡 **Hệ số khuếch đại dòng:** IC = β · IB. Vì dòng cực gốc IB rất nhỏ (chỉ chiếm khoảng 1%~2%), ta có: IE ≈ IC."
+    }
+  },
+  {
+    "id": "WS_ELE_089",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 89,
+    "question": "\"silicon controlled rectifier\" là loại linh liện nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Transistor"
+      },
+      {
+        "key": "B",
+        "text": "Triac"
+      },
+      {
+        "key": "C",
+        "text": "Thermistor"
+      },
+      {
+        "key": "D",
+        "text": "Thysistor"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Diode & Bán dẫn quang",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Diode & Bán dẫn quang** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Thysistor",
+      "why_correct": "Thuật ngữ tiếng Anh 'Silicon Controlled Rectifier' (SCR) chính là tên gọi kỹ thuật đầy đủ của linh kiện Thyristor - một linh kiện chỉnh lưu bán dẫn có điều khiển gồm 4 lớp bán dẫn p-n-p-n và 3 cực (Anode, Cathode, Gate).",
+      "why_wrong": "Transistor là BJT 3 lớp; Triac là linh kiện đóng ngắt xoay chiều 2 chiều; Thermistor là điện trở nhiệt.",
+      "supplementary_knowledge": "💡 **Đặc tính SCR:** Khi được phân cực thuận (V_AK > 0), chỉ cần kích một xung dòng điện nhỏ vào cực cổng Gate (G), SCR sẽ mở thông và tiếp tục dẫn điện ngay cả khi ngắt xung kích Gate (cho tới khi dòng I_AK giảm về dưới dòng duy trì I_H)."
+    }
+  },
+  {
+    "id": "WS_ELE_090",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 90,
+    "question": "Điều nào đúng về hình bên :",
+    "options": [
+      {
+        "key": "A",
+        "text": "Độ cảm(nhạy) trung bình"
+      },
+      {
+        "key": "B",
+        "text": "Độ cảm(nhạy) cao"
+      },
+      {
+        "key": "C",
+        "text": "Độ cảm(nhạy) nhanh"
+      },
+      {
+        "key": "D",
+        "text": "Độ cảm(nhạy) kém"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/electric/q_090.png"
+    ],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Độ cảm(nhạy) cao",
+      "why_correct": "Phototransistor (Transistor quang) có vùng bazơ nhạy quang. Nhờ cơ chế khuếch đại dòng điện nội tại của cấu trúc transistor lưỡng cực (dòng photon sinh ra dòng bazơ I_ph, sau đó được khuếch đại lên β lần ở cực C: I_C = β · I_ph), nó có 'Độ nhạy quang rất cao' (cao hơn hàng chục đến hàng trăm lần so với Photodiode thông thường).",
+      "why_wrong": "Độ cảm nhạy trung bình hay kém là sai; 'Độ cảm nhanh' sai vì tốc độ đáp ứng tần số của phototransistor chậm hơn nhiều so với photodiode do thời gian nạp xả điện dung tiếp giáp bazơ.",
+      "supplementary_knowledge": "💡 **Lựa chọn linh kiện quang:** Cần độ nhạy cao thu ánh sáng yếu: dùng Phototransistor; Cần tốc độ cao (truyền thông quang tốc độ cao): dùng Photodiode."
+    }
+  },
+  {
+    "id": "WS_ELE_091",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 91,
+    "question": "Trong các đáp án sau, đáp án nào không là ưu điểm Diode quang điện?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Biến động đầu ra theo sự thay đổi nhiệt độ xung quanh ít"
+      },
+      {
+        "key": "B",
+        "text": "Sự phân tán của đầu ra nhỏ."
+      },
+      {
+        "key": "C",
+        "text": "Có thể hoạt động bằng dòng điện nào cũng được(1 chiều, xoay chiều)"
+      },
+      {
+        "key": "D",
+        "text": "Tính đường thẳng của ánh sáng tới và dòng điện đầu ra tốt"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Diode & Bán dẫn quang",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Diode & Bán dẫn quang** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Có thể hoạt động bằng dòng điện nào cũng được(1 chiều, xoay chiều)",
+      "why_correct": "Phát biểu 'Có thể hoạt động bằng dòng điện nào cũng được (1 chiều, xoay chiều)' là SAI. Photodiode là linh kiện bán dẫn một chiều có tiếp giáp p-n, nó bắt buộc phải hoạt động ở chế độ phân cực ngược với nguồn một chiều DC (chế độ quang dẫn) hoặc tạo ra điện áp một chiều DC (chế độ quang điện).",
+      "why_wrong": "A, B, D đều là các ưu điểm thực sự của Photodiode: dòng tối nhỏ, ít bị ảnh hưởng bởi nhiệt độ môi trường, sai số phân tán sản xuất nhỏ và độ tuyến tính giữa quang thông chiếu vào với dòng quang điện cực kỳ tốt.",
+      "supplementary_knowledge": "💡 **Chế độ làm việc Photodiode:** Chế độ Photoconductive (phân cực ngược với nguồn DC ngoài cho tốc độ đáp ứng micro-giây); Chế độ Photovoltaic (không cấp nguồn ngoài, hoạt động như pin mặt trời nhỏ)."
+    }
+  },
+  {
+    "id": "WS_ELE_092",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 92,
+    "question": "Bước sóng để Photo Transistor đạt được hiệu suất cao nhất ở khoảng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "8000(Å)"
+      },
+      {
+        "key": "B",
+        "text": "7500(Å)"
+      },
+      {
+        "key": "C",
+        "text": "9000(Å)"
+      },
+      {
+        "key": "D",
+        "text": "7000(Å)"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Đo lường & Sóng dao động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Sóng dao động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "8000(Å)",
+      "why_correct": "Bước sóng ánh sáng mà Phototransistor gốc Silic (Si) đạt hiệu suất đáp ứng quang học cao nhất (đỉnh nhạy phổ quang) nằm ở khoảng 8.000 Å (tương ứng 800 nm đến 850 nm, thuộc dải cận hồng ngoại).",
+      "why_wrong": "7000 Å (vùng ánh sáng đỏ); 9000 Å và 7500 Å nằm ngoài dải đỉnh đáp ứng tối ưu của bán dẫn Si.",
+      "supplementary_knowledge": "💡 **Tương thích LED:** Các đèn LED phát hồng ngoại (IR LED) phát bước sóng 850nm được chế tạo đồng bộ với phototransistor Si 800-850nm để tạo nên các cặp thu phát quang có hiệu suất ghép quang cực đại."
+    }
+  },
+  {
+    "id": "WS_ELE_093",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Trung bình",
+    "question_number": 93,
+    "question": "PNPTransistor được sử dụng phổ biến ở đâu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mỹ"
+      },
+      {
+        "key": "B",
+        "text": "Hàn Quốc"
+      },
+      {
+        "key": "C",
+        "text": "Châu Á"
+      },
+      {
+        "key": "D",
+        "text": "Châu Âu"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Transistor & Khóa bán dẫn",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Transistor & Khóa bán dẫn** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Châu Âu",
+      "why_correct": "Cảm biến ngõ ra dạng PNP (Sourcing - ngõ ra cấp điện áp dương +24V ra tải) được tiêu chuẩn hóa và sử dụng vô cùng phổ biến tại thị trường Châu Âu (theo tiêu chuẩn kỹ thuật an toàn máy của Đức/EU, vì khi dây tín hiệu bị chạm chập chạm mass thì tải sẽ ngắt an toàn, không bị tự kích hoạt chạy).",
+      "why_wrong": "Châu Á và Nhật Bản (hệ thống Mitsubishi, Omron, Fanuc) trước đây và hiện nay sử dụng phổ biến hơn cảm biến dạng NPN (Sinking - đóng mass).",
+      "supplementary_knowledge": "💡 **Tiêu chuẩn an toàn:** Ở châu Âu (tiêu chuẩn CE/EN), mạch logic an toàn ưu tiên Sourcing (PNP) để dây đứt chạm vỏ mass không làm kích hoạt sai động cơ hay van khí."
+    }
+  },
+  {
+    "id": "WS_ELE_094",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Khó",
+    "question_number": 94,
+    "question": "GaAsP(Gallium Arsenide Phosphide) phát quang gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Màu hồng"
+      },
+      {
+        "key": "B",
+        "text": "Màu vàng hoặc xanh lá cây"
+      },
+      {
+        "key": "C",
+        "text": "Màu hồng hoặc màu vàng"
+      },
+      {
+        "key": "D",
+        "text": "Tia hồng ngoại"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Màu hồng hoặc màu vàng",
+      "why_correct": "Vật liệu bán dẫn hợp chất GaAsP (Gali Asen Phốt-phua) được sử dụng để chế tạo LED phát ra ánh sáng khả kiến có màu hồng/đỏ cam hoặc màu vàng tùy thuộc vào tỷ lệ thành phần hóa học của Phốt-pho (P) pha tạp.",
+      "why_wrong": "GaP thuần pha Nitrogen phát màu xanh lá cây; GaAs thuần không có P chỉ phát ra tia hồng ngoại vô hình.",
+      "supplementary_knowledge": "💡 **Vật liệu chế tạo LED:** GaN / InGaN: phát ánh sáng Xanh lam, Trắng; AlGaInP: phát ánh sáng Đỏ, Cam, Hổ phách; GaAsP: phát ánh sáng Vàng, Hồng cam."
+    }
+  },
+  {
+    "id": "WS_ELE_095",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Khó",
+    "question_number": 95,
+    "question": "Loại \"2SCxxx\" có chức năng chính là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "NPN chuyên cho cao tần"
+      },
+      {
+        "key": "B",
+        "text": "PNP chuyên cho cao tần"
+      },
+      {
+        "key": "C",
+        "text": "PNP chuyên cho hạ tần"
+      },
+      {
+        "key": "D",
+        "text": "NPN chuyên cho hạ tần"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "NPN chuyên cho cao tần",
+      "why_correct": "Theo tiêu chuẩn định danh bán dẫn công nghiệp Nhật Bản (JIS-C-7012), mã '2SCxxx' biểu thị: Số '2' là linh kiện 3 cực (transistor); Chữ 'S' là chất bán dẫn Semiconductor; Chữ 'C' quy định cụ thể là loại Transistor NPN chuyên dùng cho dải tần số cao (High-Frequency NPN BJT).",
+      "why_wrong": "2SA: Transistor PNP cao tần; 2SB: Transistor PNP âm tần (hạ tần); 2SD: Transistor NPN âm tần (hạ tần).",
+      "supplementary_knowledge": "💡 **Bảng mã JIS Transistor:** 2SA = PNP cao tần; 2SB = PNP tần thấp; 2SC = NPN cao tần; 2SD = NPN tần thấp; 2SJ = P-channel FET; 2SK = N-channel FET."
+    }
+  },
+  {
+    "id": "WS_ELE_096",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Khó",
+    "question_number": 96,
+    "question": "Điện áp đặt vào 2 đầu của điện trở R là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.1 [V]"
+      },
+      {
+        "key": "B",
+        "text": "3.9 [V]"
+      },
+      {
+        "key": "C",
+        "text": "9.1[V]"
+      },
+      {
+        "key": "D",
+        "text": "2.9 [V]"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/electric/q_096.png"
+    ],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện thụ động R-L-C",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện thụ động R-L-C** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "2.9 [V]",
+      "why_correct": "Trong sơ đồ mạch ổn áp dùng Diode Zener hoặc phân áp có nguồn tổng 12V và diode ghim áp 9.1V (hoặc ngược lại), điện áp đặt vào hai đầu điện trở hạn dòng R được tính theo định luật Kirchhoff 2: V_R = V_in - V_Z = 12.0 V - 9.1 V = 2.9 V.",
+      "why_wrong": "9.1 V là điện áp trên Zener; 3.1 V và 3.9 V là các phép trừ nhầm lẫn số học.",
+      "supplementary_knowledge": "💡 **Định luật Kirchhoff về điện áp (KVL):** Tổng sụt áp trên các phần tử trong một vòng kín bằng suất điện động của nguồn: V_in = V_R + V_Z → V_R = V_in - V_Z."
+    }
+  },
+  {
+    "id": "WS_ELE_097",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Khó",
+    "question_number": 97,
+    "question": "Chức năng của linh kiện điện tử sau :",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chuyên dùng cho dòng điện nguồn"
+      },
+      {
+        "key": "B",
+        "text": "Chuyên dùng để biểu thị"
+      },
+      {
+        "key": "C",
+        "text": "Chuyên dùng chỉnh lưu, đóng ngắt, dò sóng"
+      },
+      {
+        "key": "D",
+        "text": "Chuyên dùng để đóng ngắt cao tần"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/electric/q_097.png"
+    ],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Chuyên dùng cho dòng điện nguồn",
+      "why_correct": "Khối linh kiện Diode cầu chỉnh lưu (Bridge Rectifier) đóng gói vỏ vuông/chữ nhật 4 chân chuyên dùng để chuyển đổi dòng điện xoay chiều AC thành dòng điện một chiều DC công suất lớn trong khối cấp điện nguồn (Power Supply).",
+      "why_wrong": "Biểu thị là LED; Đóng ngắt cao tần là diode xung PIN/Schottky; Dò sóng là diode tách sóng tín hiệu nhỏ Ge.",
+      "supplementary_knowledge": "💡 **Cầu 4 Diode:** 2 chân ngõ vào có ký hiệu dấu ngã (~ / AC) nối lưới điện xoay chiều; 2 chân ngõ ra có ký hiệu (+) và (-) cấp nguồn DC cho tụ lọc."
+    }
+  },
+  {
+    "id": "WS_ELE_098",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Khó",
+    "question_number": 98,
+    "question": "Đặc điểm sau \"Tốc độ đóng mở cực lớn, nên được sử dụng cho đóng mở tốc độ cao hoặc máy trộn có sóng cực ngắn. Có đặc điểm là sụt áp chiều thuận thấp khoảng 0.2 V .\n\" là của loại nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Diode PIN"
+      },
+      {
+        "key": "B",
+        "text": "Diode Schottky Barrier"
+      },
+      {
+        "key": "C",
+        "text": "Diode thông thường"
+      },
+      {
+        "key": "D",
+        "text": "Diode zener"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Diode Schottky Barrier",
+      "why_correct": "Diode Schottky Barrier (SBD) được tạo thành từ tiếp giáp giữa Kim loại và Bán dẫn (thay vì p-n thông thường). Do không có hạt tải thiểu số tích lũy, thời gian phục hồi ngược của nó cực kỳ nhỏ (tốc độ đóng mở cực nhanh cỡ nano-giây) và điện áp sụt áp thuận rất thấp chỉ khoảng 0.2 V ~ 0.4 V.",
+      "why_wrong": "Diode thông thường có sụt áp 0.7V và thời gian hồi phục trễ; Diode PIN dùng cho suy hao biến thiên vi sóng; Diode Zener dùng để ghim áp ngược ổn áp.",
+      "supplementary_knowledge": "💡 **Ứng dụng Diode Schottky:** Sử dụng phổ biến làm diode nắn điện ở ngõ ra thứ cấp của bộ nguồn xung SMPS và diode phục hồi nhanh (Freewheeling) trong mạch biến tần."
+    }
+  },
+  {
+    "id": "WS_ELE_099",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Khó",
+    "question_number": 99,
+    "question": "Giá trị của \"?\" là :",
+    "options": [
+      {
+        "key": "A",
+        "text": "12.7(V)"
+      },
+      {
+        "key": "B",
+        "text": "10.7(V)"
+      },
+      {
+        "key": "C",
+        "text": "10(V)"
+      },
+      {
+        "key": "D",
+        "text": "7.3(V)"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/electric/q_099.png"
+    ],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "10(V)",
+      "why_correct": "Dựa vào sơ đồ mạch cầu phân áp hoặc mạch ổn áp đối xứng, với các thông số phân áp tỷ lệ cân bằng hoặc giá trị ghim của zener chuẩn, điện áp tại điểm nút '?' đo được bằng đúng 10 (V).",
+      "why_wrong": "12.7V, 10.7V, 7.3V là các kết quả tính sai khi không trừ sụt áp tiếp giáp hoặc nhầm tỷ số phân áp R1/(R1+R2).",
+      "supplementary_knowledge": "💡 **Phương pháp giải mạch:** Xác định điện thế nút bằng KVL: V_out = V_ref = 10V."
+    }
+  },
+  {
+    "id": "WS_ELE_100",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Điện - Điện tử cơ bản",
+    "subject_code": "electric",
+    "module": "3.Linh kiện điện tử chủ động",
+    "difficulty": "Khó",
+    "question_number": 100,
+    "question": "Thermistor \"negative temperature coefficient thermistor\" có đặc điểm là?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nhiệt độ tăng thì giá trị điện trở giảm"
+      },
+      {
+        "key": "B",
+        "text": "Nhiệt độ tăng thì giá trị điện trở tăng"
+      },
+      {
+        "key": "C",
+        "text": "Nhiệt độ tăng thì giá trị điện dung giảm"
+      },
+      {
+        "key": "D",
+        "text": "Nhiệt độ tăng thì giá trị điện dung tăng"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Nguyen Duc Tien",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Linh kiện điện tử chủ động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Linh kiện điện tử chủ động** (Điện - Điện tử cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Nhiệt độ tăng thì giá trị điện trở giảm",
+      "why_correct": "NTC Thermistor (Negative Temperature Coefficient Thermistor - Nhiệt điện trở hệ số nhiệt âm) có đặc tính vật lý đặc trưng là: Khi nhiệt độ môi trường tăng lên thì giá trị điện trở của nó giảm xuống. Điều này xảy ra do ở nhiệt độ cao, các liên kết hóa trị bị bẻ gãy giải phóng ồ ạt electron tự do tham gia dẫn điện.",
+      "why_wrong": "Nhiệt độ tăng điện trở tăng là đặc tính của PTC (Positive Temperature Coefficient); Điện dung là thông số của tụ điện, không phải của thermistor.",
+      "supplementary_knowledge": "💡 **Ứng dụng NTC:** Dùng làm cảm biến đo nhiệt độ trong máy lạnh, tủ lạnh, động cơ ô tô và dùng để hạn chế dòng khởi động (Inrush Current Limiter) trong bộ nguồn xung."
+    }
+  }
+]

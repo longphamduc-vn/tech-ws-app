@@ -1,0 +1,13 @@
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+*.Identifier*
+.vscode/
+.idea/
+
+# Raw Courseware PowerPoint slides (108MB kept locally, not needed for web app)
+WS/
+
+# Temporary and log files
+*.log
+*.tmp

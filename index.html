@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>White Star Quiz Pro - Ứng Dụng Ôn Thi Kỹ Thuật</title>
+  <meta name="description" content="Ứng dụng trắc nghiệm và ôn thi kỹ thuật White Star: Điện - Điện tử, PLC, Khí nén, Linh kiện máy với hơn 880 câu hỏi và 200+ sơ đồ kỹ thuật.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body class="dark-theme">
+  <!-- App Container -->
+  <div id="app" class="app-layout">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="logo-icon">⭐</div>
+        <div class="brand-text">
+          <h2>WHITE STAR</h2>
+          <span>Quiz Technical System</span>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-item active" id="nav-dashboard" onclick="switchTab('dashboard')">
+          <span class="icon">📊</span>
+          <span class="label">Tổng quan kho đề</span>
+        </button>
+        <button class="nav-item" id="nav-practice" onclick="switchTab('practice')">
+          <span class="icon">🎯</span>
+          <span class="label">Luyện tập theo môn</span>
+        </button>
+        <button class="nav-item" id="nav-exam" onclick="switchTab('exam')">
+          <span class="icon">⏱️</span>
+          <span class="label">Thi thử White Star</span>
+        </button>
+        <button class="nav-item" id="nav-history" onclick="switchTab('history')">
+          <span class="icon">📜</span>
+          <span class="label">Lịch sử & Thống kê</span>
+        </button>
+        <button class="nav-item" id="nav-gallery" onclick="switchTab('gallery')">
+          <span class="icon">🖼️</span>
+          <span class="label">Kho sơ đồ kỹ thuật</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="theme-toggle" id="theme-toggle-btn" onclick="toggleTheme()">
+          <span class="theme-icon" id="theme-icon">🌙</span>
+          <span class="theme-label" id="theme-label">Giao diện Tối</span>
+        </div>
+        <div class="version-tag">Version 2.0 • Data 2026</div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content" id="main-content">
+      
+      <!-- Top Navigation Bar -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="mobile-toggle" id="mobile-toggle-btn" onclick="toggleSidebar()">☰</button>
+          <div class="breadcrumb" id="current-breadcrumb">Hệ thống trắc nghiệm / Tổng quan</div>
+        </div>
+        <div class="topbar-right">
+          <!-- Theme Menu Dropdown -->
+          <div class="theme-menu-wrapper" id="theme-menu-wrapper">
+            <button class="theme-select-btn" id="theme-menu-btn" onclick="toggleThemeDropdown()" title="Chọn giao diện">
+              <span class="theme-icon-current" id="current-theme-icon">🌌</span>
+              <span class="theme-name-current" id="current-theme-name">Midnight</span>
+              <span class="dropdown-arrow">▾</span>
+            </button>
+            <div class="theme-dropdown-popover" id="theme-dropdown-popover">
+              <div class="theme-option active" id="theme-opt-midnight" onclick="selectTheme('midnight')">
+                <span class="opt-icon">🌌</span>
+                <div class="opt-info">
+                  <strong>Midnight Pro</strong>
+                  <small>Tối xanh navy cao cấp</small>
+                </div>
+              </div>
+              <div class="theme-option" id="theme-opt-cyber" onclick="selectTheme('cyber')">
+                <span class="opt-icon">🔮</span>
+                <div class="opt-info">
+                  <strong>Cyber Neon</strong>
+                  <small>Tím neon công nghệ</small>
+                </div>
+              </div>
+              <div class="theme-option" id="theme-opt-emerald" onclick="selectTheme('emerald')">
+                <span class="opt-icon">🌲</span>
+                <div class="opt-info">
+                  <strong>Emerald Tech</strong>
+                  <small>Xanh lục kỹ thuật</small>
+                </div>
+              </div>
+              <div class="theme-option" id="theme-opt-light" onclick="selectTheme('light')">
+                <span class="opt-icon">☀️</span>
+                <div class="opt-info">
+                  <strong>Clean Day</strong>
+                  <small>Sáng sủa, sắc nét</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="stats-badge" id="total-q-badge">
+            <span class="pulse-dot"></span>
+            <span id="badge-count">398 Master Qs</span>
+          </div>
+
+          <!-- User Profile Chip Button -->
+          <div class="user-chip clickable" id="topbar-user-chip" onclick="openUserProfileModal()" title="Hồ sơ thí sinh & Thống kê">
+            <span class="avatar" id="topbar-user-avatar">👨‍💻</span>
+            <div class="user-info-text">
+              <span class="user-name" id="topbar-user-name">Kỹ thuật viên WS</span>
+              <span class="user-meta" id="topbar-user-code">WS-2026-001</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- View 1: Dashboard -->
+      <section class="tab-view active" id="view-dashboard">
+        <div class="view-header">
+          <div class="hero-card">
+            <div class="hero-content">
+              <h1>Ngân Hàng Dữ Liệu Trắc Nghiệm Kỹ Thuật White Star</h1>
+              <p>Dữ liệu trích xuất chuẩn hóa từ tài liệu ôn thi chính thức, bao gồm câu hỏi chuyên môn, đáp án chuẩn, phân tích giải thích chuyên sâu và hơn 210 hình ảnh sơ đồ kỹ thuật.</p>
+              <div class="hero-actions">
+                <button class="btn btn-primary" id="btn-quick-practice" onclick="startQuickPractice()">Luyện tập ngay</button>
+                <button class="btn btn-secondary" id="btn-quick-exam" onclick="startQuickExam()">Vào thi thử (80 câu)</button>
+                <button class="btn btn-outline" onclick="switchTab('history')">📜 Lịch sử thi</button>
+              </div>
+            </div>
+            <div class="hero-badge-art">⭐</div>
+          </div>
+        </div>
+
+        <!-- Metric Cards -->
+        <div class="metrics-grid">
+          <div class="metric-card" id="card-master-count">
+            <div class="metric-header">
+              <span class="metric-icon">📚</span>
+              <span class="metric-title">Master Bank</span>
+            </div>
+            <div class="metric-value" id="val-master-count">398</div>
+            <div class="metric-desc">Câu hỏi đã chuẩn hóa 4 môn</div>
+          </div>
+
+          <div class="metric-card" id="card-review-count">
+            <div class="metric-header">
+              <span class="metric-icon">📑</span>
+              <span class="metric-title">Slide Ôn Tập</span>
+            </div>
+            <div class="metric-value" id="val-review-count">486</div>
+            <div class="metric-desc">Câu hỏi trắc nghiệm từ 64 slide</div>
+          </div>
+
+          <div class="metric-card" id="card-exams-count">
+            <div class="metric-header">
+              <span class="metric-icon">🏆</span>
+              <span class="metric-title">Bộ Đề Thi Thử</span>
+            </div>
+            <div class="metric-value" id="val-exams-count">5</div>
+            <div class="metric-desc">Đề chuẩn 80 câu có đáp án</div>
+          </div>
+
+          <div class="metric-card" id="card-images-count">
+            <div class="metric-header">
+              <span class="metric-icon">📐</span>
+              <span class="metric-title">Sơ Đồ Kỹ Thuật</span>
+            </div>
+            <div class="metric-value" id="val-images-count">213</div>
+            <div class="metric-desc">Hình ảnh sơ đồ mạch & linh kiện</div>
+          </div>
+        </div>
+
+        <!-- Subjects Grid -->
+        <div class="section-title">
+          <h3>4 Khối Kiến Thức Chuyên Môn</h3>
+          <span class="subtitle">Nhấp vào môn học để bắt đầu luyện tập</span>
+        </div>
+
+        <div class="subjects-grid">
+          <div class="subject-card" onclick="startSubjectPractice('electric')">
+            <div class="subject-icon electric">⚡</div>
+            <div class="subject-info">
+              <h4>Điện & Điện Tử Cơ Bản</h4>
+              <p>Nguyên tử, bán dẫn, diode, transistor, đo lường sóng dao động ký</p>
+              <div class="subject-meta">
+                <span class="q-count" id="count-electric">99 câu hỏi</span>
+                <span class="tag">Dễ: 34 • TB: 55 • Khó: 10</span>
+              </div>
+            </div>
+            <button class="btn-card-action">→</button>
+          </div>
+
+          <div class="subject-card" onclick="startSubjectPractice('plc')">
+            <div class="subject-icon plc">💻</div>
+            <div class="subject-info">
+              <h4>PLC Cơ Bản</h4>
+              <p>Cấu trúc PLC, bộ nhớ CPU, lệnh tiếp điểm Ladder, Timer, Counter, GX Works</p>
+              <div class="subject-meta">
+                <span class="q-count" id="count-plc">99 câu hỏi</span>
+                <span class="tag">Dễ: 30 • TB: 48 • Khó: 21</span>
+              </div>
+            </div>
+            <button class="btn-card-action">→</button>
+          </div>
+
+          <div class="subject-card" onclick="startSubjectPractice('machine')">
+            <div class="subject-icon machine">⚙️</div>
+            <div class="subject-info">
+              <h4>Linh Kiện Máy Cơ Bản</h4>
+              <p>Trục, then chốt, vòng bi (Bearing), dung sai lắp ghép, bôi trơn, bản vẽ</p>
+              <div class="subject-meta">
+                <span class="q-count" id="count-machine">100 câu hỏi</span>
+                <span class="tag">Dễ: 25 • TB: 45 • Khó: 30</span>
+              </div>
+            </div>
+            <button class="btn-card-action">→</button>
+          </div>
+
+          <div class="subject-card" onclick="startSubjectPractice('pneumatics')">
+            <div class="subject-icon pneumatics">💨</div>
+            <div class="subject-info">
+              <h4>Khí Nén Cơ Bản</h4>
+              <p>Máy nén khí, bộ lọc FRL, van đảo chiều, van tiết lưu, xi lanh truyền động</p>
+              <div class="subject-meta">
+                <span class="q-count" id="count-pneumatics">100 câu hỏi</span>
+                <span class="tag">Dễ: 23 • TB: 50 • Khó: 27</span>
+              </div>
+            </div>
+            <button class="btn-card-action">→</button>
+          </div>
+        </div>
+
+        <!-- Data Structure Preview -->
+        <div class="data-schema-card">
+          <div class="schema-header">
+            <h4>📦 Sơ đồ cấu trúc dữ liệu JSON đã trích xuất & chuẩn hóa</h4>
+            <span class="badge-ready">✓ Data Ready</span>
+          </div>
+          <div class="schema-body">
+            <pre><code>// Đường dẫn file dữ liệu trong dự án:
+├── data/questions_master.json          // 398 câu Master có đáp án, phân loại, giải thích chi tiết & ảnh
+├── data/questions_by_subject/          // electric.json, plc.json, machine.json, pneumatics.json
+├── data/questions_review_bank.json     // 486 câu ôn tập chi tiết
+├── data/mock_exams.json                // 5 bộ đề thi thử White Star (80 câu/đề)
+└── data/images/                        // 213 file hình ảnh kỹ thuật minh họa</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- View 2: Practice Mode -->
+      <section class="tab-view" id="view-practice">
+        <!-- Advanced Multi-dimensional Filter Bar -->
+        <div class="filter-panel">
+          <div class="filter-panel-header">
+            <div class="filter-title">
+              <span class="icon">🔍</span>
+              <h4>Bộ Lọc Đa Chiều & Phân Loại Câu Hỏi</h4>
+            </div>
+            <div class="filter-header-actions">
+              <span class="filter-result-counter" id="filter-result-count">Hiển thị 398 câu hỏi</span>
+              <button class="btn btn-sm btn-outline" onclick="resetPracticeFilters()">Đặt lại bộ lọc</button>
+            </div>
+          </div>
+
+          <!-- Filter Rows -->
+          <div class="filter-grid">
+            <div class="filter-group">
+              <label for="practice-subject-select">Môn học:</label>
+              <select id="practice-subject-select" onchange="onSubjectFilterChange()">
+                <option value="all">Tất cả 4 môn (398 câu)</option>
+                <option value="electric">Điện & Điện tử (99 câu)</option>
+                <option value="plc">PLC cơ bản (99 câu)</option>
+                <option value="machine">Linh kiện máy (100 câu)</option>
+                <option value="pneumatics">Khí nén cơ bản (100 câu)</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label for="practice-module-select">Chuyên đề / Module:</label>
+              <select id="practice-module-select" onchange="applyPracticeFilters()">
+                <option value="all">Tất cả chuyên đề</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label for="practice-type-select">Dạng câu hỏi:</label>
+              <select id="practice-type-select" onchange="applyPracticeFilters()">
+                <option value="all">Tất cả dạng câu</option>
+                <option value="schema">📐 Đọc sơ đồ & Ký hiệu</option>
+                <option value="theory">📖 Lý thuyết cơ bản</option>
+                <option value="calculation">🧮 Tính toán & Công thức</option>
+                <option value="application">🛠️ Ứng dụng & Sự cố</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label for="practice-diff-select">Độ khó:</label>
+              <select id="practice-diff-select" onchange="applyPracticeFilters()">
+                <option value="all">Tất cả độ khó</option>
+                <option value="Dễ">Dễ</option>
+                <option value="Trung bình">Trung bình</option>
+                <option value="Khó">Khó</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label for="practice-status-select">Trạng thái ôn tập:</label>
+              <select id="practice-status-select" onchange="applyPracticeFilters()">
+                <option value="all">Tất cả trạng thái</option>
+                <option value="unanswered">⏳ Chưa làm</option>
+                <option value="correct">✅ Đã làm đúng</option>
+                <option value="wrong">❌ Đã làm sai (Ngân hàng câu sai)</option>
+                <option value="bookmarked">⭐ Đã đánh dấu (Yêu thích)</option>
+              </select>
+            </div>
+
+            <div class="filter-group search-group">
+              <label for="practice-search-input">Tìm kiếm từ khóa:</label>
+              <div class="search-input-wrap">
+                <input type="text" id="practice-search-input" placeholder="Nhập từ khóa, mã câu (#WS_ELE_001)..." oninput="applyPracticeFilters()">
+                <span class="search-clear-btn" onclick="clearPracticeSearch()">✕</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature Toggles Bar -->
+          <div class="filter-toolbar">
+            <div class="toolbar-left">
+              <label class="toggle-control" title="Hiển thị kết quả đúng/sai và phân tích ngay khi bấm chọn đáp án">
+                <input type="checkbox" id="instant-feedback-toggle" checked>
+                <span class="toggle-track"></span>
+                <span class="toggle-text">⚡ Phản hồi giải thích ngay</span>
+              </label>
+
+              <label class="toggle-control" title="Xáo trộn thứ tự các đáp án A, B, C, D ngẫu nhiên để chống học vẹt">
+                <input type="checkbox" id="practice-shuffle-toggle" onchange="applyPracticeFilters()">
+                <span class="toggle-track"></span>
+                <span class="toggle-text">🔀 Xáo trộn thứ tự đáp án (A-B-C-D)</span>
+              </label>
+            </div>
+
+            <div class="toolbar-right">
+              <button class="pill-btn" onclick="filterOnlyWrongQuestions()">
+                <span class="pill-dot red"></span> Câu làm sai (<span id="count-wrong-stat">0</span>)
+              </button>
+              <button class="pill-btn" onclick="filterOnlyBookmarked()">
+                <span class="pill-dot gold"></span> Đã đánh dấu (<span id="count-bm-stat">0</span>)
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="practice-container">
+          <div class="question-stream" id="practice-question-stream">
+            <!-- Questions rendered via JS -->
+          </div>
+          
+          <!-- Pagination -->
+          <div class="pagination-controls" id="practice-pagination">
+            <button class="btn btn-secondary" id="btn-prev-page" onclick="prevPracticePage()">Trang trước</button>
+            <span class="page-indicator" id="practice-page-info">Trang 1 / 10</span>
+            <button class="btn btn-secondary" id="btn-next-page" onclick="nextPracticePage()">Trang sau</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- View 3: Exam Mode -->
+      <section class="tab-view" id="view-exam">
+        <!-- Exam Setup Screen -->
+        <div class="exam-setup-container" id="exam-setup-view">
+          <div class="exam-setup-card">
+            <h2>🎯 Phòng Thi Thử Trực Tuyến White Star</h2>
+            <p>Chọn một trong các bộ đề thi thử chính thức hoặc tạo đề thi mô phỏng theo chuẩn kỳ thi White Star.</p>
+            
+            <div class="candidate-banner">
+              <div class="candidate-info">
+                <span class="cand-avatar" id="exam-setup-cand-avatar">👨‍💻</span>
+                <div>
+                  <h4 id="exam-setup-cand-name">Kỹ thuật viên WS</h4>
+                  <span id="exam-setup-cand-meta">Mã học viên: WS-2026-001 • Bộ phận Kỹ thuật</span>
+                </div>
+              </div>
+              <button class="btn btn-sm btn-outline" onclick="openUserProfileModal()">Đổi thí sinh</button>
+            </div>
+
+            <div class="exam-selection-list">
+              <div class="exam-item active" onclick="selectExamPreset('EXAM_TEST_01', this)">
+                <div class="exam-item-header">
+                  <h4>Đề thi thử White Star - Test 01</h4>
+                  <span class="badge-exam">80 câu • 60 phút</span>
+                </div>
+                <p>Bộ đề chuẩn 4 môn: Điện (1-20), PLC (21-40), Khí nén (41-60), Máy (61-80)</p>
+              </div>
+
+              <div class="exam-item" onclick="selectExamPreset('EXAM_DE_01', this)">
+                <div class="exam-item-header">
+                  <h4>Đề thi thử White Star - Đề số 01</h4>
+                  <span class="badge-exam">78 câu • 60 phút</span>
+                </div>
+                <p>Đề thi thử chuẩn có bảng đáp án gốc phân loại theo chuyên đề</p>
+              </div>
+
+              <div class="exam-item" onclick="selectExamPreset('EXAM_TEST_02', this)">
+                <div class="exam-item-header">
+                  <h4>Đề thi thử White Star - Test 02</h4>
+                  <span class="badge-exam">77 câu • 60 phút</span>
+                </div>
+                <p>Bộ câu hỏi tổng hợp nâng cao có sơ đồ kỹ thuật</p>
+              </div>
+
+              <div class="exam-item" onclick="selectExamPreset('RANDOM_40', this)">
+                <div class="exam-item-header">
+                  <h4>Đề Thi Nhanh Ngẫu Nhiên (Random)</h4>
+                  <span class="badge-exam">40 câu • 30 phút</span>
+                </div>
+                <p>Hệ thống tự động bốc ngẫu nhiên 10 câu mỗi môn từ Master Bank</p>
+              </div>
+            </div>
+
+            <!-- Exam Options Settings Box -->
+            <div class="exam-settings-box">
+              <h4>⚙️ Cài đặt phòng thi</h4>
+              <div class="settings-options-grid">
+                <label class="toggle-control">
+                  <input type="checkbox" id="exam-shuffle-options" checked>
+                  <span class="toggle-track"></span>
+                  <span class="toggle-text"><strong>🔀 Xáo trộn thứ tự đáp án (A, B, C, D)</strong> (Khuyên dùng - chống học vẹt)</span>
+                </label>
+                <label class="toggle-control">
+                  <input type="checkbox" id="exam-shuffle-questions">
+                  <span class="toggle-track"></span>
+                  <span class="toggle-text"><strong>🔀 Xáo trộn thứ tự các câu hỏi trong đề</strong></span>
+                </label>
+                <label class="toggle-control">
+                  <input type="checkbox" id="exam-enable-timer" checked>
+                  <span class="toggle-track"></span>
+                  <span class="toggle-text"><strong>⏱️ Bật đồng hồ đếm ngược thời gian làm bài</strong></span>
+                </label>
+              </div>
+            </div>
+
+            <div class="exam-start-action">
+              <button class="btn btn-primary btn-large" id="btn-start-exam-now" onclick="startSelectedExam()">BẮT ĐẦU LÀM BÀI THI</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Exam Active Test Screen -->
+        <div class="exam-active-container" id="exam-active-view" style="display: none;">
+          <div class="exam-header-bar">
+            <div class="exam-info">
+              <h3 id="active-exam-title">Đề thi thử White Star - Test 01</h3>
+              <div class="exam-progress-text" id="exam-progress-counter">Câu 1 / 80</div>
+            </div>
+            
+            <div class="exam-timer-box">
+              <span class="timer-icon">⏳</span>
+              <span class="timer-display" id="exam-timer-text">60:00</span>
+            </div>
+
+            <button class="btn btn-danger" id="btn-submit-exam" onclick="confirmSubmitExam()">Nộp bài thi</button>
+          </div>
+
+          <div class="exam-layout-body">
+            <!-- Question Box -->
+            <div class="exam-question-box" id="exam-question-content">
+              <!-- Rendered via JS -->
+            </div>
+
+            <!-- Question Palette Grid -->
+            <div class="exam-palette-sidebar">
+              <h4>Bảng câu hỏi</h4>
+              <div class="palette-legend">
+                <span><span class="dot done"></span> Đã làm</span>
+                <span><span class="dot current"></span> Đang làm</span>
+                <span><span class="dot pending"></span> Chưa làm</span>
+              </div>
+              <div class="palette-grid" id="exam-palette-grid">
+                <!-- Buttons rendered via JS -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Exam Result Screen -->
+        <div class="exam-result-container" id="exam-result-view" style="display: none;">
+          <div class="result-card">
+            <div class="result-badge-icon" id="result-badge-icon">🎉</div>
+            <h2 id="result-title">Kết Quả Bài Thi</h2>
+            
+            <div class="score-circle-container">
+              <div class="score-number" id="result-score-percent">85%</div>
+              <div class="score-text" id="result-score-fraction">68 / 80 câu đúng</div>
+            </div>
+
+            <div class="result-subject-breakdown" id="result-subject-breakdown">
+              <!-- Breakdown rendered via JS -->
+            </div>
+
+            <div class="result-actions">
+              <button class="btn btn-secondary" onclick="reviewExamAnswers()">Xem lại chi tiết đáp án & giải thích</button>
+              <button class="btn btn-outline" onclick="switchTab('history')">Xem lịch sử làm bài</button>
+              <button class="btn btn-primary" onclick="restartExamSelection()">Chọn đề thi khác</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- View 4: Schematic Gallery -->
+      <section class="tab-view" id="view-gallery">
+        <div class="gallery-filter-bar">
+          <button class="gallery-chip active" onclick="filterGallery('all', this)">Tất cả sơ đồ (210+)</button>
+          <button class="gallery-chip" onclick="filterGallery('electric', this)">Điện - Điện tử</button>
+          <button class="gallery-chip" onclick="filterGallery('plc', this)">PLC</button>
+          <button class="gallery-chip" onclick="filterGallery('machine', this)">Linh kiện máy</button>
+          <button class="gallery-chip" onclick="filterGallery('pneumatics', this)">Khí nén</button>
+        </div>
+
+        <div class="gallery-grid" id="schematic-gallery-grid">
+          <!-- Images rendered via JS -->
+        </div>
+      </section>
+
+      <!-- View 5: Exam History & Analytics (New Tab) -->
+      <section class="tab-view" id="view-history">
+        <div class="history-dashboard">
+          
+          <!-- History Header & Stats Cards -->
+          <div class="history-hero">
+            <div class="history-hero-info">
+              <h2>📜 Lịch Sử & Thống Kê Kỳ Thi</h2>
+              <p>Hồ sơ lưu trữ toàn bộ các lượt thi thử của thí sinh <strong id="history-user-display-name">Kỹ thuật viên WS</strong>. Theo dõi tiến độ nâng cao điểm số và phân tích điểm yếu chuyên đề.</p>
+            </div>
+            <div class="history-hero-actions">
+              <button class="btn btn-primary" onclick="switchTab('exam')">Thi thử bài mới</button>
+              <button class="btn btn-outline" onclick="exportHistoryData()">Xuất báo cáo JSON</button>
+            </div>
+          </div>
+
+          <!-- History Metric Cards -->
+          <div class="history-metrics-grid">
+            <div class="h-metric-card">
+              <div class="h-metric-icon">📝</div>
+              <div class="h-metric-info">
+                <span class="h-metric-label">Lượt thi đã làm</span>
+                <span class="h-metric-val" id="hist-total-attempts">0</span>
+              </div>
+            </div>
+
+            <div class="h-metric-card">
+              <div class="h-metric-icon">⭐</div>
+              <div class="h-metric-info">
+                <span class="h-metric-label">Điểm cao nhất</span>
+                <span class="h-metric-val highlight" id="hist-best-score">--%</span>
+              </div>
+            </div>
+
+            <div class="h-metric-card">
+              <div class="h-metric-icon">📊</div>
+              <div class="h-metric-info">
+                <span class="h-metric-label">Điểm trung bình</span>
+                <span class="h-metric-val" id="hist-avg-score">--%</span>
+              </div>
+            </div>
+
+            <div class="h-metric-card">
+              <div class="h-metric-icon">🏆</div>
+              <div class="h-metric-info">
+                <span class="h-metric-label">Tỷ lệ đạt chuẩn (≥70%)</span>
+                <span class="h-metric-val" id="hist-pass-rate">--%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Score Progression Timeline Chart -->
+          <div class="history-chart-card">
+            <div class="chart-header">
+              <h4>📈 Tiến trình điểm qua các lần thi gần nhất</h4>
+              <span class="chart-subtitle">Chuẩn đỗ White Star: 70%</span>
+            </div>
+            <div class="chart-timeline" id="history-progression-timeline">
+              <!-- Rendered dynamically -->
+            </div>
+          </div>
+
+          <!-- History Records Table -->
+          <div class="history-table-card">
+            <div class="table-header">
+              <h4>Danh Sách Các Bài Thi Đã Thực Hiện</h4>
+              <button class="btn btn-sm btn-danger-outline" onclick="confirmClearHistory()">Xóa toàn bộ lịch sử</button>
+            </div>
+            <div class="table-responsive">
+              <table class="history-table">
+                <thead>
+                  <tr>
+                    <th>STT</th>
+                    <th>Tên đề thi</th>
+                    <th>Thời gian thi</th>
+                    <th>Thời lượng</th>
+                    <th>Điểm số</th>
+                    <th>Đánh giá</th>
+                    <th>Kết quả theo môn</th>
+                    <th>Thao tác</th>
+                  </tr>
+                </thead>
+                <tbody id="history-table-body">
+                  <!-- Rows rendered via JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Image Modal Viewer -->
+  <div class="modal-overlay" id="image-modal" onclick="closeImageModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeImageModal()">✕</button>
+      <img id="modal-img" src="" alt="Enlarged schematic">
+      <div class="modal-caption" id="modal-caption"></div>
+    </div>
+  </div>
+
+  <!-- User Profile Modal -->
+  <div class="modal-overlay" id="user-profile-modal" onclick="closeUserProfileModal()">
+    <div class="modal-content modal-profile" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeUserProfileModal()">✕</button>
+      <div class="profile-modal-header">
+        <span class="modal-icon">👤</span>
+        <h3>Hồ Sơ Thí Sinh Dự Thi</h3>
+      </div>
+      <p class="modal-sub">Thông tin người học được sử dụng để cá nhân hóa lịch sử thi, lưu vết tiến độ và cấp chứng nhận kết quả.</p>
+
+      <form id="user-profile-form" onsubmit="saveUserProfile(event)">
+        <div class="form-row">
+          <label>Avatar đại diện:</label>
+          <div class="avatar-picker-grid">
+            <button type="button" class="avatar-opt active" onclick="pickAvatar('👨‍💻', this)">👨‍💻</button>
+            <button type="button" class="avatar-opt" onclick="pickAvatar('👩‍🔧', this)">👩‍🔧</button>
+            <button type="button" class="avatar-opt" onclick="pickAvatar('🧑‍🏭', this)">🧑‍🏭</button>
+            <button type="button" class="avatar-opt" onclick="pickAvatar('🧑‍🔬', this)">🧑‍🔬</button>
+            <button type="button" class="avatar-opt" onclick="pickAvatar('⚡', this)">⚡</button>
+            <button type="button" class="avatar-opt" onclick="pickAvatar('💻', this)">💻</button>
+            <button type="button" class="avatar-opt" onclick="pickAvatar('⚙️', this)">⚙️</button>
+            <button type="button" class="avatar-opt" onclick="pickAvatar('💨', this)">💨</button>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="prof-input-name">Họ và tên thí sinh:</label>
+          <input type="text" id="prof-input-name" required placeholder="Nhập họ và tên...">
+        </div>
+
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label for="prof-input-code">Mã học viên / SBD:</label>
+            <input type="text" id="prof-input-code" required placeholder="Ví dụ: WS-2026-001">
+          </div>
+          <div class="form-group">
+            <label for="prof-input-dept">Bộ phận / Đơn vị:</label>
+            <input type="text" id="prof-input-dept" placeholder="Ví dụ: Kỹ thuật sản xuất">
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <button type="button" class="btn btn-secondary" onclick="closeUserProfileModal()">Đóng</button>
+          <button type="submit" class="btn btn-primary">Lưu thông tin</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Exam Review Detail Modal -->
+  <div class="modal-overlay" id="exam-review-modal" onclick="closeExamReviewModal()">
+    <div class="modal-content modal-review-large" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeExamReviewModal()">✕</button>
+      <div class="review-modal-header">
+        <div>
+          <h3 id="review-modal-title">Xem Lại Chi Tiết Bài Thi</h3>
+          <span class="modal-sub" id="review-modal-meta">Đề thi • Ngày thi</span>
+        </div>
+        <div class="review-score-tag" id="review-modal-score">85% (68/80 câu)</div>
+      </div>
+
+      <div class="review-question-stream" id="review-modal-questions-stream">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <div class="review-modal-footer">
+        <button class="btn btn-primary" onclick="closeExamReviewModal()">Đóng xem lại</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bundled data scripts for 100% offline & zero-dependency execution (No Python/Node required) -->
+  <script src="data/summary.js"></script>
+  <script src="data/questions_master.js"></script>
+  <script src="data/mock_exams.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

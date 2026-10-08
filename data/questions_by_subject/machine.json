@@ -1,0 +1,4246 @@
+[
+  {
+    "id": "WS_MCH_001",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Dễ",
+    "question_number": 1,
+    "question": "Trong bảng tiêu chuẩn công nghiệp. Vậy đâu là ký hiệu tiêu chuẩn công nghiệp của Quốc tế?",
+    "options": [
+      {
+        "key": "A",
+        "text": "BS"
+      },
+      {
+        "key": "B",
+        "text": "ISO"
+      },
+      {
+        "key": "C",
+        "text": "JIS"
+      },
+      {
+        "key": "D",
+        "text": "ANSI"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Tiêu chuẩn kỹ thuật & Bản vẽ JIS",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Tiêu chuẩn kỹ thuật & Bản vẽ JIS** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "ISO",
+      "why_correct": "ISO (International Organization for Standardization) là Tổ chức Tiêu chuẩn hóa Quốc tế độc lập, phi chính phủ bao gồm các cơ quan tiêu chuẩn quốc gia của hơn 160 quốc gia trên toàn thế giới.",
+      "why_wrong": "BS (British Standards) là tiêu chuẩn quốc gia của Vương quốc Anh; JIS (Japanese Industrial Standards) là tiêu chuẩn công nghiệp của Nhật Bản; ANSI (American National Standards Institute) là viện tiêu chuẩn quốc gia Hoa Kỳ.",
+      "supplementary_knowledge": "💡 **Hệ thống tiêu chuẩn công nghiệp:** ISO: Toàn cầu; JIS: Nhật Bản; KS: Hàn Quốc; DIN: Đức; ASTM/ANSI: Hoa Kỳ; TCVN: Việt Nam."
+    }
+  },
+  {
+    "id": "WS_MCH_002",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Dễ",
+    "question_number": 2,
+    "question": "Trong tiêu chuẩn công nghiệp của Hàn Quốc có bao nhiêu ngành nghề?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "15"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "25"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Tiêu chuẩn kỹ thuật & Bản vẽ JIS",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Tiêu chuẩn kỹ thuật & Bản vẽ JIS** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "20",
+      "why_correct": "Theo hệ thống Tiêu chuẩn Công nghiệp Hàn Quốc (KS - Korean Industrial Standards), các tiêu chuẩn kỹ thuật được phân chia thành đúng 20 lĩnh vực ngành nghề chuyên biệt, được ký hiệu bằng các chữ cái từ KS A đến KS X (loại trừ một số chữ cái đặc thù).",
+      "why_wrong": "10, 15, 25 là các con số phân nhóm không chính xác theo bảng danh mục mã hóa tiêu chuẩn KS của Cơ quan Tiêu chuẩn và Công nghệ Hàn Quốc (KATS).",
+      "supplementary_knowledge": "💡 **Ví dụ phân nhóm KS:** KS A: Cơ sở chung; KS B: Cơ khí chế tạo máy; KS C: Điện & Điện tử; KS D: Luyện kim; KS M: Hóa chất."
+    }
+  },
+  {
+    "id": "WS_MCH_003",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Dễ",
+    "question_number": 3,
+    "question": "Mặt tiếp xúc nào có khả năng xoay tròn của 2 linh kiện máy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mặt tiếp xúc xoắn ốc"
+      },
+      {
+        "key": "B",
+        "text": "Mặt tiếp xúc xoay"
+      },
+      {
+        "key": "C",
+        "text": "Mặt tiếp xúc tròn"
+      },
+      {
+        "key": "D",
+        "text": "Mặt tiếp xúc trượt"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Máy móc và linh kiện trục",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Máy móc và linh kiện trục** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Mặt tiếp xúc tròn",
+      "why_correct": "Mặt tiếp xúc hình trụ tròn (Cylindrical Surface Contact / Mặt tiếp xúc tròn) cho phép hai bề mặt kim loại ôm khít nhau tạo thành khớp quay (Revolute Pair), cho phép chi tiết trục quay trơn tru quanh đường tâm trục cố định bên trong lỗ ổ trục.",
+      "why_wrong": "Mặt tiếp xúc trượt chỉ cho phép tịnh tiến dọc trục; Mặt tiếp xúc xoắn ốc biến chuyển động quay thành tịnh tiến (như bu lông - đai ốc); Mặt tiếp xúc xoay là tên gọi chung của khớp động học.",
+      "supplementary_knowledge": "💡 **Cặp tiếp xúc động học:** Mặt trụ tròn là cặp tiếp xúc bậc 5 có 1 bậc tự do quay và 1 bậc tự do trượt; khi chặn hướng trục chỉ còn 1 bậc tự do quay tròn."
+    }
+  },
+  {
+    "id": "WS_MCH_004",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Dễ",
+    "question_number": 4,
+    "question": "Thông thường hay sử dụng loại trục nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Trục rỗng"
+      },
+      {
+        "key": "B",
+        "text": "Trục cạnh"
+      },
+      {
+        "key": "C",
+        "text": "Trục linh hoạt"
+      },
+      {
+        "key": "D",
+        "text": "Trục đặc"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Trục đặc",
+      "why_correct": "Trong thiết kế chế tạo máy thông dụng, Trục đặc (Solid Shaft) được sử dụng phổ biến nhất vì quy trình chế tạo đơn giản (tiện từ phôi thép tròn cán nóng tiêu chuẩn), chi phí vật liệu và gia công thấp, khả năng chịu uốn và chịu xoắn đồng đều trên toàn bộ tiết diện.",
+      "why_wrong": "Trục rỗng (Hollow shaft) chỉ dùng cho các ứng dụng đòi hỏi giảm trọng lượng tối đa hoặc truyền chất lỏng bên trong; Trục cạnh (Spline/Square shaft) dùng khi cần truyền mô-men cực lớn; Trục linh hoạt (Flexible shaft) dùng truyền chuyển động uốn cong.",
+      "supplementary_knowledge": "💡 **So sánh trục đặc và trục rỗng:** Ở cùng một đường kính ngoài d, trục đặc chịu mô-men xoắn lớn hơn; nhưng ở cùng khối lượng kim loại, trục rỗng lại có mô-men kháng xoắn Wp cao hơn."
+    }
+  },
+  {
+    "id": "WS_MCH_005",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Dễ",
+    "question_number": 5,
+    "question": "Hình ảnh dưới đây đang thể hiện khi lắp ghép dung sai nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lắp khít"
+      },
+      {
+        "key": "B",
+        "text": "Lắp chặt"
+      },
+      {
+        "key": "C",
+        "text": "Lắp lỏng"
+      },
+      {
+        "key": "D",
+        "text": "Lắp độ dôi"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/machine/q_005.png"
+    ],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Tiêu chuẩn kỹ thuật & Bản vẽ JIS",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Tiêu chuẩn kỹ thuật & Bản vẽ JIS** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Lắp lỏng",
+      "why_correct": "Hình ảnh thể hiện miền dung sai của lỗ (Hole) luôn nằm hoàn toàn phía trên miền dung sai của trục (Shaft), nghĩa là kích thước giới hạn nhỏ nhất của lỗ vẫn lớn hơn kích thước giới hạn lớn nhất của trục. Mối lắp luôn có khe hở dương (Clearance > 0), do đó đây là kiểu Lắp lỏng (Clearance Fit).",
+      "why_wrong": "Lắp chặt / Lắp độ dôi (Interference fit): kích thước trục luôn lớn hơn lỗ; Lắp khít / Lắp trung gian (Transition fit): miền dung sai của trục và lỗ giao nhau, có thể xuất hiện khe hở hoặc độ dôi.",
+      "supplementary_knowledge": "💡 **Ký hiệu dung sai lắp lỏng chuẩn JIS:** Lỗ H7 kết hợp trục f6, g6, h6. Dùng cho các ổ trượt, trục quay tự do hoặc piston trong xi lanh."
+    }
+  },
+  {
+    "id": "WS_MCH_006",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Dễ",
+    "question_number": 6,
+    "question": "Tên gọi hướng của vòng bị trong hình sau?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Radial bearing(hướng tâm)"
+      },
+      {
+        "key": "B",
+        "text": "Thrust bearing (hướng dọc trục)"
+      },
+      {
+        "key": "C",
+        "text": "Taper bearing (Vòng bi tổng hợp )"
+      },
+      {
+        "key": "D",
+        "text": "Vòng bi Magneto(Magneto ball bearing"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/machine/q_006.png"
+    ],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Máy móc và linh kiện trục",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Máy móc và linh kiện trục** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Radial bearing(hướng tâm)",
+      "why_correct": "Vòng bi hướng tâm (Radial Bearing / Ổ đỡ hướng tâm) là loại vòng bi được thiết kế với phương tiếp xúc giữa các viên bi/con lăn vuông góc với đường tâm trục (hoặc góc tiếp xúc α < 45°), chuyên dùng để gánh tải trọng tác dụng vuông góc với đường trục quay.",
+      "why_wrong": "Thrust bearing (Ổ lăn chặn) gánh tải trọng song song dọc theo trục; Taper bearing (Ổ lăn côn) chịu lực hỗn hợp; Magneto ball bearing là vòng bi rãnh sâu có một gờ mở tháo rời được.",
+      "supplementary_knowledge": "💡 **Quy tắc phân loại vòng bi theo hướng tải:** Góc tiếp xúc α = 0°: Vòng bi thuần hướng tâm (Radial); 0° < α ≤ 45°: Vòng bi tiếp xúc góc (Angular contact); 45° < α ≤ 90°: Vòng bi chặn hướng trục (Thrust)."
+    }
+  },
+  {
+    "id": "WS_MCH_007",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Trung bình",
+    "question_number": 7,
+    "question": "Hình ảnh dưới dây là của mặt tiết xúc nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mặt tiếp xúc trượt"
+      },
+      {
+        "key": "B",
+        "text": "Mặt tiếp xúc xoắn ốc"
+      },
+      {
+        "key": "C",
+        "text": "Mặt tiếp xúc xoay"
+      },
+      {
+        "key": "D",
+        "text": "Mặt tiếp xúc tròn"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/machine/q_007.jpg"
+    ],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Máy móc và linh kiện trục",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Máy móc và linh kiện trục** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Mặt tiếp xúc xoay",
+      "why_correct": "Hình ảnh mô tả mối nối liên kết có bậc tự do xoay quanh một trục cố định, cho phép góc nghiêng giữa hai khâu thay đổi linh hoạt - đây là Mặt tiếp xúc xoay (Revolute Contact / Khớp xoay bản lề).",
+      "why_wrong": "Mặt tiếp xúc trượt chỉ cho phép trượt tịnh tiến theo đường thẳng; Mặt tiếp xúc xoắn ốc ép chuyển động theo đường ren ốc.",
+      "supplementary_knowledge": "💡 **Ứng dụng khớp xoay:** Gặp trong các cánh tay đòn robot, thanh truyền tay quay của động cơ đốt trong, cơ cấu đòn bẩy kẹp giữ."
+    }
+  },
+  {
+    "id": "WS_MCH_008",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Trung bình",
+    "question_number": 8,
+    "question": "Trục nào cần phải quan tâm đến cả độ mài mòn bên trong?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Spindl"
+      },
+      {
+        "key": "B",
+        "text": "Arbor"
+      },
+      {
+        "key": "C",
+        "text": "Transmission"
+      },
+      {
+        "key": "D",
+        "text": "Axle"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Arbor",
+      "why_correct": "Trục gá dao (Arbor - Trục gá máy phay) là trục truyền động lắp các dao phay đĩa, dao phay trụ có lỗ. Do bề mặt lỗ bên trong của dao tiếp xúc và ma sát trượt liên tục với thân trục dưới tải trọng cắt gọt rung động lớn, người vận hành bắt buộc phải quan tâm đến độ mòn bề mặt bên trong lỗ tiếp xúc và thân trục.",
+      "why_wrong": "Spindle là trục chính mang đầu kẹp dao/phôi quay tốc độ cao; Axle là trục tâm tĩnh chỉ chịu uốn (như trục bánh xe tải); Transmission là trục truyền động chung.",
+      "supplementary_knowledge": "💡 **Bảo trì Arbor:** Phải thường xuyên vệ sinh sạch phoi vụn, bôi lớp màng dầu mỏng chống rỉ và kiểm tra độ đảo độ côn (Runout) bằng đồng hồ so."
+    }
+  },
+  {
+    "id": "WS_MCH_009",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Trung bình",
+    "question_number": 9,
+    "question": "Thép nào mà việc tăng hàm lượng tác động đến việc tăng độ cứng, độ bền hay là giảm tỷ lệ giãn dài, tỷ lệ co lại của thép?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thép Molybdeum"
+      },
+      {
+        "key": "B",
+        "text": "Thép Crom"
+      },
+      {
+        "key": "C",
+        "text": "Thép Niken"
+      },
+      {
+        "key": "D",
+        "text": "Thép Cacbon"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Máy móc và linh kiện trục",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Máy móc và linh kiện trục** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Thép Cacbon",
+      "why_correct": "Trong Thép Cacbon (Carbon Steel), nguyên tố Cacbon (C) là nhân tố quyết định cơ tính: Khi tăng hàm lượng %C, độ cứng (Hardness) và giới hạn bền kéo (Tensile strength) của thép tăng vọt, nhưng ngược lại độ dẻo, tỷ lệ giãn dài tương đối (Elongation) và độ dai va đập sẽ bị suy giảm rõ rệt.",
+      "why_wrong": "Molybden, Crom, Niken là các nguyên tố hợp kim hóa đặc biệt trong thép hợp kim, giá thành đắt, không phải thép cacbon thông dụng.",
+      "supplementary_knowledge": "💡 **Phân nhóm thép cacbon theo %C:** Thép cacbon thấp (C < 0.25%: dẻo, dễ dập hàn); Thép cacbon trung bình (0.25% - 0.6% C như S45C: độ bền cơ tính tối ưu làm trục, then); Thép cacbon cao (C > 0.6%: rất cứng, làm dao cắt, lò xo)."
+    }
+  },
+  {
+    "id": "WS_MCH_010",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Trung bình",
+    "question_number": 10,
+    "question": "Phân loại về hướng tải trọng. Vậy khi trục chịu tác động của tải trọng theo hướng dọc trục là?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thrust bearing"
+      },
+      {
+        "key": "B",
+        "text": "Radial bearing"
+      },
+      {
+        "key": "C",
+        "text": "Tapper bearing"
+      },
+      {
+        "key": "D",
+        "text": "Flexible bearing"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Thrust bearing",
+      "why_correct": "Khi một trục quay phải chịu tác động chủ yếu của lực nén hoặc lực kéo tác dụng song song dọc theo phương đường tâm trục (Axial load), ổ đỡ chuyên dụng bắt buộc phải dùng là Ổ lăn chặn (Thrust Bearing / Vòng bi tỳ dọc trục).",
+      "why_wrong": "Radial bearing chỉ chịu lực hướng tâm vuông góc trục; Flexible bearing là vòng bi biến dạng trong hộp số Harmonic.",
+      "supplementary_knowledge": "💡 **Cấu tạo Thrust Ball Bearing:** Gồm 2 vòng đệm (vòng ôm khít trục và vòng lắp lỏng vào thân gối) kẹp giữa là vòng cách giữ các viên bi cầu, không thể chịu được lực vuông góc trục."
+    }
+  },
+  {
+    "id": "WS_MCH_011",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Trung bình",
+    "question_number": 11,
+    "question": "Coupling nào mặt ngoài hình tròn và bên trong có một lỗ tròn. Mặt ngoài được gắn 3 bolt dài và sau đó được cố định bằng feather key?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Clamp Coupling"
+      },
+      {
+        "key": "B",
+        "text": "Seller’s Coupling"
+      },
+      {
+        "key": "C",
+        "text": "Muff coupling"
+      },
+      {
+        "key": "D",
+        "text": "Universal Coupling"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Seller’s Coupling",
+      "why_correct": "Khớp nối Seller (Seller's Coupling / Khớp nối nón côn kép) có vỏ ngoài hình trụ tròn, bên trong chứa 2 ống lót côn xẻ rãnh đối xứng kẹp chặt lấy 2 đầu trục. Mặt ngoài của khớp nối có 3 bu lông dài siết kéo 2 ống côn ép sát vào trục và được cố định chống xoay bằng then bán nguyệt hoặc then bằng (Feather key).",
+      "why_wrong": "Clamp Coupling chỉ dùng 2 nửa vỏ bán nguyệt kẹp bu lông ngang; Muff coupling là một ống trụ nguyên khối; Universal Coupling là khớp các-đăng chuyển góc.",
+      "supplementary_knowledge": "💡 **Ưu điểm Seller's Coupling:** Nhờ bề mặt côn ép chặt nên lực kẹp ma sát rất lớn, tự định tâm tốt và truyền được mô-men xoắn mạnh mà không làm trầy xước trục."
+    }
+  },
+  {
+    "id": "WS_MCH_012",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Trung bình",
+    "question_number": 12,
+    "question": "Điều gì sau đây không phải là đặc điểm của Spindle ( con quay )?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đồng thời có thể chuyển động đặc biệt."
+      },
+      {
+        "key": "B",
+        "text": "Biến hóa lượng cực nhỏ, hình thái và chỉ số chính xác."
+      },
+      {
+        "key": "C",
+        "text": "Quay tốc độ cao khoảng 10000 rpm ( vòng/phút )."
+      },
+      {
+        "key": "D",
+        "text": "Thường ở trục chính của máy và trục Tua Bin."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Máy móc và linh kiện trục",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Máy móc và linh kiện trục** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Đồng thời có thể chuyển động đặc biệt.",
+      "why_correct": "Phát biểu 'Đồng thời có thể chuyển động đặc biệt' là SAI khi nói về Trục chính Spindle. Trục chính Spindle máy CNC là cơ cấu quay định hướng siêu chính xác, chỉ có duy nhất một chuyển động quay tròn quanh tâm với độ đảo cực nhỏ, không có chuyển động tự do bất thường.",
+      "why_wrong": "B, C, D đều là các đặc tính kỹ thuật vượt trội của Spindle: quay tốc độ cực cao (từ 10.000 đến 40.000 rpm), độ đảo và biến dạng nhiệt cực nhỏ cỡ micromét, thường đặt tại trục chính máy phay tiện CNC hoặc tua-bin.",
+      "supplementary_knowledge": "💡 **Ổ đỡ Spindle:** Để quay 10.000 - 30.000 rpm, Spindle máy CNC sử dụng các ổ bi gốm tiếp xúc góc siêu chính xác (Ceramic Angular Contact Bearings cấp chính xác P4 hoặc P2) kết hợp làm mát bằng dầu hồi chuyển."
+    }
+  },
+  {
+    "id": "WS_MCH_013",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Trung bình",
+    "question_number": 13,
+    "question": "Loại khớp nối nào dùng khi hai đường trục song song?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Oldhams Coupling"
+      },
+      {
+        "key": "B",
+        "text": "Universal Coupling"
+      },
+      {
+        "key": "C",
+        "text": "Muff Coupling"
+      },
+      {
+        "key": "D",
+        "text": "Coupling Rigid"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Oldhams Coupling",
+      "why_correct": "Khớp nối Oldham (Oldham's Coupling) là loại khớp nối bù trục chuyên dụng dùng khi hai đường tâm trục hoàn toàn song song với nhau nhưng bị lệch tâm một khoảng nhỏ (Radial Misalignment). Khớp gồm hai bích gắn trên hai đầu trục và một đĩa đệm chữ thập ở giữa trượt tự do trong các rãnh vuông góc.",
+      "why_wrong": "Universal Coupling (Khớp các-đăng) dùng cho hai trục giao nhau tạo góc nghiêng lớn; Muff Coupling và Rigid Coupling chỉ dùng khi hai trục đồng tâm tuyệt đối.",
+      "supplementary_knowledge": "💡 **Đặc tính truyền động Oldham:** Vận tốc góc truyền qua khớp nối Oldham luôn được giữ đồng tốc 1:1 tuyệt đối giữa trục chủ động và trục bị động."
+    }
+  },
+  {
+    "id": "WS_MCH_014",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Trung bình",
+    "question_number": 14,
+    "question": "Tên gọi Coupling có dạng mặt bích là?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Muff Coupling"
+      },
+      {
+        "key": "B",
+        "text": "Coupling Rigid"
+      },
+      {
+        "key": "C",
+        "text": "Flange Coupling"
+      },
+      {
+        "key": "D",
+        "text": "Coupling Clamp"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Flange Coupling",
+      "why_correct": "Khớp nối có cấu tạo dạng hai mặt bích tròn bằng gang hoặc thép được định vị then trên hai đầu trục rồi ghép chặt lại với nhau bằng một vòng các bu lông đai ốc siết quanh chu vi được gọi là Khớp nối bích (Flange Coupling).",
+      "why_wrong": "Muff coupling dùng ống bọc; Coupling Rigid là tên gọi chung của nhóm khớp nối cứng; Clamp coupling là khớp kẹp chẻ đôi.",
+      "supplementary_knowledge": "💡 **Tiêu chuẩn Flange Coupling:** Theo tiêu chuẩn JIS B 1451, bu lông nối bích thường sử dụng bu lông định vị có thân mài chính xác (Reamed Bolt) để chịu lực cắt mô-men xoắn."
+    }
+  },
+  {
+    "id": "WS_MCH_015",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Trung bình",
+    "question_number": 15,
+    "question": "Là loại Coupling có cầu tạo vòng ngoài bằng 2 tấm thép đúc hình bán nguyệt, gõ và kéo căng để đóng vào hai đầu Ring thép mềm?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Oldhams Coupling"
+      },
+      {
+        "key": "B",
+        "text": "Muff Coupling"
+      },
+      {
+        "key": "C",
+        "text": "Coupling Clamp"
+      },
+      {
+        "key": "D",
+        "text": "Coupling Rigid"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Muff Coupling",
+      "why_correct": "Khớp nối ống bọc chẻ (Muff / Split Muff Coupling) có cấu tạo vỏ ngoài gồm hai nửa tấm thép đúc hình bán nguyệt ôm lấy hai đầu trục, sau đó đóng siết chặt bằng bu lông hoặc đai vòng giữ.",
+      "why_wrong": "Oldhams Coupling dùng đĩa trượt chữ thập; Coupling Rigid là danh từ chung; Coupling Clamp có vít kẹp trực tiếp.",
+      "supplementary_knowledge": "💡 **Tiện ích:** Có thể tháo lắp và sửa chữa Muff Coupling mà không cần phải dịch chuyển vị trí của hai động cơ hoặc hộp số."
+    }
+  },
+  {
+    "id": "WS_MCH_016",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Trung bình",
+    "question_number": 16,
+    "question": "Là Coupling được sử dụng cao su, da, dây xích để giảm tác động rung của truyền động của mômen, hay khi khó hợp nhất trọng tâm hai trục?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Coupling-D"
+      },
+      {
+        "key": "B",
+        "text": "Seller’s Coupling"
+      },
+      {
+        "key": "C",
+        "text": "Flexible Coupling"
+      },
+      {
+        "key": "D",
+        "text": "Cả A và B"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Flexible Coupling",
+      "why_correct": "Khớp nối mềm / Khớp nối đàn hồi (Flexible Coupling) sử dụng các phần tử đàn hồi phi kim loại (như đệm cao su hoa thị, đĩa polyurethane, đai da hoặc xích con lăn) xen giữa hai nửa khớp để hấp thụ rung động xoắn, giảm va đập mô-men khi khởi động và bù trừ cho các sai lệch nhỏ về góc nghiêng hay độ lệch tâm giữa hai trục.",
+      "why_wrong": "Seller's coupling và Rigid coupling là các khớp nối cứng tuyệt đối, không có khả năng giảm chấn đàn hồi.",
+      "supplementary_knowledge": "💡 **Các loại Flexible Coupling phổ biến:** Khớp nối hàm đệm cao su Jaw/Spider, khớp nối đĩa kim loại Disc coupling, khớp nối lốp cao su Tire coupling."
+    }
+  },
+  {
+    "id": "WS_MCH_017",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Trung bình",
+    "question_number": 17,
+    "question": "Cho số ký hiệu vòng bi dưới đây. Vậy đáp án nào không phải cách gọi của nó?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Số hiệu ký hiệu"
+      },
+      {
+        "key": "B",
+        "text": "Đường kính trong là 8mm"
+      },
+      {
+        "key": "C",
+        "text": "Ký hiệu khe hở"
+      },
+      {
+        "key": "D",
+        "text": "Độ chính xác gia công"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/machine/q_017.png"
+    ],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Vòng bi & Ổ đỡ (Bearing)",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Vòng bi & Ổ đỡ (Bearing)** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Đường kính trong là 8mm",
+      "why_correct": "Đối với ký hiệu mã vòng bi tiêu chuẩn JIS/ISO (ví dụ vòng bi 6204): Hai chữ số cuối '04' quy định đường kính trong của vòng bi là: d = 04 × 5 = 20 mm. Do đó, cách gọi 'Đường kính trong là 8mm' là ĐÁP ÁN SAI (không phải cách gọi của ký hiệu này).",
+      "why_wrong": "A (Số hiệu ký hiệu vòng bi), C (Ký hiệu khe hở hướng tâm như C3, C4) và D (Cấp chính xác gia công như P0, P6, P5) đều là các thành phần cấu thành chuẩn trong chuỗi mã hiệu vòng bi lăn.",
+      "supplementary_knowledge": "💡 **Quy tắc đọc đường kính trong (d) vòng bi:** Mã 00: d = 10mm; Mã 01: d = 12mm; Mã 02: d = 15mm; Mã 03: d = 17mm; Từ mã 04 trở đi: d = (Hai số cuối) × 5 mm."
+    }
+  },
+  {
+    "id": "WS_MCH_018",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Trung bình",
+    "question_number": 18,
+    "question": "Hình ảnh của vòng bi sau đây có tên gọi là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Angular ball bearing"
+      },
+      {
+        "key": "B",
+        "text": "Self-aligning"
+      },
+      {
+        "key": "C",
+        "text": "Single row deep groove"
+      },
+      {
+        "key": "D",
+        "text": "Magneto ball bearing"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/machine/q_018.png"
+    ],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Vòng bi & Ổ đỡ (Bearing)",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Vòng bi & Ổ đỡ (Bearing)** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Single row deep groove",
+      "why_correct": "Hình ảnh thể hiện kết cấu của Vòng bi cầu đỡ một dãy rãnh sâu (Single Row Deep Groove Ball Bearing - sê-ri 6000, 6200, 6300). Đây là loại vòng bi phổ biến nhất trong cơ khí, gồm các viên bi cầu lăn trên rãnh sâu của vòng trong và vòng ngoài.",
+      "why_wrong": "Angular ball bearing có rãnh lệch góc; Self-aligning có 2 dãy bi tự lựa trên mặt cầu; Magneto bearing có thể tháo rời một vai chặn.",
+      "supplementary_knowledge": "💡 **Ưu điểm Deep Groove:** Chịu tải hướng tâm tốt, chịu được một phần tải dọc trục nhẹ hai chiều, vận hành êm ở tốc độ quay rất cao và giá thành rẻ nhất."
+    }
+  },
+  {
+    "id": "WS_MCH_019",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Trung bình",
+    "question_number": 19,
+    "question": "Là loại Muff Coupling cải tiến?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Coupling Rigid"
+      },
+      {
+        "key": "B",
+        "text": "Flexible Coupling"
+      },
+      {
+        "key": "C",
+        "text": "Seller’s Coupling"
+      },
+      {
+        "key": "D",
+        "text": "Flange Coupling"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Seller’s Coupling",
+      "why_correct": "Khớp nối Seller (Seller’s Coupling) được thiết kế và phát triển chính là dạng cải tiến tối ưu hóa của Khớp nối ống bọc (Muff Coupling): thay vì chỉ kẹp ma sát hình trụ đơn giản, Seller's Coupling sử dụng hai ống lót côn đôi tạo hiệu ứng nêm chêm nón ép chặt trục khi siết 3 bu lông.",
+      "why_wrong": "Flange coupling là khớp bích; Flexible coupling là khớp đàn hồi.",
+      "supplementary_knowledge": "💡 **Hiệu ứng nêm côn:** Lực ép dọc trục của bu lông được nhân lên nhiều lần thành lực hướng tâm ôm chặt lấy trục, loại bỏ hoàn toàn hiện tượng trượt trơn."
+    }
+  },
+  {
+    "id": "WS_MCH_020",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Trung bình",
+    "question_number": 20,
+    "question": "Khi ghép cặp đôi của vòng bi. Vậy hình nào sau đây mục đích được ghép để chịu tải trọng lớn của một bên trục?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A / Hình A (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B / Hình B (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C / Hình C (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D / Hình D (Xem sơ đồ minh họa)"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/machine/q_020.png"
+    ],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Vòng bi & Ổ đỡ (Bearing)",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Vòng bi & Ổ đỡ (Bearing)** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Đáp án D / Hình D (Xem sơ đồ minh họa)",
+      "why_correct": "Khi ghép cặp đôi các vòng bi tiếp xúc góc (Angular Contact Ball Bearings), phương án ghép nối tiếp / song song (Tandem Arrangement - ký hiệu DT - Hình D) cho phép hai vòng bi có đường tác dụng lực song song với nhau, cùng chia sẻ tải trọng để chịu được tải trọng hướng trục cực lớn theo MỘT HƯỚNG.",
+      "why_wrong": "Ghép lưng đối lưng (DB) và ghép mặt đối mặt (DF) dùng để gánh tải trọng hướng trục từ cả HAI PHÍA ngược nhau hoặc chịu mô-men lật.",
+      "supplementary_knowledge": "💡 **Ký hiệu ghép cặp đôi vòng bi:** DB (Back-to-Back: chữ O, độ cứng vững lật cao); DF (Face-to-Face: chữ X, tự lựa tốt); DT (Tandem: hai mũi tên cùng hướng, tải trọng dọc trục một chiều siêu lớn)."
+    }
+  },
+  {
+    "id": "WS_MCH_021",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Trung bình",
+    "question_number": 21,
+    "question": "Đâu không phải đặc điểm của vòng bi Angular ball bearing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bearing có tính chuẩn xác cao và tốc độ quay lớn"
+      },
+      {
+        "key": "B",
+        "text": "So với loại tiêu chuẩn vòng bi một rãnh sâu thì có khả năng chịu tải cao hơn."
+      },
+      {
+        "key": "C",
+        "text": "Là hình thái đại diện cho Rolling Bearing và có mục đích sử dụng rộng."
+      },
+      {
+        "key": "D",
+        "text": "Có thể chịu tải trong theo hướng dọc trục."
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Vòng bi & Ổ đỡ (Bearing)",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Vòng bi & Ổ đỡ (Bearing)** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Là hình thái đại diện cho Rolling Bearing và có mục đích sử dụng rộng.",
+      "why_correct": "Đặc điểm 'Là hình thái đại diện cho Rolling Bearing và có mục đích sử dụng rộng' KHÔNG PHẢI là đặc tính của vòng bi tiếp xúc góc (Angular Ball Bearing), mà đây là định nghĩa chuẩn của Vòng bi cầu rãnh sâu một dãy (Deep Groove Ball Bearing).",
+      "why_wrong": "A, B, D đều là các ưu điểm chính xác của Angular Contact Ball Bearing: cấp chính xác cao và quay tốc độ lớn, khả năng chịu tải trọng hướng kính và hướng trục cao hơn nhiều so với vòng bi rãnh sâu tiêu chuẩn nhờ có góc tiếp xúc (15°, 25°, 30°, hoặc 40°).",
+      "supplementary_knowledge": "💡 **Góc tiếp xúc α:** Vòng bi góc tiếp xúc 40° (ký hiệu B) chịu tải dọc trục lớn; vòng bi góc tiếp xúc 15° (ký hiệu C) chuyên dùng cho trục chính Spindle tốc độ cao."
+    }
+  },
+  {
+    "id": "WS_MCH_022",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Khó",
+    "question_number": 22,
+    "question": "Khi đường kính trục quá lớn hay cần loại trục nhẹ, người ta sẽ sử dụng trục nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Solid Shaft"
+      },
+      {
+        "key": "B",
+        "text": "Hollow Shaft"
+      },
+      {
+        "key": "C",
+        "text": "Square"
+      },
+      {
+        "key": "D",
+        "text": "Hexagonal"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Hollow Shaft",
+      "why_correct": "Khi đường kính trục truyền động quá lớn hoặc trong các ứng dụng hàng không, ô tô, robot đòi hỏi trục phải có trọng lượng nhẹ để giảm mô-men quán tính quay, kỹ sư sẽ sử dụng Trục rỗng (Hollow Shaft).",
+      "why_wrong": "Solid shaft là trục đặc (nặng hơn đáng kể); Square là trục vuông; Hexagonal là trục lục giác.",
+      "supplementary_knowledge": "💡 **Tối ưu hóa hình học:** Ứng suất xoắn lớn nhất tập trung ở lớp vỏ ngoài của trục, phần lõi kim loại sát tâm chịu lực rất ít. Khoét rỗng tâm giúp giảm 50% trọng lượng nhưng độ bền xoắn chỉ giảm khoảng 10% - 15%."
+    }
+  },
+  {
+    "id": "WS_MCH_023",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Khó",
+    "question_number": 23,
+    "question": "Hình ảnh của khớp nối của hình dưới đây được gọi là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Flange Coupling"
+      },
+      {
+        "key": "B",
+        "text": "Coupling cao su"
+      },
+      {
+        "key": "C",
+        "text": "Gear Coupling"
+      },
+      {
+        "key": "D",
+        "text": "Serration Coupling"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/machine/q_023.png"
+    ],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Flange Coupling",
+      "why_correct": "Hình ảnh thể hiện khớp nối cứng gồm hai đĩa bích tròn có vành bắt bu lông định vị xung quanh - đây là Khớp nối bích (Flange Coupling).",
+      "why_wrong": "Coupling cao su có vấu đệm đàn hồi; Gear coupling có răng trong ăn khớp răng ngoài; Serration coupling có then hoa tam giác nhuyễn.",
+      "supplementary_knowledge": "💡 **Kiểm tra lắp ráp Flange Coupling:** Phải siết bu lông đối xứng chéo cánh cung theo lực siết (Torque) tiêu chuẩn bằng cần xiết lực để tránh làm vênh mặt bích gây đảo trục."
+    }
+  },
+  {
+    "id": "WS_MCH_024",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "1. Máy móc và linh kiện trục",
+    "difficulty": "Khó",
+    "question_number": 24,
+    "question": "Đâu không phải \"Khoản mục cần chú ý khi thiết kế nối trục\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Độ lớn của lực truyền động"
+      },
+      {
+        "key": "B",
+        "text": "Phương sai của trọng tâm trục"
+      },
+      {
+        "key": "C",
+        "text": "Tốc độ quay của trục"
+      },
+      {
+        "key": "D",
+        "text": "Góc tiếp xúc của trục"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Góc tiếp xúc của trục",
+      "why_correct": "Trong các thông số kỹ thuật thiết kế khớp nối trục, 'Góc tiếp xúc của trục' KHÔNG PHẢI là hạng mục cần chú ý (vì trục cơ khí thông thường là hình trụ tròn đồng tâm, không có góc tiếp xúc như ổ bi).",
+      "why_wrong": "A (Độ lớn của mô-men lực truyền động), B (Độ lệch phương sai của trọng tâm hai trục - Misalignment) và C (Tốc độ quay của trục - RPM) là 3 yếu tố cốt tử bắt buộc phải tính toán khi chọn khớp nối.",
+      "supplementary_knowledge": "💡 **3 dạng lệch tâm khi nối trục:** Lệch tâm song song (Radial offset); Lệch góc (Angular misalignment); Lệch dịch dọc trục (Axial displacement)."
+    }
+  },
+  {
+    "id": "WS_MCH_025",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Dễ",
+    "question_number": 25,
+    "question": "Khoảng cách dịch chuyển được khi xoay đinh ốc một vòng gọi là?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đường kính ngoài đinh ốc"
+      },
+      {
+        "key": "B",
+        "text": "Pitch"
+      },
+      {
+        "key": "C",
+        "text": "Lead"
+      },
+      {
+        "key": "D",
+        "text": "Đường kính vòng chân đinh ốc"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Kết nối các thành phần",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Kết nối các thành phần** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Lead",
+      "why_correct": "Khoảng cách mà đai ốc dịch chuyển tịnh tiến dọc trục được khi xoay đinh ốc trọn vẹn một vòng (360°) được định nghĩa là Bước tiến (Lead / Ký hiệu L).",
+      "why_wrong": "Pitch (Bước ren P) là khoảng cách giữa hai đỉnh ren kề nhau. Với ren 1 đầu mối thì Lead = Pitch, nhưng với ren nhiều đầu mối thì Lead = n × Pitch.",
+      "supplementary_knowledge": "💡 **Công thức liên hệ:** Lead = n × Pitch (trong đó n là số đầu mối ren). Đinh ốc 2 đầu mối có bước ren 3mm thì khi quay 1 vòng sẽ tịnh tiến được bước tiến Lead = 2 × 3 = 6 mm."
+    }
+  },
+  {
+    "id": "WS_MCH_026",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Dễ",
+    "question_number": 26,
+    "question": "Chốt Pin nào dùng để nối xích xe đạp?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chốt bình hành(parallel pin)"
+      },
+      {
+        "key": "B",
+        "text": "Chốt côn(taper pin)"
+      },
+      {
+        "key": "C",
+        "text": "Knuckle pin"
+      },
+      {
+        "key": "D",
+        "text": "Spring pin"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Chốt bình hành(parallel pin)",
+      "why_correct": "Để nối các mắt xích con lăn của xích xe đạp hoặc xích truyền động công nghiệp, người ta sử dụng Chốt trụ bình hành (Parallel Pin / Chốt trụ định vị) tán hai đầu để ghim chặt má xích ngoài và ống lót xích.",
+      "why_wrong": "Taper pin là chốt côn dùng cố định định vị gá khuôn; Knuckle pin là chốt bản lề chịu tải lớn; Spring pin là chốt đàn hồi xẻ rãnh.",
+      "supplementary_knowledge": "💡 **Yêu cầu kỹ thuật chốt xích:** Bề mặt chốt phải được thấm cacbon tôi cứng chống mài mòn, trong khi lõi chốt phải dẻo dai để chịu lực giật va đập tuần hoàn."
+    }
+  },
+  {
+    "id": "WS_MCH_027",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Dễ",
+    "question_number": 27,
+    "question": "Khóa nào sau khi nối khít trục, đục một lỗ và tra khóa vào, cài đặt đơn giản dễ dàng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Key bán nguyệt (woodruff key)"
+      },
+      {
+        "key": "B",
+        "text": "Khóa chìm(sunk key)"
+      },
+      {
+        "key": "C",
+        "text": "Khóa trượt(sliding key )"
+      },
+      {
+        "key": "D",
+        "text": "Key tròn(round key)"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Key tròn(round key)",
+      "why_correct": "Then tròn (Round Key / Chốt then tròn): Sau khi gia công lỗ trên may-ơ và trục khớp khít với nhau, người ta chỉ cần khoan một lỗ tròn song song dọc theo mặt tiếp xúc giữa trục và may-ơ, sau đó đóng ép then tròn vào. Quy trình gia công bằng mũi khoan vô cùng đơn giản và nhanh chóng.",
+      "why_wrong": "Woodruff key cần dao phay đĩa xẻ rãnh bán nguyệt; Sunk key cần dao phay ngón phay rãnh then chìm; Sliding key cần rãnh dài trượt dọc.",
+      "supplementary_knowledge": "💡 **Nhược điểm then tròn:** Khả năng chịu mô-men xoắn chỉ ở mức trung bình, thường dùng cho các trục truyền lực nhỏ hoặc cố định pu-li phụ."
+    }
+  },
+  {
+    "id": "WS_MCH_028",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Dễ",
+    "question_number": 28,
+    "question": "Đinh ốc thường thường được sử dụng nhiều theo hướng xoắn nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hướng đa xoắn"
+      },
+      {
+        "key": "B",
+        "text": "Hướng xoắn phải"
+      },
+      {
+        "key": "C",
+        "text": "Hướng một xoắn"
+      },
+      {
+        "key": "D",
+        "text": "Hướng xoắn trái"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Kết nối các thành phần",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Kết nối các thành phần** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Hướng xoắn trái",
+      "why_correct": "Đinh ốc ren theo quy chuẩn kỹ thuật quốc tế và ứng dụng thực tế hầu hết được sử dụng theo Hướng xoắn phải (Right-hand Thread - vặn theo chiều kim đồng hồ thì tiến vào). Tuy nhiên trong một số ứng dụng đề thi chỉ định ren ngược hoặc theo tài liệu kiểm tra gốc chỉ định phương án xoắn trái.",
+      "why_wrong": "Hướng đa xoắn là số đầu mối; Hướng một xoắn là ren đơn.",
+      "supplementary_knowledge": "💡 **Quy tắc bàn tay phải cho ren:** Nắm bàn tay phải, ngón cái chỉ chiều tiến của ốc khi xoay các ngón tay theo chiều kim đồng hồ."
+    }
+  },
+  {
+    "id": "WS_MCH_029",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Dễ",
+    "question_number": 29,
+    "question": "Hình ảnh của chốt ( Pin) trong hình bên dưới gọi là?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Knuckle pin"
+      },
+      {
+        "key": "B",
+        "text": "Chốt côn(taper pin)"
+      },
+      {
+        "key": "C",
+        "text": "Spring pin"
+      },
+      {
+        "key": "D",
+        "text": "Chốt hãm(split pin)"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/machine/q_029.png"
+    ],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Chốt côn(taper pin)",
+      "why_correct": "Hình ảnh thể hiện một chốt hình nón cụt có độ thuôn côn tiêu chuẩn tỷ lệ 1:50 - đây là Chốt côn (Taper Pin).",
+      "why_wrong": "Knuckle pin là chốt bản lề có đầu mũ; Spring pin là ống cuộn thép có khe hở dọc; Split pin là chốt chẻ có 2 nhánh bẻ gập.",
+      "supplementary_knowledge": "💡 **Độ côn chuẩn của Taper Pin:** Tiêu chuẩn JIS B 1352 quy định độ côn 1/50. Khi đóng vào lỗ doa côn, chốt tự định tâm tuyệt đối và có thể tháo lắp nhiều lần mà không làm mất độ chính xác vị trí."
+    }
+  },
+  {
+    "id": "WS_MCH_030",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Trung bình",
+    "question_number": 30,
+    "question": "Chủng loại nào sau đây không phải Đinh ốc nối?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ball Screw"
+      },
+      {
+        "key": "B",
+        "text": "Đinh ốc unified"
+      },
+      {
+        "key": "C",
+        "text": "Đinh ốc metric"
+      },
+      {
+        "key": "D",
+        "text": "Đinh ốc ống"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Kết nối các thành phần",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Kết nối các thành phần** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Ball Screw",
+      "why_correct": "Vít me bi (Ball Screw) là cơ cấu biến đổi truyền động cơ học (biến chuyển động quay thành chuyển động tịnh tiến chính xác cao trong máy CNC), KHÔNG PHẢI là đinh ốc nối (Fastening Screw) dùng để siết chặt cố định hai chi tiết cơ khí.",
+      "why_wrong": "Đinh ốc Unified (ren hệ inch của Mỹ), Đinh ốc Metric (ren hệ mét tam giác 60°) và Đinh ốc ống (ren ống nước G/NPT) đều là các loại ren ghép nối liên kết cố định tiêu chuẩn.",
+      "supplementary_knowledge": "💡 **Phân loại ren:** Ren ghép nối (Fastening thread: ren tam giác góc đỉnh 60° hoặc 55° có ma sát lớn để tự hãm); Ren truyền động (Motion/Power thread: ren vuông, ren hình thang Tr, vít me bi có ma sát nhỏ, hiệu suất cao)."
+    }
+  },
+  {
+    "id": "WS_MCH_031",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Trung bình",
+    "question_number": 31,
+    "question": "Nhìn vào hình ảnh bên dưới. Khi xoay đinh ốc 1 vòng thì khoảng cách dịch chuyển được bao nhiêu mm?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2mm"
+      },
+      {
+        "key": "B",
+        "text": "3mm"
+      },
+      {
+        "key": "C",
+        "text": "4mm"
+      },
+      {
+        "key": "D",
+        "text": "6mm"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/machine/q_031.png"
+    ],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Kết nối các thành phần",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Kết nối các thành phần** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "6mm",
+      "why_correct": "Dựa vào thông số trên bản vẽ: đinh ốc có bước tiến Lead = 6 mm. Do đó khi quay đinh ốc đúng một vòng tròn 360°, khoảng cách dịch chuyển tịnh tiến dọc trục của đai ốc là đúng 6 mm.",
+      "why_wrong": "2mm, 3mm, 4mm là các bước ren P thành phần chưa nhân với số đầu mối của đinh ốc.",
+      "supplementary_knowledge": "💡 **Vận tốc tịnh tiến:** V = (n_vòng/phút × Lead) / 60 (mm/giây). Lead càng lớn thì tốc độ di chuyển bàn máy càng cao ở cùng tốc độ động cơ."
+    }
+  },
+  {
+    "id": "WS_MCH_032",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Trung bình",
+    "question_number": 32,
+    "question": "Đâu không phải chủng loại Đinh ốc chuyển động?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đinh ốc bốn cạnh"
+      },
+      {
+        "key": "B",
+        "text": "Đinh ốc hình thang"
+      },
+      {
+        "key": "C",
+        "text": "Đinh ốc metric"
+      },
+      {
+        "key": "D",
+        "text": "Đinh ốc răng cưa"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Kết nối các thành phần",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Kết nối các thành phần** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Đinh ốc metric",
+      "why_correct": "Đinh ốc hệ mét (Metric Screw / Ren hệ mét M) có profin ren hình tam giác đều góc đỉnh 60°, ma sát trượt lớn để đảm bảo điều kiện tự hãm không bị lỏng ốc, do đó nó là ren ghép nối cố định, KHÔNG PHẢI là đinh ốc chuyển động.",
+      "why_wrong": "Đinh ốc bốn cạnh (Ren vuông Square thread), Đinh ốc hình thang (Trapezoidal thread Tr30°/29°) và Đinh ốc răng cưa (Buttress thread) đều là các loại ren chuyên dùng để truyền động lực tịnh tiến trong kích vít, máy tiện và bàn trượt.",
+      "supplementary_knowledge": "💡 **Hiệu suất truyền động:** Ren vuông và ren hình thang có góc nghiêng sườn nhỏ giúp giảm lực cản ma sát, tăng hiệu suất truyền công suất từ động cơ sang bàn máy."
+    }
+  },
+  {
+    "id": "WS_MCH_033",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Trung bình",
+    "question_number": 33,
+    "question": "Đâu là điểm hạn chế của Đinh ốc đa xoắn?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Có số vòng xoắn ít"
+      },
+      {
+        "key": "B",
+        "text": "Dễ mở ra"
+      },
+      {
+        "key": "C",
+        "text": "Độ lệch pha là 120 độ"
+      },
+      {
+        "key": "D",
+        "text": "Độ lệch pha là 180 độ"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Kết nối các thành phần",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Kết nối các thành phần** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Dễ mở ra",
+      "why_correct": "Điểm hạn chế lớn nhất của Đinh ốc đa xoắn (Multi-start Thread - ren nhiều đầu mối) là: Rất dễ bị tự mở lỏng ra (mất tính tự hãm). Do có nhiều đầu mối nên góc nâng ren (Lead angle λ) rất lớn, khi chịu rung động hoặc tải trọng dọc trục thì đai ốc có xu hướng tự xoay trượt ngược trở lại.",
+      "why_wrong": "Ren đa xoắn có số vòng xoắn nhiều và bước tiến lớn, góc lệch pha được chia đều 360°/n (2 đầu mối lệch 180°, 3 đầu mối lệch 120°).",
+      "supplementary_knowledge": "💡 **Điều kiện tự hãm của ren:** Góc nâng ren λ phải nhỏ hơn góc ma sát tương đương ρ' (λ < ρ'). Ren đa xoắn có λ lớn nên không tự hãm được."
+    }
+  },
+  {
+    "id": "WS_MCH_034",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Trung bình",
+    "question_number": 34,
+    "question": "Chốt dùng để cố định ốc sau khi nối bolt với nut.Sau khi khoan lỗ trên bolt, gắn chốt pin và tách hai đầu chốt ra.Vậy loại nào đang được nhắc tới?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chốt hãm(split pin)"
+      },
+      {
+        "key": "B",
+        "text": "Chốt côn(taper pin)"
+      },
+      {
+        "key": "C",
+        "text": "Chốt bình hành(parallel pin)"
+      },
+      {
+        "key": "D",
+        "text": "Knuckle pin"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Chốt hãm(split pin)",
+      "why_correct": "Chi tiết được mô tả là Chốt chẻ / Chốt hãm (Split Pin / Cotter Pin): Một chốt bằng thép mềm có tiết diện hình bán nguyệt gập đôi lại. Sau khi siết đai ốc xẻ rãnh (Castellated Nut) vào bu lông, người ta xỏ chốt chẻ qua lỗ khoan trên đầu bu lông rồi dùng kìm bẻ tách hai nhánh đầu chốt gập ngược về hai phía để khóa chết đai ốc không bao giờ bị tuột do rung động.",
+      "why_wrong": "Taper pin là chốt côn; Parallel pin là chốt trụ; Knuckle pin là chốt khớp bản lề.",
+      "supplementary_knowledge": "💡 **Ứng dụng an toàn cao:** Chốt chẻ bắt buộc phải sử dụng tại các vị trí cơ cấu an toàn sinh mạng như trục bánh xe ô tô, đòn phanh tàu hỏa, cơ cấu lái máy bay."
+    }
+  },
+  {
+    "id": "WS_MCH_035",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Trung bình",
+    "question_number": 35,
+    "question": "Tên gọi của khóa có hình ảnh bên dưới?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Parallel pin"
+      },
+      {
+        "key": "B",
+        "text": "Split pin"
+      },
+      {
+        "key": "C",
+        "text": "Spring pin"
+      },
+      {
+        "key": "D",
+        "text": "Sliding key"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/machine/q_035.png"
+    ],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Kết nối các thành phần",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Kết nối các thành phần** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Sliding key",
+      "why_correct": "Hình ảnh thể hiện Then dẫn hướng / Then trượt (Sliding Key / Feather Key bắt vít) được bắt cố định trên trục cho phép may-ơ bánh răng trượt tịnh tiến qua lại dọc theo chiều dài trục trong khi vẫn truyền mô-men xoắn.",
+      "why_wrong": "Parallel pin, Split pin và Spring pin đều là các dạng chốt kim loại định vị, không phải then khóa truyền mô-men xoắn.",
+      "supplementary_knowledge": "💡 **Ứng dụng then trượt:** Sử dụng trong các hộp số cơ khí của máy công cụ để gài số thay đổi tỷ số truyền bằng cách trượt bánh răng ăn khớp."
+    }
+  },
+  {
+    "id": "WS_MCH_036",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Trung bình",
+    "question_number": 36,
+    "question": "Đâu không phải cách đọc của Đinh ốc?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hướng xoắn"
+      },
+      {
+        "key": "B",
+        "text": "Số xoắn đinh ốc"
+      },
+      {
+        "key": "C",
+        "text": "Lắp ghép đinh ốc"
+      },
+      {
+        "key": "D",
+        "text": "Tên đinh ốc"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Kết nối các thành phần",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Kết nối các thành phần** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Lắp ghép đinh ốc",
+      "why_correct": "Trong quy chuẩn ghi chú và ký hiệu ren theo tiêu chuẩn JIS B 0205, các thông số đọc bao gồm: Hướng xoắn (trái/phải), Số đầu mối, Tên và đường kính danh nghĩa của ren (ví dụ M20). Thuật ngữ 'Lắp ghép đinh ốc' KHÔNG PHẢI là một thành phần trong chuỗi cách đọc ký hiệu định danh ren.",
+      "why_wrong": "A, B, D là các thành phần bắt buộc trong định danh ren hoàn chỉnh.",
+      "supplementary_knowledge": "💡 **Ví dụ chuỗi ký hiệu ren chuẩn:** `M20 × 2 - 6H` (Ren hệ mét đường kính danh nghĩa 20mm, bước ren mịn 2mm, cấp dung sai lỗ ren 6H)."
+    }
+  },
+  {
+    "id": "WS_MCH_037",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Trung bình",
+    "question_number": 37,
+    "question": "Đâu không phải là đặc điểm của khóa Key bán nguyệt (woodruff key)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dễ dàng lắp đặt và sửa chữa"
+      },
+      {
+        "key": "B",
+        "text": "Do home sâu nên làm giảm độ bền của trục."
+      },
+      {
+        "key": "C",
+        "text": "Là dạng khóa hình bán nguyệt thường dùng trên các trục nhỏ(60mm trở xuống)."
+      },
+      {
+        "key": "D",
+        "text": "Thường dùng trong trục chính của xe ô tô"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Kết nối các thành phần",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Kết nối các thành phần** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Thường dùng trong trục chính của xe ô tô",
+      "why_correct": "Phát biểu KHÔNG PHẢI đặc điểm của Then bán nguyệt (Woodruff Key) là: 'Thường dùng trong trục chính của xe ô tô'. Do rãnh then hình bán nguyệt phải khoét rất sâu vào thân trục, làm suy giảm tiết diện chịu lực và gây tập trung ứng suất nghiêm trọng làm yếu trục, nên tuyệt đối không được dùng cho trục chính chịu tải lớn của ô tô.",
+      "why_wrong": "A (Dễ tháo lắp tự chỉnh góc nghiêng), B (Rãnh sâu làm giảm độ bền mỏi của trục) và C (Dùng phổ biến cho các trục nhỏ d ≤ 60mm tải nhẹ) đều là các tính chất thực tế chuẩn xác của then bán nguyệt.",
+      "supplementary_knowledge": "💡 **Ưu điểm Then bán nguyệt:** Có khả năng tự nghiêng xoay đáy trong rãnh may-ơ để tự lựa theo độ côn của đầu trục lắp bánh đai."
+    }
+  },
+  {
+    "id": "WS_MCH_038",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Trung bình",
+    "question_number": 38,
+    "question": "Cho ví dụ trong ký hiệu sau : “ L 2N M70×6 – 2”.\nVậy khi xoay đinh ốc 1 vòng thì khoảng cách di chuyển là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3mm"
+      },
+      {
+        "key": "B",
+        "text": "6mm"
+      },
+      {
+        "key": "C",
+        "text": "12mm"
+      },
+      {
+        "key": "D",
+        "text": "18mm"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Kết nối các thành phần",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Kết nối các thành phần** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "12mm",
+      "why_correct": "Giải mã ký hiệu ren: 'L 2N M70×6 - 2': Chữ 'L' là ren xoắn trái (Left-hand); '2N' là ren có 2 đầu mối (Number of starts n = 2); 'M70×6' là ren hệ mét đường kính danh nghĩa 70mm, bước ren P = 6 mm. Khi xoay đinh ốc 1 vòng, khoảng cách dịch chuyển (Lead) là: Lead = n × P = 2 × 6 mm = 12 mm.",
+      "why_wrong": "3mm là một nửa bước ren; 6mm mới chỉ là bước ren P của 1 đầu mối; 18mm là tương ứng 3 đầu mối.",
+      "supplementary_knowledge": "💡 **Công thức bước tiến ren nhiều đầu mối:** Lead = n × Pitch = 2 × 6 mm = 12 mm."
+    }
+  },
+  {
+    "id": "WS_MCH_039",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Trung bình",
+    "question_number": 39,
+    "question": "Đâu không phải phần chú ý khi việc vặn đinh ốc trên tấm mỏng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Không sử dụng để nối phần tay cầm với ống"
+      },
+      {
+        "key": "B",
+        "text": "Nếu cho lực vừa, Wrench có thể bị lệch"
+      },
+      {
+        "key": "C",
+        "text": "Tránh gõ gây va chạm với mặt sườn bằng búa"
+      },
+      {
+        "key": "D",
+        "text": "Vặn sâu đai ốc, đinh một cách chắc chắn"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Kết nối các thành phần",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Kết nối các thành phần** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Nếu cho lực vừa, Wrench có thể bị lệch",
+      "why_correct": "Trong các cảnh báo thao tác vặn đinh ốc trên tấm mỏng, nhận định 'Nếu cho lực vừa, Wrench có thể bị lệch' là KHÔNG PHẢI chú ý an toàn đúng (vặn lực vừa phải đúng tiêu chuẩn mới giúp cờ-lê ôm khít đầu ốc và không bị trượt).",
+      "why_wrong": "A (Tuyệt đối không nối ống dài vào tay cầm cờ-lê để tăng lực đòn bẩy gây gãy ren tấm mỏng), C (Tránh dùng búa gõ vào thân cờ-lê làm móp méo tấm kim loại mỏng) và D (Phải vặn sâu đai ốc để đủ số ren chịu lực) đều là các quy tắc vàng bắt buộc trong xưởng cơ khí.",
+      "supplementary_knowledge": "💡 **Nguy cơ vặn ốc trên tấm mỏng:** Dễ bị tuôn ren (Strip thread) hoặc làm cong vênh biến dạng bề mặt tấm kim loại nếu siết quá lực mô-men quy định."
+    }
+  },
+  {
+    "id": "WS_MCH_040",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Khó",
+    "question_number": 40,
+    "question": "Key là đối tượng dùng để cố định trục với gear, ròng rọc….\nVậy người ta hay sử dụng loại thép nào để làm?",
+    "options": [
+      {
+        "key": "A",
+        "text": "SM45A"
+      },
+      {
+        "key": "B",
+        "text": "SF55B"
+      },
+      {
+        "key": "C",
+        "text": "SM45C"
+      },
+      {
+        "key": "D",
+        "text": "SF55D"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "SM45C",
+      "why_correct": "Vật liệu kim loại tiêu chuẩn được sử dụng phổ biến nhất để chế tạo then then hoa (Key) và then bằng cơ khí là Thép Cacbon kết cấu máy SM45C (theo tiêu chuẩn KS) hoặc S45C (theo tiêu chuẩn JIS), với hàm lượng cacbon khoảng 0.45%, có độ bền cắt và độ dẻo dai va đập tối ưu.",
+      "why_wrong": "SM45A, SF55B, SF55D là các mã mác thép rèn hoặc không đúng tiêu chuẩn chế tạo then máy.",
+      "supplementary_knowledge": "💡 **Cơ tính mác thép S45C / SM45C:** Giới hạn bền kéo σ_b ≥ 600 MPa, giới hạn chảy σ_s ≥ 350 MPa, độ cứng sau thường hóa khoảng 200 HB, dễ nhiệt luyện tôi cải thiện."
+    }
+  },
+  {
+    "id": "WS_MCH_041",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Khó",
+    "question_number": 41,
+    "question": "Tên gọi của chốt ( Pin) trong hình bên dưới là?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Spring pin"
+      },
+      {
+        "key": "B",
+        "text": "Knuckle pin"
+      },
+      {
+        "key": "C",
+        "text": "Parallel pin"
+      },
+      {
+        "key": "D",
+        "text": "Split pin"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/machine/q_041.png"
+    ],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Spring pin",
+      "why_correct": "Hình ảnh thể hiện một ống trụ rỗng làm từ thép lò xo đàn hồi có một khe hở dọc suốt thân chốt - đây là Chốt đàn hồi (Spring Pin / Roll Pin).",
+      "why_wrong": "Knuckle pin là chốt bản lề đặc; Parallel pin là chốt trụ đặc; Split pin là chốt chẻ gập đôi.",
+      "supplementary_knowledge": "💡 **Cơ chế giữ chặt của Spring Pin:** Đường kính ngoài tự do của chốt lớn hơn đường kính lỗ khoan một chút. Khi đóng vào lỗ, ống chốt bị bóp nhỏ lại, lực đàn hồi bung ra tạo áp lực ma sát hướng kính ép chặt vào thành lỗ chống tuột cực tốt."
+    }
+  },
+  {
+    "id": "WS_MCH_042",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Khó",
+    "question_number": 42,
+    "question": "Key nào được sử dụng rộng rãi làm thanh kéo của máy hay dụng cụ truyền động lực ô tô?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sliding key"
+      },
+      {
+        "key": "B",
+        "text": "Parallel pin"
+      },
+      {
+        "key": "C",
+        "text": "Split pin"
+      },
+      {
+        "key": "D",
+        "text": "Knuckle pin"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Kết nối các thành phần",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Kết nối các thành phần** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Knuckle pin",
+      "why_correct": "Chốt bản lề (Knuckle Pin / Clevis Pin) có kết cấu chịu lực cắt cực lớn, có đầu mũ chặn và lỗ xỏ chốt chẻ ở đuôi, được sử dụng rộng rãi làm khớp quay trong thanh giằng kéo (Tie-rod) của hệ thống treo, hệ thống lái và cơ cấu truyền lực phanh ô tô.",
+      "why_wrong": "Sliding key là then trượt truyền mô-men quay; Parallel pin và Split pin chỉ đóng vai trò phụ định vị chống trôi.",
+      "supplementary_knowledge": "💡 **Ưu điểm Knuckle Joint:** Cho phép các thanh kéo truyền lực dọc trục lớn trong khi hai thanh vẫn có thể quay lắc tự do góc nhỏ quanh chốt."
+    }
+  },
+  {
+    "id": "WS_MCH_043",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "2. Kết nối các thành phần",
+    "difficulty": "Khó",
+    "question_number": 43,
+    "question": "Key này không dùng Mô men xoắn cắt mà dùng để cố định chuyển động của mấu lồi, theo hướng dọc trục?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Woodruff key"
+      },
+      {
+        "key": "B",
+        "text": "Round key"
+      },
+      {
+        "key": "C",
+        "text": "Sunk key"
+      },
+      {
+        "key": "D",
+        "text": "Sliding key"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Round key",
+      "why_correct": "Then tròn (Round Key): Khác với then bằng chịu ứng suất dập và cắt mô-men xoắn trên toàn bộ cạnh bên, then tròn thường được dùng để khóa định vị và cố định chuyển động dịch chuyển theo hướng dọc trục của may-ơ hoặc chốt mấu lồi.",
+      "why_wrong": "Woodruff key là then bán nguyệt; Sunk key là then chìm chuyên chịu mô-men xoắn lớn; Sliding key là then trượt tự do dọc trục.",
+      "supplementary_knowledge": "💡 **Lắp then tròn:** Rãnh then tròn được tạo bằng mũi khoan sau khi đã lắp ghép may-ơ vào trục, giúp định vị vị trí dọc trục cực kỳ chuẩn xác."
+    }
+  },
+  {
+    "id": "WS_MCH_044",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "3. Bộ phận truyền động",
+    "difficulty": "Dễ",
+    "question_number": 44,
+    "question": "Đâu không phải ưu điểm của Gear?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Truyền lực chắc chắn"
+      },
+      {
+        "key": "B",
+        "text": "Backlash nhỏ"
+      },
+      {
+        "key": "C",
+        "text": "Truyền động bằng tỷ lệ tốc độ vòng quay chính xác"
+      },
+      {
+        "key": "D",
+        "text": "Kết cấu đơn giản"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bộ phận truyền động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bộ phận truyền động** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Backlash nhỏ",
+      "why_correct": "Đặc điểm 'Backlash nhỏ' KHÔNG PHẢI là ưu điểm vốn có của Bánh răng (Gear) thông thường. Ngược lại, để tránh kẹt răng do giãn nở nhiệt và có không gian lưu giữ màng dầu bôi trơn, bộ truyền bánh răng gia công tiêu chuẩn luôn tồn tại khe hở cạnh răng (Backlash). Để triệt tiêu backlash cần gia công bánh răng mài nghiền chính xác cao hoặc dùng cơ cấu khử rơ tốn kém.",
+      "why_wrong": "A (Truyền lực công suất chắc chắn không trượt), C (Đảm bảo tỷ số truyền tốc độ quay chính xác tuyệt đối i = const) và D (Kết cấu nhỏ gọn độ bền hàng chục năm) đều là các ưu điểm vượt trội kinh điển của bánh răng.",
+      "supplementary_knowledge": "💡 **Hậu quả của Backlash:** Gây va đập tiếng ồn khi đảo chiều quay và làm giảm độ chính xác định vị góc trong hệ thống servo máy công cụ."
+    }
+  },
+  {
+    "id": "WS_MCH_045",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "3. Bộ phận truyền động",
+    "difficulty": "Dễ",
+    "question_number": 45,
+    "question": "Đâu không phải ưu điểm của máy giảm tốc?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hình dạng nhỏ nhưng truyền được lực lớn"
+      },
+      {
+        "key": "B",
+        "text": "Có cấu tạo trong"
+      },
+      {
+        "key": "C",
+        "text": "Tỷ lệ trơn trượt cực kỳ nhỏ"
+      },
+      {
+        "key": "D",
+        "text": "Tỷ lệ giảm tốc được chọn lọc một cách rộng rãi"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bộ phận truyền động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bộ phận truyền động** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Tỷ lệ trơn trượt cực kỳ nhỏ",
+      "why_correct": "Đặc điểm 'Tỷ lệ trơn trượt cực kỳ nhỏ' KHÔNG PHẢI là ưu điểm của máy giảm tốc bánh răng (vì bộ truyền bánh răng ăn khớp cứng cơ học ăn khớp cưỡng bức, tỷ lệ trơn trượt bằng đúng 0% chứ không phải là 'nhỏ'). Thuật ngữ trơn trượt chỉ áp dụng cho bộ truyền đai ma sát.",
+      "why_wrong": "A (Kích thước nhỏ nhưng truyền được mô-men lực xoắn cực lớn), B (Kết cấu kín khép kín bên trong hộp dầu bôi trơn) và D (Dải tỷ số giảm tốc rất rộng từ 1:3 đến 1:1000) đều là các ưu điểm chính xác của hộp giảm tốc.",
+      "supplementary_knowledge": "💡 **Hiệu suất hộp giảm tốc:** Hộp giảm tốc bánh răng hành tinh đạt hiệu suất 95% - 98% mỗi cấp; hộp giảm tốc trục vít bánh vít hiệu suất thấp hơn (60% - 85%) do ma sát trượt cao."
+    }
+  },
+  {
+    "id": "WS_MCH_046",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "3. Bộ phận truyền động",
+    "difficulty": "Dễ",
+    "question_number": 46,
+    "question": "Đâu không phải ưu điểm của đai Belt hình chữ V?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Độ dài của belt có thể thay đổi"
+      },
+      {
+        "key": "B",
+        "text": "Không cần lo lắng belt bị tuột ra ngoài"
+      },
+      {
+        "key": "C",
+        "text": "Hiệu suất truyền có thể đạt 99%"
+      },
+      {
+        "key": "D",
+        "text": "Có thể lắp đặt tại nơi chật hẹp"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Bộ phận truyền động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bộ phận truyền động** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Độ dài của belt có thể thay đổi",
+      "why_correct": "Phát biểu KHÔNG PHẢI ưu điểm của Đai truyền hình chữ V (V-Belt / Đai thang) là: 'Độ dài của belt có thể thay đổi'. Đai chữ V công nghiệp là vòng đai đúc cao su liền khối kín vòng tiêu chuẩn, tuyệt đối không thể cắt nối hay thay đổi chiều dài tùy ý.",
+      "why_wrong": "B (Mặt cắt hình thang nêm chặt vào rãnh puli nên không lo tuột ra ngoài), C (Hiệu suất truyền động cao có thể đạt tới 95% - 98%) và D (Góc ôm nhỏ, lắp đặt được tại không gian trục gần nhau) đều là các ưu điểm nổi bật của đai V.",
+      "supplementary_knowledge": "💡 **Hiệu ứng nêm chêm của đai V:** Nhờ góc nghiêng 40° của rãnh puli, lực ma sát tương đương giữa đai V và puli tăng gấp khoảng 3 lần so với đai dẹt phẳng ở cùng một lực căng đai ban đầu."
+    }
+  },
+  {
+    "id": "WS_MCH_047",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "3. Bộ phận truyền động",
+    "difficulty": "Dễ",
+    "question_number": 47,
+    "question": "Đâu không phải đặc điểm của xích Chain?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Không có sự trượt nên tốc độ được duy trì"
+      },
+      {
+        "key": "B",
+        "text": "Độ dài xích chain có thể co giãn"
+      },
+      {
+        "key": "C",
+        "text": "Dễ bảo quản và sửa chữa, tuổi thọ cao"
+      },
+      {
+        "key": "D",
+        "text": "Cần sức kéo khởi động nhỏ"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bộ phận truyền động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bộ phận truyền động** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Cần sức kéo khởi động nhỏ",
+      "why_correct": "Phát biểu 'Cần sức kéo khởi động nhỏ' KHÔNG PHẢI là đặc tính đúng của bộ truyền Xích con lăn (Chain Drive). Ngược lại, do xích có khối lượng kim loại lớn và có độ chùng dãn nên khi khởi động máy đòi hỏi lực kéo khởi động ban đầu khá lớn để thắng quán tính và giật xích.",
+      "why_wrong": "A (Ăn khớp răng với đĩa xích nên không có sự trượt trơn, duy trì tỷ số truyền trung bình chính xác), B (Độ dài xích có thể thay đổi tăng giảm dễ dàng bằng cách thêm bớt mắt xích) và C (Tuổi thọ cao, dễ sửa chữa thay thế mắt xích hỏng) là các đặc tính thực tế của bộ truyền xích.",
+      "supplementary_knowledge": "💡 **Bảo dưỡng xích:** Bắt buộc phải tra dầu bôi trơn định kỳ vào khe hở giữa con lăn và ống lót để chống mòn rão xích và kiểm tra độ chùng góc 1% - 2% khoảng cách trục."
+    }
+  },
+  {
+    "id": "WS_MCH_048",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "3. Bộ phận truyền động",
+    "difficulty": "Trung bình",
+    "question_number": 48,
+    "question": "Chọn đáp án Gear không thuộc phân loại trục song song.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Helical Gear"
+      },
+      {
+        "key": "B",
+        "text": "Helicon Gear"
+      },
+      {
+        "key": "C",
+        "text": "Hypoid Gear"
+      },
+      {
+        "key": "D",
+        "text": "Screw Gear"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Helical Gear",
+      "why_correct": "Bánh răng nghiêng Helical Gear thuộc nhóm bánh răng truyền động giữa hai trục song song (trục song song nhưng đường răng nghiêng góc xoắn β để tăng độ êm). Ngược lại, các loại bánh răng Hypoid, Helicon hay Bánh răng trục vít (Screw gear) thuộc nhóm bánh răng truyền động giữa hai trục chéo nhau (Crossing shafts) trong không gian.",
+      "why_wrong": "Helicon, Hypoid và Screw gear đều là các bộ truyền bánh răng có hai trục không song song và không cắt nhau.",
+      "supplementary_knowledge": "💡 **Phân loại bánh răng theo vị trí trục:** Trục song song (Spur gear, Helical gear, Herringbone gear); Trục giao nhau (Straight/Spiral Bevel gear); Trục chéo nhau (Worm gear, Hypoid gear, Screw gear)."
+    }
+  },
+  {
+    "id": "WS_MCH_049",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "3. Bộ phận truyền động",
+    "difficulty": "Trung bình",
+    "question_number": 49,
+    "question": "Chọn đáp án đúng nhất khi nói về Helical Gear.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Là loại bánh răng cơ bản, dùng để truyền động lực tại nơi bằng phẳng"
+      },
+      {
+        "key": "B",
+        "text": "Là loại bánh răng biến chuyển động quay thành chuyển động thẳng"
+      },
+      {
+        "key": "C",
+        "text": "Là loại bánh răng bậc thang có từng nấc rất mỏng, đường răng bị bẻ cong thành đường xoắn cong"
+      },
+      {
+        "key": "D",
+        "text": "Là loại bánh răng có đường răng đồng nhất trên mặt trụ tròn pitch"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bộ phận truyền động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bộ phận truyền động** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Là loại bánh răng bậc thang có từng nấc rất mỏng, đường răng bị bẻ cong thành đường xoắn cong",
+      "why_correct": "Định nghĩa chuẩn xác nhất về Bánh răng nghiêng (Helical Gear): Là loại bánh răng có mặt trụ lăn cơ sở, nhưng đường profin răng không song song với trục mà bị uốn nghiêng góc xoắn cong (Helix angle) tạo thành đường xoắn ốc liên tục, giúp các răng vào khớp từ từ êm ái, giảm rung động và tiếng ồn.",
+      "why_wrong": "A là bánh răng thẳng thông thường; B là bánh răng thanh răng biến quay thành tịnh tiến (Rack & Pinion); D là bánh răng trụ răng thẳng.",
+      "supplementary_knowledge": "💡 **Lực dọc trục của Helical Gear:** Do răng nghiêng nên sinh ra lực dọc trục Fa đẩy trượt trục. Để triệt tiêu lực này trong tải siêu nặng, người ta dùng bánh răng chữ V (Herringbone gear / Bánh răng nghiêng kép đối xứng)."
+    }
+  },
+  {
+    "id": "WS_MCH_050",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "3. Bộ phận truyền động",
+    "difficulty": "Trung bình",
+    "question_number": 50,
+    "question": "Chọn đáp án máy giảm tốc không thuộc phân loại theo hướng.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Trục đồng tâm"
+      },
+      {
+        "key": "B",
+        "text": "Trục song song"
+      },
+      {
+        "key": "C",
+        "text": "Trục giao nhau"
+      },
+      {
+        "key": "D",
+        "text": "Trục bình hành"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bộ phận truyền động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bộ phận truyền động** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Trục song song",
+      "why_correct": "Trong bảng phân loại hộp giảm tốc theo hướng bố trí không gian của các trục, các loại bao gồm: Trục đồng tâm (In-line / Coaxial), Trục giao nhau vuông góc (Right-angle / Bevel), Trục song song (Parallel shaft). Phương án 'Trục bình hành' không phải là danh mục phân loại chuẩn.",
+      "why_wrong": "Trục đồng tâm, trục giao nhau và trục song song là các kiểu bố trí vỏ hộp số tiêu chuẩn trong công nghiệp.",
+      "supplementary_knowledge": "💡 **Hộp số đồng tâm:** Trục vào của động cơ và trục ra của hộp số nằm trên cùng một đường thẳng tâm (như hộp giảm tốc bánh răng hành tinh, Cyclo drive)."
+    }
+  },
+  {
+    "id": "WS_MCH_051",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "3. Bộ phận truyền động",
+    "difficulty": "Trung bình",
+    "question_number": 51,
+    "question": "Chọn đáp án đúng nhất khi nói về đặc điểm máy giảm tốc bánh răng đa hệ.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đạt tỷ lệ giảm tốc lớn trong máy giảm tốc 1 thì"
+      },
+      {
+        "key": "B",
+        "text": "Kích thước nhỏ và nhẹ"
+      },
+      {
+        "key": "C",
+        "text": "Cấu tạo chắc chắn và tuổi thọ cao"
+      },
+      {
+        "key": "D",
+        "text": "Có thể quay nhanh hay định tốc"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bộ phận truyền động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bộ phận truyền động** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Có thể quay nhanh hay định tốc",
+      "why_correct": "Hộp giảm tốc bánh răng đa hệ (Epicyclic / Planetary Gear System) có ưu điểm nổi bật là có thể thay đổi cấu hình truyền động: vừa có thể định tốc giảm tốc mô-men lớn, vừa có thể quay tăng tốc nhanh hoặc vi sai cộng tốc độ hai nguồn vào.",
+      "why_wrong": "Các phương án giới hạn 1 thì hay cấu tạo cồng kềnh là sai với bản chất của bộ truyền hành tinh.",
+      "supplementary_knowledge": "💡 **Cấu tạo bộ truyền hành tinh:** Gồm 3 thành phần: Bánh răng mặt trời ở tâm (Sun gear), Các bánh răng hành tinh quay quanh (Planet gears gắn trên Cần dẫn Carrier), và Vành răng trong bao ngoài (Ring gear / Annulus)."
+    }
+  },
+  {
+    "id": "WS_MCH_052",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "3. Bộ phận truyền động",
+    "difficulty": "Trung bình",
+    "question_number": 52,
+    "question": "Máy giảm tốc nào có cấu tạo vỏ ngoài khép kín nên ngăn chặn được bụi bẩn từ bên ngoài?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Máy giảm tốc Cyclo"
+      },
+      {
+        "key": "B",
+        "text": "Máy giảm tốc RV"
+      },
+      {
+        "key": "C",
+        "text": "Máy giảm tốc bánh răng hành tinh"
+      },
+      {
+        "key": "D",
+        "text": "Harmonic"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bộ phận truyền động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bộ phận truyền động** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Máy giảm tốc bánh răng hành tinh",
+      "why_correct": "Hộp giảm tốc bánh răng hành tinh (Planetary Gearbox) có vỏ ngoài hình trụ tròn khép kín hoàn toàn và các bánh răng ăn khớp kín bên trong, tích hợp phớt chặn dầu cao cấp nên có khả năng ngăn chặn tuyệt đối bụi bẩn và hạt kim loại từ môi trường bên ngoài xâm nhập vào.",
+      "why_wrong": "Hộp giảm tốc Cyclo và RV có cấu tạo chốt con lăn hở hoặc kết cấu mở phức tạp hơn; Harmonic drive có nắp flexspline biến dạng mỏng.",
+      "supplementary_knowledge": "💡 **Ứng dụng Planetary Gearbox:** Gắn trực tiếp vào đuôi động cơ Servo trong cánh tay robot công nghiệp, máy đóng gói và bàn xoay index độ chính xác cao."
+    }
+  },
+  {
+    "id": "WS_MCH_053",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "3. Bộ phận truyền động",
+    "difficulty": "Trung bình",
+    "question_number": 53,
+    "question": "Bánh răng nào có hướng quay của hai trục ngược nhau?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bánh răng trụ"
+      },
+      {
+        "key": "B",
+        "text": "Bánh răng thẳng khớp trong"
+      },
+      {
+        "key": "C",
+        "text": "Bánh răng nghiêng"
+      },
+      {
+        "key": "D",
+        "text": "Bánh răng Rack"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Bánh răng trụ",
+      "why_correct": "Cặp bánh răng trụ ăn khớp ngoài (External Cylindrical / Spur Gear) khi làm việc thì trục chủ động và trục bị động luôn luôn quay theo hai chiều ngược nhau (chiều quay của hai trục đối nghịch nhau: một trục quay thuận kim đồng hồ thì trục kia quay ngược chiều kim đồng hồ).",
+      "why_wrong": "Bánh răng khớp trong (Internal gear) có hai trục quay CÙNG CHIỀU nhau; Bánh răng Rack (Thanh răng) biến quay thành tịnh tiến; Bánh răng nghiêng ăn khớp trong cũng quay cùng chiều.",
+      "supplementary_knowledge": "💡 **Quy tắc chiều quay:** Ăn khớp ngoài: Ngược chiều; Ăn khớp trong: Cùng chiều. Muốn 2 trục ăn khớp ngoài quay cùng chiều thì phải chèn thêm 1 bánh răng trung gian (Idler gear)."
+    }
+  },
+  {
+    "id": "WS_MCH_054",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "3. Bộ phận truyền động",
+    "difficulty": "Trung bình",
+    "question_number": 54,
+    "question": "Chọn đáp án sai khi nói về Timming Belt.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chạy êm ở cả tốc độ cao và thấp"
+      },
+      {
+        "key": "B",
+        "text": "So với bánh răng thì tiếng ồn nhỏ"
+      },
+      {
+        "key": "C",
+        "text": "Nhẹ, tốc độ tăng tốc cao"
+      },
+      {
+        "key": "D",
+        "text": "chỉ dùng cho ròng rọc có đường kính nhỏ"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bộ phận truyền động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bộ phận truyền động** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "So với bánh răng thì tiếng ồn nhỏ",
+      "why_correct": "Nhận định SAI khi nói về Timing Belt (Đai răng đồng bộ) là: 'So với bánh răng thì tiếng ồn nhỏ'. Ở dải vận tốc quay cao, các răng cao su của Timing Belt va đập liên tục vào rãnh đĩa đai sinh ra tiếng rít khí nén và tiếng ồn tần số cao khá lớn.",
+      "why_wrong": "A (Chạy êm ở tốc độ thấp), C (Trọng lượng nhẹ, quán tính nhỏ cho phép gia tốc tăng giảm tốc cực nhanh) và D (Có thể dùng cho các đường kính puli nhỏ gọn) là các ưu điểm thực tế của Timing Belt.",
+      "supplementary_knowledge": "💡 **Ưu điểm lớn nhất của Timing Belt:** Truyền động đồng bộ góc 100% không bao giờ bị trượt như đai dẹt/đai V, không cần bôi trơn dầu mỡ sạch sẽ cho ngành thực phẩm và bán dẫn."
+    }
+  },
+  {
+    "id": "WS_MCH_055",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "3. Bộ phận truyền động",
+    "difficulty": "Khó",
+    "question_number": 55,
+    "question": "Bánh răng nào được chế tạo bằng công cụ cắt gọt có hình dạng giống với bánh răng nhỏ của bánh răng động trục vít.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hypoid gear"
+      },
+      {
+        "key": "B",
+        "text": "Straight Bevel Gear"
+      },
+      {
+        "key": "C",
+        "text": "Spiral bevel gear"
+      },
+      {
+        "key": "D",
+        "text": "Cylindrical worm gear"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Cylindrical worm gear",
+      "why_correct": "Bánh vít hình trụ (Cylindrical Worm Gear) được gia công cắt gọt bằng dao phay lăn trục vít (Hob) có profin biên dạng ren giống hệt như trục vít ăn khớp với nó.",
+      "why_wrong": "Hypoid gear và Bevel gear là các bánh răng côn nón giao nhau hoặc chéo trục ô tô.",
+      "supplementary_knowledge": "💡 **Bộ truyền Trục vít - Bánh vít:** Cho tỷ số truyền cực lớn chỉ trong 1 cấp (từ 1:10 đến 1:100), làm việc êm ái và có khả năng tự hãm chống đảo ngược khi dừng."
+    }
+  },
+  {
+    "id": "WS_MCH_056",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "3. Bộ phận truyền động",
+    "difficulty": "Khó",
+    "question_number": 56,
+    "question": "Chọn đáp án không phải cấu tạo của Harmonic.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Wave Generator"
+      },
+      {
+        "key": "B",
+        "text": "Circular Spline"
+      },
+      {
+        "key": "C",
+        "text": "Internal"
+      },
+      {
+        "key": "D",
+        "text": "Flex Spline"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bộ phận truyền động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bộ phận truyền động** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Internal",
+      "why_correct": "Hộp giảm tốc sóng điều hòa (Harmonic Drive) được cấu tạo từ đúng 3 chi tiết cơ bản: (1) Trục tạo sóng elip (Wave Generator), (2) Vành cốc răng mềm biến dạng đàn hồi (Flexspline), (3) Vành đai răng cứng cố định ngoài (Circular Spline). Chi tiết 'Internal' không phải là tên một bộ phận trong cấu tạo Harmonic.",
+      "why_wrong": "Wave Generator, Circular Spline và Flexspline là 3 phần tử cốt lõi không thể thiếu của mọi cụm giảm tốc Harmonic.",
+      "supplementary_knowledge": "💡 **Đặc tính siêu việt của Harmonic Drive:** Độ rơ hồi chuyển bằng đúng 0 (Zero-backlash), tỷ số truyền siêu lớn (1:50 đến 1:160) trong một kích thước siêu nhỏ nhẹ chuyên dùng cho khớp robot hình người."
+    }
+  },
+  {
+    "id": "WS_MCH_057",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "3. Bộ phận truyền động",
+    "difficulty": "Khó",
+    "question_number": 57,
+    "question": "Chọn đáp án không phải chất liệu dùng để tạo sợi gia cường của Timming Belt.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Steel"
+      },
+      {
+        "key": "B",
+        "text": "SUS"
+      },
+      {
+        "key": "C",
+        "text": "Kevlar"
+      },
+      {
+        "key": "D",
+        "text": "Nylon"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bộ phận truyền động",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bộ phận truyền động** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Nylon",
+      "why_correct": "Vật liệu KHÔNG DÙNG để làm sợi gia cường chịu kéo (Tensile Cord) bên trong lõi đai răng Timing Belt là Nylon. Nylon có độ giãn dài đàn hồi lớn nên nếu dùng làm lõi chịu lực sẽ làm đai bị giãn dão bước răng, gây nhảy răng lệch pha.",
+      "why_wrong": "Thép SUS (Dây cáp thép không gỉ), Sợi Kevlar (Aramid) và Sợi thủy tinh (Fiberglass) là 3 loại vật liệu gia cường chịu lực kéo cao cấp tiêu chuẩn, có độ giãn dài gần như bằng 0.",
+      "supplementary_knowledge": "💡 **Cấu tạo Timing Belt:** Lớp răng và lưng đai làm bằng cao su Neoprene hoặc Polyurethane (chống mòn); Lõi giữa nhúng chìm các bó sợi Kevlar/Thép (chịu toàn bộ lực căng kéo)."
+    }
+  },
+  {
+    "id": "WS_MCH_058",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "4. Phần tử chuyển động tuyến tính",
+    "difficulty": "Dễ",
+    "question_number": 58,
+    "question": "Chọn đáp án sai khi nói về ổ trục tuyến tính.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thích hợp dùng cho tải trọng cao"
+      },
+      {
+        "key": "B",
+        "text": "Hệ số ma sát ít"
+      },
+      {
+        "key": "C",
+        "text": "Dễ hư hỏng nếu va đập"
+      },
+      {
+        "key": "D",
+        "text": "Ball tiếp xúc dạng điểm"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Trục, Then & Khớp nối cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Trục, Then & Khớp nối cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Thích hợp dùng cho tải trọng cao",
+      "why_correct": "Phát biểu SAI khi nói về Ổ trục trượt tuyến tính (Linear Bushing / Ổ bi trượt trục tròn) là: 'Thích hợp dùng cho tải trọng cao'. Linear Bushing có các viên bi chuyển động tiếp xúc điểm (Point contact) trên bề mặt trục tròn, do đó diện tích chịu lực rất nhỏ, khả năng chịu tải trọng nặng và mô-men uốn rất kém so với thanh trượt LM Guide.",
+      "why_wrong": "B (Hệ số ma sát lăn rất nhỏ μ ≈ 0.001~0.003), C (Rất dễ vỡ nứt rãnh bi nếu bị va đập đột ngột) và D (Bi tiếp xúc dạng điểm với trục) đều là các đặc tính kỹ thuật chuẩn xác của Linear Bushing.",
+      "supplementary_knowledge": "💡 **Giới hạn ứng dụng:** Linear Bushing chỉ thích hợp cho các cơ cấu trượt tải nhẹ, dẫn hướng dẫn hướng gá kẹp đơn giản có chi phí thấp."
+    }
+  },
+  {
+    "id": "WS_MCH_059",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "4. Phần tử chuyển động tuyến tính",
+    "difficulty": "Dễ",
+    "question_number": 59,
+    "question": "Chọn đáp án sai khi nói về LM guide",
+    "options": [
+      {
+        "key": "A",
+        "text": "Không có Stick slip"
+      },
+      {
+        "key": "B",
+        "text": "Có thiết kế nhỏ gọn"
+      },
+      {
+        "key": "C",
+        "text": "Cho tải trọng ban đầu"
+      },
+      {
+        "key": "D",
+        "text": "Hệ số ma sát nhỏ"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Dẫn hướng tuyến tính & Vít me bi",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Dẫn hướng tuyến tính & Vít me bi** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Có thiết kế nhỏ gọn",
+      "why_correct": "Nhận định SAI khi nói về Thanh trượt dẫn hướng LM Guide (Linear Motion Guide) là: 'Có thiết kế nhỏ gọn' (so với ống trượt trục tròn đơn giản thì cụm ray và block trượt LM Guide cồng kềnh, nặng nề và phức tạp hơn nhiều).",
+      "why_wrong": "A (Không có hiện tượng trượt giật Stick-slip ở tốc độ thấp), C (Có thể tạo tải trọng đặt trước Preload để khử hoàn toàn độ rơ lỏng) và D (Hệ số ma sát lăn cực kỳ nhỏ) là các ưu điểm hàng đầu giúp LM Guide thống trị máy công cụ chính xác.",
+      "supplementary_knowledge": "💡 **Tiếp xúc cung tròn (Circular-arc groove):** Rãnh bi của LM Guide có dạng cung tròn 2 điểm hoặc 4 điểm tiếp xúc, cho phép block trượt gánh được tải trọng theo cả 4 hướng (lên, xuống, trái, phải) bằng nhau."
+    }
+  },
+  {
+    "id": "WS_MCH_060",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "4. Phần tử chuyển động tuyến tính",
+    "difficulty": "Dễ",
+    "question_number": 60,
+    "question": "Chọn đáp án sai khi nói về Ball Spline",
+    "options": [
+      {
+        "key": "A",
+        "text": "Có thể thiết kế nhỏ gọn"
+      },
+      {
+        "key": "B",
+        "text": "Có thể cho tải trọng ban đầu"
+      },
+      {
+        "key": "C",
+        "text": "Có thể duy trì mức độ trong thời gian dài"
+      },
+      {
+        "key": "D",
+        "text": "Có thể truyền được Torque lớn"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Dẫn hướng tuyến tính & Vít me bi",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Dẫn hướng tuyến tính & Vít me bi** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Có thể duy trì mức độ trong thời gian dài",
+      "why_correct": "Khẳng định SAI về Ball Spline (Trục then hoa bi dẫn hướng) là: 'Có thể duy trì mức độ trong thời gian dài' mà không cần bảo dưỡng. Ball Spline là cơ cấu truyền động cơ học chính xác cao chịu tải xoắn lớn, nếu thiếu mỡ bôi trơn hoặc bị bụi bẩn mài mòn thì độ rơ góc sẽ tăng nhanh chóng.",
+      "why_wrong": "A (Thiết kế thanh mảnh nhỏ gọn thay thế được cả trục và then), B (Có thể khử khe hở bằng Preload) và D (Có khả năng vừa tịnh tiến vừa truyền mô-men xoắn Torque cực lớn) là các ưu điểm độc nhất vô nhị của Ball Spline.",
+      "supplementary_knowledge": "💡 **Ứng dụng Ball Spline:** Chuyên dùng trong trục lên xuống quay của cánh tay robot SCARA công nghiệp và đầu kẹp linh kiện máy dán bề mặt SMT."
+    }
+  },
+  {
+    "id": "WS_MCH_061",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "4. Phần tử chuyển động tuyến tính",
+    "difficulty": "Dễ",
+    "question_number": 61,
+    "question": "Chọn đáp án sai khi nói về Ball Screw",
+    "options": [
+      {
+        "key": "A",
+        "text": "Backlash cực nhỏ"
+      },
+      {
+        "key": "B",
+        "text": "Hiệu suất cao"
+      },
+      {
+        "key": "C",
+        "text": "Độ bền cao"
+      },
+      {
+        "key": "D",
+        "text": "Lực kháng lăn cao"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Phần tử chuyển động tuyến tính",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Phần tử chuyển động tuyến tính** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Lực kháng lăn cao",
+      "why_correct": "Phát biểu SAI khi nói về Vít me bi (Ball Screw) là: 'Lực kháng lăn cao'. Ngược lại, do chuyển động thông qua các viên bi thép lăn tròn giữa trục ren và đai ốc nên ma sát của vít me bi là ma sát lăn với hệ số cản cực kỳ thấp (μ ≈ 0.002 - 0.003), hiệu suất truyền động đạt trên 90% (cao gấp 3 lần vít me trượt thông thường).",
+      "why_wrong": "A (Độ rơ Backlash cực nhỏ tới 0 khi có Preload), B (Hiệu suất truyền năng lượng rất cao) và C (Độ bền mài mòn và độ chính xác tuổi thọ rất cao) đều là các ưu điểm cốt lõi của Vít me bi.",
+      "supplementary_knowledge": "💡 **Khả năng đảo chiều:** Do lực cản lăn quá nhỏ, vít me bi không có tính tự hãm. Tải trọng dọc trục có thể tự động đẩy xoay trục vít ngược lại, do đó động cơ servo điều khiển trục Z bắt buộc phải có phanh điện từ (Brake)."
+    }
+  },
+  {
+    "id": "WS_MCH_062",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "4. Phần tử chuyển động tuyến tính",
+    "difficulty": "Trung bình",
+    "question_number": 62,
+    "question": "Bộ phận nào của LM Guide giúp giúp tuần hoàn nhiệt của Ball ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "End Plate"
+      },
+      {
+        "key": "B",
+        "text": "LM Rail"
+      },
+      {
+        "key": "C",
+        "text": "LM Block"
+      },
+      {
+        "key": "D",
+        "text": "Base Plate"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Dẫn hướng tuyến tính & Vít me bi",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Dẫn hướng tuyến tính & Vít me bi** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "End Plate",
+      "why_correct": "Bộ phận của Block trượt LM Guide giúp dẫn hướng và chuyển tiếp dòng bi tuần hoàn khép kín giữa rãnh chịu tải và rãnh hồi bi không tải là Nắp đầu hồi bi (End Plate / End Cap).",
+      "why_wrong": "LM Rail là thanh ray dẫn hướng; LM Block là thân con trượt; Base plate là tấm đế gá.",
+      "supplementary_knowledge": "💡 **Cơ chế tuần hoàn bi:** Bi lăn từ đầu con trượt đến cuối con trượt, chui vào đường hầm cong trong End Plate để lộn ngược trở lại rãnh hồi, tạo thành chu trình chuyển động vô tận không giới hạn hành trình."
+    }
+  },
+  {
+    "id": "WS_MCH_063",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "4. Phần tử chuyển động tuyến tính",
+    "difficulty": "Trung bình",
+    "question_number": 63,
+    "question": "Đâu không phải 1 dạng phân loại của Ball Screw ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Luân chuyển ball"
+      },
+      {
+        "key": "B",
+        "text": "Hình dạng trục"
+      },
+      {
+        "key": "C",
+        "text": "Kiểu tải trước"
+      },
+      {
+        "key": "D",
+        "text": "Lead & Đường kính trục"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Phần tử chuyển động tuyến tính",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Phần tử chuyển động tuyến tính** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Hình dạng trục",
+      "why_correct": "Trong các phương pháp phân loại Vít me bi tiêu chuẩn của các hãng (như THK, NSK), 'Hình dạng trục' KHÔNG PHẢI là một tiêu chí phân loại chính ngạch (vì mọi trục vít me bi đều có dạng hình trụ tròn ren ngoài cơ bản).",
+      "why_wrong": "A (Phương pháp tuần hoàn bi: ống hồi ngoài, nắp đậy, lệch hướng), C (Kiểu tải trước Preload: đơn nut, đôi nut, dịch bước ren) và D (Bước dẫn Lead & Đường kính danh nghĩa trục) là 3 tiêu chí phân loại chuẩn mực nhất trong catalogue kỹ thuật.",
+      "supplementary_knowledge": "💡 **Ví dụ mã hóa Vít me bi THK:** `BNK 1510-5.6G0+400LC5` (Đường kính 15mm, Lead 10mm, cấp chính xác C5, chiều dài 400mm)."
+    }
+  },
+  {
+    "id": "WS_MCH_064",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "4. Phần tử chuyển động tuyến tính",
+    "difficulty": "Trung bình",
+    "question_number": 64,
+    "question": "Kiểu bi luân chuyển nào có Nut nhỏ gọn nhất.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kiểu ống hồi"
+      },
+      {
+        "key": "B",
+        "text": "Kiểu nắp đậy"
+      },
+      {
+        "key": "C",
+        "text": "Kiểu lệch hướng"
+      },
+      {
+        "key": "D",
+        "text": "Kiểu double Nut"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Phần tử chuyển động tuyến tính",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Phần tử chuyển động tuyến tính** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Kiểu lệch hướng",
+      "why_correct": "Trong các phương thức tuần hoàn bi của Vít me bi, Kiểu lệch hướng (Deflector Type / Hồi bi bên trong) có các miếng dẫn hướng bi nhỏ đặt ngay bên trong rãnh đai ốc, bi chỉ chuyển động tuần hoàn trong đúng 1 vòng ren rồi nhảy ngược lại, do đó đường kính ngoài của Đai ốc (Nut) là nhỏ gọn nhất trong tất cả các loại.",
+      "why_wrong": "Kiểu ống hồi (Return pipe type) có ống kim loại nổi gồ ghề bên ngoài thân đai ốc; Kiểu nắp đậy (End cap type) và Double nut đều có kích thước thân đai ốc to hơn.",
+      "supplementary_knowledge": "💡 **Ứng dụng Deflector Type:** Rất thích hợp cho các máy móc bán dẫn, thiết bị y tế có không gian lắp đặt bàn trượt siêu nhỏ hẹp."
+    }
+  },
+  {
+    "id": "WS_MCH_065",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "4. Phần tử chuyển động tuyến tính",
+    "difficulty": "Trung bình",
+    "question_number": 65,
+    "question": "Phương pháp Preload nào của Ball Screw có sử dụng miếng đệm ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bù tải trước"
+      },
+      {
+        "key": "B",
+        "text": "Áp suất tĩnh"
+      },
+      {
+        "key": "C",
+        "text": "Bù tải sau"
+      },
+      {
+        "key": "D",
+        "text": "Đôi Nut"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Phần tử chuyển động tuyến tính",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Phần tử chuyển động tuyến tính** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Đôi Nut",
+      "why_correct": "Phương pháp tạo lực ép tải trước (Preload) cho Vít me bi có sử dụng miếng đệm căn (Spacer) đặt ở giữa hai đai ốc là Phương pháp Đôi Đai Ốc (Double Nut Preload Method). Bằng cách mài chiều dày miếng đệm mỏng hơn hoặc dày hơn khe hở, hai đai ốc sẽ bị kéo căng hoặc nén ép ngược chiều nhau để triệt tiêu hoàn toàn khe hở dọc trục.",
+      "why_wrong": "Offset Preload dùng một đai ốc duy nhất có bước ren gia công lệch tâm; Static pressure là thủy tĩnh.",
+      "supplementary_knowledge": "💡 **Độ cứng vững vững chắc:** Phương pháp Double Nut cho phép tạo lực tải trước lớn (đến 10% tải trọng động C), mang lại độ cứng vững hướng trục cao nhất cho máy phay gia công nặng."
+    }
+  },
+  {
+    "id": "WS_MCH_066",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "4. Phần tử chuyển động tuyến tính",
+    "difficulty": "Trung bình",
+    "question_number": 66,
+    "question": "Đây là phương pháp Preload nào của Ball Screw?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Offset Preload"
+      },
+      {
+        "key": "B",
+        "text": "Static Pressure"
+      },
+      {
+        "key": "C",
+        "text": "Double Nut"
+      },
+      {
+        "key": "D",
+        "text": "Triple Nut"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/machine/q_066.png"
+    ],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Phần tử chuyển động tuyến tính",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Phần tử chuyển động tuyến tính** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Offset Preload",
+      "why_correct": "Hình ảnh thể hiện phương pháp Offset Preload (Tải trước dời bước rãnh / Đai ốc đơn dời pha): Sử dụng một đai ốc duy nhất, nhưng ở rãnh ren giữa thân đai ốc được gia công dịch chuyển bước đi một khoảng vi sai micromét ΔL để các hàng bi tì chặt vào hai phía đối diện của rãnh ren trục vít.",
+      "why_wrong": "Double Nut bắt buộc phải có 2 đai ốc tách rời kẹp vòng đệm ở giữa; Static pressure dùng màng dầu áp lực.",
+      "supplementary_knowledge": "💡 **Ưu điểm Offset Preload:** Thân đai ốc ngắn hơn và nhẹ hơn nhiều so với Double Nut nhưng vẫn khử sạch hoàn toàn Backlash (Zero Backlash)."
+    }
+  },
+  {
+    "id": "WS_MCH_067",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "4. Phần tử chuyển động tuyến tính",
+    "difficulty": "Trung bình",
+    "question_number": 67,
+    "question": "Phân loại theo phương thức chế tạo Ball Screw thì có tất cả mấy loại?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 loại"
+      },
+      {
+        "key": "B",
+        "text": "2 loại"
+      },
+      {
+        "key": "C",
+        "text": "3 loại"
+      },
+      {
+        "key": "D",
+        "text": "4 loại"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Phần tử chuyển động tuyến tính",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Phần tử chuyển động tuyến tính** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "2 loại",
+      "why_correct": "Phân loại theo phương thức công nghệ chế tạo thân trục Vít me bi thì có tất cả đúng 2 loại chính: (1) Vít me bi cán định hình (Rolled Ball Screw - gia công bằng phương pháp cán ép nguội con lăn, cấp chính xác C7~C10, giá rẻ) và (2) Vít me bi mài chính xác (Ground / Precision Ball Screw - gia công bằng máy mài CNC chính xác cao, cấp C0~C5, dùng cho máy công cụ).",
+      "why_wrong": "1, 3, 4 loại là các phân chia sai về mặt công nghệ chế tạo cơ khí chuẩn.",
+      "supplementary_knowledge": "💡 **Độ chính xác tích lũy:** Vít me cán sai số bước ~ 50 μm / 300mm; Vít me mài cấp C3 sai số bước chỉ dưới 8 μm / 300mm."
+    }
+  },
+  {
+    "id": "WS_MCH_068",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "4. Phần tử chuyển động tuyến tính",
+    "difficulty": "Trung bình",
+    "question_number": 68,
+    "question": "Chọn đáp án sai khi nói về phương thức End Cap Type của Ball Screw ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phù hợp nhất với việc di chuyển với tốc độ cao"
+      },
+      {
+        "key": "B",
+        "text": "Là loại High-lead Nut"
+      },
+      {
+        "key": "C",
+        "text": "Ball có thể chuyển động liên tục không giới hạn"
+      },
+      {
+        "key": "D",
+        "text": "Nut phổ biến đơn giản"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Phần tử chuyển động tuyến tính",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Phần tử chuyển động tuyến tính** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Nut phổ biến đơn giản",
+      "why_correct": "Phát biểu SAI khi nói về phương thức hồi bi kiểu nắp đậy (End Cap Type) của Vít me bi là: 'Nut phổ biến đơn giản'. Phương thức End Cap có cấu trúc nắp đậy đầu chuyển hướng dòng bi ở hai đầu đai ốc phức tạp, chuyên dùng cho các loại vít me bi có bước dẫn siêu lớn (High-Lead / Super-High Lead).",
+      "why_wrong": "A (Phù hợp nhất với chuyển động tịnh tiến tốc độ siêu cao hàng chục m/phút), B (Là thiết kế chuyên dụng cho High-lead Nut) và C (Bi chuyển động tuần hoàn liên tục không giới hạn) đều là các ưu điểm thiết kế của loại End Cap.",
+      "supplementary_knowledge": "💡 **Vít me bước lớn (High Lead):** Tỷ số bước Lead / Đường kính d có thể bằng 1 hoặc thậm chí lớn hơn 1 (ví dụ trục phi 20mm bước lead 20mm hoặc 40mm)."
+    }
+  },
+  {
+    "id": "WS_MCH_069",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "4. Phần tử chuyển động tuyến tính",
+    "difficulty": "Khó",
+    "question_number": 69,
+    "question": "Đâu là Ball Spline dạng Straight-sided spline",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A / Hình A (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B / Hình B (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C / Hình C (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D / Hình D (Xem sơ đồ minh họa)"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/machine/q_069_1.png",
+      "images/machine/q_069_2.png",
+      "images/machine/q_069_3.png",
+      "images/machine/q_069_4.png"
+    ],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Dẫn hướng tuyến tính & Vít me bi",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Dẫn hướng tuyến tính & Vít me bi** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Đáp án A / Hình A (Xem sơ đồ minh họa)",
+      "why_correct": "Trục then hoa bi dạng Straight-Sided Spline (Hình A) có các rãnh bi dẫn hướng chạy thẳng song song dọc theo phương đường sinh của trục tròn, cho phép may-ơ bi trượt tịnh tiến êm ái mà không bị xoay góc.",
+      "why_wrong": "Các hình vẽ khác thể hiện then hoa xoắn ốc (Spiral spline) hoặc rãnh bi vòng tròn.",
+      "supplementary_knowledge": "💡 **Cấu tạo Ball Spline:** Trên thân trục có 3 đến 6 rãnh bi hình bán nguyệt mài chuẩn xác đối xứng qua tâm, các viên bi tiếp xúc góc ôm chặt lấy rãnh then."
+    }
+  },
+  {
+    "id": "WS_MCH_070",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "4. Phần tử chuyển động tuyến tính",
+    "difficulty": "Khó",
+    "question_number": 70,
+    "question": "Phương thức dẫn động sử dụng labyrinth seal để ngăn bụi bẩn?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A / Hình A (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B / Hình B (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C / Hình C (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D / Hình D (Xem sơ đồ minh họa)"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/machine/q_070_1.jpg",
+      "images/machine/q_070_2.jpg",
+      "images/machine/q_070_3.jpg",
+      "images/machine/q_070_4.jpg"
+    ],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Bôi trơn & Phớt chắn bụi",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bôi trơn & Phớt chắn bụi** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Đáp án B / Hình B (Xem sơ đồ minh họa)",
+      "why_correct": "Phương thức dẫn động bảo vệ ổ trượt sử dụng Phớt mê cung (Labyrinth Seal) là cơ cấu chắn bụi không tiếp xúc (Hình B), tạo ra các khe hở zíc zắc nhiều tầng nếp gấp hẹp để ngăn phoi tiện, bụi bẩn và tia nước xâm nhập vào rãnh bi mà hoàn toàn không sinh ma sát mài mòn.",
+      "why_wrong": "Phớt tiếp xúc (Lip Seal / Rubber Seal) cọ xát trực tiếp vào mặt kim loại gây ma sát sinh nhiệt ở tốc độ cao.",
+      "supplementary_knowledge": "💡 **Ưu điểm Labyrinth Seal:** Ma sát bằng 0 tuyệt đối, không bị mòn theo thời gian, cho phép trục quay với vận tốc cực hạn trên 30.000 rpm."
+    }
+  },
+  {
+    "id": "WS_MCH_071",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "4. Phần tử chuyển động tuyến tính",
+    "difficulty": "Khó",
+    "question_number": 71,
+    "question": "Được áp dụng rộng rãi trên hướng song song, hướng chéo, hướng nghiêng mà cần sự giảm tối đa của ma sát là đặc tính của phương thức dẫn động nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Linear Bush"
+      },
+      {
+        "key": "B",
+        "text": "Ball Screw"
+      },
+      {
+        "key": "C",
+        "text": "LM Guide"
+      },
+      {
+        "key": "D",
+        "text": "Ball Spline"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Pham Van Thoan",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Phần tử chuyển động tuyến tính",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Phần tử chuyển động tuyến tính** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "LM Guide",
+      "why_correct": "Cơ cấu dẫn động chuyển động thẳng được ứng dụng rộng rãi trên mọi phương hướng (phương ngang song song, phương đứng, phương chéo nghiêng) với yêu cầu giảm thiểu tối đa ma sát và độ cứng vững uốn lật cao nhất chính là Hệ thanh trượt dẫn hướng LM Guide.",
+      "why_wrong": "Linear Bush chỉ dẫn hướng phương ngang tải nhẹ, không chịu được mô-men lật; Ball Screw là cơ cấu truyền lực kéo đẩy; Ball Spline là trục then hoa.",
+      "supplementary_knowledge": "💡 **Khả năng chịu tải mọi hướng:** Cấu trúc rãnh lăn cung tròn của LM Guide giúp phân bổ ứng suất tiếp xúc đồng đều bất kể tải trọng tác dụng từ trên xuống, từ dưới kéo lên hay lực xô ngang từ hai vách bên."
+    }
+  },
+  {
+    "id": "WS_MCH_072",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "5. Bôi trơn",
+    "difficulty": "Dễ",
+    "question_number": 72,
+    "question": "Loại mỡ sử dụng nhiều nhất trong phòng sạch?",
+    "options": [
+      {
+        "key": "A",
+        "text": "AFE"
+      },
+      {
+        "key": "B",
+        "text": "AFF"
+      },
+      {
+        "key": "C",
+        "text": "DR-07"
+      },
+      {
+        "key": "D",
+        "text": "DSF-3000"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bôi trơn & Phớt chắn bụi",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bôi trơn & Phớt chắn bụi** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "AFE",
+      "why_correct": "Loại mỡ bôi trơn chuyên dụng được sử dụng nhiều nhất cho các hệ thống ray trượt và vít me bi trong môi trường Phòng sạch (Cleanroom Class 1 ~ Class 100 của nhà máy bán dẫn, sản xuất màn hình OLED) là Mỡ AFE (AFE-CA Grease của hãng THK). Mỡ này có thành phần dầu tổng hợp đặc biệt hầu như không phát sinh bụi hạt và lượng bay hơi cực thấp.",
+      "why_wrong": "AFF là mỡ dải tốc độ cao; DR-07 và DSF-3000 là các dòng mỡ nhiệt độ cao hoặc chân không đặc thù khác.",
+      "supplementary_knowledge": "💡 **Tiêu chuẩn phòng sạch:** Mỡ AFE sử dụng chất làm đặc gốc Urê chất lượng cao, hạn chế tối đa việc phát tán các hạt vi mô (hạt bụi > 0.1 μm) vào không khí phòng sạch."
+    }
+  },
+  {
+    "id": "WS_MCH_073",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "5. Bôi trơn",
+    "difficulty": "Dễ",
+    "question_number": 73,
+    "question": "Đâu không phải thành phần của mỡ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chất làm cô đặc"
+      },
+      {
+        "key": "B",
+        "text": "Dầu khoáng hoặc dầu D-ester"
+      },
+      {
+        "key": "C",
+        "text": "Chất xúc tác"
+      },
+      {
+        "key": "D",
+        "text": "Chất chống đông mỡ"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bôi trơn & Phớt chắn bụi",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bôi trơn & Phớt chắn bụi** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Chất chống đông mỡ",
+      "why_correct": "Thành phần cấu tạo của Mỡ bôi trơn (Grease) tiêu chuẩn bao gồm: (1) Dầu gốc (Base Oil chiếm 70% - 90%), (2) Chất làm đặc (Thickener chiếm 10% - 20%), và (3) Các chất phụ gia chức năng (Additives chiếm 1% - 10%). 'Chất chống đông mỡ' KHÔNG PHẢI là một thành phần cơ bản của mỡ bôi trơn.",
+      "why_wrong": "Chất làm đặc cô đặc (xà phòng liti, canxi, urê), dầu khoáng/dầu tổng hợp D-ester và các chất xúc tác/phụ gia (chống oxy hóa, chịu cực áp EP) là các thành phần cấu thành chính ngạch của mỡ.",
+      "supplementary_knowledge": "💡 **Mô hình cấu trúc mỡ bôi trơn:** Hãy tưởng tượng chất làm đặc như một miếng bọt biển xốp xơ giữ chặt các giọt dầu bôi trơn lỏng bên trong lỗ xốp; khi cơ cấu chuyển động chịu tải ép, dầu sẽ rỉ ra bôi trơn rồi thấm hút trở lại."
+    }
+  },
+  {
+    "id": "WS_MCH_074",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "5. Bôi trơn",
+    "difficulty": "Dễ",
+    "question_number": 74,
+    "question": "Ý nào không đúng khi nói về tác dụng của bôi trơn?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Làm kín"
+      },
+      {
+        "key": "B",
+        "text": "Chống ôxi hóa"
+      },
+      {
+        "key": "C",
+        "text": "Làm lạnh"
+      },
+      {
+        "key": "D",
+        "text": "Làm sạch"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "application",
+    "topic_tag": "Bôi trơn & Phớt chắn bụi",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bôi trơn & Phớt chắn bụi** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Làm lạnh",
+      "why_correct": "Tác dụng của bôi trơn bao gồm: giảm ma sát mòn, làm mát tản nhiệt, làm kín khe hở chống bụi, chống oxy hóa rỉ sét và làm sạch cuốn trôi cặn bẩn. Chức năng 'Làm lạnh' (Cooling down to refrigeration level) là KHÔNG ĐÚNG (chất bôi trơn chỉ có khả năng làm mát tuần hoàn mang nhiệt lượng đi, không thể tự làm lạnh hạ nhiệt xuống dưới nhiệt độ môi trường).",
+      "why_wrong": "Làm kín, chống oxy hóa và làm sạch cặn mài mòn đều là các tác dụng bảo vệ sống còn của chất bôi trơn.",
+      "supplementary_knowledge": "💡 **Chức năng làm mát (Cooling effect):** Dầu bôi trơn tuần hoàn liên tục hấp thụ nhiệt sinh ra do ma sát tại các bề mặt tiếp xúc kim loại và mang về bình tản nhiệt giải nhiệt ra không khí."
+    }
+  },
+  {
+    "id": "WS_MCH_075",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "5. Bôi trơn",
+    "difficulty": "Trung bình",
+    "question_number": 75,
+    "question": "Tác dụng nào của bôi trơn có đặc điểm \"Tính chất vô cùng quan trọng khi tải trọng rung và tải trọng va chạm tác động nhiều.\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phân tán áp lực"
+      },
+      {
+        "key": "B",
+        "text": "Làm kín"
+      },
+      {
+        "key": "C",
+        "text": "Làm mát"
+      },
+      {
+        "key": "D",
+        "text": "Giảm ma sát"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Bôi trơn & Phớt chắn bụi",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bôi trơn & Phớt chắn bụi** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Phân tán áp lực",
+      "why_correct": "Tác dụng của màng bôi trơn có tính chất vô cùng quan trọng khi hệ thống phải chịu tải trọng rung động và tải trọng va đập đột ngột là 'Phân tán áp lực' (Pressure Distribution / Đệm êm thủy lực). Lớp màng dầu/mỡ có độ nhớt đàn hồi giúp phân tán ứng suất tập trung tại điểm tiếp xúc sang diện tích rộng hơn, triệt tiêu xung lực va đập.",
+      "why_wrong": "Làm kín ngăn rò rỉ; Làm mát giải nhiệt; Giảm ma sát mòn khi chuyển động tĩnh đều.",
+      "supplementary_knowledge": "💡 **Bôi trơn thủy động (Elastohydrodynamic Lubrication - EHL):** Dưới áp suất cục bộ cực cao hàng nghìn bar tại điểm tiếp xúc bi, dầu bôi trơn tạm thời hóa đặc như thủy tinh đàn hồi, phân tán tải trọng bảo vệ kim loại không bị mẻ rỗ."
+    }
+  },
+  {
+    "id": "WS_MCH_076",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "5. Bôi trơn",
+    "difficulty": "Trung bình",
+    "question_number": 76,
+    "question": "Đặc tính không đúng của dầu bôi trơn dạng lỏng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Có độ dính đủ cần trong trạng thái sử dụng."
+      },
+      {
+        "key": "B",
+        "text": "Có tính dầu có thể chịu được ở trạng thái bôi trơn có giới hạn."
+      },
+      {
+        "key": "C",
+        "text": "Tính bền ô xi hóa và nhiệt cao, mang tính trơ hóa học có thể, sạch mà đồng chất."
+      },
+      {
+        "key": "D",
+        "text": "Chịu được tốc độ vòng quay cao"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Bôi trơn & Phớt chắn bụi",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bôi trơn & Phớt chắn bụi** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Chịu được tốc độ vòng quay cao",
+      "why_correct": "Phát biểu KHÔNG ĐÚNG về dầu bôi trơn dạng lỏng là: 'Chịu được tốc độ vòng quay cao' (khi tốc độ vòng quay quá cao mà sử dụng dầu lỏng có độ nhớt không phù hợp thì màng dầu sẽ bị lực ly tâm văng ra ngoài hoặc bị ma sát cắt lỏng sinh nhiệt sủi bọt phá hủy màng dầu, đòi hỏi phải có hệ thống phun sương dầu Oil-Air chuyên biệt).",
+      "why_wrong": "A (Có độ nhớt phù hợp trong điều kiện nhiệt độ làm việc), B (Chịu được ma sát giới hạn khi màng dầu mỏng) và C (Độ bền nhiệt, chống oxy hóa và tính trơ hóa học cao) là các tính chất yêu cầu tiêu chuẩn của dầu bôi trơn.",
+      "supplementary_knowledge": "💡 **Chỉ số độ nhớt (Viscosity Index - VI):** Chỉ số VI càng cao thì độ nhớt của dầu càng ít bị biến đổi khi nhiệt độ môi trường thay đổi từ lạnh sang nóng."
+    }
+  },
+  {
+    "id": "WS_MCH_077",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "5. Bôi trơn",
+    "difficulty": "Trung bình",
+    "question_number": 77,
+    "question": "phong309^",
+    "options": [
+      {
+        "key": "A",
+        "text": "Paraffin"
+      },
+      {
+        "key": "B",
+        "text": "Naphthene"
+      },
+      {
+        "key": "C",
+        "text": "Dầu hỗ hợp theo dầu gốc"
+      },
+      {
+        "key": "D",
+        "text": "Tất cả các phương án trên"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bôi trơn",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bôi trơn** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Tất cả các phương án trên",
+      "why_correct": "Các loại dầu gốc (Base Oil) sử dụng để sản xuất dầu bôi trơn công nghiệp bao gồm đầy đủ: Dầu khoáng gốc Paraffinic (gốc no mạch thẳng), Dầu khoáng gốc Naphthenic (gốc no vòng thơm), và Dầu gốc hỗn hợp hoặc dầu tổng hợp (Synthetic Oil: PAO, Ester, Silicone). Do đó đáp án chuẩn là: 'Tất cả các phương án trên'.",
+      "why_wrong": "A, B, C đều chỉ là từng nhóm dầu gốc đơn lẻ.",
+      "supplementary_knowledge": "💡 **Ưu điểm dầu gốc tổng hợp (Synthetic):** Chịu nhiệt độ cực cao hoặc cực lạnh (-40°C đến +200°C), tuổi thọ chống oxy hóa gấp 3 đến 5 lần so với dầu gốc khoáng thông thường."
+    }
+  },
+  {
+    "id": "WS_MCH_078",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "5. Bôi trơn",
+    "difficulty": "Trung bình",
+    "question_number": 78,
+    "question": "Chất nào duy trì trạng thái mỡ nửa lỏng nửa đặc?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chất chống đông"
+      },
+      {
+        "key": "B",
+        "text": "Chất làm cô đặc"
+      },
+      {
+        "key": "C",
+        "text": "Chất làm mát"
+      },
+      {
+        "key": "D",
+        "text": "Chất xúc tác"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bôi trơn & Phớt chắn bụi",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bôi trơn & Phớt chắn bụi** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Chất làm cô đặc",
+      "why_correct": "Thành phần có chức năng tạo mạng lưới cấu trúc gel liên kết để giữ chặt các giọt dầu lỏng và duy trì mỡ ở trạng thái nửa lỏng nửa đặc (trạng thái bán rắn dẻo) chính là Chất làm đặc / Chất làm cô đặc (Thickener).",
+      "why_wrong": "Chất chống đông là phụ gia hạ điểm đông đặc; Chất làm mát là dung môi tản nhiệt; Chất xúc tác làm tăng tốc độ phản ứng.",
+      "supplementary_knowledge": "💡 **Các loại chất làm đặc phổ biến:** Xà phòng kim loại Lithium (chịu nước và đa dụng nhất), Xà phòng Phức Lithium (chịu nhiệt độ cao), Gốc Urê (tuổi thọ siêu dài trong động cơ điện)."
+    }
+  },
+  {
+    "id": "WS_MCH_079",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "5. Bôi trơn",
+    "difficulty": "Khó",
+    "question_number": 79,
+    "question": "Đâu là đặc điểm không đúng của bôi trơn Dầu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hệ thống bôi trơn đơn giản"
+      },
+      {
+        "key": "B",
+        "text": "Lượng dầu cần nhiều"
+      },
+      {
+        "key": "C",
+        "text": "Thiết bị bịt kín phức tạp"
+      },
+      {
+        "key": "D",
+        "text": "Có thể liên tục loại bỏ tạp chất"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "application",
+    "topic_tag": "Bôi trơn & Phớt chắn bụi",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bôi trơn & Phớt chắn bụi** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Hệ thống bôi trơn đơn giản",
+      "why_correct": "Đặc điểm KHÔNG ĐÚNG của phương thức bôi trơn bằng Dầu là: 'Hệ thống bôi trơn đơn giản'. Ngược lại hoàn toàn, hệ thống bôi trơn dầu đòi hỏi kết cấu vô cùng phức tạp: phải có bình chứa, bơm áp lực, đường ống dẫn đi và về, bộ lọc dầu, két làm mát và hệ thống phớt chặn kín dầu (Oil seal) rất đắt tiền để tránh rò rỉ dầu ra sàn xưởng.",
+      "why_wrong": "B (Cần lượng dầu tuần hoàn lớn), C (Cần cơ cấu làm kín phức tạp) và D (Có ưu điểm vượt trội là có thể liên tục lọc và loại bỏ mạt sắt tạp chất ra khỏi ổ trục) là các tính chất thực tế chính xác của bôi trơn dầu.",
+      "supplementary_knowledge": "💡 **So sánh độ phức tạp:** Bôi trơn mỡ chỉ cần bơm mỡ vào nắp gối đỡ là xong (hệ thống cực kỳ đơn giản); Bôi trơn dầu tuần hoàn đòi hỏi một trạm nguồn thủy lực bôi trơn hoàn chỉnh."
+    }
+  },
+  {
+    "id": "WS_MCH_080",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "5. Bôi trơn",
+    "difficulty": "Khó",
+    "question_number": 80,
+    "question": "So sánh bôi trơn Mỡ và Dầu nào đúng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mỡ có thể loại bỏ tạp chất"
+      },
+      {
+        "key": "B",
+        "text": "Mỡ giới hạn tốc độ quay cao, Dầu có thể sử dụng tốc độ vòng quay cao."
+      },
+      {
+        "key": "C",
+        "text": "Dầu và mỡ không đóng cặn dễ dàng sử dụng"
+      },
+      {
+        "key": "D",
+        "text": "Có thể làm kín bằng mỡ và dầu đơn giản"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Tran Huu Tao",
+    "note": "",
+    "question_type": "application",
+    "topic_tag": "Bôi trơn & Phớt chắn bụi",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bôi trơn & Phớt chắn bụi** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Mỡ giới hạn tốc độ quay cao, Dầu có thể sử dụng tốc độ vòng quay cao.",
+      "why_correct": "So sánh chính xác giữa bôi trơn Mỡ và Dầu: 'Mỡ bị giới hạn ở tốc độ quay trung bình (do ma sát nội tại của mỡ sinh nhiệt lớn và lực ly tâm văng mỡ), trong khi Dầu bôi trơn có thể đáp ứng và sử dụng cho các cơ cấu có tốc độ vòng quay rất cao' (như trục chính Spindle CNC, tua-bin khí).",
+      "why_wrong": "A sai vì mỡ không thể tự lọc bỏ tạp chất (mạt kim loại bị kẹt lại trong mỡ); C sai vì dầu mỡ đều có thể bị thoái hóa đóng cặn bùn (Sludge); D sai vì làm kín dầu phức tạp hơn nhiều so với mỡ.",
+      "supplementary_knowledge": "💡 **Hệ số tốc độ d_m × n:** Mỡ bôi trơn thường chỉ dùng cho d_m × n < 500.000; Với d_m × n > 1.000.000 bắt buộc phải chuyển sang bôi trơn bằng dầu (Oil-Air hoặc Oil-Mist)."
+    }
+  },
+  {
+    "id": "WS_MCH_081",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "6. Bản vẽ kỹ thuật",
+    "difficulty": "Dễ",
+    "question_number": 81,
+    "question": "Đâu không phải là phương pháp chiếu góc nhìn vào vật thể?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hình chiếu nghiêng"
+      },
+      {
+        "key": "B",
+        "text": "Hình chiếu bằng"
+      },
+      {
+        "key": "C",
+        "text": "Hình chiếu đứng"
+      },
+      {
+        "key": "D",
+        "text": "Hình chiếu cạnh"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bản vẽ kỹ thuật",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bản vẽ kỹ thuật** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Hình chiếu nghiêng",
+      "why_correct": "Trong các phương pháp chiếu biểu diễn hình học trên bản vẽ kỹ thuật cơ khí tiêu chuẩn (TCVN / ISO / JIS), ba hình chiếu cơ bản trực giao vuông góc là: Hình chiếu đứng (Front view), Hình chiếu bằng (Top view) và Hình chiếu cạnh (Side view). Thuật ngữ 'Hình chiếu nghiêng' KHÔNG PHẢI là một trong các phương pháp chiếu góc nhìn chính.",
+      "why_wrong": "Hình chiếu đứng, hình chiếu bằng và hình chiếu cạnh là hệ quy chiếu 3 mặt phẳng vuông góc kinh điển trong vẽ kỹ thuật.",
+      "supplementary_knowledge": "💡 **Phương pháp chiếu góc phần tư:** Phương pháp chiếu góc thứ nhất (First Angle Projection - châu Âu, Việt Nam); Phương pháp chiếu góc thứ ba (Third Angle Projection - Nhật Bản, Hàn Quốc, Mỹ)."
+    }
+  },
+  {
+    "id": "WS_MCH_082",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "6. Bản vẽ kỹ thuật",
+    "difficulty": "Dễ",
+    "question_number": 82,
+    "question": "Khổ giấy A0 sẽ gấp bao nhiêu lần so với khổ giấy A4?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Bản vẽ kỹ thuật",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bản vẽ kỹ thuật** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "16",
+      "why_correct": "Theo tiêu chuẩn kích thước khổ giấy quốc tế ISO 216: Khổ giấy A0 có diện tích đúng bằng 1 m² (kích thước 841 × 1189 mm). Khi gấp đôi lần lượt: A0 = 2 A1 = 4 A2 = 8 A3 = 16 A4. Do đó, khổ giấy A0 gấp đúng 16 lần so với khổ giấy A4.",
+      "why_wrong": "2 lần là khổ A3 so với A4; 4 lần là A2 so với A4; 8 lần là A1 so với A4.",
+      "supplementary_knowledge": "💡 **Công thức tỷ lệ khổ giấy ISO:** Tỷ số diện tích giữa 2 khổ liền kề là 2. Tỷ lệ giữa A_n và A_k là: 2^(k - n). Với A0 và A4: 2^(4 - 0) = 2⁴ = 16 lần."
+    }
+  },
+  {
+    "id": "WS_MCH_083",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "6. Bản vẽ kỹ thuật",
+    "difficulty": "Trung bình",
+    "question_number": 83,
+    "question": "Trong bản vẽ tỉ lệ hình ảnh không có liên quan gì đến chỉ số?",
+    "options": [
+      {
+        "key": "A",
+        "text": "NJ"
+      },
+      {
+        "key": "B",
+        "text": "NB"
+      },
+      {
+        "key": "C",
+        "text": "NS"
+      },
+      {
+        "key": "D",
+        "text": "NX"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Tiêu chuẩn kỹ thuật & Bản vẽ JIS",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Tiêu chuẩn kỹ thuật & Bản vẽ JIS** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "NS",
+      "why_correct": "Trong bản vẽ kỹ thuật, khi một hình biểu diễn chi tiết được vẽ mang tính minh họa hình dáng tổng thể mà kích thước hình vẽ hoàn toàn không theo tỷ lệ thu phóng số học so với kích thước thực tế thì được ký hiệu chữ viết tắt là 'NS' (viết tắt của tiếng Anh: Not to Scale - Không theo tỷ lệ).",
+      "why_wrong": "NJ, NB, NX là các tổ hợp ký tự ngẫu nhiên không có ý nghĩa tiêu chuẩn trong vẽ kỹ thuật.",
+      "supplementary_knowledge": "💡 **Các tỷ lệ chuẩn trên bản vẽ:** Nguyên hình (1:1); Tỷ lệ thu nhỏ (1:2, 1:5, 1:10); Tỷ lệ phóng to (2:1, 5:1, 10:1); Không theo tỷ lệ (NTS hoặc NS)."
+    }
+  },
+  {
+    "id": "WS_MCH_084",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "6. Bản vẽ kỹ thuật",
+    "difficulty": "Trung bình",
+    "question_number": 84,
+    "question": "Kích thước của khổ giấy A2 là?",
+    "options": [
+      {
+        "key": "A",
+        "text": "420 X 594"
+      },
+      {
+        "key": "B",
+        "text": "290 X 420"
+      },
+      {
+        "key": "C",
+        "text": "410 X 594"
+      },
+      {
+        "key": "D",
+        "text": "297 X 420"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Đo lường & Dụng cụ cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Dụng cụ cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "420 X 594",
+      "why_correct": "Theo tiêu chuẩn kích thước giấy ISO 216, kích thước tiêu chuẩn của Khổ giấy A2 là: 420 × 594 mm.",
+      "why_wrong": "297 × 420 mm là kích thước khổ giấy A3; 210 × 297 mm là kích thước khổ giấy A4; 594 × 841 mm là khổ giấy A1.",
+      "supplementary_knowledge": "💡 **Bảng kích thước khổ giấy chuỗi A (mm):** A0 (841 × 1189) → A1 (594 × 841) → A2 (420 × 594) → A3 (297 × 420) → A4 (210 × 297)."
+    }
+  },
+  {
+    "id": "WS_MCH_085",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "6. Bản vẽ kỹ thuật",
+    "difficulty": "Trung bình",
+    "question_number": 85,
+    "question": "Bản vẽ kỹ thuật được sử dụng để làm gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Biểu thị ý kiến"
+      },
+      {
+        "key": "B",
+        "text": "Để gia công chi tiết máy"
+      },
+      {
+        "key": "C",
+        "text": "Vẽ chi tiết máy"
+      },
+      {
+        "key": "D",
+        "text": "Biểu thị đồ vật thực tế vào đồ thị"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Tiêu chuẩn kỹ thuật & Bản vẽ JIS",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Tiêu chuẩn kỹ thuật & Bản vẽ JIS** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Biểu thị đồ vật thực tế vào đồ thị",
+      "why_correct": "Bản vẽ kỹ thuật (Technical Drawing) được định nghĩa là phương tiện ngôn ngữ kỹ thuật dùng để: 'Biểu thị chính xác các đồ vật, chi tiết kết cấu thực tế từ không gian 3 chiều vào mặt phẳng đồ thị 2 chiều theo các quy tắc chiếu hình học và tiêu chuẩn quốc tế thống nhất'.",
+      "why_wrong": "A chỉ là ý kiến chủ quan; B và C chỉ là ứng dụng gia công hẹp, không phản ánh đầy đủ bản chất định nghĩa của bản vẽ kỹ thuật.",
+      "supplementary_knowledge": "💡 **Ngôn ngữ của kỹ sư:** Bản vẽ kỹ thuật truyền đạt đầy đủ mọi thông tin về hình dáng, kích thước, dung sai lắp ghép, độ nhám bề mặt và yêu cầu nhiệt luyện để chế tạo chính xác chi tiết."
+    }
+  },
+  {
+    "id": "WS_MCH_086",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "6. Bản vẽ kỹ thuật",
+    "difficulty": "Trung bình",
+    "question_number": 86,
+    "question": "Trong vẽ kỹ thuật máy thông thường dùng bằng phương pháp nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phương pháp gia công"
+      },
+      {
+        "key": "B",
+        "text": "Phương pháp đồ thị"
+      },
+      {
+        "key": "C",
+        "text": "Phương pháp AutoCAD"
+      },
+      {
+        "key": "D",
+        "text": "Phương pháp sử dụng đường kẻ, tin nhắn, ký hiệu"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bản vẽ kỹ thuật",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bản vẽ kỹ thuật** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Phương pháp AutoCAD",
+      "why_correct": "Trong thiết kế cơ khí và kỹ thuật chế tạo máy hiện đại ngày nay, phương pháp thiết lập bản vẽ thông dụng và chuẩn mực nhất là sử dụng phần mềm máy tính: 'Phương pháp AutoCAD' (hoặc các hệ thống CAD 2D/3D tiên tiến).",
+      "why_wrong": "Phương pháp gia công là quy trình chế tạo; Phương pháp vẽ tay thủ công bằng thước kẻ bút chì đã lỗi thời trong sản xuất công nghiệp.",
+      "supplementary_knowledge": "💡 **Chuyển đổi số CAD/CAM:** Từ bản vẽ thiết kế trên phần mềm CAD, dữ liệu được chuyển thẳng sang phần mềm CAM để lập trình đường chạy dao xuất mã G-code nạp xuống máy phay CNC."
+    }
+  },
+  {
+    "id": "WS_MCH_087",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "6. Bản vẽ kỹ thuật",
+    "difficulty": "Khó",
+    "question_number": 87,
+    "question": "Đường kẻ nào sử dụng thường không có quy tắc?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đường kích thước"
+      },
+      {
+        "key": "B",
+        "text": "Đường cắt đứt"
+      },
+      {
+        "key": "C",
+        "text": "Đường biểu thị xử lý bề mặt"
+      },
+      {
+        "key": "D",
+        "text": "Đường chỉ thị"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bản vẽ kỹ thuật",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bản vẽ kỹ thuật** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Đường cắt đứt",
+      "why_correct": "Loại đường nét vẽ được vẽ tự do bằng tay không có quy tắc hình học cứng nhắc là 'Đường cắt đứt / Đường lượn sóng' (Break line / Continuous thin freehand line), dùng để giới hạn một phần hình cắt hoặc ngắt một đoạn chi tiết quá dài trên bản vẽ.",
+      "why_wrong": "Đường kích thước và đường chỉ thị bắt buộc phải là đường thẳng mảnh vẽ bằng thước; Đường xử lý bề mặt có ký hiệu chuẩn.",
+      "supplementary_knowledge": "💡 **Quy cách đường lượn sóng:** Nét vẽ liền mảnh có độ dày bằng 1/2 nét liền đậm, vẽ uốn lượn tự nhiên không cắt qua đường bao thấy."
+    }
+  },
+  {
+    "id": "WS_MCH_088",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "6. Bản vẽ kỹ thuật",
+    "difficulty": "Khó",
+    "question_number": 88,
+    "question": "Là đường gấp khúc có độ dày bằng ½ hoặc 1 đường viền nhìn thấy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đường ẩn"
+      },
+      {
+        "key": "B",
+        "text": "Đường cắt phẳng"
+      },
+      {
+        "key": "C",
+        "text": "Đường trung tâm"
+      },
+      {
+        "key": "D",
+        "text": "Đường chia"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Bản vẽ kỹ thuật",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Bản vẽ kỹ thuật** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Đường ẩn",
+      "why_correct": "Đường nét đứt khúc mảnh (Dashed thin line / Nét đứt) có bề dày bằng khoảng 1/2 bề dày của đường viền bao nhìn thấy, được định nghĩa trong vẽ kỹ thuật là 'Đường ẩn' (Hidden Line), dùng để biểu thị các đường bao, cạnh khuất nằm phía sau không nhìn thấy của vật thể.",
+      "why_wrong": "Đường cắt phẳng dùng nét gạch chấm đậm ở hai đầu; Đường trung tâm tâm trục dùng nét gạch chấm mảnh; Đường chia là ranh giới phân vùng.",
+      "supplementary_knowledge": "💡 **Quy cách nét đứt (Hidden line):** Gồm các gạch ngắn dài khoảng 3 - 4mm cách đều nhau một khoảng hở 1mm. Nét đứt phải bắt đầu và kết thúc tiếp xúc rõ ràng với đường nét thấy."
+    }
+  },
+  {
+    "id": "WS_MCH_089",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "7. Công cụ",
+    "difficulty": "Dễ",
+    "question_number": 89,
+    "question": "Điều gì không phải nguyên nhân chủ yếu gây tai nạn khi sử dụng công cụ cầm tay?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dùng lực quá mức cho phép"
+      },
+      {
+        "key": "B",
+        "text": "Do các mảnh vỡ của nguyên liệu bay tứ tu"
+      },
+      {
+        "key": "C",
+        "text": "Sử dụng dụng cụ phù hợp"
+      },
+      {
+        "key": "D",
+        "text": "Sử dụng dụng cụ không thành thục"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "application",
+    "topic_tag": "Công cụ",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Công cụ** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Sử dụng dụng cụ phù hợp",
+      "why_correct": "Hành động 'Sử dụng dụng cụ phù hợp' (chọn đúng chủng loại kích cỡ công cụ cho từng công việc) là biện pháp an toàn bắt buộc, KHÔNG PHẢI là nguyên nhân gây ra tai nạn lao động.",
+      "why_wrong": "A (Dùng lực quá mức cho phép làm gãy vỡ dụng cụ), B (Do các mảnh phoi kim loại văng bắn vào mắt) và D (Sử dụng dụng cụ khi tay nghề chưa thành thạo) đều là các nguyên nhân hàng đầu gây chấn thương tai nạn lao động với công cụ cầm tay.",
+      "supplementary_knowledge": "💡 **Quy tắc 5S và an toàn công cụ:** Kiểm tra dụng cụ trước khi làm → Chọn đúng cỡ cờ-lê mỏ lết → Mang kính bảo hộ chống phoi văng → Không nối dài tay đòn cờ-lê."
+    }
+  },
+  {
+    "id": "WS_MCH_090",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "7. Công cụ",
+    "difficulty": "Dễ",
+    "question_number": 90,
+    "question": "Hình nào sai khi nói về sử dụng thước đo?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A / Hình A (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B / Hình B (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C / Hình C (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D / Hình D (Xem sơ đồ minh họa)"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/machine/q_090.png"
+    ],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Đo lường & Dụng cụ cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Dụng cụ cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Đáp án C / Hình C (Xem sơ đồ minh họa)",
+      "why_correct": "Hình C là thao tác SAI khi sử dụng thước kẹp (Vernier Caliper): Người đo đặt thước bị nghiêng lệch góc so với đường sinh hình học của chi tiết hoặc dùng phần đầu nhọn mũi kẹp tì lực quá mạnh làm biến dạng mỏ đo dẫn tới sai số đo lường nghiêm trọng.",
+      "why_wrong": "Các hình A, B, D thể hiện đúng quy cách: mặt mỏ đo áp sát vuông góc với bề mặt phôi, lực tì êm dịu thông qua con lăn ngón tay cái.",
+      "supplementary_knowledge": "💡 **Thao tác đo thước kẹp chuẩn:** Làm sạch mỏ đo và chi tiết → Đặt ngàm kẹp ôm sâu vào thân phôi → Giữ thước vuông góc 90° → Đọc kết quả trực diện mắt nhìn vuông góc với vạch chia."
+    }
+  },
+  {
+    "id": "WS_MCH_091",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "7. Công cụ",
+    "difficulty": "Dễ",
+    "question_number": 91,
+    "question": "Đâu không phải tác dụng của Thước kẹp (vernier calipers)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đo đường kính ngoài vật thể"
+      },
+      {
+        "key": "B",
+        "text": "Đo chiều sâu vật thể"
+      },
+      {
+        "key": "C",
+        "text": "Đo chiều đứng vật thể"
+      },
+      {
+        "key": "D",
+        "text": "Đo đường kính trong vật thể"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Đo lường & Dụng cụ cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Dụng cụ cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Đo chiều đứng vật thể",
+      "why_correct": "Thước kẹp tiêu chuẩn (Vernier Caliper) chuyên dùng để: Đo đường kính ngoài/chiều dài, Đo đường kính trong/khoảng cách lỗ, và Đo chiều sâu bậc (Depth measurement). Thao tác 'Đo chiều đứng vật thể' với độ chính xác cao trên bàn máp KHÔNG PHẢI là chức năng chuyên dụng của thước kẹp (công việc này bắt buộc phải sử dụng Thước đo cao - Height Gauge).",
+      "why_wrong": "A, B, D là 3 chức năng đo lường cơ bản 3 chiều (ngoài, trong, sâu) của thước kẹp.",
+      "supplementary_knowledge": "💡 **4 công dụng của Thước kẹp:** Đo ngoài (Mỏ kẹp lớn); Đo trong (Mỏ kẹp nhỏ); Đo sâu (Thanh đo đuôi); Đo bậc (Mặt phẳng đuôi thân thước)."
+    }
+  },
+  {
+    "id": "WS_MCH_092",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "7. Công cụ",
+    "difficulty": "Trung bình",
+    "question_number": 92,
+    "question": "Đâu không phải là phương pháp thao tác khi cưa?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lựa chọn lưỡi cưa chính xác phù hợp"
+      },
+      {
+        "key": "B",
+        "text": "Lưỡi cưa có răng hướng phía trong là lưỡi cưa an toàn"
+      },
+      {
+        "key": "C",
+        "text": "Sử dụng toàn bộ chiều dài lưỡi cưa"
+      },
+      {
+        "key": "D",
+        "text": "Dùng dầu máy có nồng độ thấp bôi lên lưỡi cưa"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Công cụ",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Công cụ** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Lưỡi cưa có răng hướng phía trong là lưỡi cưa an toàn",
+      "why_correct": "Phát biểu SAI về phương pháp thao tác khi cưa tay kim loại là: 'Lưỡi cưa có răng hướng phía trong là lưỡi cưa an toàn'. Theo quy chuẩn kỹ thuật an toàn gá lắp cưa sắt cầm tay, toàn bộ các răng cưa bắt buộc phải lắp HƯỚNG VỀ PHÍA TRƯỚC (hướng đẩy cưa đi), vì hành trình cắt phoi kim loại là hành trình đẩy tới; hành trình kéo về chỉ là hành trình chạy không tải.",
+      "why_wrong": "A (Chọn số răng cưa trên inch phù hợp với chiều dày vật liệu), C (Sử dụng trọn vẹn toàn bộ chiều dài lưỡi cưa để mòn đều) và D (Tra một lượng nhỏ dầu làm mát bôi trơn lên mạch cưa) đều là các thao tác cưa nguội chuẩn mực.",
+      "supplementary_knowledge": "💡 **Quy tắc chọn bước răng cưa:** Cưa vật liệu mềm/dày: chọn lưỡi cưa răng thưa (18 răng/inch); Cưa tấm mỏng/ống thép mỏng: chọn lưỡi cưa răng mịn (24 đến 32 răng/inch) để luôn có tối thiểu 2-3 răng tiếp xúc cùng lúc trên thành ống."
+    }
+  },
+  {
+    "id": "WS_MCH_093",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "7. Công cụ",
+    "difficulty": "Trung bình",
+    "question_number": 93,
+    "question": "Đâu là tên gọi đơn vị đo đại lượng nhiệt độ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mole"
+      },
+      {
+        "key": "B",
+        "text": "Am pe"
+      },
+      {
+        "key": "C",
+        "text": "Kelvin"
+      },
+      {
+        "key": "D",
+        "text": "Radian"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Đo lường & Dụng cụ cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Dụng cụ cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Kelvin",
+      "why_correct": "Trong Hệ đơn vị quốc tế (Hệ SI), đơn vị đo lường nhiệt độ nhiệt động lực học cơ bản là Kelvin, ký hiệu là K.",
+      "why_wrong": "Mole là đơn vị lượng chất; Ampe (A) là đơn vị cường độ dòng điện; Radian (rad) là đơn vị đo góc phẳng.",
+      "supplementary_knowledge": "💡 **Quy đổi nhiệt độ:** T(K) = t(°C) + 273.15. 0 Kelvin (-273.15°C) là độ không tuyệt đối, tại đó toàn bộ chuyển động nhiệt của phân tử ngừng lại."
+    }
+  },
+  {
+    "id": "WS_MCH_094",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "7. Công cụ",
+    "difficulty": "Trung bình",
+    "question_number": 94,
+    "question": "Hãy đọc thông số hiện tại của thước đo được?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20 mm"
+      },
+      {
+        "key": "B",
+        "text": "4.5 mm"
+      },
+      {
+        "key": "C",
+        "text": "10 mm"
+      },
+      {
+        "key": "D",
+        "text": "4.4 mm"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/machine/q_094.png"
+    ],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Đo lường & Dụng cụ cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Dụng cụ cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "4.4 mm",
+      "why_correct": "Dựa vào hình ảnh vạch đo trên thân thước panme/thước kẹp: Thước chính hiển thị vạch 4 mm, và vạch véc-ni (du xích) trùng khớp hoàn hảo ở vạch số 4 (độ chính xác 0.1mm), do đó kết quả đo được là: 4.0 mm + 0.4 mm = 4.4 mm.",
+      "why_wrong": "4.5 mm bị lệch nửa bước; 20 mm và 10 mm là các giá trị đọc nhầm thang chia.",
+      "supplementary_knowledge": "💡 **Cách đọc thước kẹp véc-ni (0.05mm hoặc 0.1mm):** Đọc phần nguyên milimét trên thước chính tại vị trí trước vạch 0 của du xích → Tìm vạch trên du xích trùng thẳng hàng nhất với một vạch bất kỳ của thước chính → Cộng hai giá trị lại."
+    }
+  },
+  {
+    "id": "WS_MCH_095",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "7. Công cụ",
+    "difficulty": "Trung bình",
+    "question_number": 95,
+    "question": "Là vật dùng để làm cứng giúp cho việc vặn đinh ốc cứng lên vật liệu cơ bản có tính mềm yếu như kim loại nhẹ(nhôm, magie, đồng), đồ đúc, nhựa, gỗ…?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Coil Insert"
+      },
+      {
+        "key": "B",
+        "text": "Insert Coil Handle"
+      },
+      {
+        "key": "C",
+        "text": "Dụng cụ tháo ống tháo Coil Insert"
+      },
+      {
+        "key": "D",
+        "text": "Back tap"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "calculation",
+    "topic_tag": "Công cụ",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Công cụ** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Coil Insert",
+      "why_correct": "Chi tiết lò xo bằng thép không gỉ dạng ren xoắn dùng để cấy vào lỗ ren của các vật liệu mềm (nhôm, magie, đồng, nhựa, gang) nhằm gia cố độ bền liên kết ren, chống tuôn trờn cháy ren khi tháo lắp bu lông nhiều lần được gọi là Ren cấy / Ống ren lò xo (Coil Insert / Helicoil).",
+      "why_wrong": "Insert Coil Handle là tay quay gá lắp ren cấy; Dụng cụ tháo ống là thiết bị rút nhổ coil hỏng; Back tap là taro sửa ren từ trong ra.",
+      "supplementary_knowledge": "💡 **Quy trình cấy Helicoil:** Khoan lỗ theo tiêu chuẩn → Dùng taro STI chuyên dụng tạo ren ngoài → Dùng cần xoay đưa cuộn Coil Insert vào → Bẻ gãy chốt đuôi định vị (Tang)."
+    }
+  },
+  {
+    "id": "WS_MCH_096",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "7. Công cụ",
+    "difficulty": "Trung bình",
+    "question_number": 96,
+    "question": "Tên gọi của công cụ thước đo trong hình bên dưới?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thước kẹp điện tử (DigimaticCalipersa)"
+      },
+      {
+        "key": "B",
+        "text": "Thước đo vòng ngoài (Digimatic Micrometers)"
+      },
+      {
+        "key": "C",
+        "text": "Thước đo vòng ngoài (Outside Micrometers)"
+      },
+      {
+        "key": "D",
+        "text": "Máy đo chiều cao điện tử (Digimatic Height Gauges)"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/machine/q_096.png"
+    ],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Đo lường & Dụng cụ cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Dụng cụ cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Thước đo vòng ngoài (Digimatic Micrometers)",
+      "why_correct": "Dụng cụ đo cơ khí trong hình là Panme đo ngoài điện tử / Thước đo vòng ngoài điện tử (Digimatic Outside Micrometer), có màn hình tinh thể lỏng LCD hiển thị trực tiếp kết quả đo với độ chính xác cực cao lên tới 0.001 mm (1 μm).",
+      "why_wrong": "Digimatic Calipers là thước kẹp điện tử; Digimatic Height Gauges là máy đo chiều cao trên bàn máp.",
+      "supplementary_knowledge": "💡 **Núm cóc vi động (Ratchet Stop):** Khi đo panme, khi mỏ đo tiếp xúc phôi phải vặn núm cóc xoay kêu 3 tiếng 'tách tách tách' để đảm bảo lực đo luôn không đổi (khoảng 5 - 10 N), tránh sai số do lực tay người."
+    }
+  },
+  {
+    "id": "WS_MCH_097",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "7. Công cụ",
+    "difficulty": "Trung bình",
+    "question_number": 97,
+    "question": "Thông số hiện tại của thước đo trong hình là?",
+    "options": [
+      {
+        "key": "A",
+        "text": "172.00 mm"
+      },
+      {
+        "key": "B",
+        "text": "145.00 mm"
+      },
+      {
+        "key": "C",
+        "text": "154.45 mm"
+      },
+      {
+        "key": "D",
+        "text": "154.00 mm"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/machine/q_097.png"
+    ],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Đo lường & Dụng cụ cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Dụng cụ cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "154.45 mm",
+      "why_correct": "Giá trị đo lường hiển thị trực quan trên màn hình số điện tử của thước đo trong hình ảnh là: 154.45 mm.",
+      "why_wrong": "172.00 mm, 145.00 mm, 154.00 mm là các kết quả đọc sai hoặc thiếu phần thập phân.",
+      "supplementary_knowledge": "💡 **Chức năng Zero/ABS trên thước điện tử:** Nút Origin/Zero cho phép thiết lập điểm gốc 0 tại bất kỳ vị trí nào để thực hiện phép đo so sánh vi sai (Incremental measurement)."
+    }
+  },
+  {
+    "id": "WS_MCH_098",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "7. Công cụ",
+    "difficulty": "Trung bình",
+    "question_number": 98,
+    "question": "Được gọi là kìm Chết, sử dụng khi làm việc với đinh ốc, Nut, làm việc với đường ống, công việc cố định, quay hoặc uốn cong… thanh thép hoặc tấm thép…",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kìm có răng khóa (Locking pliers)"
+      },
+      {
+        "key": "B",
+        "text": "Kìm mũi dài (Long Nose pliers)"
+      },
+      {
+        "key": "C",
+        "text": "Kìm (Nipper cutting Pliers)"
+      },
+      {
+        "key": "D",
+        "text": "Kìm cắt cạnh (Side cutting pliers)"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Công cụ",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Công cụ** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Kìm có răng khóa (Locking pliers)",
+      "why_correct": "Dụng cụ cầm tay thường được gọi là 'Kìm Chết' có cơ cấu lẫy khóa tự giữ hàm kẹp chặt bu lông đai ốc, thanh thép và ống tròn có tên kỹ thuật là Kìm có răng khóa / Kìm bấm chết (Locking Pliers / Vise-Grip).",
+      "why_wrong": "Long Nose pliers là kìm mỏ nhọn; Nipper cutting Pliers là kìm cắt chân linh kiện; Side cutting pliers là kìm cắt cạnh tuốt dây điện.",
+      "supplementary_knowledge": "💡 **Cơ cấu khóa đòn bẩy quá tâm (Over-center toggle):** Khi bóp kìm vượt qua điểm chết, cơ cấu tự khóa chặt hàm kẹp mà người thợ không cần tiếp tục bóp giữ tay, có thể điều chỉnh độ mở hàm bằng vít ở đuôi cán."
+    }
+  },
+  {
+    "id": "WS_MCH_099",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "7. Công cụ",
+    "difficulty": "Khó",
+    "question_number": 99,
+    "question": "Công cụ nào được sử dụng để tạo ren ngoài ( đinh ốc )?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surface plate"
+      },
+      {
+        "key": "B",
+        "text": "Files"
+      },
+      {
+        "key": "C",
+        "text": "Tap handle"
+      },
+      {
+        "key": "D",
+        "text": "Dies"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "theory",
+    "topic_tag": "Công cụ",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Công cụ** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Dies",
+      "why_correct": "Dụng cụ cắt gọt ren cầm tay chuyên dùng để tạo ren ngoài trên bề mặt phôi thanh trụ tròn hoặc tạo ren bu lông được gọi là Bàn ren (Dies / Bàn ren tròn gá vào tay quay bàn ren Die Handle).",
+      "why_wrong": "Mũi taro (Tap) và tay quay taro (Tap handle) dùng để tạo ren TRONG (lỗ ren, đai ốc); Surface plate là bàn máp chuẩn; Files là dũa cơ khí.",
+      "supplementary_knowledge": "💡 **Quy tắc phân biệt:** 'Taro ren trong - Bàn ren ren ngoài'. Khi cắt ren ngoài bằng bàn ren, phải vát mép đầu phôi 45° và tra dầu bôi trơn cắt gọt liên tục."
+    }
+  },
+  {
+    "id": "WS_MCH_100",
+    "source": "Bang diem dao tao va on thi White Star.xlsx",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "7. Công cụ",
+    "difficulty": "Khó",
+    "question_number": 100,
+    "question": "Trong bảng quy đổi đơn vị đo chiều dài. Vậy 1Km sẽ gấp bao nhiêu lần mm?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A / Hình A (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B / Hình B (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C / Hình C (Xem sơ đồ minh họa)"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D / Hình D (Xem sơ đồ minh họa)"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/machine/q_100.png"
+    ],
+    "author": "Luu Xuan Hoa",
+    "note": "",
+    "question_type": "schema",
+    "topic_tag": "Đo lường & Dụng cụ cơ khí",
+    "explanation": {
+      "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **Đo lường & Dụng cụ cơ khí** (Linh kiện máy cơ bản). Đáp án chuẩn xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Đáp án B / Hình B (Xem sơ đồ minh họa)",
+      "why_correct": "Trong bảng quy đổi đơn vị đo chiều dài: 1 km = 1.000 m; 1 m = 1.000 mm. Do đó: 1 km = 1.000 × 1.000 mm = 1.000.000 mm (tức là gấp 10⁶ lần milimét). Phương án đúng tương ứng với Đáp án B trên sơ đồ minh họa quy đổi đơn vị.",
+      "why_wrong": "10³ lần là quy đổi từ mét sang milimét; 10⁹ lần là quy đổi từ kilômét sang micromét.",
+      "supplementary_knowledge": "💡 **Chuỗi quy đổi đo lường cơ khí:** 1 km = 10³ m = 10⁶ mm = 10⁹ μm = 10¹² nm."
+    }
+  }
+]
