@@ -80,11 +80,15 @@ window.handleImgError = function(el) {
 // =============================================================================
 async function loadApplicationData() {
   try {
+    const preloadedMaster = window.QUESTIONS_MASTER || window.APP_DATA_MASTER;
+    const preloadedExams = window.MOCK_EXAMS || window.APP_DATA_EXAMS;
+    const preloadedSummary = window.APP_SUMMARY || window.APP_DATA_SUMMARY;
+
     // 1. Prefer preloaded JS bundles if available (works offline with 0 server/CORS errors)
-    if (window.APP_DATA_MASTER && window.APP_DATA_EXAMS) {
-      APP_STATE.summary = window.APP_DATA_SUMMARY || {};
-      APP_STATE.masterQuestions = window.APP_DATA_MASTER;
-      APP_STATE.mockExams = window.APP_DATA_EXAMS;
+    if (preloadedMaster && preloadedExams) {
+      APP_STATE.summary = preloadedSummary || {};
+      APP_STATE.masterQuestions = preloadedMaster;
+      APP_STATE.mockExams = preloadedExams;
     } else {
       // 2. Fallback to standard fetch when hosted on web server or GitHub Pages
       const [summaryRes, masterRes, examsRes] = await Promise.all([
@@ -108,10 +112,14 @@ async function loadApplicationData() {
     updatePracticeStatCounters();
   } catch (error) {
     console.warn('Network fetch error, attempting offline bundle fallback:', error);
-    if (window.APP_DATA_MASTER) {
-      APP_STATE.summary = window.APP_DATA_SUMMARY || {};
-      APP_STATE.masterQuestions = window.APP_DATA_MASTER;
-      APP_STATE.mockExams = window.APP_DATA_EXAMS || { exams: [] };
+    const preloadedMaster = window.QUESTIONS_MASTER || window.APP_DATA_MASTER;
+    const preloadedExams = window.MOCK_EXAMS || window.APP_DATA_EXAMS;
+    const preloadedSummary = window.APP_SUMMARY || window.APP_DATA_SUMMARY;
+
+    if (preloadedMaster) {
+      APP_STATE.summary = preloadedSummary || {};
+      APP_STATE.masterQuestions = preloadedMaster;
+      APP_STATE.mockExams = preloadedExams || [];
       APP_STATE.masterQuestions.forEach(q => ensureQuestionEnriched(q));
       updatePracticeStatCounters();
     } else {
@@ -896,10 +904,23 @@ function nextPracticePage() {
 // =============================================================================
 // VIEW 3: EXAM MODE WITH SHUFFLE OPTIONS & TIMER
 // =============================================================================
+// =============================================================================
+// VIEW 3: EXAM MODE WITH SMART EXAM GENERATION & SHUFFLE OPTIONS
+// =============================================================================
 function selectExamPreset(presetId, elem) {
   APP_STATE.selectedExamPreset = presetId;
   document.querySelectorAll('.exam-item').forEach(item => item.classList.remove('active'));
-  if (elem) elem.classList.add('active');
+  if (elem) {
+    elem.classList.add('active');
+  } else {
+    const targetItem = document.querySelector(`.exam-item[onclick*="${presetId}"]`);
+    if (targetItem) targetItem.classList.add('active');
+  }
+}
+
+function onSmartSubjectChange() {
+  const targetItem = document.querySelector('.exam-item[onclick*="SMART_SUBJECT"]');
+  selectExamPreset('SMART_SUBJECT', targetItem);
 }
 
 function startSelectedExam() {
@@ -908,18 +929,27 @@ function startSelectedExam() {
   APP_STATE.examConfig.shuffleQuestions = document.getElementById('exam-shuffle-questions')?.checked ?? false;
   APP_STATE.examConfig.enableTimer = document.getElementById('exam-enable-timer')?.checked ?? true;
 
-  const preset = APP_STATE.selectedExamPreset;
+  const preset = APP_STATE.selectedExamPreset || 'SMART_80';
 
-  if (preset === 'RANDOM_40') {
-    APP_STATE.activeExam = generateRandomExam(40);
+  if (preset === 'SMART_80') {
+    APP_STATE.activeExam = generateSmartExam({ count: 80, mode: 'balanced', timeMinutes: 60 });
+  } else if (preset === 'SMART_40') {
+    APP_STATE.activeExam = generateSmartExam({ count: 40, mode: 'balanced', timeMinutes: 30 });
+  } else if (preset === 'SMART_20') {
+    APP_STATE.activeExam = generateSmartExam({ count: 20, mode: 'balanced', timeMinutes: 15 });
+  } else if (preset === 'SMART_SUBJECT') {
+    const selSub = document.getElementById('smart-subject-picker')?.value || 'electric';
+    APP_STATE.activeExam = generateSmartExam({ count: 25, mode: 'subject', subject: selSub, timeMinutes: 20 });
+  } else if (preset === 'RANDOM_40') {
+    APP_STATE.activeExam = generateSmartExam({ count: 40, mode: 'balanced', timeMinutes: 30 });
   } else {
     // Find preset in mockExams
     const found = APP_STATE.mockExams.find(e => e.id === preset);
     if (found) {
-      // Deep clone exam questions to avoid modifying source data
       APP_STATE.activeExam = JSON.parse(JSON.stringify(found));
+      APP_STATE.activeExam.time_minutes = 60;
     } else {
-      APP_STATE.activeExam = generateRandomExam(40);
+      APP_STATE.activeExam = generateSmartExam({ count: 80, mode: 'balanced', timeMinutes: 60 });
     }
   }
 
@@ -932,9 +962,13 @@ function startSelectedExam() {
       const j = Math.floor(Math.random() * (i + 1));
       [APP_STATE.activeExam.questions[i], APP_STATE.activeExam.questions[j]] = [APP_STATE.activeExam.questions[j], APP_STATE.activeExam.questions[i]];
     }
+    // Re-index displayed question numbers
+    APP_STATE.activeExam.questions.forEach((q, idx) => {
+      q.display_number = idx + 1;
+    });
   }
 
-  // 2. Shuffle Options for each question if configured
+  // 2. Shuffle Options for each question if configured (Chống học vẹt A-B-C-D)
   if (APP_STATE.examConfig.shuffleOptions) {
     APP_STATE.activeExam.questions.forEach(q => {
       const shuffledPack = shuffleQuestionOptions(q.options, q.correct_answer);
@@ -947,7 +981,8 @@ function startSelectedExam() {
   APP_STATE.examCurrentIndex = 0;
   APP_STATE.examAnswers = {};
   APP_STATE.examIsSubmitted = false;
-  APP_STATE.examSecondsRemaining = (APP_STATE.activeExam.questions.length > 50) ? 3600 : 1800; // 60 min or 30 min
+  const timeMinutes = APP_STATE.activeExam.time_minutes || (APP_STATE.activeExam.questions.length > 50 ? 60 : 30);
+  APP_STATE.examSecondsRemaining = timeMinutes * 60;
   APP_STATE.examTimeSpentSeconds = 0;
 
   // Switch to active exam view
@@ -970,36 +1005,129 @@ function startSelectedExam() {
   }
 }
 
-function generateRandomExam(totalCount = 40) {
-  const perSubject = Math.floor(totalCount / 4);
-  const subjects = ['electric', 'plc', 'machine', 'pneumatics'];
+// Logic phân bổ câu hỏi thông minh cân bằng 4 môn và độ khó
+function generateSmartExam(config = {}) {
+  const totalCount = config.count || 80;
+  const isSubjectMode = (config.mode === 'subject');
   let questions = [];
 
-  subjects.forEach(sub => {
+  if (isSubjectMode) {
+    const sub = config.subject || 'electric';
+    const subNameMap = {
+      electric: 'Điện & Điện Tử Cơ Bản',
+      plc: 'PLC Cơ Bản',
+      machine: 'Linh Kiện Máy Cơ Bản',
+      pneumatics: 'Khí Nén Cơ Bản'
+    };
+    const subName = subNameMap[sub] || 'Chuyên Đề';
     const pool = APP_STATE.masterQuestions.filter(q => q.subject_code === sub);
-    const shuffled = pool.sort(() => 0.5 - Math.random()).slice(0, perSubject);
-    shuffled.forEach((q, idx) => {
-      questions.push({
-        id: `RAND_${sub.toUpperCase()}_${idx+1}`,
-        section: q.subject,
-        question_number: questions.length + 1,
-        question: q.question,
-        options: q.options,
-        correct_answer: q.correct_answer,
-        images: q.images,
-        question_type: q.question_type,
-        topic_tag: q.topic_tag,
-        explanation: q.explanation
+    const selected = sampleQuestionsWithDifficultyBalance(pool, totalCount);
+
+    selected.forEach((q, idx) => {
+      const cloned = JSON.parse(JSON.stringify(q));
+      cloned.exam_q_num = idx + 1;
+      cloned.display_number = idx + 1;
+      questions.push(cloned);
+    });
+
+    return {
+      id: `SMART_SUBJ_${sub.toUpperCase()}`,
+      title: `Đề Thi Chuyên Sâu: ${subName} (${totalCount} câu)`,
+      total_questions: questions.length,
+      questions: questions,
+      time_minutes: config.timeMinutes || 20
+    };
+  } else {
+    // Cân đối 4 môn: Điện (25%), PLC (25%), Khí nén (25%), Máy (25%)
+    const subjects = ['electric', 'plc', 'pneumatics', 'machine'];
+    const perSubject = Math.floor(totalCount / 4);
+
+    subjects.forEach((sub, subIdx) => {
+      const countForThisSub = (subIdx === 3) ? (totalCount - perSubject * 3) : perSubject;
+      const pool = APP_STATE.masterQuestions.filter(q => q.subject_code === sub);
+      const selected = sampleQuestionsWithDifficultyBalance(pool, countForThisSub);
+
+      selected.forEach(q => {
+        const cloned = JSON.parse(JSON.stringify(q));
+        cloned.exam_q_num = questions.length + 1;
+        cloned.display_number = questions.length + 1;
+        questions.push(cloned);
       });
     });
-  });
 
-  return {
-    id: 'EXAM_RANDOM_40',
-    title: 'Đề Thi Nhanh Ngẫu Nhiên White Star (40 câu)',
-    total_questions: questions.length,
-    questions: questions
-  };
+    const titleMap = {
+      80: '🎯 Đề Chuẩn Mô Phỏng White Star (80 câu)',
+      40: '⚡ Đề Rút Gọn Cân Bằng 4 Môn (40 câu)',
+      20: '🚀 Đề Cấp Tốc Cân Bằng 4 Môn (20 câu)'
+    };
+
+    return {
+      id: `SMART_${totalCount}`,
+      title: titleMap[totalCount] || `Đề Thi Mô Phỏng White Star (${totalCount} câu)`,
+      total_questions: questions.length,
+      questions: questions,
+      time_minutes: config.timeMinutes || (totalCount >= 80 ? 60 : (totalCount >= 40 ? 30 : 15))
+    };
+  }
+}
+
+// Thuật toán lấy mẫu cân bằng độ khó (45% Dễ, 40% Trung bình, 15% Khó) và ưu tiên câu có sơ đồ/hình ảnh
+function sampleQuestionsWithDifficultyBalance(pool, targetCount) {
+  if (!pool || pool.length === 0) return [];
+  if (pool.length <= targetCount) {
+    return [...pool].sort(() => 0.5 - Math.random());
+  }
+
+  const countEasy = Math.max(1, Math.round(targetCount * 0.45));
+  const countMed = Math.max(1, Math.round(targetCount * 0.40));
+  const countHard = Math.max(1, targetCount - countEasy - countMed);
+
+  const easyPool = pool.filter(q => q.difficulty === 'Dễ' || !q.difficulty).sort(() => 0.5 - Math.random());
+  const medPool = pool.filter(q => q.difficulty === 'Trung bình').sort(() => 0.5 - Math.random());
+  const hardPool = pool.filter(q => q.difficulty === 'Khó').sort(() => 0.5 - Math.random());
+
+  let chosen = [];
+  chosen.push(...easyPool.slice(0, countEasy));
+  chosen.push(...medPool.slice(0, countMed));
+  chosen.push(...hardPool.slice(0, countHard));
+
+  // Nếu thiếu do pool của mức độ đó ít, bù từ phần còn lại
+  if (chosen.length < targetCount) {
+    const chosenIds = new Set(chosen.map(q => q.id));
+    const remainder = pool.filter(q => !chosenIds.has(q.id)).sort(() => 0.5 - Math.random());
+    chosen.push(...remainder.slice(0, targetCount - chosen.length));
+  }
+
+  // Đảm bảo có ít nhất 1-2 câu có hình ảnh minh họa nếu môn đó có hình ảnh
+  const hasImage = chosen.some(q => q.images && q.images.length > 0);
+  if (!hasImage) {
+    const imgQ = pool.find(q => q.images && q.images.length > 0);
+    if (imgQ && !chosen.some(q => q.id === imgQ.id)) {
+      chosen[chosen.length - 1] = imgQ;
+    }
+  }
+
+  return chosen.slice(0, targetCount);
+}
+
+function toggleExamFlag(index) {
+  if (!APP_STATE.examFlags) APP_STATE.examFlags = new Set();
+  if (APP_STATE.examFlags.has(index)) {
+    APP_STATE.examFlags.delete(index);
+  } else {
+    APP_STATE.examFlags.add(index);
+  }
+  updatePaletteButton(index);
+  renderExamQuestion(index);
+}
+
+function updatePaletteButton(index) {
+  const btn = document.getElementById(`pal-btn-${index}`);
+  if (!btn) return;
+  const isAnswered = APP_STATE.examAnswers && APP_STATE.examAnswers[index] !== undefined;
+  const isFlagged = APP_STATE.examFlags && APP_STATE.examFlags.has(index);
+  btn.classList.toggle('answered', isAnswered);
+  btn.classList.toggle('flagged', isFlagged);
 }
 
 function buildExamPalette() {
@@ -1007,8 +1135,13 @@ function buildExamPalette() {
   if (!palette || !APP_STATE.activeExam) return;
 
   palette.innerHTML = APP_STATE.activeExam.questions.map((q, idx) => {
+    const isAnswered = APP_STATE.examAnswers && APP_STATE.examAnswers[idx] !== undefined;
+    const isFlagged = APP_STATE.examFlags && APP_STATE.examFlags.has(idx);
+    let classes = 'palette-btn';
+    if (isAnswered) classes += ' answered';
+    if (isFlagged) classes += ' flagged';
     return `
-      <button class="palette-btn" id="pal-btn-${idx}" onclick="jumpToExamQuestion(${idx})">
+      <button class="${classes}" id="pal-btn-${idx}" onclick="jumpToExamQuestion(${idx})">
         ${idx + 1}
       </button>
     `;
@@ -1047,9 +1180,14 @@ function renderExamQuestion(index) {
     const btn = document.getElementById(`pal-btn-${i}`);
     if (!btn) return;
     btn.classList.toggle('current', i === index);
+    const isAnswered = APP_STATE.examAnswers && APP_STATE.examAnswers[i] !== undefined;
+    const isFlagged = APP_STATE.examFlags && APP_STATE.examFlags.has(i);
+    btn.classList.toggle('answered', isAnswered);
+    btn.classList.toggle('flagged', isFlagged);
   });
 
   const selectedAnswer = APP_STATE.examAnswers[index];
+  const isFlagged = APP_STATE.examFlags && APP_STATE.examFlags.has(index);
 
   // Media
   const mediaHtml = (q.images && q.images.length > 0)
@@ -1084,18 +1222,27 @@ function renderExamQuestion(index) {
     `;
   }).join('');
 
+  const subjText = q.subject || q.section || 'Kỹ thuật';
+  const diffBadge = q.difficulty ? `<span class="badge badge-diff diff-${q.difficulty.toLowerCase()}">${q.difficulty}</span>` : '';
+
   const container = document.getElementById('exam-question-content');
   container.innerHTML = `
     <div class="q-card-header">
-      <span class="badge badge-subject">${q.section || 'Kỹ thuật'}</span>
-      <span class="q-id">Câu ${index + 1} / ${exam.questions.length}</span>
+      <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+        <span class="badge badge-subject">${escapeHtml(subjText)}</span>
+        ${diffBadge}
+        <span class="q-id">Câu ${index + 1} / ${exam.questions.length}</span>
+      </div>
+      <button class="btn btn-sm ${isFlagged ? 'btn-warning' : 'btn-outline'}" onclick="toggleExamFlag(${index})" title="Đánh dấu câu hỏi này để xem lại sau">
+        ${isFlagged ? '🚩 Đã đánh dấu' : '🏳️ Đánh dấu xem lại'}
+      </button>
     </div>
     <div class="q-title" style="font-size: 1.25rem;">${escapeHtml(q.question)}</div>
     ${mediaHtml}
     <div class="q-options-list" style="margin-top: 24px;">
       ${optionsHtml}
     </div>
-    <div style="display: flex; justify-content: space-between; margin-top: auto; padding-top: 24px;">
+    <div style="display: flex; justify-content: space-between; margin-top: auto; padding-top: 24px; gap: 10px;">
       <button class="btn btn-secondary" ${index === 0 ? 'disabled' : ''} onclick="jumpToExamQuestion(${index - 1})">← Câu trước</button>
       ${index < exam.questions.length - 1 
         ? `<button class="btn btn-primary" onclick="jumpToExamQuestion(${index + 1})">Câu tiếp theo →</button>`
@@ -1107,12 +1254,7 @@ function renderExamQuestion(index) {
 
 function selectExamAnswer(qIndex, key) {
   APP_STATE.examAnswers[qIndex] = key;
-  
-  // Update palette button status
-  const palBtn = document.getElementById(`pal-btn-${qIndex}`);
-  if (palBtn) palBtn.classList.add('answered');
-
-  // Re-render current question
+  updatePaletteButton(qIndex);
   renderExamQuestion(qIndex);
 }
 
@@ -1146,9 +1288,17 @@ function updateTimerDisplay() {
 }
 
 function confirmSubmitExam() {
-  const answeredCount = Object.keys(APP_STATE.examAnswers).length;
+  const answeredCount = Object.keys(APP_STATE.examAnswers || {}).length;
   const total = APP_STATE.activeExam.questions.length;
-  const msg = `Bạn đã hoàn thành ${answeredCount}/${total} câu hỏi. Bạn có chắc chắn muốn nộp bài thi ngay không?`;
+  const flaggedCount = APP_STATE.examFlags ? APP_STATE.examFlags.size : 0;
+  let msg = `Bạn đã hoàn thành ${answeredCount}/${total} câu hỏi.`;
+  if (answeredCount < total) {
+    msg += ` Còn ${total - answeredCount} câu chưa trả lời.`;
+  }
+  if (flaggedCount > 0) {
+    msg += ` Có ${flaggedCount} câu đang đánh dấu xem lại.`;
+  }
+  msg += `\n\nBạn có chắc chắn muốn nộp bài thi ngay không?`;
   if (confirm(msg)) {
     submitExam();
   }

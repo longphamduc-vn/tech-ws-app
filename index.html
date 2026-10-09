@@ -152,8 +152,8 @@
               <span class="metric-icon">📚</span>
               <span class="metric-title">Master Bank</span>
             </div>
-            <div class="metric-value" id="val-master-count">398</div>
-            <div class="metric-desc">Câu hỏi đã chuẩn hóa 4 môn</div>
+            <div class="metric-value" id="val-master-count">834</div>
+            <div class="metric-desc">Câu hỏi đã chuẩn hóa & hợp nhất 4 môn</div>
           </div>
 
           <div class="metric-card" id="card-review-count">
@@ -170,8 +170,8 @@
               <span class="metric-icon">🏆</span>
               <span class="metric-title">Bộ Đề Thi Thử</span>
             </div>
-            <div class="metric-value" id="val-exams-count">5</div>
-            <div class="metric-desc">Đề chuẩn 80 câu có đáp án</div>
+            <div class="metric-value" id="val-exams-count">6+</div>
+            <div class="metric-desc">6 đề gốc + Trộn đề thông minh 80 câu</div>
           </div>
 
           <div class="metric-card" id="card-images-count">
@@ -179,7 +179,7 @@
               <span class="metric-icon">📐</span>
               <span class="metric-title">Sơ Đồ Kỹ Thuật</span>
             </div>
-            <div class="metric-value" id="val-images-count">213</div>
+            <div class="metric-value" id="val-images-count">330+</div>
             <div class="metric-desc">Hình ảnh sơ đồ mạch & linh kiện</div>
           </div>
         </div>
@@ -197,8 +197,8 @@
               <h4>Điện & Điện Tử Cơ Bản</h4>
               <p>Nguyên tử, bán dẫn, diode, transistor, đo lường sóng dao động ký</p>
               <div class="subject-meta">
-                <span class="q-count" id="count-electric">99 câu hỏi</span>
-                <span class="tag">Dễ: 34 • TB: 55 • Khó: 10</span>
+                <span class="q-count" id="count-electric">282 câu hỏi</span>
+                <span class="tag">Dễ • TB • Khó • Đầy đủ hình ảnh</span>
               </div>
             </div>
             <button class="btn-card-action">→</button>
@@ -210,8 +210,8 @@
               <h4>PLC Cơ Bản</h4>
               <p>Cấu trúc PLC, bộ nhớ CPU, lệnh tiếp điểm Ladder, Timer, Counter, GX Works</p>
               <div class="subject-meta">
-                <span class="q-count" id="count-plc">99 câu hỏi</span>
-                <span class="tag">Dễ: 30 • TB: 48 • Khó: 21</span>
+                <span class="q-count" id="count-plc">202 câu hỏi</span>
+                <span class="tag">Dễ • TB • Khó • Giản đồ xung</span>
               </div>
             </div>
             <button class="btn-card-action">→</button>
@@ -223,8 +223,8 @@
               <h4>Linh Kiện Máy Cơ Bản</h4>
               <p>Trục, then chốt, vòng bi (Bearing), dung sai lắp ghép, bôi trơn, bản vẽ</p>
               <div class="subject-meta">
-                <span class="q-count" id="count-machine">100 câu hỏi</span>
-                <span class="tag">Dễ: 25 • TB: 45 • Khó: 30</span>
+                <span class="q-count" id="count-machine">192 câu hỏi</span>
+                <span class="tag">Dễ • TB • Khó • Bản vẽ cơ khí</span>
               </div>
             </div>
             <button class="btn-card-action">→</button>
@@ -236,8 +236,8 @@
               <h4>Khí Nén Cơ Bản</h4>
               <p>Máy nén khí, bộ lọc FRL, van đảo chiều, van tiết lưu, xi lanh truyền động</p>
               <div class="subject-meta">
-                <span class="q-count" id="count-pneumatics">100 câu hỏi</span>
-                <span class="tag">Dễ: 23 • TB: 50 • Khó: 27</span>
+                <span class="q-count" id="count-pneumatics">158 câu hỏi</span>
+                <span class="tag">Dễ • TB • Khó • Ký hiệu van</span>
               </div>
             </div>
             <button class="btn-card-action">→</button>
@@ -397,21 +397,66 @@
               <button class="btn btn-sm btn-outline" onclick="openUserProfileModal()">Đổi thí sinh</button>
             </div>
 
+            <div class="exam-group-title">
+              <span>🎲 CHẾ ĐỘ SINH ĐỀ THÔNG MINH (TỰ ĐỘNG TRỘN ĐỀ & ĐÁP ÁN)</span>
+              <small>Hệ thống tự động phân bổ câu hỏi cân bằng 4 môn và độ khó chuẩn từ 834 câu</small>
+            </div>
+
             <div class="exam-selection-list">
-              <div class="exam-item active" onclick="selectExamPreset('EXAM_TEST_01', this)">
+              <div class="exam-item active" onclick="selectExamPreset('SMART_80', this)">
+                <div class="exam-item-header">
+                  <h4>🎯 Đề Chuẩn Mô Phỏng White Star (Khuyên dùng)</h4>
+                  <span class="badge-exam badge-smart">80 câu • 60 phút</span>
+                </div>
+                <p>Cân đối 4 môn: 20 Điện • 20 PLC • 20 Khí nén • 20 Máy (Tỷ lệ: 45% Dễ, 40% TB, 15% Khó)</p>
+              </div>
+
+              <div class="exam-item" onclick="selectExamPreset('SMART_40', this)">
+                <div class="exam-item-header">
+                  <h4>⚡ Đề Rút Gọn Cân Bằng</h4>
+                  <span class="badge-exam badge-smart">40 câu • 30 phút</span>
+                </div>
+                <p>Phân bổ nhanh 10 câu mỗi môn, bao quát toàn diện kiến thức trọng tâm</p>
+              </div>
+
+              <div class="exam-item" onclick="selectExamPreset('SMART_20', this)">
+                <div class="exam-item-header">
+                  <h4>🚀 Đề Cấp Tốc</h4>
+                  <span class="badge-exam badge-smart">20 câu • 15 phút</span>
+                </div>
+                <p>Mỗi môn 5 câu hỏi ngẫu nhiên, thích hợp ôn luyện nhanh trước ca làm việc</p>
+              </div>
+
+              <div class="exam-item" onclick="selectExamPreset('SMART_SUBJECT', this)">
+                <div class="exam-item-header">
+                  <h4>🔬 Đề Chuyên Sâu Từng Môn Học</h4>
+                  <span class="badge-exam badge-smart">25 câu • 20 phút</span>
+                </div>
+                <p>Luyện tập tập trung 1 môn duy nhất</p>
+                <div class="subject-select-inline" onclick="event.stopPropagation()">
+                  <label for="smart-subject-picker">Chọn môn:</label>
+                  <select id="smart-subject-picker" onchange="onSmartSubjectChange()">
+                    <option value="electric">⚡ Điện & Điện Tử Cơ Bản</option>
+                    <option value="plc">💻 PLC Cơ Bản</option>
+                    <option value="machine">⚙️ Linh Kiện Máy Cơ Bản</option>
+                    <option value="pneumatics">💨 Khí Nén Cơ Bản</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="exam-group-title" style="margin-top: 24px;">
+              <span>📑 BỘ ĐỀ THI THỬ GỐC (TRÍCH XUẤT ĐẦY ĐỦ SƠ ĐỒ & ĐÁP ÁN CHUẨN)</span>
+              <small>Đề thi các đợt thi White Star nguyên bản, kèm hình ảnh kỹ thuật sắc nét</small>
+            </div>
+
+            <div class="exam-selection-list">
+              <div class="exam-item" onclick="selectExamPreset('EXAM_TEST_01', this)">
                 <div class="exam-item-header">
                   <h4>Đề thi thử White Star - Test 01</h4>
                   <span class="badge-exam">80 câu • 60 phút</span>
                 </div>
-                <p>Bộ đề chuẩn 4 môn: Điện (1-20), PLC (21-40), Khí nén (41-60), Máy (61-80)</p>
-              </div>
-
-              <div class="exam-item" onclick="selectExamPreset('EXAM_DE_01', this)">
-                <div class="exam-item-header">
-                  <h4>Đề thi thử White Star - Đề số 01</h4>
-                  <span class="badge-exam">78 câu • 60 phút</span>
-                </div>
-                <p>Đề thi thử chuẩn có bảng đáp án gốc phân loại theo chuyên đề</p>
+                <p>Đề thi chuẩn 4 môn: Điện (1-20), PLC (21-40), Khí nén (41-60), Máy (61-80)</p>
               </div>
 
               <div class="exam-item" onclick="selectExamPreset('EXAM_TEST_02', this)">
@@ -422,12 +467,36 @@
                 <p>Bộ câu hỏi tổng hợp nâng cao có sơ đồ kỹ thuật</p>
               </div>
 
-              <div class="exam-item" onclick="selectExamPreset('RANDOM_40', this)">
+              <div class="exam-item" onclick="selectExamPreset('EXAM_TEST_03', this)">
                 <div class="exam-item-header">
-                  <h4>Đề Thi Nhanh Ngẫu Nhiên (Random)</h4>
-                  <span class="badge-exam">40 câu • 30 phút</span>
+                  <h4>Đề thi thử White Star - Test 03</h4>
+                  <span class="badge-exam">80 câu • 60 phút</span>
                 </div>
-                <p>Hệ thống tự động bốc ngẫu nhiên 10 câu mỗi môn từ Master Bank</p>
+                <p>Đề thi phân theo 4 bảng đáp án chuẩn từng môn</p>
+              </div>
+
+              <div class="exam-item" onclick="selectExamPreset('EXAM_TEST_04', this)">
+                <div class="exam-item-header">
+                  <h4>Đề thi thử White Star - Test 04</h4>
+                  <span class="badge-exam">76 câu • 60 phút</span>
+                </div>
+                <p>Bộ câu hỏi kỹ thuật chuyên sâu về máy & khí nén</p>
+              </div>
+
+              <div class="exam-item" onclick="selectExamPreset('EXAM_DE_01', this)">
+                <div class="exam-item-header">
+                  <h4>Đề thi thử White Star - Đề số 01</h4>
+                  <span class="badge-exam">78 câu • 60 phút</span>
+                </div>
+                <p>Đề thi thử chuẩn có bảng đáp án gốc phân loại theo chuyên đề</p>
+              </div>
+
+              <div class="exam-item" onclick="selectExamPreset('EXAM_2021_01', this)">
+                <div class="exam-item-header">
+                  <h4>Đề thi thử WS (Tháng 01-2021)</h4>
+                  <span class="badge-exam">78 câu • 60 phút</span>
+                </div>
+                <p>Đề thi thử chính thức có password đã mở khóa & trích xuất đầy đủ hình ảnh</p>
               </div>
             </div>
 

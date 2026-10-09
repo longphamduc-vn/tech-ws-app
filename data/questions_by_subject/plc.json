@@ -4210,5 +4210,4371 @@
       "why_wrong": "24 là giá trị ban đầu của D0; 20 và 3 là các phép tính không liên quan.",
       "supplementary_knowledge": "💡 **Kiểm tra phép tính:** D10 = D0 + 29 = 24 + 29 = 53. Khi X1 giữ ON, nếu dùng lệnh thường `ADD` thì phép cộng thực hiện mỗi scan; nếu dùng lệnh xung `ADDP` thì chỉ cộng 1 lần tại sườn lên của X1."
     }
+  },
+  {
+    "id": "WS_EXAM_PLC_101",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 101,
+    "question": "Đáp án nào sau đây là thứ tự của hoạt động PLC?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bắt đầu vận hành → Refresh khu vực đầu vào → Scan → Refresh khu vực đầu ra → Kết thúc"
+      },
+      {
+        "key": "B",
+        "text": "Bắt đầu vận hành → Scan → Refresh khu vực đầu vào → Refresh khu vực đầu ra → Kết thúc"
+      },
+      {
+        "key": "C",
+        "text": "Bắt đầu vận hành → Scan → Refresh khu vực đầu ra → Refresh khu vực đầu vào → Kết thúc"
+      },
+      {
+        "key": "D",
+        "text": "Bắt đầu vận hành → Refresh khu vực đầu vào \u000b→ Refresh khu vực đầu ra → Scan→ Kết thúc"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 21",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Bắt đầu vận hành → Refresh khu vực đầu vào → Scan → Refresh khu vực đầu ra → Kết thúc",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'Bắt đầu vận hành → Refresh khu vực đầu vào → Scan → Refresh khu vực đầu ra → Kết thúc' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Bắt đầu vận hành → Scan → Refresh khu vực đầu vào → Refresh khu vực đầu ra → Kết thúc; C: Bắt đầu vận hành → Scan → Refresh khu vực đầu ra → Refresh khu vực đầu vào → Kết thúc; D: Bắt đầu vận hành → Refresh khu vực đầu vào \u000b→ Refresh khu vực đầu ra → Scan→ Kết thúc) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_102",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 102,
+    "question": "Mô tảo dưới đây không đúng về Data Resister “D”?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nếu Reset lại PLC sau khi lưu dữ liệu trên Data Resister thì dữ liệu sẽ được lưu lại."
+      },
+      {
+        "key": "B",
+        "text": "1 điểm trên Data Resister bao gồm 16 bit. Data Register có thể đọc/ghi (Read/Write) theo đơn vị 16 bit."
+      },
+      {
+        "key": "C",
+        "text": "Khi xử lý dữ liệu 32 bit thì sẽ sử dụng 2 điểm."
+      },
+      {
+        "key": "D",
+        "text": "Dữ liệu đang được lưu trên Data Resister sẽ bị xóa (Clear) khi bật nguồn hoặc khi vận hành bằng nút cài đặt lại (Reset Switch)."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 22",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Nếu Reset lại PLC sau khi lưu dữ liệu trên Data Resister thì dữ liệu sẽ được lưu lại.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [A] 'Nếu Reset lại PLC sau khi lưu dữ liệu trên Data Resister thì dữ liệu sẽ được lưu lại.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: 1 điểm trên Data Resister bao gồm 16 bit. Data Register có thể đọc/ghi (Read/Write) theo đơn vị 16 bit.; C: Khi xử lý dữ liệu 32 bit thì sẽ sử dụng 2 điểm.; D: Dữ liệu đang được lưu trên Data Resister sẽ bị xóa (Clear) khi bật nguồn hoặc khi vận hành bằng nút cài đặt lại (Reset Switch).) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_103",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 103,
+    "question": "Rơ le nội bộ nào dưới đây dùng cho Data Link?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Z"
+      },
+      {
+        "key": "B",
+        "text": "M"
+      },
+      {
+        "key": "C",
+        "text": "B"
+      },
+      {
+        "key": "D",
+        "text": "W"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 23",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "B",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'B' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Z; B: M; D: W) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_104",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 104,
+    "question": "Bộ nhớ nào sau đây không thể sử dụng khi cài đặt File Register R?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bộ nhớ chương trình"
+      },
+      {
+        "key": "B",
+        "text": "RAM tiêu chuẩn"
+      },
+      {
+        "key": "C",
+        "text": "Bộ nhớ chỉ đọc (ROM)"
+      },
+      {
+        "key": "D",
+        "text": "Bộ nhớ tạm (RAM)"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 24",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Bộ nhớ chương trình",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [A] 'Bộ nhớ chương trình' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: RAM tiêu chuẩn; C: Bộ nhớ chỉ đọc (ROM); D: Bộ nhớ tạm (RAM)) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_105",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 105,
+    "question": "Tính năng nào đúng với giải thích dưới đây? \u000b“Nếu có file nhận xét được lưu sau khi đọc PLC của thiết bị thì ta có thể sao chép và sử dụng nhận xét.”",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cắt"
+      },
+      {
+        "key": "B",
+        "text": "Sao chép"
+      },
+      {
+        "key": "C",
+        "text": "Lấy file"
+      },
+      {
+        "key": "D",
+        "text": "Dán"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 25",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Sao chép",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'Sao chép' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Cắt; C: Lấy file; D: Dán) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_106",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 106,
+    "question": "Đâu không phải là lí do sử dụng nhiều chương trình?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Quản lý chương trình một cách hiệu quả"
+      },
+      {
+        "key": "B",
+        "text": "Dễ dàng bảo trì và lập trình"
+      },
+      {
+        "key": "C",
+        "text": "Giảm thời gian quét và quản lý thiết bị ổn định hơn"
+      },
+      {
+        "key": "D",
+        "text": "Giảm sử dụng các thiết bị trùng lặp"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 26",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Giảm sử dụng các thiết bị trùng lặp",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [D] 'Giảm sử dụng các thiết bị trùng lặp' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Quản lý chương trình một cách hiệu quả; B: Dễ dàng bảo trì và lập trình; C: Giảm thời gian quét và quản lý thiết bị ổn định hơn) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_107",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Trung bình",
+    "question_number": 107,
+    "question": "Giải thích nào về lệnh SET/RST không đúng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nếu điều kiện đầu vào SET là ON thì đầu ra được chỉ định sẽ là ON."
+      },
+      {
+        "key": "B",
+        "text": "Nếu điều kiện đầu vào là OFF thì đầu ra cũng sẽ OFF."
+      },
+      {
+        "key": "C",
+        "text": "Ngay cả đi điều kiện đầu vào SET là OFF thì đầu ra được chỉ định vẫn duy trì trạng thái ON."
+      },
+      {
+        "key": "D",
+        "text": "Nếu điều kiện RST là ON thì đầu ra sẽ OFF."
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/exams/exam_de_01_q27_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 27",
+    "question_type": "diagram",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Nếu điều kiện đầu vào là OFF thì đầu ra cũng sẽ OFF.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [B] 'Nếu điều kiện đầu vào là OFF thì đầu ra cũng sẽ OFF.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Nếu điều kiện đầu vào SET là ON thì đầu ra được chỉ định sẽ là ON.; C: Ngay cả đi điều kiện đầu vào SET là OFF thì đầu ra được chỉ định vẫn duy trì trạng thái ON.; D: Nếu điều kiện RST là ON thì đầu ra sẽ OFF.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_108",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 108,
+    "question": "Số trình điều khiển và tên bộ nhớ nội bộ PLC CPU nào không đúng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ổ đĩa số 0 bộ nhớ chương trình"
+      },
+      {
+        "key": "B",
+        "text": "Ổ đĩa Số 1 Thẻ nhớ RAM"
+      },
+      {
+        "key": "C",
+        "text": "Ổ đĩa Số 3 Thẻ nhớ ROM"
+      },
+      {
+        "key": "D",
+        "text": "Ổ đĩa số 4 ROM tiêu chuẩn"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 28",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Ổ đĩa Số 3 Thẻ nhớ ROM",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [C] 'Ổ đĩa Số 3 Thẻ nhớ ROM' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Ổ đĩa số 0 bộ nhớ chương trình; B: Ổ đĩa Số 1 Thẻ nhớ RAM; D: Ổ đĩa số 4 ROM tiêu chuẩn) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_109",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 109,
+    "question": "Dưới đây là trình tự hoạt động khi tháo thẻ nhớ khi bật nguồn PLC. Chọn phương án sai",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tắt rơle đặc biệt SM609."
+      },
+      {
+        "key": "B",
+        "text": "Xác nhận rơ le đặc biệt SM604 (đang sử dụng) đã ở trạng thái OFF."
+      },
+      {
+        "key": "C",
+        "text": "Xác nhận rơ le đặc biệt SM605 (không được tháo) đã ở trạng thái OFF."
+      },
+      {
+        "key": "D",
+        "text": "Nhấn nút EJECT thẻ nhớ để loại bỏ."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 29",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Tắt rơle đặc biệt SM609.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [A] 'Tắt rơle đặc biệt SM609.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Xác nhận rơ le đặc biệt SM604 (đang sử dụng) đã ở trạng thái OFF.; C: Xác nhận rơ le đặc biệt SM605 (không được tháo) đã ở trạng thái OFF.; D: Nhấn nút EJECT thẻ nhớ để loại bỏ.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_110",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 110,
+    "question": "Thời gian backup của tụ điện bên trong khi thay pin CPU là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 phút"
+      },
+      {
+        "key": "B",
+        "text": "2 phút"
+      },
+      {
+        "key": "C",
+        "text": "3 phút"
+      },
+      {
+        "key": "D",
+        "text": "5 phút"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 30",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "3 phút",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] '3 phút' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: 1 phút; B: 2 phút; D: 5 phút) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_111",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 111,
+    "question": "Hãy chuyển đổi nhị phân 1110 1010 0111 sang thập lục phân.",
+    "options": [
+      {
+        "key": "A",
+        "text": "EB7"
+      },
+      {
+        "key": "B",
+        "text": "DA7"
+      },
+      {
+        "key": "C",
+        "text": "DB7"
+      },
+      {
+        "key": "D",
+        "text": "EA7"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 31",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "EA7",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] 'EA7' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: EB7; B: DA7; C: DB7) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_112",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 112,
+    "question": "Phạm vi input/output của module Q64DA trong cấu hình PLC ở trên là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Y130~Y13F"
+      },
+      {
+        "key": "B",
+        "text": "Y140~Y14F"
+      },
+      {
+        "key": "C",
+        "text": "YC0~YCF"
+      },
+      {
+        "key": "D",
+        "text": "YE0~YEF"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 32",
+    "question_type": "calculation",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "YE0~YEF",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] 'YE0~YEF' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Y130~Y13F; B: Y140~Y14F; C: YC0~YCF) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_113",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 113,
+    "question": "Thiết bị nào duy trì giá trị hiện tại khi mất điện?",
+    "options": [
+      {
+        "key": "A",
+        "text": "M"
+      },
+      {
+        "key": "B",
+        "text": "Y"
+      },
+      {
+        "key": "C",
+        "text": "L"
+      },
+      {
+        "key": "D",
+        "text": "X"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 33",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "L",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'L' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: M; B: Y; D: X) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_114",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 114,
+    "question": "Đây là giải thích về Link Relay trong thiết bị PLC. Hãy chọn giải thích sai.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Là rơ le nội bộ dùng cho Data Link và không thể xuất ra bên ngoài."
+      },
+      {
+        "key": "B",
+        "text": "Được cấu tạo bởi 1 điểm 16 bit dùng cho Data Link, có thể đọc/ghi theo đơn vị 16 bit."
+      },
+      {
+        "key": "C",
+        "text": "Không giới hạn số lượng sử dụng trong chương trình."
+      },
+      {
+        "key": "D",
+        "text": "Phạm vi không được đặt làm cài đặt thông tin liên kết Link ban đầu được sử dụng làm rơ le nội bộ."
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 34",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Được cấu tạo bởi 1 điểm 16 bit dùng cho Data Link, có thể đọc/ghi theo đơn vị 16 bit.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [B] 'Được cấu tạo bởi 1 điểm 16 bit dùng cho Data Link, có thể đọc/ghi theo đơn vị 16 bit.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Là rơ le nội bộ dùng cho Data Link và không thể xuất ra bên ngoài.; C: Không giới hạn số lượng sử dụng trong chương trình.; D: Phạm vi không được đặt làm cài đặt thông tin liên kết Link ban đầu được sử dụng làm rơ le nội bộ.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_115",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 115,
+    "question": "Nội dung nào sai khi giải thích về COUNT?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nếu có tín hiệu đầu vào ngay cả sau khi COUNT UP thì sẽ được tính."
+      },
+      {
+        "key": "B",
+        "text": "COUNT được tính khi tín hiệu đầu vào là ON."
+      },
+      {
+        "key": "C",
+        "text": "Sau khi COUNT UP, trạng thái tiếp điểm hoặc giá trị hiện tại sẽ không đổi cho đến khi lệnh RST được thực hiện."
+      },
+      {
+        "key": "D",
+        "text": "Nếu lệnh RST được thực thi trước khi COUNT UP thì giá trị hiện tại sẽ đổi thành 0."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 35",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Nếu có tín hiệu đầu vào ngay cả sau khi COUNT UP thì sẽ được tính.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [A] 'Nếu có tín hiệu đầu vào ngay cả sau khi COUNT UP thì sẽ được tính.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: COUNT được tính khi tín hiệu đầu vào là ON.; C: Sau khi COUNT UP, trạng thái tiếp điểm hoặc giá trị hiện tại sẽ không đổi cho đến khi lệnh RST được thực hiện.; D: Nếu lệnh RST được thực thi trước khi COUNT UP thì giá trị hiện tại sẽ đổi thành 0.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_116",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 116,
+    "question": "Thiết bị nào được điền vào dấu ( ) dưới đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "N0"
+      },
+      {
+        "key": "B",
+        "text": "M0"
+      },
+      {
+        "key": "C",
+        "text": "M98"
+      },
+      {
+        "key": "D",
+        "text": "K98"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 36",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "M98",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'M98' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: N0; B: M0; D: K98) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_117",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 117,
+    "question": "Sau khi ON/OFF X0 trong 1 giây, chương trình nào sẽ làm Y40 chuyển thành trạng thái ON trong 3 giây tiếp theo?",
+    "options": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 37",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_118",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 118,
+    "question": "Vùng Data device được phân bổ đến 12K. Phạm vi có khả năng sử dụng là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "D0~D12000"
+      },
+      {
+        "key": "B",
+        "text": "D0~D1200"
+      },
+      {
+        "key": "C",
+        "text": "D0~D12287"
+      },
+      {
+        "key": "D",
+        "text": "D0~D12999"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 38",
+    "question_type": "calculation",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "D0~D12287",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'D0~D12287' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: D0~D12000; B: D0~D1200; D: D0~D12999) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_119",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 119,
+    "question": "Nếu lệnh MC là OFF thì giải thích nào về kết quả tính toán giữa MC và MCR là đúng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Giá trị hiện tại của 100 ms, 10 ms TIMER được duy trì."
+      },
+      {
+        "key": "B",
+        "text": "Các giá trị TIMER, COUNT tích lũy sẽ bị xóa thành “0”."
+      },
+      {
+        "key": "C",
+        "text": "Lệnh OUT vẫn duy trì ở trạng thái đó."
+      },
+      {
+        "key": "D",
+        "text": "Lệnh SET/RST, SFT vẫn duy trì ở trạng thái đó."
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 39",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Lệnh SET/RST, SFT vẫn duy trì ở trạng thái đó.",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] 'Lệnh SET/RST, SFT vẫn duy trì ở trạng thái đó.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Giá trị hiện tại của 100 ms, 10 ms TIMER được duy trì.; B: Các giá trị TIMER, COUNT tích lũy sẽ bị xóa thành “0”.; C: Lệnh OUT vẫn duy trì ở trạng thái đó.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_120",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 120,
+    "question": "Sau khi ON X1 trong vòng 5 giây rồi OFF thì giá trị C0 là?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "50"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 40",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "1",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] '1' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: 5; C: 50; D: 0) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_121",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 121,
+    "question": "Điều gì sai trong phần giải thích về bảng điều khiển PLC?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Không tiếp xúc"
+      },
+      {
+        "key": "B",
+        "text": "Điều khiển bằng cách đấu dây giữa các bộ phận."
+      },
+      {
+        "key": "C",
+        "text": "Bảo trì và sửa chữa dễ dàng"
+      },
+      {
+        "key": "D",
+        "text": "Có thể mở rộng hệ thống"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 21",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Điều khiển bằng cách đấu dây giữa các bộ phận.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [B] 'Điều khiển bằng cách đấu dây giữa các bộ phận.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Không tiếp xúc; C: Bảo trì và sửa chữa dễ dàng; D: Có thể mở rộng hệ thống) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_122",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 122,
+    "question": "Là Data Register lưu trữ kết quả tính toán của mệnh lệnh ứng dụng , mệnh lệnh cơ bản.?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Timer"
+      },
+      {
+        "key": "B",
+        "text": "File Register"
+      },
+      {
+        "key": "C",
+        "text": "Link Register"
+      },
+      {
+        "key": "D",
+        "text": "Accumulator"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 22",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Accumulator",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] 'Accumulator' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Timer; B: File Register; C: Link Register) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_123",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 123,
+    "question": "Parameter → Device đặt trong dấu (1)\nDự liệu đã khởi tạo có thể được xóa bằng bằng gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reset"
+      },
+      {
+        "key": "B",
+        "text": "L.CLR"
+      },
+      {
+        "key": "C",
+        "text": "Dip Switch"
+      },
+      {
+        "key": "D",
+        "text": "Stop Switch"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 23",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "L.CLR",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'L.CLR' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Reset; C: Dip Switch; D: Stop Switch) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_124",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 124,
+    "question": "Nội dung bộ nhớ nào của CPU PLC là sai?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bộ nhớ PLC là bộ nhớ chương trình người dùng và bộ nhớ dữ liệu. Nó được chia thành ba loại bộ nhớ."
+      },
+      {
+        "key": "B",
+        "text": "RAM là bộ nhớ chứa các chương trình được sử dụng và nội dung điều khiển có thể thay đổi."
+      },
+      {
+        "key": "C",
+        "text": "Data Memory là khu vực lưu trữ trạng thái tiếp điểm của đầu vào / đầu ra, bộ đếm thời gian và bộ đếm và thông tin như giá trị đặt và giá trị hiện tại."
+      },
+      {
+        "key": "D",
+        "text": "RAM được sử dụng như chương trình hệ thống để xác định chức năng hoặc hiệu suất của PLC."
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 24",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "RAM được sử dụng như chương trình hệ thống để xác định chức năng hoặc hiệu suất của PLC.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [D] 'RAM được sử dụng như chương trình hệ thống để xác định chức năng hoặc hiệu suất của PLC.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Bộ nhớ PLC là bộ nhớ chương trình người dùng và bộ nhớ dữ liệu. Nó được chia thành ba loại bộ nhớ.; B: RAM là bộ nhớ chứa các chương trình được sử dụng và nội dung điều khiển có thể thay đổi.; C: Data Memory là khu vực lưu trữ trạng thái tiếp điểm của đầu vào / đầu ra, bộ đếm thời gian và bộ đếm và thông tin như giá trị đặt và giá trị hiện tại.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_125",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 125,
+    "question": "Để mô tả thiết bị khi viết PLC dạng ngôn ngữ Ladder\nCần làm gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ghi bình luận"
+      },
+      {
+        "key": "B",
+        "text": "Thêm ghi chú"
+      },
+      {
+        "key": "C",
+        "text": "Ghi báo cáo"
+      },
+      {
+        "key": "D",
+        "text": "Ghi tham số"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 25",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Ghi bình luận",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'Ghi bình luận' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Thêm ghi chú; C: Ghi báo cáo; D: Ghi tham số) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_126",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 126,
+    "question": "Điều gì sai với mô tả của Counter?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bộ đếm đếm khi tín hiệu đầu vào tăng lên."
+      },
+      {
+        "key": "B",
+        "text": "Khi bộ đếm đạt giá trị Counter Up, bộ đếm sẽ dừng lại ngay cả khi tín hiệu đầu vào vẫn tiếp tục tăng lên."
+      },
+      {
+        "key": "C",
+        "text": "Sau khi bộ đếm đặt giá trị Counter Up lần 1, có thể Reset Counter bằng lệnh [MOV k0 C0]."
+      },
+      {
+        "key": "D",
+        "text": "Giá trị cài đặt bộ đếm là K1 ~ K32767"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 26",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Sau khi bộ đếm đặt giá trị Counter Up lần 1, có thể Reset Counter bằng lệnh [MOV k0 C0].",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [C] 'Sau khi bộ đếm đặt giá trị Counter Up lần 1, có thể Reset Counter bằng lệnh [MOV k0 C0].' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Bộ đếm đếm khi tín hiệu đầu vào tăng lên.; B: Khi bộ đếm đạt giá trị Counter Up, bộ đếm sẽ dừng lại ngay cả khi tín hiệu đầu vào vẫn tiếp tục tăng lên.; D: Giá trị cài đặt bộ đếm là K1 ~ K32767) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_127",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 127,
+    "question": "Khi thay pin CPU, thời gian dự phòng của tụ điện bên trong là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 phút"
+      },
+      {
+        "key": "B",
+        "text": "2 phút"
+      },
+      {
+        "key": "C",
+        "text": "3 phút"
+      },
+      {
+        "key": "D",
+        "text": "5 phút"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 27",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "3 phút",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] '3 phút' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: 1 phút; B: 2 phút; D: 5 phút) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_128",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 128,
+    "question": "Điều khiển hoạt động tăng tốc, giảm tốc và tốc độ cố định của động cơ. Là chức năng của bộ nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bộ định vị"
+      },
+      {
+        "key": "B",
+        "text": "Bộ đếm tốc độ cao"
+      },
+      {
+        "key": "C",
+        "text": "Bộ chuyển đổi AD"
+      },
+      {
+        "key": "D",
+        "text": "Bộ chuyển đổi DA"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 28",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Bộ định vị",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'Bộ định vị' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Bộ đếm tốc độ cao; C: Bộ chuyển đổi AD; D: Bộ chuyển đổi DA) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_129",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 129,
+    "question": "Trong cấu hình PLC phía dưới, phạm vi I/O của Mô-đun Q64AD là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Y160 ~ Y16F,"
+      },
+      {
+        "key": "B",
+        "text": "Y100 ~ Y10F"
+      },
+      {
+        "key": "C",
+        "text": "Y80 ~ Y8F"
+      },
+      {
+        "key": "D",
+        "text": "Y170 ~ Y17F"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 29",
+    "question_type": "calculation",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Y100 ~ Y10F",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'Y100 ~ Y10F' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Y160 ~ Y16F,; C: Y80 ~ Y8F; D: Y170 ~ Y17F) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_130",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 130,
+    "question": "Số nhị phân 110111 khi chuyển thành số hệ thập phân là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "37"
+      },
+      {
+        "key": "B",
+        "text": "27"
+      },
+      {
+        "key": "C",
+        "text": "55"
+      },
+      {
+        "key": "D",
+        "text": "103"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 30",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "55",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] '55' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: 37; B: 27; D: 103) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_131",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 131,
+    "question": "Không thuộc Word Device?",
+    "options": [
+      {
+        "key": "A",
+        "text": "D"
+      },
+      {
+        "key": "B",
+        "text": "A"
+      },
+      {
+        "key": "C",
+        "text": "R"
+      },
+      {
+        "key": "D",
+        "text": "S"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 31",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "S",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [D] 'S' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: D; B: A; C: R) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_132",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 132,
+    "question": "Điều gì không được thực hiện trong cài đặt Parameter PLC?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kiểm tra thiết bị"
+      },
+      {
+        "key": "B",
+        "text": "Cài đặt các chương trình"
+      },
+      {
+        "key": "C",
+        "text": "Thay đổi điểm thiết bị (DEV.Point)"
+      },
+      {
+        "key": "D",
+        "text": "Cài đặt sử dụng đăng ký tệp"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 32",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Kiểm tra thiết bị",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [A] 'Kiểm tra thiết bị' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Cài đặt các chương trình; C: Thay đổi điểm thiết bị (DEV.Point); D: Cài đặt sử dụng đăng ký tệp) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_133",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 133,
+    "question": "Khi nguồn PLC được chuyển từ ON hoặc STOP sang RUN\nChương trình nào chỉ chạy một lần?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chương trình thực hiện ban đầu"
+      },
+      {
+        "key": "B",
+        "text": "Chương trình thực hiện quét"
+      },
+      {
+        "key": "C",
+        "text": "Chương trình thực hiện tốc độ thấp"
+      },
+      {
+        "key": "D",
+        "text": "Chương trình kiểu chờ đợi"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 33",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Chương trình thực hiện ban đầu",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'Chương trình thực hiện ban đầu' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Chương trình thực hiện quét; C: Chương trình thực hiện tốc độ thấp; D: Chương trình kiểu chờ đợi) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_134",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 134,
+    "question": "Hoạt động giữa MC và MCR khi lệnh MC TẮT\nMô tả kết quả nào là đúng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Giá trị Timer 100ms, 10ms được duy trì."
+      },
+      {
+        "key": "B",
+        "text": "Các giá trị đếm và đếm thời gian tích lũy được xóa thành “0”"
+      },
+      {
+        "key": "C",
+        "text": "Lệnh OUT vẫn được duy trì ở trạng thái trước đó"
+      },
+      {
+        "key": "D",
+        "text": "Các lệnh SET, RST, SFT vẫn duy trì trạng thái của chúng"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 34",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Các lệnh SET, RST, SFT vẫn duy trì trạng thái của chúng",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] 'Các lệnh SET, RST, SFT vẫn duy trì trạng thái của chúng' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Giá trị Timer 100ms, 10ms được duy trì.; B: Các giá trị đếm và đếm thời gian tích lũy được xóa thành “0”; C: Lệnh OUT vẫn được duy trì ở trạng thái trước đó) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_135",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 135,
+    "question": "Khi X1 bật trong 5 giây rồi TẮT, giá trị hiện tại của C0 là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "50"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 35",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "1",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] '1' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: 5; C: 50; D: 0) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_136",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Trung bình",
+    "question_number": 136,
+    "question": "Điều khiển đầu ra M0 bằng cách bật tắt X5 như trong biểu đồ bên dưới. Kết quả của đầu ra M0 khác biệt nhất?",
+    "options": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/exams/exam_test_01_q36_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 36",
+    "question_type": "diagram",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_137",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 137,
+    "question": "Khi điều kiện đầu vào X0 được BẬT, muốn truyền dữ liệu từ M10 ~ M13 sang M100 ~ M103 trong 1 Scan.\nChương trình nào phù hợp ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "MOVP K1M10 K1M100"
+      },
+      {
+        "key": "B",
+        "text": "FMOV M10 M100 K4"
+      },
+      {
+        "key": "C",
+        "text": "BMOVP M10 M100 K4"
+      },
+      {
+        "key": "D",
+        "text": "BMOV K1M10 K1M100 K4"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 37",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "MOVP K1M10 K1M100",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'MOVP K1M10 K1M100' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: FMOV M10 M100 K4; C: BMOVP M10 M100 K4; D: BMOV K1M10 K1M100 K4) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_138",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 138,
+    "question": "Trong menu Project của GPPW, CPU hiện đang giao tiếp\nđể so sánh sự khác biệt với nội dung được lưu trữ trong PC. Menu là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tương phản"
+      },
+      {
+        "key": "B",
+        "text": "Sao chép"
+      },
+      {
+        "key": "C",
+        "text": "Chỉnh sửa dữ liệu"
+      },
+      {
+        "key": "D",
+        "text": "Macro"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 38",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Tương phản",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'Tương phản' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Sao chép; C: Chỉnh sửa dữ liệu; D: Macro) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_139",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 139,
+    "question": "Như hình dưới đây, điều kiện đầu vào X0 là Bật và đầu ra Y76. Khu vực A nhập Lệnh là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "RST"
+      },
+      {
+        "key": "B",
+        "text": "SET"
+      },
+      {
+        "key": "C",
+        "text": "PLS"
+      },
+      {
+        "key": "D",
+        "text": "PLF"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 39",
+    "question_type": "calculation",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "PLF",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] 'PLF' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: RST; B: SET; C: PLS) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_140",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Trung bình",
+    "question_number": 140,
+    "question": "Trong mạch điều khiển chính (MC) dưới đây, A, B lần lượt là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A: M2, B: M1"
+      },
+      {
+        "key": "B",
+        "text": "A: M1, B: M2"
+      },
+      {
+        "key": "C",
+        "text": "A: N2, B: N1"
+      },
+      {
+        "key": "D",
+        "text": "A: N1, B: N2"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/exams/exam_test_01_q40_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 40",
+    "question_type": "diagram",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "A: N2, B: N1",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'A: N2, B: N1' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: A: M2, B: M1; B: A: M1, B: M2; D: A: N1, B: N2) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_141",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 141,
+    "question": "Để điều khiển sự hoạt động chính xác của Động cơ Servo AC. Sử dụng cái nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bộ định vị"
+      },
+      {
+        "key": "B",
+        "text": "Bộ đếm tốc độ cao"
+      },
+      {
+        "key": "C",
+        "text": "Đơn vị chuyển đổi AD"
+      },
+      {
+        "key": "D",
+        "text": "Servo AMP"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 21",
+    "question_type": "calculation",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Bộ định vị",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'Bộ định vị' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Bộ đếm tốc độ cao; C: Đơn vị chuyển đổi AD; D: Servo AMP) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_142",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 142,
+    "question": "Hình dưới đây là mạch đơn vị đầu ra. Phương thức đầu ra và điện áp đầu ra phù hợp là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đầu ra TR, 24V"
+      },
+      {
+        "key": "B",
+        "text": "Đầu ra NPN, 0V"
+      },
+      {
+        "key": "C",
+        "text": "Đầu ra PNP, 24V"
+      },
+      {
+        "key": "D",
+        "text": "Đầu ra tương tự, 0V"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 22",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Đầu ra NPN, 0V",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'Đầu ra NPN, 0V' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Đầu ra TR, 24V; C: Đầu ra PNP, 24V; D: Đầu ra tương tự, 0V) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_143",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 143,
+    "question": "Cần phải cách điện để ngăn nhiễu xâm nhập vào card đầu vào / đầu ra của PLC. Sử dụng cái nào dưới đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Relay"
+      },
+      {
+        "key": "B",
+        "text": "SSR"
+      },
+      {
+        "key": "C",
+        "text": "TR"
+      },
+      {
+        "key": "D",
+        "text": "Photo Coupler"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 23",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Photo Coupler",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] 'Photo Coupler' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Relay; B: SSR; C: TR) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_144",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 144,
+    "question": "KIT được cấu hình như trong hình bên dưới.\nTìm phạm vi đầu vào / đầu ra của thẻ Số",
+    "options": [
+      {
+        "key": "A",
+        "text": "."
+      },
+      {
+        "key": "A",
+        "text": "YE0 ~ YFF"
+      },
+      {
+        "key": "B",
+        "text": "Y140 ~ Y15F"
+      },
+      {
+        "key": "C",
+        "text": "YE0 ~ YEF"
+      },
+      {
+        "key": "D",
+        "text": "Y140 ~ Y14F"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 24",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "YE0 ~ YEF",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'YE0 ~ YEF' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: .; A: YE0 ~ YFF; B: Y140 ~ Y15F) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_145",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 145,
+    "question": "Chuyển đổi số thập lục phân A37 thành BCD (số thập phân được mã hóa nhị phân).",
+    "options": [
+      {
+        "key": "A",
+        "text": "0011 0100 0011 1010"
+      },
+      {
+        "key": "B",
+        "text": "0000 1001 0011 0111"
+      },
+      {
+        "key": "C",
+        "text": "0010 0110 0001 0101"
+      },
+      {
+        "key": "D",
+        "text": "0000 1010 0011 0111"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 25",
+    "question_type": "calculation",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "0010 0110 0001 0101",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] '0010 0110 0001 0101' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: 0011 0100 0011 1010; B: 0000 1001 0011 0111; D: 0000 1010 0011 0111) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_146",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 146,
+    "question": "Device nào sử dụng dạng số của các Device (X, Y, M, L, B, D, W,...)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "D"
+      },
+      {
+        "key": "B",
+        "text": "W"
+      },
+      {
+        "key": "C",
+        "text": "R"
+      },
+      {
+        "key": "D",
+        "text": "Z"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 26",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Z",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] 'Z' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: D; B: W; C: R) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_147",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 147,
+    "question": "Sau đây là xử lý hoạt động của PLC FLOW. Bên trong dấu ngoặc [ ] là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 Scan"
+      },
+      {
+        "key": "B",
+        "text": "1 Cycle"
+      },
+      {
+        "key": "C",
+        "text": "WDT"
+      },
+      {
+        "key": "D",
+        "text": "Program"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 27",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "1 Scan",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] '1 Scan' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: 1 Cycle; C: WDT; D: Program) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_148",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 148,
+    "question": "Chương trình PLC GPPW viết dạng ngôn ngữ Ladder. Có thể thiết lập và chỉnh sửa viết chương trình sang dạng ngôn ngữ khác. Sử dụng chức năng nào dưới đây ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Write PLC"
+      },
+      {
+        "key": "B",
+        "text": "Converter"
+      },
+      {
+        "key": "C",
+        "text": "Write Mode"
+      },
+      {
+        "key": "D",
+        "text": "Debug"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 28",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Converter",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'Converter' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Write PLC; C: Write Mode; D: Debug) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_149",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 149,
+    "question": "Để cài đặt loại và phân bổ số điểm chiếm hữu của card trong PLC. Vào mục nào trong Parameter?",
+    "options": [
+      {
+        "key": "A",
+        "text": "I/O"
+      },
+      {
+        "key": "B",
+        "text": "PLC RAS"
+      },
+      {
+        "key": "C",
+        "text": "Boot File"
+      },
+      {
+        "key": "D",
+        "text": "System"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 29",
+    "question_type": "calculation",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "I/O",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'I/O' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: PLC RAS; C: Boot File; D: System) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_150",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Trung bình",
+    "question_number": 150,
+    "question": "Đây là mô tả của Timer. Cái nào là đúng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ngay cả khi giá trị cài đặt của Timer giờ là “0”, nó vẫn hoạt động."
+      },
+      {
+        "key": "B",
+        "text": "Timer là lệnh 4 Step. (Tuy nhiên tiếp điểm của Timer chỉ là 2 Step)"
+      },
+      {
+        "key": "C",
+        "text": "Giá trị cài đặt bộ hẹn giờ chỉ có thể được đặt trực tiếp."
+      },
+      {
+        "key": "D",
+        "text": "Giá trị cài đặt bộ hẹn giờ là K1 ~ K32768."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/exams/exam_test_02_q30_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 30",
+    "question_type": "diagram",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Ngay cả khi giá trị cài đặt của Timer giờ là “0”, nó vẫn hoạt động.",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'Ngay cả khi giá trị cài đặt của Timer giờ là “0”, nó vẫn hoạt động.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Timer là lệnh 4 Step. (Tuy nhiên tiếp điểm của Timer chỉ là 2 Step); C: Giá trị cài đặt bộ hẹn giờ chỉ có thể được đặt trực tiếp.; D: Giá trị cài đặt bộ hẹn giờ là K1 ~ K32768.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_151",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 151,
+    "question": "Mạch nào hoạt động giống như biểu đồ thời gian\nsau đây? (Timer sử dụng là loại 10ms)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 31",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Đáp án B",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'Đáp án B' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Đáp án A; C: Đáp án C; D: Đáp án D) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_152",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 152,
+    "question": "Nhìn vào chương trình và biểu đồ dưới đây. Chọn những thời điểm mà C0 On.",
+    "options": [
+      {
+        "key": "A",
+        "text": "ⓓ"
+      },
+      {
+        "key": "B",
+        "text": "ⓑ, ⓒ"
+      },
+      {
+        "key": "C",
+        "text": "ⓑ, ⓓ"
+      },
+      {
+        "key": "D",
+        "text": "ⓒ, ⓓ"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 32",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "ⓑ, ⓒ",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'ⓑ, ⓒ' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: ⓓ; C: ⓑ, ⓓ; D: ⓒ, ⓓ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_153",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 153,
+    "question": "Đây là mô tả về các lệnh MC / MCR. Cái nào là\nđúng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Trong trường hợp MC / MCR ON → OFF, lệnh OUT\nlà OFF."
+      },
+      {
+        "key": "B",
+        "text": "Trong trường hợp MC / MCR ON → OFF, lệnh SET\nsẽ trở thành RST."
+      },
+      {
+        "key": "C",
+        "text": "100ms, 10ms, bộ hẹn giờ tích hợp được đặt thành\n“0”"
+      },
+      {
+        "key": "D",
+        "text": "Nếu bạn sử dụng MC ~ MCR, bạn có thể tiết kiệm\nthời gian quét."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 33",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Trong trường hợp MC / MCR ON → OFF, lệnh OUT\nlà OFF.",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'Trong trường hợp MC / MCR ON → OFF, lệnh OUT\nlà OFF.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Trong trường hợp MC / MCR ON → OFF, lệnh SET\nsẽ trở thành RST.; C: 100ms, 10ms, bộ hẹn giờ tích hợp được đặt thành\n“0”; D: Nếu bạn sử dụng MC ~ MCR, bạn có thể tiết kiệm\nthời gian quét.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_154",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 154,
+    "question": "Sau đây là giải thích về Latch Clear.\n“Clear (…) được thiết lập bởi Latch.”\nChọn đáp án điền vào thích hợp.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Memory Card"
+      },
+      {
+        "key": "B",
+        "text": "Program Memory"
+      },
+      {
+        "key": "C",
+        "text": "Device Memory"
+      },
+      {
+        "key": "D",
+        "text": "Format Program & Memory Card"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 34",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Device Memory",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'Device Memory' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Memory Card; B: Program Memory; D: Format Program & Memory Card) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_155",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 155,
+    "question": "Trong mạch Ladder phía dưới, bật X0 trong 2 giây.\nGiá trị của D20 là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "30"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 35",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "10",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] '10' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: 0; C: 20; D: 30) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_156",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 156,
+    "question": "Chương trình tiếp theo K1 được truyền tới M bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "M9"
+      },
+      {
+        "key": "B",
+        "text": "M10"
+      },
+      {
+        "key": "C",
+        "text": "M120"
+      },
+      {
+        "key": "D",
+        "text": "M119"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 36",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "M119",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] 'M119' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: M9; B: M10; C: M120) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_157",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 157,
+    "question": "Điều gì sai với mô tả của SM400?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Là tiếp điểm luôn Bật"
+      },
+      {
+        "key": "B",
+        "text": "Là một rơ le đặc biệt."
+      },
+      {
+        "key": "C",
+        "text": "Có thể sử dụng không giới hạn."
+      },
+      {
+        "key": "D",
+        "text": "Bật / tắt cứ sau 1 giây."
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 37",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Bật / tắt cứ sau 1 giây.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [D] 'Bật / tắt cứ sau 1 giây.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Là tiếp điểm luôn Bật; B: Là một rơ le đặc biệt.; C: Có thể sử dụng không giới hạn.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_158",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 158,
+    "question": "Trong Parameter, nơi đặt thanh ghi tệp R là ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "PLC RAS"
+      },
+      {
+        "key": "B",
+        "text": "PLC File"
+      },
+      {
+        "key": "C",
+        "text": "Device"
+      },
+      {
+        "key": "D",
+        "text": "System PLC"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 38",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "PLC File",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'PLC File' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: PLC RAS; C: Device; D: System PLC) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_159",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 159,
+    "question": "Để kiểm tra xem các Card PLC đang sử dụng có\nSử dụng chức năng nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chẩn đoán PLC"
+      },
+      {
+        "key": "B",
+        "text": "Monitor"
+      },
+      {
+        "key": "C",
+        "text": "Giám sát hệ thống"
+      },
+      {
+        "key": "D",
+        "text": "Giám sát lỗi"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 39",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Giám sát hệ thống",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'Giám sát hệ thống' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Chẩn đoán PLC; B: Monitor; D: Giám sát lỗi) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_160",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 160,
+    "question": "Thời lượng pin Q6BAT là bao lâu? (Khi được kết nối với mô-đun CPU và luôn được cung cấp năng lượng)",
+    "options": [
+      {
+        "key": "A",
+        "text": "7 năm"
+      },
+      {
+        "key": "B",
+        "text": "8 năm"
+      },
+      {
+        "key": "C",
+        "text": "9 năm"
+      },
+      {
+        "key": "D",
+        "text": "10 năm"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 40",
+    "question_type": "calculation",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "10 năm",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] '10 năm' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: 7 năm; B: 8 năm; C: 9 năm) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_161",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 161,
+    "question": "Kí hiệu tiếp điểm dưới đây thuộc loại tiếp điểm nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tiếp điểm A"
+      },
+      {
+        "key": "B",
+        "text": "Tiếp điểm B"
+      },
+      {
+        "key": "C",
+        "text": "Tiếp điểm C"
+      },
+      {
+        "key": "D",
+        "text": "Tiếp điểm A + B"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 21",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Tiếp điểm C",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'Tiếp điểm C' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Tiếp điểm A; B: Tiếp điểm B; D: Tiếp điểm A + B) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_162",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 162,
+    "question": "Đây là mô tả về đèn LED của CPU PLC. Chuyện gì vậy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "RUN LED: Nhấp nháy khi Program hoặc Parameter được ghi."
+      },
+      {
+        "key": "B",
+        "text": "MODE LED: Khi màu xanh lá cây bật, CPU là Q mode."
+      },
+      {
+        "key": "C",
+        "text": "BAT. LED: Sáng lên khi xảy ra lỗi điện áp pin thấp"
+      },
+      {
+        "key": "D",
+        "text": "USER LED: Bật khi Relay M được kích hoạt."
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 22",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "USER LED: Bật khi Relay M được kích hoạt.",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] 'USER LED: Bật khi Relay M được kích hoạt.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: RUN LED: Nhấp nháy khi Program hoặc Parameter được ghi.; B: MODE LED: Khi màu xanh lá cây bật, CPU là Q mode.; C: BAT. LED: Sáng lên khi xảy ra lỗi điện áp pin thấp) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_163",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 163,
+    "question": "Không thể lưu trong Drive “0”?",
+    "options": [
+      {
+        "key": "A",
+        "text": "File register"
+      },
+      {
+        "key": "B",
+        "text": "Program"
+      },
+      {
+        "key": "C",
+        "text": "Paramter"
+      },
+      {
+        "key": "D",
+        "text": "Device"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 23",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "File register",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [A] 'File register' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Program; C: Paramter; D: Device) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_164",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 164,
+    "question": "Trong cấu hình PLC sau đây, địa chỉ của Slot trống là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0AF"
+      },
+      {
+        "key": "B",
+        "text": "10F"
+      },
+      {
+        "key": "C",
+        "text": "09F"
+      },
+      {
+        "key": "D",
+        "text": "0BF"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 24",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "0AF",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] '0AF' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: 10F; C: 09F; D: 0BF) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_165",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 165,
+    "question": "00FF hệ thập lục phân được chuyển đổi thành hệ BCD là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0000 0000 0101 0100"
+      },
+      {
+        "key": "B",
+        "text": "0000 0010 0101 0100"
+      },
+      {
+        "key": "C",
+        "text": "0000 0000 1111 1111"
+      },
+      {
+        "key": "D",
+        "text": "0000 0010 0101 0101"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 25",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "0000 0010 0101 0101",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] '0000 0010 0101 0101' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: 0000 0000 0101 0100; B: 0000 0010 0101 0100; C: 0000 0000 1111 1111) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_166",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 166,
+    "question": "Card đầu vào Digital QX40 được cắm vào Base PLC. \"0\" có nghĩa là gì trong QX40?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Điểm Occupation"
+      },
+      {
+        "key": "B",
+        "text": "Điện áp đầu vào"
+      },
+      {
+        "key": "C",
+        "text": "Mô-đun đầu vào"
+      },
+      {
+        "key": "D",
+        "text": "Điểm start I/O"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 26",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Điểm Occupation",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'Điểm Occupation' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Điện áp đầu vào; C: Mô-đun đầu vào; D: Điểm start I/O) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_167",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 167,
+    "question": "Đáp án nào sau đây là relay bên trong cho Data Link và không thể xuất ra bên ngoài?",
+    "options": [
+      {
+        "key": "A",
+        "text": "W"
+      },
+      {
+        "key": "B",
+        "text": "B"
+      },
+      {
+        "key": "C",
+        "text": "R"
+      },
+      {
+        "key": "D",
+        "text": "Y"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 27",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "B",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [B] 'B' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: W; C: R; D: Y) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_168",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 168,
+    "question": "Giải thích nào sau đây về Device là đúng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Có 3 loại “T”, chẳng hạn như 100ms, 10ms, và bộ đếm thời gian tích lũy, và chỉ có thể sử dụng On Delay."
+      },
+      {
+        "key": "B",
+        "text": "“Y” có thể được thay thế cho Relay M. Nếu thay nó bằng M thì có thể duy trì trạng thái mất điện."
+      },
+      {
+        "key": "C",
+        "text": "Relay “M” không thể duy trì sự cố mất điện."
+      },
+      {
+        "key": "D",
+        "text": "Device X, Y, M đều có thể được sử dụng làm tiếp điểm và đầu ra."
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 28",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Relay “M” không thể duy trì sự cố mất điện.",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'Relay “M” không thể duy trì sự cố mất điện.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Có 3 loại “T”, chẳng hạn như 100ms, 10ms, và bộ đếm thời gian tích lũy, và chỉ có thể sử dụng On Delay.; B: “Y” có thể được thay thế cho Relay M. Nếu thay nó bằng M thì có thể duy trì trạng thái mất điện.; D: Device X, Y, M đều có thể được sử dụng làm tiếp điểm và đầu ra.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_169",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 169,
+    "question": "Khi muốn kiểm tra sự hoạt động của các Card PLC đang sử dụng có bình thường hay không?",
+    "options": [
+      {
+        "key": "A",
+        "text": "PLC diagnosis"
+      },
+      {
+        "key": "B",
+        "text": "PLC Error (help)"
+      },
+      {
+        "key": "C",
+        "text": "System monitor"
+      },
+      {
+        "key": "D",
+        "text": "Debug"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 29",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "System monitor",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [C] 'System monitor' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: PLC diagnosis; B: PLC Error (help); D: Debug) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_170",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 170,
+    "question": "Cách nào sau đây không phải là cách để nhập bình luận?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nhấp vào Device Comment menu trong menu Project và Edit comment trong cửa sổ đang hoạt động"
+      },
+      {
+        "key": "B",
+        "text": "Nhấp vào Edit → Documentation → Comment và nhập bình luận trực tiếp vào Device."
+      },
+      {
+        "key": "C",
+        "text": "Tools → Options → Nhấp vào Comment input menu để chỉnh sửa thiết bị và chỉnh sửa nhận xét"
+      },
+      {
+        "key": "D",
+        "text": "Parameter→ Device → Nhấp vào Comment Menu và nhập nhận xét vào thiết bị"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 30",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Parameter→ Device → Nhấp vào Comment Menu và nhập nhận xét vào thiết bị",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [D] 'Parameter→ Device → Nhấp vào Comment Menu và nhập nhận xét vào thiết bị' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Nhấp vào Device Comment menu trong menu Project và Edit comment trong cửa sổ đang hoạt động; B: Nhấp vào Edit → Documentation → Comment và nhập bình luận trực tiếp vào Device.; C: Tools → Options → Nhấp vào Comment input menu để chỉnh sửa thiết bị và chỉnh sửa nhận xét) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_171",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 171,
+    "question": "Giá trị cài đặt của bộ đếm C0 là giá trị nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "K0,"
+      },
+      {
+        "key": "B",
+        "text": "K4,"
+      },
+      {
+        "key": "C",
+        "text": "K5,"
+      },
+      {
+        "key": "D",
+        "text": "K6"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 31",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "K4,",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'K4,' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: K0,; C: K5,; D: K6) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_172",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 172,
+    "question": "Điều gì sai khi mô tả về Analog I/O Unit?",
+    "options": [
+      {
+        "key": "A",
+        "text": "D/A được sử dụng như một biến tần để điều khiển tốc độ của động cơ cảm ứng."
+      },
+      {
+        "key": "B",
+        "text": "A/D được sử dụng để điều khiển nhiệt độ, áp suất, tốc độ dòng chảy, v.v. với PLC."
+      },
+      {
+        "key": "C",
+        "text": "Giá trị Analog thay đổi liên tục theo thời gian"
+      },
+      {
+        "key": "D",
+        "text": "D/A được sử dụng để điều khiển vị trí, độ chính xác cao của động cơ."
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 32",
+    "question_type": "calculation",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "D/A được sử dụng để điều khiển vị trí, độ chính xác cao của động cơ.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [D] 'D/A được sử dụng để điều khiển vị trí, độ chính xác cao của động cơ.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: D/A được sử dụng như một biến tần để điều khiển tốc độ của động cơ cảm ứng.; B: A/D được sử dụng để điều khiển nhiệt độ, áp suất, tốc độ dòng chảy, v.v. với PLC.; C: Giá trị Analog thay đổi liên tục theo thời gian) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_173",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 173,
+    "question": "Sử dụng Timer để vận hành mạch sau 0,5 giây.\nChọn đáp án thích hợp cho chỗ trống dưới đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "H T0 K500"
+      },
+      {
+        "key": "B",
+        "text": "H T0 K50"
+      },
+      {
+        "key": "C",
+        "text": "T0 K50"
+      },
+      {
+        "key": "D",
+        "text": "H T0 K5"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 33",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "H T0 K50",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'H T0 K50' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: H T0 K500; C: T0 K50; D: H T0 K5) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_174",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Trung bình",
+    "question_number": 174,
+    "question": "Đáp án sai khi nói về Timer?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Có thể thay đổi đơn vị của Timer trong Parameter."
+      },
+      {
+        "key": "B",
+        "text": "Timer là lệnh 4 step."
+      },
+      {
+        "key": "C",
+        "text": "Timer K10, H10, v.v. có thể được đặt trực tiếp."
+      },
+      {
+        "key": "D",
+        "text": "Giá trị cài đặt Timer là K1 ~ K32767."
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/exams/exam_test_03_q34_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 34",
+    "question_type": "diagram",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Timer K10, H10, v.v. có thể được đặt trực tiếp.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [C] 'Timer K10, H10, v.v. có thể được đặt trực tiếp.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Có thể thay đổi đơn vị của Timer trong Parameter.; B: Timer là lệnh 4 step.; D: Giá trị cài đặt Timer là K1 ~ K32767.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_175",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 175,
+    "question": "Khi muốn Reset data của D0 ~ D1 cùng một lúc.\nLệnh thực hiện là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "RST D0 K2"
+      },
+      {
+        "key": "B",
+        "text": "DMOV K0 D0"
+      },
+      {
+        "key": "C",
+        "text": "FMOV D0 D1 K2"
+      },
+      {
+        "key": "D",
+        "text": "BMOV K0 D0 K2"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 35",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "DMOV K0 D0",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'DMOV K0 D0' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: RST D0 K2; C: FMOV D0 D1 K2; D: BMOV K0 D0 K2) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_176",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 176,
+    "question": "Lệnh nào được sử dụng để chuyển một lượng lớn dữ liệu có giá trị như dữ liệu Recipe/ Location data (nhiều hơn 10 ~ 100) đến vùng Latch?\n(Lệnh ngắn nhất có thể viết khi viết chương trình)",
+    "options": [
+      {
+        "key": "A",
+        "text": "BMOV"
+      },
+      {
+        "key": "B",
+        "text": "FMOV"
+      },
+      {
+        "key": "C",
+        "text": "MOV"
+      },
+      {
+        "key": "D",
+        "text": "DMOV"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 36",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "BMOV",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'BMOV' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: FMOV; C: MOV; D: DMOV) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_177",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 177,
+    "question": "Khi viết PLC dạng Ladder, viết vào đâu để mô tả một phần cụ thể của Ladder?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Edit Comment"
+      },
+      {
+        "key": "B",
+        "text": "Edit note"
+      },
+      {
+        "key": "C",
+        "text": "Parameter"
+      },
+      {
+        "key": "D",
+        "text": "Edit Statement"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 37",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Edit Statement",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] 'Edit Statement' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Edit Comment; B: Edit note; C: Parameter) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_178",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 178,
+    "question": "Time Chart nào của mạch tự giữ sử dụng SET/RST là đúng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 38",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Đáp án C",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'Đáp án C' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Đáp án A; B: Đáp án B; D: Đáp án D) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_179",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Trung bình",
+    "question_number": 179,
+    "question": "Phím tắt để chuyển đổi và lưu nội dung được ghi sang CPU PLC cùng một lúc?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Shift + F4"
+      },
+      {
+        "key": "B",
+        "text": "F4"
+      },
+      {
+        "key": "C",
+        "text": "F3 + Shift"
+      },
+      {
+        "key": "D",
+        "text": "F2"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/exams/exam_test_03_q39_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 39",
+    "question_type": "diagram",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Shift + F4",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'Shift + F4' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: F4; C: F3 + Shift; D: F2) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_180",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 180,
+    "question": "Mạch phía dưới là môđun nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Unit đầu vào"
+      },
+      {
+        "key": "B",
+        "text": "Unit đầu ra"
+      },
+      {
+        "key": "C",
+        "text": "Unit định vị"
+      },
+      {
+        "key": "D",
+        "text": "Standard Ram format"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 40",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Unit đầu ra",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'Unit đầu ra' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Unit đầu vào; C: Unit định vị; D: Standard Ram format) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_181",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 181,
+    "question": "Device nào trong dấu () bên dưới?",
+    "options": [
+      {
+        "key": "A",
+        "text": "N0"
+      },
+      {
+        "key": "B",
+        "text": "X1"
+      },
+      {
+        "key": "C",
+        "text": "M98"
+      },
+      {
+        "key": "D",
+        "text": "M0"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 35",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "M98",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'M98' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: N0; B: X1; D: M0) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_182",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 182,
+    "question": "Lệnh nào sau đây phù hợp với ()?\n“Nếu X0 on, chuyển dữ liệu của 8 device bắt đầu từ D0\nsang 8 device bắt đầu từ D8”.",
+    "options": [
+      {
+        "key": "A",
+        "text": "BMOVP"
+      },
+      {
+        "key": "B",
+        "text": "MOV"
+      },
+      {
+        "key": "C",
+        "text": "MOVP"
+      },
+      {
+        "key": "D",
+        "text": "FMOV"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 37",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "BMOVP",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'BMOVP' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: MOV; C: MOVP; D: FMOV) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_183",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 183,
+    "question": "Bật X0 trong 2 giây. Giá trị của D20 là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20"
+      },
+      {
+        "key": "B",
+        "text": "30"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 38",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "10",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] '10' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: 20; B: 30; D: 0) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_184",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 184,
+    "question": "Điện áp đầu ra đúng của mô-đun nguồn dòng Q là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5V (Single Output)"
+      },
+      {
+        "key": "B",
+        "text": "24V (Single Output)"
+      },
+      {
+        "key": "C",
+        "text": "12V (Single Output)"
+      },
+      {
+        "key": "D",
+        "text": "9V (Single Output)"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 39",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "5V (Single Output)",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] '5V (Single Output)' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: 24V (Single Output); C: 12V (Single Output); D: 9V (Single Output)) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_185",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 185,
+    "question": "Mục nào sau đây không được hiển thị cho phần mô tả của chương trình PLC?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Comment"
+      },
+      {
+        "key": "B",
+        "text": "Notes"
+      },
+      {
+        "key": "C",
+        "text": "Statement"
+      },
+      {
+        "key": "D",
+        "text": "System monitor"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 40",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "System monitor",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [D] 'System monitor' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Comment; B: Notes; C: Statement) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_186",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 186,
+    "question": "Đáp án nào là ngôn ngữ PLC tiêu chuẩn quốc tế sử dụng thông dụng nhất ?",
+    "options": [
+      {
+        "key": "A",
+        "text": ".LD"
+      },
+      {
+        "key": "B",
+        "text": ".IL"
+      },
+      {
+        "key": "C",
+        "text": ".SFC"
+      },
+      {
+        "key": "D",
+        "text": ". SBC"
+      },
+      {
+        "key": "E",
+        "text": ".FBD"
+      },
+      {
+        "key": "F",
+        "text": ".ST"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 21",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": ".LD",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] '.LD' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: .IL; C: .SFC; D: . SBC) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_187",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Trung bình",
+    "question_number": 187,
+    "question": "Ở Program bên dưới thì Y20 sẽ ON vào giây mấy? ( )",
+    "options": [
+      {
+        "key": "A",
+        "text": "Giây 832"
+      },
+      {
+        "key": "B",
+        "text": "Giây 400"
+      },
+      {
+        "key": "C",
+        "text": "Giây 47.2"
+      },
+      {
+        "key": "D",
+        "text": "Giây 8.32"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/exams/exam_2021_01_q22_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 22",
+    "question_type": "diagram",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Giây 47.2",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'Giây 47.2' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Giây 832; B: Giây 400; D: Giây 8.32) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_188",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Trung bình",
+    "question_number": 188,
+    "question": "Đây là mạch gì ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "mạch ưu tiên chạy, mạch ưu tiên dừng"
+      },
+      {
+        "key": "B",
+        "text": "mạch ưu tiên dừng. Mạch OR"
+      },
+      {
+        "key": "C",
+        "text": "mạch ưu tiên chạy, mạch OR"
+      },
+      {
+        "key": "D",
+        "text": "mạch ưu tiên chạy. Mạch tự duy trì"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/exams/exam_2021_01_q23_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 23",
+    "question_type": "diagram",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "mạch ưu tiên chạy, mạch ưu tiên dừng",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'mạch ưu tiên chạy, mạch ưu tiên dừng' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: mạch ưu tiên dừng. Mạch OR; C: mạch ưu tiên chạy, mạch OR; D: mạch ưu tiên chạy. Mạch tự duy trì) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_189",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Trung bình",
+    "question_number": 189,
+    "question": "Đâu không phải là đáp án giải thích về Control Panel Relay?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tiếp điểm cơ"
+      },
+      {
+        "key": "B",
+        "text": "khó thu nhỏ lại"
+      },
+      {
+        "key": "C",
+        "text": "Khó mở rộng hệ thống"
+      },
+      {
+        "key": "D",
+        "text": "Dễ bảo trì và sửa chữa"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/exams/exam_2021_01_q24_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 24",
+    "question_type": "diagram",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Dễ bảo trì và sửa chữa",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [D] 'Dễ bảo trì và sửa chữa' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Tiếp điểm cơ; B: khó thu nhỏ lại; C: Khó mở rộng hệ thống) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_190",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 190,
+    "question": "Cái mà không thể điền vào ô trống ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cầu giao điện tử"
+      },
+      {
+        "key": "B",
+        "text": "Lamp"
+      },
+      {
+        "key": "C",
+        "text": "Sensor"
+      },
+      {
+        "key": "D",
+        "text": "Sol’ V/V"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 25",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Sensor",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [C] 'Sensor' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Cầu giao điện tử; B: Lamp; D: Sol’ V/V) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_191",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Trung bình",
+    "question_number": 191,
+    "question": "Thứ tự sắp xếp theo độ lớn dung lượng ( )",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bit < Word < Byte < Nibble"
+      },
+      {
+        "key": "B",
+        "text": "Bit < Nibble < Byte < Word"
+      },
+      {
+        "key": "C",
+        "text": "Nibble < Bit < Byte < Word"
+      },
+      {
+        "key": "D",
+        "text": "Bit < Word < Nibble < Byte"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/exams/exam_2021_01_q26_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 26",
+    "question_type": "diagram",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Bit < Nibble < Byte < Word",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'Bit < Nibble < Byte < Word' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Bit < Word < Byte < Nibble; C: Nibble < Bit < Byte < Word; D: Bit < Word < Nibble < Byte) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_192",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 192,
+    "question": "Đâu là đáp án không thuộc bộ nhớ chương trình/ Device??",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 28",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Đáp án C",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [C] 'Đáp án C' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Đáp án A; B: Đáp án B; D: Đáp án D) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_193",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 193,
+    "question": "Trong số những giải thích về các thay Pin của CPU, thời gian Backup nhờ tụ điện sau khi bỏ pin đi là ? ( )",
+    "options": [
+      {
+        "key": "A",
+        "text": "3 phút"
+      },
+      {
+        "key": "B",
+        "text": "4 phút"
+      },
+      {
+        "key": "C",
+        "text": "5 phút"
+      },
+      {
+        "key": "D",
+        "text": "10 phút"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 29",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "3 phút",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] '3 phút' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: 4 phút; C: 5 phút; D: 10 phút) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_194",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 194,
+    "question": "Hình dưới đây giải thích về vấn đề gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 30",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Đáp án A",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'Đáp án A' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Đáp án B; C: Đáp án C; D: Đáp án D) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_195",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Trung bình",
+    "question_number": 195,
+    "question": "Những đại lượng vật lí thay đổi tiên tục như điện áp, dòng điện, nhiệt độ, áp lực, lưu lượng, tốc độ được gọi là gì ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Giá trị digital"
+      },
+      {
+        "key": "B",
+        "text": "Giá trị Analog"
+      },
+      {
+        "key": "C",
+        "text": "Giá trị digital/ analog"
+      },
+      {
+        "key": "D",
+        "text": "Giá trị analog/ digital"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/exams/exam_2021_01_q31_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 31",
+    "question_type": "diagram",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Giá trị Analog",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'Giá trị Analog' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Giá trị digital; C: Giá trị digital/ analog; D: Giá trị analog/ digital) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_196",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 196,
+    "question": "Phạm vi I/O vào Card ở vị trí",
+    "options": [
+      {
+        "key": "A",
+        "text": "ở bên trên là?"
+      },
+      {
+        "key": "A",
+        "text": "Y120~Y15F"
+      },
+      {
+        "key": "B",
+        "text": "Y110~Y14F"
+      },
+      {
+        "key": "C",
+        "text": "Y110~Y12F"
+      },
+      {
+        "key": "D",
+        "text": "Y100~Y13F"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 32",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Y110~Y14F",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'Y110~Y14F' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: ở bên trên là?; A: Y120~Y15F; C: Y110~Y12F) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_197",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 197,
+    "question": "Hãy đổi FD9 hệ 16 thành hệ nhị phân .",
+    "options": [
+      {
+        "key": "A",
+        "text": "1111 1101 1001"
+      },
+      {
+        "key": "B",
+        "text": "1111 1011 1010"
+      },
+      {
+        "key": "C",
+        "text": "1111 1110 1010"
+      },
+      {
+        "key": "D",
+        "text": "1111 1110 1001"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 33",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "1111 1101 1001",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] '1111 1101 1001' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: 1111 1011 1010; C: 1111 1110 1010; D: 1111 1110 1001) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_198",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 198,
+    "question": "Nếu chuyển hệ thập lục phân 00FF sang BCD CODE thì được\nbao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0000 0000 0101 0100"
+      },
+      {
+        "key": "B",
+        "text": "0000 0010 0101 0100"
+      },
+      {
+        "key": "C",
+        "text": "0000 0000 1111 1111"
+      },
+      {
+        "key": "D",
+        "text": "0000 0010 0101 0101"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 34",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "0000 0010 0101 0101",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] '0000 0010 0101 0101' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: 0000 0000 0101 0100; B: 0000 0010 0101 0100; C: 0000 0000 1111 1111) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_199",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 199,
+    "question": "Program để thực hiện Time Chart dưới đây là ?",
+    "options": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 35",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: ; B: ; C: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_200",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 200,
+    "question": "DEVICE sử dụng vùng USER MEMORY để mở rộng data Resister là gì ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 36",
+    "question_type": "calculation",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Đáp án A",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'Đáp án A' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Đáp án B; C: Đáp án C; D: Đáp án D) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_201",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 201,
+    "question": "Đâu không phải là Word Device?",
+    "options": [
+      {
+        "key": "A",
+        "text": "T"
+      },
+      {
+        "key": "B",
+        "text": "F"
+      },
+      {
+        "key": "C",
+        "text": "D"
+      },
+      {
+        "key": "D",
+        "text": "R"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 37",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "F",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [B] 'F' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: T; C: D; D: R) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_202",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Trung bình",
+    "question_number": 202,
+    "question": "Nhìn hình dưới đây và trả lời số 1, 2 là gì?.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phương án A (Xem hình minh họa A)"
+      },
+      {
+        "key": "B",
+        "text": "Phương án B (Xem hình minh họa B)"
+      },
+      {
+        "key": "C",
+        "text": "Phương án C (Xem hình minh họa C)"
+      },
+      {
+        "key": "D",
+        "text": "Phương án D (Xem hình minh họa D)"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/exams/exam_2021_01_q38_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 38",
+    "question_type": "diagram",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Phương án C (Xem hình minh họa C)",
+      "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'Phương án C (Xem hình minh họa C)' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Phương án A (Xem hình minh họa A); B: Phương án B (Xem hình minh họa B); D: Phương án D (Xem hình minh họa D)) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PLC_203",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "PLC cơ bản",
+    "subject_code": "plc",
+    "module": "Lập trình & Điều khiển PLC",
+    "difficulty": "Dễ",
+    "question_number": 203,
+    "question": "Hãy chọn tất cả các đáp án sai trong số những giải thích về câu lệnh Count dưới đây.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Count sẽ thực hiện đếm khi tín hiệu input tăng lên."
+      },
+      {
+        "key": "B",
+        "text": "Sau khi Count up, nếu có tín hiệu được input vẫn sẽ đếm."
+      },
+      {
+        "key": "C",
+        "text": "Giá trị cài đặt của Count là K1~K32767."
+      },
+      {
+        "key": "D",
+        "text": "Khi cài đặt giá trị cài đặt, ngoài việc cài đặt trược tiếp thông qua\nK có thể cài đặt gián tiếp thông qua D"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 39",
+    "question_type": "theory",
+    "topic_tag": "Lập trình & Điều khiển PLC",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Sau khi Count up, nếu có tín hiệu được input vẫn sẽ đếm.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [B] 'Sau khi Count up, nếu có tín hiệu được input vẫn sẽ đếm.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Count sẽ thực hiện đếm khi tín hiệu input tăng lên.; C: Giá trị cài đặt của Count là K1~K32767.; D: Khi cài đặt giá trị cài đặt, ngoài việc cài đặt trược tiếp thông qua\nK có thể cài đặt gián tiếp thông qua D) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
   }
 ]

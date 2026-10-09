@@ -4,10 +4,13 @@
   "total_questions": 77,
   "questions": [
     {
-      "id": "EXAM_TEST_02_Q01",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 1,
+      "id": "WS_EXAM_ELE_149",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 149,
       "question": "Ý nào không đúng khi giải thích về cấu tạo của nguyên tử?",
       "options": [
         {
@@ -28,13 +31,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 1",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Số proton Z = số điện tích = số hiệu nguyên tử => giống số electron",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [C] 'Số proton Z = số điện tích = số hiệu nguyên tử => giống số electron' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Hạt nhân nguyên tử: gồm proton và nơtron; B: Các proton và neutron có khối lượng gần như bằng nhau, và các electron có hạt lớn hơn khoảng 1840 lần; D: Lượng hạt điện tích dương là chính xác nhưng lượng hạt trung tính có thể hơn kém vài đơn vị) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 1
     },
     {
-      "id": "EXAM_TEST_02_Q02",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 2,
+      "id": "WS_EXAM_ELE_150",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 150,
       "question": "Điện năng do các êlectron tự do di chuyển giữa các nguyên tử tạo ra được gọi là?",
       "options": [
         {
@@ -55,13 +74,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 2",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Điện tích",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [C] 'Điện tích' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Nhiễm điện; B: Ion hóa; D: Điện ly) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 2
     },
     {
-      "id": "EXAM_TEST_02_Q03",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 3,
+      "id": "WS_EXAM_ELE_151",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 151,
       "question": "Trong số nhiễu dao động điện áp, hiện tượng mất đi 1 phần pha của dòng điện xoay chiều thường gặp gọi là gì?",
       "options": [
         {
@@ -82,13 +117,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 3",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "Nháy điện",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [D] 'Nháy điện' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Mất điện tức thời; B: Giảm điện áp tức thời; C: Sấm sét) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 3
     },
     {
-      "id": "EXAM_TEST_02_Q04",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 4,
+      "id": "WS_EXAM_ELE_152",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 152,
       "question": "Dạng sóng có giá trị đỉnh-đỉnh là 20V. Vậy giá trị Vave là bao nhiêu?",
       "options": [
         {
@@ -109,13 +160,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 4",
+      "question_type": "calculation",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "6,37V",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [A] '6,37V' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (B: 7,07V; C: 12,74V; D: 14,14V) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 4
     },
     {
-      "id": "EXAM_TEST_02_Q05",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 5,
+      "id": "WS_EXAM_ELE_153",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 153,
       "question": "Đâu không phải là chế độ thu nhận của máy hiện sóng?",
       "options": [
         {
@@ -136,13 +203,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 5",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "Xung",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [D] 'Xung' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Chu kỳ; B: Đỉnh; C: Trung bình) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 5
     },
     {
-      "id": "EXAM_TEST_02_Q06",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 6,
+      "id": "WS_EXAM_ELE_154",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 154,
       "question": "Loại điện trở nào được mô tả dưới đây?\n[Bởi vì nó là một loại nhựa không cháy, nó không bắt lửa ngay cả ở nhiệt độ cao. Nó rất dễ lắp đặt do đặc tính cách nhiệt phong phú]",
       "options": [
         {
@@ -163,13 +246,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 6",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Điện trở xi măng",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [C] 'Điện trở xi măng' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Điện trở cố định màng carbon nhỏ; B: Điện trở phim kim loại; D: Điện trở khả biến) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 6
     },
     {
-      "id": "EXAM_TEST_02_Q07",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 7,
+      "id": "WS_EXAM_ELE_155",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 155,
       "question": "Theo cấu tạo, đâu không phải là một loại biến trở ?",
       "options": [
         {
@@ -190,13 +289,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 7",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Loại phủ sứ",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [C] 'Loại phủ sứ' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Loại màng carbon; B: Loại màng kim loại; D: Loại cuộn cảm) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 7
     },
     {
-      "id": "EXAM_TEST_02_Q08",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 8,
+      "id": "WS_EXAM_ELE_156",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 156,
       "question": "Tụ nào thông thường sử dụng ở mạch ghép hoặc mạch hằng số thời gian nhanh?",
       "options": [
         {
@@ -217,13 +332,29 @@
         }
       ],
       "correct_answer": "B",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 8",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "Tụ Mylar",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [B] 'Tụ Mylar' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Tụ hóa; C: Tụ sứ; D: Tụ Tantal) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 8
     },
     {
-      "id": "EXAM_TEST_02_Q09",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 9,
+      "id": "WS_EXAM_ELE_157",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 157,
       "question": "Suất điện động sinh ra khi từ thông đi qua cuộn dây bị thay đổi.\nHiện tượng đó được gọi là gì?",
       "options": [
         {
@@ -244,13 +375,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 9",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Cảm ứng điện từ",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [A] 'Cảm ứng điện từ' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (B: Suất điện động; C: Định luật Lenz; D: Điện cảm tương hỗ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 9
     },
     {
-      "id": "EXAM_TEST_02_Q10",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 10,
+      "id": "WS_EXAM_ELE_158",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 158,
       "question": "Tụ điện mắc song song trước sau là loại cuộn dây nào?",
       "options": [
         {
@@ -271,13 +418,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 10",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "IFT",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [C] 'IFT' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: RFC; B: FCZ; D: Cuộn cảm cho nguồn điện) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 10
     },
     {
-      "id": "EXAM_TEST_02_Q11",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 11,
+      "id": "WS_EXAM_ELE_159",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 159,
       "question": "Là phần tử đóng mở, chuyên sử dụng cho điện áp ngược cao, dòng điện cao ?",
       "options": [
         {
@@ -298,13 +461,29 @@
         }
       ],
       "correct_answer": "B",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 11",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "SCR",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [B] 'SCR' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: TR; C: TRIAC; D: SSR) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 11
     },
     {
-      "id": "EXAM_TEST_02_Q12",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 12,
+      "id": "WS_EXAM_ELE_160",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 160,
       "question": "Điều gì không phải là đặc điểm của SSR?",
       "options": [
         {
@@ -325,13 +504,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 12",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "Khả năng chịu nhiệt tốt",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [D] 'Khả năng chịu nhiệt tốt' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Tiếng ồn thấp; B: Không phát ra tiếng; C: Chức năng cao) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 12
     },
     {
-      "id": "EXAM_TEST_02_Q13",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 13,
+      "id": "WS_EXAM_ELE_161",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 161,
       "question": "Thành phần phù hợp của Photo Coupler là gì?",
       "options": [
         {
@@ -352,13 +547,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 13",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Diode phát quang + Photo TR",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [C] 'Diode phát quang + Photo TR' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: LED + Diode; B: LED + Photo Diode; D: Diode phát quang + Photo Diode) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 13
     },
     {
-      "id": "EXAM_TEST_02_Q14",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 14,
+      "id": "WS_EXAM_ELE_162",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 162,
       "question": "Trong số các loại điện trở nhiệt, loại nào khi nhiệt độ tăng\nthì giá trị điện trở giảm?",
       "options": [
         {
@@ -379,13 +590,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 14",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "NTC",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [A] 'NTC' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (B: PTC; C: CTR; D: PPT) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 14
     },
     {
-      "id": "EXAM_TEST_02_Q15",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 15,
+      "id": "WS_EXAM_ELE_163",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 163,
       "question": "Trong số các loại cảm biến loại nhỏ, loại nào để lắp PCB?",
       "options": [
         {
@@ -406,13 +633,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 15",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "Photo interrupter",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [D] 'Photo interrupter' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Kiểu móng ngựa; B: Kiểu phản chiếu hồi quy; C: Loại phản xạ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 15
     },
     {
-      "id": "EXAM_TEST_02_Q16",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 16,
+      "id": "WS_EXAM_ELE_164",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 164,
       "question": "Khi kết nối cảm biến đầu ra là các chân I + và V + . Bạn cần sử dụng loại module AD nào?",
       "options": [
         {
@@ -433,13 +676,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 16",
+      "question_type": "calculation",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Q64AD",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [A] 'Q64AD' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (B: Q68ADV; C: Q68ADI; D: Q61P) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 16
     },
     {
-      "id": "EXAM_TEST_02_Q17",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 17,
+      "id": "WS_EXAM_ELE_165",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 165,
       "question": "Điện áp cutin (ngưỡng) của Diode Ge là gì?",
       "options": [
         {
@@ -460,13 +719,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 17",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "0,2V",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [A] '0,2V' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (B: 0,7V; C: 0,5V; D: 1,4V) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 17
     },
     {
-      "id": "EXAM_TEST_02_Q18",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 18,
+      "id": "WS_EXAM_ELE_166",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 166,
       "question": "Điều gì sai với phương pháp tắt SCR đã bật?",
       "options": [
         {
@@ -487,13 +762,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 18",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Đưa điện áp cực dương về giá trị +",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [C] 'Đưa điện áp cực dương về giá trị +' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Đưa điện áp cực dương về giá trị -; B: Tắt điện áp cực dương bằng công tắc; D: Đưa điện áp cực dương về giá trị 0) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 18
     },
     {
-      "id": "EXAM_TEST_02_Q19",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 19,
+      "id": "WS_EXAM_ELE_167",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 167,
       "question": "Hiệu điện thế tại Ⓐ là bao nhiêu?",
       "options": [
         {
@@ -514,13 +805,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 19",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "5V",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [D] '5V' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: 0V; B: 0,7V; C: 4.3V) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 19
     },
     {
-      "id": "EXAM_TEST_02_Q20",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 20,
+      "id": "WS_EXAM_ELE_167",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 167,
       "question": "Hiệu điện thế tại Ⓐ là bao nhiêu?",
       "options": [
         {
@@ -529,25 +836,41 @@
         },
         {
           "key": "B",
-          "text": "2,9V"
+          "text": "0,7V"
         },
         {
           "key": "C",
-          "text": "9.1V"
+          "text": "4.3V"
         },
         {
           "key": "D",
-          "text": "12V"
+          "text": "5V"
         }
       ],
-      "correct_answer": "B",
-      "images": []
+      "correct_answer": "D",
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 19",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "5V",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [D] '5V' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: 0V; B: 0,7V; C: 4.3V) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 20
     },
     {
-      "id": "EXAM_TEST_02_Q21",
-      "exam_id": "EXAM_TEST_02",
-      "section": "???",
-      "question_number": 21,
+      "id": "WS_EXAM_PLC_141",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 141,
       "question": "Để điều khiển sự hoạt động chính xác của Động cơ Servo AC. Sử dụng cái nào?",
       "options": [
         {
@@ -567,16 +890,30 @@
           "text": "Servo AMP"
         }
       ],
-      "correct_answer": "",
-      "images": [
-        "images/exams/EXAM_TEST_02_s3_1.png"
-      ]
+      "correct_answer": "A",
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 21",
+      "question_type": "calculation",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Bộ định vị",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'Bộ định vị' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (B: Bộ đếm tốc độ cao; C: Đơn vị chuyển đổi AD; D: Servo AMP) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 21
     },
     {
-      "id": "EXAM_TEST_02_Q22",
-      "exam_id": "EXAM_TEST_02",
-      "section": "???",
-      "question_number": 22,
+      "id": "WS_EXAM_PLC_142",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 142,
       "question": "Hình dưới đây là mạch đơn vị đầu ra. Phương thức đầu ra và điện áp đầu ra phù hợp là gì?",
       "options": [
         {
@@ -597,15 +934,29 @@
         }
       ],
       "correct_answer": "B",
-      "images": [
-        "images/exams/EXAM_TEST_02_s3_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 22",
+      "question_type": "theory",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "Đầu ra NPN, 0V",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'Đầu ra NPN, 0V' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Đầu ra TR, 24V; C: Đầu ra PNP, 24V; D: Đầu ra tương tự, 0V) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 22
     },
     {
-      "id": "EXAM_TEST_02_Q23",
-      "exam_id": "EXAM_TEST_02",
-      "section": "???",
-      "question_number": 23,
+      "id": "WS_EXAM_PLC_143",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 143,
       "question": "Cần phải cách điện để ngăn nhiễu xâm nhập vào card đầu vào / đầu ra của PLC. Sử dụng cái nào dưới đây?",
       "options": [
         {
@@ -626,15 +977,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": [
-        "images/exams/EXAM_TEST_02_s3_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 23",
+      "question_type": "theory",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "Photo Coupler",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] 'Photo Coupler' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Relay; B: SSR; C: TR) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 23
     },
     {
-      "id": "EXAM_TEST_02_Q24",
-      "exam_id": "EXAM_TEST_02",
-      "section": "???",
-      "question_number": 24,
+      "id": "WS_EXAM_PLC_144",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 144,
       "question": "KIT được cấu hình như trong hình bên dưới.\nTìm phạm vi đầu vào / đầu ra của thẻ Số",
       "options": [
         {
@@ -659,15 +1024,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": [
-        "images/exams/EXAM_TEST_02_s3_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 24",
+      "question_type": "theory",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "YE0 ~ YEF",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'YE0 ~ YEF' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: .; A: YE0 ~ YFF; B: Y140 ~ Y15F) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 24
     },
     {
-      "id": "EXAM_TEST_02_Q25",
-      "exam_id": "EXAM_TEST_02",
-      "section": "???",
-      "question_number": 25,
+      "id": "WS_EXAM_PLC_145",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 145,
       "question": "Chuyển đổi số thập lục phân A37 thành BCD (số thập phân được mã hóa nhị phân).",
       "options": [
         {
@@ -688,15 +1067,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": [
-        "images/exams/EXAM_TEST_02_s3_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 25",
+      "question_type": "calculation",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "0010 0110 0001 0101",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] '0010 0110 0001 0101' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: 0011 0100 0011 1010; B: 0000 1001 0011 0111; D: 0000 1010 0011 0111) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 25
     },
     {
-      "id": "EXAM_TEST_02_Q26",
-      "exam_id": "EXAM_TEST_02",
-      "section": "???",
-      "question_number": 26,
+      "id": "WS_EXAM_PLC_146",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 146,
       "question": "Device nào sử dụng dạng số của các Device (X, Y, M, L, B, D, W,...)?",
       "options": [
         {
@@ -717,15 +1110,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": [
-        "images/exams/EXAM_TEST_02_s3_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 26",
+      "question_type": "theory",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "Z",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] 'Z' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: D; B: W; C: R) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 26
     },
     {
-      "id": "EXAM_TEST_02_Q27",
-      "exam_id": "EXAM_TEST_02",
-      "section": "???",
-      "question_number": 27,
+      "id": "WS_EXAM_PLC_147",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 147,
       "question": "Sau đây là xử lý hoạt động của PLC FLOW. Bên trong dấu ngoặc [ ] là gì?",
       "options": [
         {
@@ -746,15 +1153,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": [
-        "images/exams/EXAM_TEST_02_s3_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 27",
+      "question_type": "theory",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "1 Scan",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] '1 Scan' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (B: 1 Cycle; C: WDT; D: Program) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 27
     },
     {
-      "id": "EXAM_TEST_02_Q28",
-      "exam_id": "EXAM_TEST_02",
-      "section": "???",
-      "question_number": 28,
+      "id": "WS_EXAM_PLC_148",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 148,
       "question": "Chương trình PLC GPPW viết dạng ngôn ngữ Ladder. Có thể thiết lập và chỉnh sửa viết chương trình sang dạng ngôn ngữ khác. Sử dụng chức năng nào dưới đây ?",
       "options": [
         {
@@ -775,15 +1196,29 @@
         }
       ],
       "correct_answer": "B",
-      "images": [
-        "images/exams/EXAM_TEST_02_s3_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 28",
+      "question_type": "theory",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "Converter",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'Converter' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Write PLC; C: Write Mode; D: Debug) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 28
     },
     {
-      "id": "EXAM_TEST_02_Q29",
-      "exam_id": "EXAM_TEST_02",
-      "section": "???",
-      "question_number": 29,
+      "id": "WS_EXAM_PLC_149",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 149,
       "question": "Để cài đặt loại và phân bổ số điểm chiếm hữu của card trong PLC. Vào mục nào trong Parameter?",
       "options": [
         {
@@ -804,15 +1239,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": [
-        "images/exams/EXAM_TEST_02_s3_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 29",
+      "question_type": "calculation",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "I/O",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'I/O' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (B: PLC RAS; C: Boot File; D: System) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 29
     },
     {
-      "id": "EXAM_TEST_02_Q30",
-      "exam_id": "EXAM_TEST_02",
-      "section": "???",
-      "question_number": 30,
+      "id": "WS_EXAM_PLC_150",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Trung bình",
+      "question_number": 150,
       "question": "Đây là mô tả của Timer. Cái nào là đúng?",
       "options": [
         {
@@ -834,31 +1283,73 @@
       ],
       "correct_answer": "A",
       "images": [
-        "images/exams/EXAM_TEST_02_s3_1.png"
-      ]
+        "images/exams/exam_test_02_q30_1.png"
+      ],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 30",
+      "question_type": "diagram",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Ngay cả khi giá trị cài đặt của Timer giờ là “0”, nó vẫn hoạt động.",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'Ngay cả khi giá trị cài đặt của Timer giờ là “0”, nó vẫn hoạt động.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (B: Timer là lệnh 4 Step. (Tuy nhiên tiếp điểm của Timer chỉ là 2 Step); C: Giá trị cài đặt bộ hẹn giờ chỉ có thể được đặt trực tiếp.; D: Giá trị cài đặt bộ hẹn giờ là K1 ~ K32768.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 30
     },
     {
-      "id": "EXAM_TEST_02_Q31",
-      "exam_id": "EXAM_TEST_02",
-      "section": "???",
-      "question_number": 31,
-      "question": "Mạch nào hoạt động giống như biểu đồ thời gian",
+      "id": "WS_EXAM_PLC_151",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 151,
+      "question": "Mạch nào hoạt động giống như biểu đồ thời gian\nsau đây? (Timer sử dụng là loại 10ms)",
       "options": [
         {
           "key": "A",
-          "text": "sau đây? (Timer sử dụng là loại 10ms)"
+          "text": "Đáp án A"
+        },
+        {
+          "key": "B",
+          "text": "Đáp án B"
+        },
+        {
+          "key": "C",
+          "text": "Đáp án C"
+        },
+        {
+          "key": "D",
+          "text": "Đáp án D"
         }
       ],
       "correct_answer": "B",
-      "images": [
-        "images/exams/EXAM_TEST_02_s3_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 31",
+      "question_type": "theory",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "Đáp án B",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'Đáp án B' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Đáp án A; C: Đáp án C; D: Đáp án D) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 31
     },
     {
-      "id": "EXAM_TEST_02_Q32",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 32,
+      "id": "WS_EXAM_PLC_152",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 152,
       "question": "Nhìn vào chương trình và biểu đồ dưới đây. Chọn những thời điểm mà C0 On.",
       "options": [
         {
@@ -879,13 +1370,29 @@
         }
       ],
       "correct_answer": "B",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 32",
+      "question_type": "theory",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "ⓑ, ⓒ",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'ⓑ, ⓒ' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: ⓓ; C: ⓑ, ⓓ; D: ⓒ, ⓓ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 32
     },
     {
-      "id": "EXAM_TEST_02_Q33",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 33,
+      "id": "WS_EXAM_PLC_153",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 153,
       "question": "Đây là mô tả về các lệnh MC / MCR. Cái nào là\nđúng?",
       "options": [
         {
@@ -906,13 +1413,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 33",
+      "question_type": "theory",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Trong trường hợp MC / MCR ON → OFF, lệnh OUT\nlà OFF.",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [A] 'Trong trường hợp MC / MCR ON → OFF, lệnh OUT\nlà OFF.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (B: Trong trường hợp MC / MCR ON → OFF, lệnh SET\nsẽ trở thành RST.; C: 100ms, 10ms, bộ hẹn giờ tích hợp được đặt thành\n“0”; D: Nếu bạn sử dụng MC ~ MCR, bạn có thể tiết kiệm\nthời gian quét.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 33
     },
     {
-      "id": "EXAM_TEST_02_Q34",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 34,
+      "id": "WS_EXAM_PLC_154",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 154,
       "question": "Sau đây là giải thích về Latch Clear.\n“Clear (…) được thiết lập bởi Latch.”\nChọn đáp án điền vào thích hợp.",
       "options": [
         {
@@ -933,13 +1456,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 34",
+      "question_type": "theory",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Device Memory",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'Device Memory' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Memory Card; B: Program Memory; D: Format Program & Memory Card) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 34
     },
     {
-      "id": "EXAM_TEST_02_Q35",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 35,
+      "id": "WS_EXAM_PLC_155",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 155,
       "question": "Trong mạch Ladder phía dưới, bật X0 trong 2 giây.\nGiá trị của D20 là bao nhiêu?",
       "options": [
         {
@@ -960,13 +1499,29 @@
         }
       ],
       "correct_answer": "B",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 35",
+      "question_type": "theory",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "10",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] '10' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: 0; C: 20; D: 30) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 35
     },
     {
-      "id": "EXAM_TEST_02_Q36",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 36,
+      "id": "WS_EXAM_PLC_156",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 156,
       "question": "Chương trình tiếp theo K1 được truyền tới M bao nhiêu?",
       "options": [
         {
@@ -987,13 +1542,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 36",
+      "question_type": "theory",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "M119",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] 'M119' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: M9; B: M10; C: M120) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 36
     },
     {
-      "id": "EXAM_TEST_02_Q37",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 37,
+      "id": "WS_EXAM_PLC_157",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 157,
       "question": "Điều gì sai với mô tả của SM400?",
       "options": [
         {
@@ -1014,13 +1585,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 37",
+      "question_type": "theory",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "Bật / tắt cứ sau 1 giây.",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật PLC cơ bản, phương án [D] 'Bật / tắt cứ sau 1 giây.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Là tiếp điểm luôn Bật; B: Là một rơ le đặc biệt.; C: Có thể sử dụng không giới hạn.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 37
     },
     {
-      "id": "EXAM_TEST_02_Q38",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 38,
+      "id": "WS_EXAM_PLC_158",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 158,
       "question": "Trong Parameter, nơi đặt thanh ghi tệp R là ?",
       "options": [
         {
@@ -1041,13 +1628,29 @@
         }
       ],
       "correct_answer": "B",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 38",
+      "question_type": "theory",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "PLC File",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [B] 'PLC File' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: PLC RAS; C: Device; D: System PLC) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 38
     },
     {
-      "id": "EXAM_TEST_02_Q39",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 39,
+      "id": "WS_EXAM_PLC_159",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 159,
       "question": "Để kiểm tra xem các Card PLC đang sử dụng có\nSử dụng chức năng nào?",
       "options": [
         {
@@ -1068,13 +1671,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 39",
+      "question_type": "theory",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Giám sát hệ thống",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [C] 'Giám sát hệ thống' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Chẩn đoán PLC; B: Monitor; D: Giám sát lỗi) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 39
     },
     {
-      "id": "EXAM_TEST_02_Q40",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 40,
+      "id": "WS_EXAM_PLC_160",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "Lập trình & Điều khiển PLC",
+      "difficulty": "Dễ",
+      "question_number": 160,
       "question": "Thời lượng pin Q6BAT là bao lâu? (Khi được kết nối với mô-đun CPU và luôn được cung cấp năng lượng)",
       "options": [
         {
@@ -1095,13 +1714,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 40",
+      "question_type": "calculation",
+      "topic_tag": "Lập trình & Điều khiển PLC",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lập trình & Điều khiển PLC** (PLC cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "10 năm",
+        "why_correct": "Theo nguyên lý kỹ thuật PLC cơ bản, phương án [D] '10 năm' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: 7 năm; B: 8 năm; C: 9 năm) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lập trình & Điều khiển PLC**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 40
     },
     {
-      "id": "EXAM_TEST_02_Q41",
-      "exam_id": "EXAM_TEST_02",
-      "section": "Thí dụ",
-      "question_number": 41,
+      "id": "WS_EXAM_ELE_168",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 168,
       "question": "Ý nào không đúng với đặc điểm của Vacuum Ejector?",
       "options": [
         {
@@ -1121,16 +1756,30 @@
           "text": "Có thể sử dụng van điều khiển chung."
         }
       ],
-      "correct_answer": "",
-      "images": [
-        "images/exams/EXAM_TEST_02_s5_1.png"
-      ]
+      "correct_answer": "B",
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 41",
+      "question_type": "calculation",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "Cần có tank chứa khí chân không.",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [B] 'Cần có tank chứa khí chân không.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Mức độ chân không gần như tỷ lệ thuận với áp suất cung cấp; C: Tuổi thọ cao do không có bộ phận chuyển động.; D: Có thể sử dụng van điều khiển chung.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 41
     },
     {
-      "id": "EXAM_TEST_02_Q42",
-      "exam_id": "EXAM_TEST_02",
-      "section": "Thí dụ",
-      "question_number": 42,
+      "id": "WS_EXAM_ELE_169",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 169,
       "question": "Trong mạch hoạt động có hai hoặc nhiều mạch nhánh\nVan nào điều khiển tuần tự bằng áp suất trong mạch?",
       "options": [
         {
@@ -1151,15 +1800,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": [
-        "images/exams/EXAM_TEST_02_s5_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 42",
+      "question_type": "calculation",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Van tuần tự",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [A] 'Van tuần tự' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (B: Van áp suất; C: Van Shuttle; D: Van một chiều) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 42
     },
     {
-      "id": "EXAM_TEST_02_Q43",
-      "exam_id": "EXAM_TEST_02",
-      "section": "Thí dụ",
-      "question_number": 43,
+      "id": "WS_EXAM_ELE_170",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 170,
       "question": "Sử dụng van 5/3 để vận hành Xi lanh. Khi các tín hiệu điều khiển hướng của cả hai mặt van bị chặn. Kiểu kết nối van nào cho phép xi lanh di chuyển trái / phải bằng tay?",
       "options": [
         {
@@ -1180,15 +1843,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": [
-        "images/exams/EXAM_TEST_02_s5_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 43",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Kiểu kết nối ABR",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [C] 'Kiểu kết nối ABR' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Tất cả các kiểu khối cổng; B: Kiểu kết nối PAB; D: Kiểu kết nối PRS) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 43
     },
     {
-      "id": "EXAM_TEST_02_Q44",
-      "exam_id": "EXAM_TEST_02",
-      "section": "Thí dụ",
-      "question_number": 44,
+      "id": "WS_EXAM_ELE_171",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 171,
       "question": "Điều gì không đúng với mô tả của van điều khiển tốc độ?",
       "options": [
         {
@@ -1209,15 +1886,29 @@
         }
       ],
       "correct_answer": "B",
-      "images": [
-        "images/exams/EXAM_TEST_02_s5_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 44",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "Nếu khí đi theo chiều mũi tên, van một chiều bị chặn và khí đi qua van tiết lưu, do đó tốc độ dòng chảy được kiểm soát.",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [B] 'Nếu khí đi theo chiều mũi tên, van một chiều bị chặn và khí đi qua van tiết lưu, do đó tốc độ dòng chảy được kiểm soát.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Đây là van điều khiển lưu lượng một chiều; C: Nên lắp ở vị trí gần cửa xả hơn là gần cửa nguồn; D: Nếu đường ống dài, không khí trong đường ống ảnh hưởng đến việc điều khiển tốc độ.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 44
     },
     {
-      "id": "EXAM_TEST_02_Q45",
-      "exam_id": "EXAM_TEST_02",
-      "section": "Thí dụ",
-      "question_number": 45,
+      "id": "WS_EXAM_ELE_172",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 172,
       "question": "Không phải mục đích của Tank ?",
       "options": [
         {
@@ -1238,15 +1929,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": [
-        "images/exams/EXAM_TEST_02_s5_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 45",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Làm khô không khí",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [A] 'Làm khô không khí' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (B: Làm mát không khí; C: Lưu trữ không khí; D: Ngăn chặn xung động) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 45
     },
     {
-      "id": "EXAM_TEST_02_Q46",
-      "exam_id": "EXAM_TEST_02",
-      "section": "Thí dụ",
-      "question_number": 46,
+      "id": "WS_EXAM_ELE_173",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 173,
       "question": "Ký hiệu nào phù hợp với cấu tạo bên trong của van điều khiển hướng bên dưới?",
       "options": [
         {
@@ -1267,15 +1972,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": [
-        "images/exams/EXAM_TEST_02_s5_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 46",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [D] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: ; B: ; C: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 46
     },
     {
-      "id": "EXAM_TEST_02_Q47",
-      "exam_id": "EXAM_TEST_02",
-      "section": "Thí dụ",
-      "question_number": 47,
+      "id": "WS_EXAM_ELE_174",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 174,
       "question": "Chọn đáp án sai về đặc điểm của van điện từ?",
       "options": [
         {
@@ -1296,15 +2015,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": [
-        "images/exams/EXAM_TEST_02_s5_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 47",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Bền, chống va đập tốt",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [A] 'Bền, chống va đập tốt' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (B: Điện năng tiêu thụ thấp; C: Thời gian chuyển đổi van nhanh chóng; D: Tiếng ồn rất nhỏ.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 47
     },
     {
-      "id": "EXAM_TEST_02_Q48",
-      "exam_id": "EXAM_TEST_02",
-      "section": "Thí dụ",
-      "question_number": 48,
+      "id": "WS_EXAM_ELE_175",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 175,
       "question": "Theo sơ đồ của hệ thống khí nén, phần nào được đặt ngay sau máy nén khí?",
       "options": [
         {
@@ -1325,15 +2058,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": [
-        "images/exams/EXAM_TEST_02_s5_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 48",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Bộ làm mát phía sau",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [C] 'Bộ làm mát phía sau' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Động cơ điện; B: Bộ tách dầu phun; D: Máy sấy) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 48
     },
     {
-      "id": "EXAM_TEST_02_Q50",
-      "exam_id": "EXAM_TEST_02",
-      "section": "Thí dụ",
-      "question_number": 50,
+      "id": "WS_EXAM_ELE_176",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Trung bình",
+      "question_number": 176,
       "question": "Giải thích đúng về xi lanh khí nén có ký hiệu bên dưới là gì?",
       "options": [
         {
@@ -1355,14 +2102,30 @@
       ],
       "correct_answer": "B",
       "images": [
-        "images/exams/EXAM_TEST_02_s5_1.png"
-      ]
+        "images/exams/exam_test_02_q50_1.png"
+      ],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 50",
+      "question_type": "diagram",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "Vì khí nén được cung cấp cho hai piston, công suất mà thanh piston có thể tạo ra gấp đôi so với một xi lanh tác dụng kép có cùng đường kính.",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [B] 'Vì khí nén được cung cấp cho hai piston, công suất mà thanh piston có thể tạo ra gấp đôi so với một xi lanh tác dụng kép có cùng đường kính.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Một số vị trí có thể được điều khiển bằng cách kết nối hai hoặc nhiều xi lanh tác động kép trên cùng một trục và điều khiển chúng độc lập.; C: Giá trị lực đẩy khi tiến và khi lùi là như nhau, tốt cho các trường hợp dừng ở giữa; D: Vòng bi giữ thanh piston nằm ở cả hai phía, do đó chuyển động qua lại trơn tru và nó có thể chịu được lực ngang và tải trọng tác dụng lên thanh ở một mức độ nào đó) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 50
     },
     {
-      "id": "EXAM_TEST_02_Q51",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 51,
+      "id": "WS_EXAM_ELE_177",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Trung bình",
+      "question_number": 177,
       "question": "Đệm lót nào được sử dụng chủ yếu trong xi lanh có đường kính từ 20mm trở lên?",
       "options": [
         {
@@ -1384,14 +2147,30 @@
       ],
       "correct_answer": "A",
       "images": [
-        "images/exams/EXAM_TEST_02_s6_1.png"
-      ]
+        "images/exams/exam_test_02_q51_1.png"
+      ],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 51",
+      "question_type": "diagram",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Air Cushion",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [A] 'Air Cushion' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (B: Absorber; C: Đệm cao su; D: Stopper) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 51
     },
     {
-      "id": "EXAM_TEST_02_Q53",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 53,
+      "id": "WS_EXAM_ELE_178",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 178,
       "question": "Vì phần tiếp điểm và coil của rơ le được phân tách bằng điện nên có thể xử lí tín hiệu của các tính chất khác nhau.\nLà chức năng nào của rơ le?",
       "options": [
         {
@@ -1412,15 +2191,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": [
-        "images/exams/EXAM_TEST_02_s6_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 53",
+      "question_type": "calculation",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "Chức năng biến đổi",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [D] 'Chức năng biến đổi' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Chức năng nhánh; B: Chức năng khuếch đại; C: Chức năng ghi nhớ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 53
     },
     {
-      "id": "EXAM_TEST_02_Q54",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 54,
+      "id": "WS_EXAM_ELE_179",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 179,
       "question": "Khi khả năng hấp thụ của chất hút ẩm trở nên bão hòa, chức năng của nó bị mất, nhưng phương pháp làm khô nào có thể được sử dụng bán vĩnh viễn khi nó được tái sử dụng bằng cách gia nhiệt?",
       "options": [
         {
@@ -1441,15 +2234,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": [
-        "images/exams/EXAM_TEST_02_s6_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 54",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Loại hấp phụ",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [A] 'Loại hấp phụ' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (B: Loại ngưng tụ; C: Loại làm lạnh bằng khí; D: Loại làm lạnh bằng nước) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 54
     },
     {
-      "id": "EXAM_TEST_02_Q55",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 55,
+      "id": "WS_EXAM_ELE_180",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 180,
       "question": "Chọn đáp án sai khi nói về van điều khiển tốc độ ?",
       "options": [
         {
@@ -1470,15 +2277,29 @@
         }
       ],
       "correct_answer": "B",
-      "images": [
-        "images/exams/EXAM_TEST_02_s6_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 55",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "Áp suất phía ㉡ ở trạng thái chảy tự do nên giảm ngay áp suất khí quyển.",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [B] 'Áp suất phía ㉡ ở trạng thái chảy tự do nên giảm ngay áp suất khí quyển.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Do lực đẩy gây ra bởi chênh lệch áp suất giữa ㉠ và ㉡ nên piston chuyển động tương đối đều.; C: Khí mặt bên ㉠ ở trạng thái tự do, áp suất khí nén tăng ngay lập tức; D: Do khả năng nén của không khí, khó có thể ngăn cản hoàn toàn sự khởi động nhanh của piston) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 55
     },
     {
-      "id": "EXAM_TEST_02_Q56",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 56,
+      "id": "WS_EXAM_ELE_181",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Trung bình",
+      "question_number": 181,
       "question": "Điều nào không đúng với đặc điểm của động cơ khí nén?",
       "options": [
         {
@@ -1500,14 +2321,30 @@
       ],
       "correct_answer": "B",
       "images": [
-        "images/exams/EXAM_TEST_02_s6_1.png"
-      ]
+        "images/exams/exam_test_02_q56_1.png"
+      ],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 56",
+      "question_type": "diagram",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "Khó điều khiển tốc độ và khó điều khiển quay ngược",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [B] 'Khó điều khiển tốc độ và khó điều khiển quay ngược' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Do khả năng nén của không khí, tốc độ quay dễ bị ảnh hưởng bởi tải trọng; C: So với động cơ, hằng số thời gian được xác định bởi tỷ lệ quán tính trên đầu ra nhỏ, do đó, dừng khởi động trơn tru và tỷ lệ đầu ra / trọng lượng lớn; D: Nếu bình chứa khí được lắp đặt làm nguồn khí nén, nó cũng có thể được sử dụng làm nguồn truyền động không sử dụng) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 56
     },
     {
-      "id": "EXAM_TEST_02_Q57",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 57,
+      "id": "WS_EXAM_ELE_182",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 182,
       "question": "Đáp án sai với tên ký hiệu van điều khiển hướng?",
       "options": [
         {
@@ -1528,15 +2365,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": [
-        "images/exams/EXAM_TEST_02_s6_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 57",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "㉢ vị trí ban đầu của van",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [C] '㉢ vị trí ban đầu của van' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: ㉠ loại hoạt động trực tiếp; B: ㉡ hoạt động thủ công; D: ㉣ tín hiệu điện) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 57
     },
     {
-      "id": "EXAM_TEST_02_Q59",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 59,
+      "id": "WS_EXAM_ELE_183",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 183,
       "question": "Có thể kiểm soát thời gian chính xác ngay cả trong thời gian dài và ít sai số về độ chính xác thời gian do sự thay đổi của nhiệt độ và độ ẩm là gì?",
       "options": [
         {
@@ -1557,44 +2408,74 @@
         }
       ],
       "correct_answer": "A",
-      "images": [
-        "images/exams/EXAM_TEST_02_s6_1.png"
-      ]
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 59",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Bộ hẹn giờ động cơ",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [A] 'Bộ hẹn giờ động cơ' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (B: Bộ hẹn giờ Digital; C: Bộ hẹn giờ điện tử; D: Hẹn giờ khí nén) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 59
     },
     {
-      "id": "EXAM_TEST_02_Q60",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 60,
-      "question": "Ví dụ dưới đây là mô tả các tính năng của máy nén.\nChọn đáp án đúng.\n\n\nKhông có van hút hay van xả giống như máy nén hai chiều do cấu tạo làm tăng bằng áp suất không khí theo quy định khi dung tích thay đổi lên tới cửa xả tùy theo chuyển động quay của rotor.\nCung cấp khí nén liên tục một cánh nhẹ nhàng, do đó tiếng nhỏ và kích thước bé, được dùng nhiều với vai trò là nguồn khí nén trong motor nén khí",
+      "id": "WS_PLC_028",
+      "source": "Bang diem dao tao va on thi White Star.xlsx",
+      "subject": "PLC cơ bản",
+      "subject_code": "plc",
+      "module": "2. PLC Device và Flow thao tác",
+      "difficulty": "Trung bình",
+      "question_number": 28,
+      "question": "Chọn đáp án đúng?",
       "options": [
         {
           "key": "A",
-          "text": "Máy nén kiểu tuabin"
+          "text": "1 Scan"
         },
         {
           "key": "B",
-          "text": "Máy nén kiểu trục vít"
+          "text": "Refresh khu vực đầu vào"
         },
         {
           "key": "C",
-          "text": "Máy nén kiểu cánh gạt"
+          "text": "Xử lý END"
         },
         {
           "key": "D",
-          "text": "Máy nén kiểu cánh quạt"
+          "text": "Trạng thái tiếp điểm Module đầu ra"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A",
       "images": [
-        "images/exams/EXAM_TEST_02_s6_1.png"
-      ]
+        "images/plc/q_028.png"
+      ],
+      "author": "Le Muoi Thuong",
+      "note": "",
+      "question_type": "schema",
+      "topic_tag": "PLC Device và Flow thao tác",
+      "explanation": {
+        "overview": "Câu hỏi kiểm tra kiến thức về chuyên đề **PLC Device và Flow thao tác** (PLC cơ bản). Đáp án chuẩn xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "1 Scan",
+        "why_correct": "Chu trình hoạt động chuẩn khép kín của PLC gồm 3 giai đoạn: Đọc trạng thái ngõ vào (Input Refresh) → Thực thi chương trình logic (Program Execution) → Ghi trạng thái ra phần cứng ngõ ra (Output Refresh) kèm kiểm tra hệ thống (END Processing). Chuỗi quá trình này diễn ra tuần hoàn liên tục và được gọi là '1 Scan' (Một chu kỳ quét).",
+        "why_wrong": "Refresh đầu vào và Xử lý END chỉ là một phần nhỏ trong chu trình; Trạng thái tiếp điểm module đầu ra là phần cứng hiển thị.",
+        "supplementary_knowledge": "💡 **Scan Time:** Thời gian thực hiện 1 Scan thường từ vài trăm micro-giây đến vài chục mili-giây tùy độ dài của chương trình."
+      },
+      "exam_q_num": 60
     },
     {
-      "id": "EXAM_TEST_02_Q61",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 61,
+      "id": "WS_EXAM_ELE_184",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 184,
       "question": "Điều gì không phù hợp với mô tả của thiết bị truyền động?",
       "options": [
         {
@@ -1614,14 +2495,30 @@
           "text": "Truyền động khí nén có độ lặp lại kém."
         }
       ],
-      "correct_answer": "",
-      "images": []
+      "correct_answer": "A",
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 61",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Khó thiết kế và khó quản lý nguồn điện",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [A] 'Khó thiết kế và khó quản lý nguồn điện' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (B: Truyền động điện chủ yếu bằng động cơ.; C: Truyền động nén dầu thường được sử dụng khi cần một lượng công suất lớn.; D: Truyền động khí nén có độ lặp lại kém.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 61
     },
     {
-      "id": "EXAM_TEST_02_Q62",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 62,
+      "id": "WS_EXAM_ELE_185",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 185,
       "question": "Điều gì không phù hợp với mô tả của trục?",
       "options": [
         {
@@ -1642,13 +2539,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 62",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Khi đường kính lớn hoặc khi cần nhẹ, người ta sử dụng trục vòng đặc.",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [A] 'Khi đường kính lớn hoặc khi cần nhẹ, người ta sử dụng trục vòng đặc.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (B: Tùy theo hình dạng mà có trục thẳng, trục khủy và trục dẻo.; C: Trục Spindle quay với tốc độ cao 10000 vòng / phút.; D: Tải trọng tác động theo hướng trục là trục Pivot Journal) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 62
     },
     {
-      "id": "EXAM_TEST_02_Q63",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 63,
+      "id": "WS_EXAM_ELE_186",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 186,
       "question": "Điều gì là đúng về trục Arbor?",
       "options": [
         {
@@ -1669,13 +2582,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 63",
+      "question_type": "calculation",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Khả năng chống mài mòn là rất quan trọng.",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [C] 'Khả năng chống mài mòn là rất quan trọng.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Hình dạng và kích thước chính xác, ít bị biến dạng.; B: Khi nó quay, lực và mômen xoắn tác động.; D: Nó được hỗ trợ bởi vòng bi.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 63
     },
     {
-      "id": "EXAM_TEST_02_Q64",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 64,
+      "id": "WS_EXAM_ELE_187",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 187,
       "question": "Đáp án đúng khi mô tả về lắp trục?",
       "options": [
         {
@@ -1696,13 +2625,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 64",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Dung sai kích thước = kích thước tối đa cho phép trừ đi kích thước tối thiểu cho phép",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [C] 'Dung sai kích thước = kích thước tối đa cho phép trừ đi kích thước tối thiểu cho phép' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Ấn vào chỉ trường hợp xảy ra khi trục nhỏ và lỗ lớn.; B: Kích thước tối đa cho phép là kích thước thực cộng với dung sai.; D: Kích thước tối thiểu cho phép là kích thước thực cộng với dung sai.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 64
     },
     {
-      "id": "EXAM_TEST_02_Q65",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 65,
+      "id": "WS_EXAM_ELE_188",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 188,
       "question": "Được cấu tạo bằng hai tấm thép đúc có hình bán nguyệt dùng để che phủ chỗ nối hai trục với nhau thông qua một lỗ có vách ngăn ?",
       "options": [
         {
@@ -1723,13 +2668,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 65",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "Muff coupling",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [D] 'Muff coupling' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Universal coupling; B: Flange coupling; C: Seller’s coupling) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 65
     },
     {
-      "id": "EXAM_TEST_02_Q66",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 66,
+      "id": "WS_EXAM_ELE_189",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 189,
       "question": "Mối ghép nào được sử dụng khi các đường trục cắt nhau?",
       "options": [
         {
@@ -1750,13 +2711,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 66",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Universal coupling",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [A] 'Universal coupling' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (B: Rubber coupling; C: Clamp coupling; D: Seller’s coupling) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 66
     },
     {
-      "id": "EXAM_TEST_02_Q67",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 67,
+      "id": "WS_EXAM_ELE_190",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 190,
       "question": "Đâu không phải là đặc điểm của Rolling bearing?",
       "options": [
         {
@@ -1777,13 +2754,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 67",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "Sức mạnh có thể được tăng lên bằng cách áp dụng tải trước.",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [D] 'Sức mạnh có thể được tăng lên bằng cách áp dụng tải trước.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Mômen ma sát khởi động thấp.; B: Nó tương thích và có thể được sử dụng thay thế cho nhau.; C: Dễ dàng sử dụng ở nhiệt độ cao và thấp.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 67
     },
     {
-      "id": "EXAM_TEST_02_Q68",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 68,
+      "id": "WS_EXAM_ELE_191",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 191,
       "question": "Vòng trong được chia làm đôi và ở giữa dùng lớp lót bằng hợp kim đồng?",
       "options": [
         {
@@ -1804,13 +2797,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 68",
+      "question_type": "calculation",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "Ổ bi tiếp xúc bốn điểm",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [D] 'Ổ bi tiếp xúc bốn điểm' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Double row angular ball bearing; B: Magneto ball bearing; C: Self-aligning ball bearing) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 68
     },
     {
-      "id": "EXAM_TEST_02_Q69",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 69,
+      "id": "WS_EXAM_ELE_192",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 192,
       "question": "Đinh ốc nào sau đây có góc ren là 30 độ?",
       "options": [
         {
@@ -1831,13 +2840,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 69",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Đinh ốc tròn",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [C] 'Đinh ốc tròn' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Đinh ốc Unified; B: Đinh ốc ống.; D: Đinh ốc Metric) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 69
     },
     {
-      "id": "EXAM_TEST_02_Q70",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 70,
+      "id": "WS_EXAM_ELE_193",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 193,
       "question": "Ý nào không đúng với cách giải thích về phương pháp chống nới lỏng đinh ốc?",
       "options": [
         {
@@ -1858,13 +2883,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 70",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Vòng đệm vênh phù hợp với hoạt động rung.",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [A] 'Vòng đệm vênh phù hợp với hoạt động rung.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (B: Vòng đệm răng thường chỉ sử dụng cho các thiết bị điện nhỏ.; C: Phương pháp chống lỏng bằng 2 đai ốc, đai ốc dưới được gọi là đai ốc khóa; D: Phương pháp chống lỏng bằng 2 đai ốc ,hãy sử dụng đai ốc dưới có chiều cao thấp hơn đai ốc trên) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 70
     },
     {
-      "id": "EXAM_TEST_02_Q71",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 71,
+      "id": "WS_EXAM_ELE_194",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 194,
       "question": "Khóa nào có đặc điểm làm giảm độ bền của trục?",
       "options": [
         {
@@ -1885,13 +2926,29 @@
         }
       ],
       "correct_answer": "D",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 71",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "Khóa bán nguyệt",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [D] 'Khóa bán nguyệt' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Khóa Sunk.; B: Khó trượt.; C: Khóa tròn) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 71
     },
     {
-      "id": "EXAM_TEST_02_Q72",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 72,
+      "id": "WS_EXAM_ELE_195",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 195,
       "question": "Đáp án không phù hợp với mô tả của bánh răng?",
       "options": [
         {
@@ -1912,13 +2969,29 @@
         }
       ],
       "correct_answer": "B",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 72",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "Không có backlash.",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [B] 'Không có backlash.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Truyền tỷ lệ tốc độ chính xác và mô-men xoắn lớn.; C: Rack gear có trục song song.; D: Bánh răng trục vít có trục so le.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 72
     },
     {
-      "id": "EXAM_TEST_02_Q73",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 73,
+      "id": "WS_EXAM_ELE_196",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 196,
       "question": "Mô tả đúng đặc điểm của bánh răng trục xoắn?",
       "options": [
         {
@@ -1939,13 +3012,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 73",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Giá rẻ.",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [C] 'Giá rẻ.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Hai trục giao nhau.; B: Tỷ lệ giảm tốc lớn; D: Có cùng chiều quay với bánh răng phẳng.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 73
     },
     {
-      "id": "EXAM_TEST_02_Q74",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 74,
+      "id": "WS_EXAM_ELE_197",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 197,
       "question": "Đặc điểm nào không phải của ổ đĩa Harmonic?",
       "options": [
         {
@@ -1966,13 +3055,29 @@
         }
       ],
       "correct_answer": "B",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 74",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "Mô-men xoắn thấp",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [B] 'Mô-men xoắn thấp' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Tỷ lệ giảm tốc cao; C: Hiệu suất cao; D: Vận hành tĩnh) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 74
     },
     {
-      "id": "EXAM_TEST_02_Q75",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 75,
+      "id": "WS_EXAM_ELE_198",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Điện - Điện tử cơ bản",
+      "subject_code": "electric",
+      "module": "Lý thuyết điện & Mạch điện tử",
+      "difficulty": "Dễ",
+      "question_number": 198,
       "question": "Hộp giảm tốc thuộc loại nào?",
       "options": [
         {
@@ -1993,13 +3098,29 @@
         }
       ],
       "correct_answer": "A",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 75",
+      "question_type": "theory",
+      "topic_tag": "Lý thuyết điện & Mạch điện tử",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+        "correct_answer": "A",
+        "correct_text": "Động cơ bánh răng.",
+        "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [A] 'Động cơ bánh răng.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (B: Trục đồng tâm.; C: Loại nằm ngang.; D: Trục đặc.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 75
     },
     {
-      "id": "EXAM_TEST_02_Q76",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 76,
+      "id": "WS_EXAM_MCH_141",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Linh kiện máy cơ bản",
+      "subject_code": "machine",
+      "module": "Truyền động cơ khí & Dung sai lắp ghép",
+      "difficulty": "Dễ",
+      "question_number": 141,
       "question": "Trong số các loại Timing belt, dù có giảm\nchiều rộng đi 60% thì độ bền gấp 4 lần?",
       "options": [
         {
@@ -2020,13 +3141,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 76",
+      "question_type": "theory",
+      "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Poly Chain GT2",
+        "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Poly Chain GT2' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Power Giip HTD; B: Power Giip GT; D: Power Giip GT2) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 76
     },
     {
-      "id": "EXAM_TEST_02_Q77",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 77,
+      "id": "WS_EXAM_MCH_142",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Linh kiện máy cơ bản",
+      "subject_code": "machine",
+      "module": "Truyền động cơ khí & Dung sai lắp ghép",
+      "difficulty": "Dễ",
+      "question_number": 142,
       "question": "Điều nào không phù hợp với đặc điểm của Ball Spline?",
       "options": [
         {
@@ -2047,13 +3184,29 @@
         }
       ],
       "correct_answer": "C",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 77",
+      "question_type": "theory",
+      "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+        "correct_answer": "C",
+        "correct_text": "Cấu trúc không thể tải trước Preload",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Cấu trúc không thể tải trước Preload' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Truyền mô-men xoắn thông qua chuyển động thẳng nhẹ nhàng.; B: Có thể được sử dụng để thay thế cho Linear Bush; D: Được sử dụng khi áp dụng tải trọng và mômen\nnhô ra) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 77
     },
     {
-      "id": "EXAM_TEST_02_Q78",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 78,
+      "id": "WS_EXAM_MCH_143",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Linh kiện máy cơ bản",
+      "subject_code": "machine",
+      "module": "Truyền động cơ khí & Dung sai lắp ghép",
+      "difficulty": "Dễ",
+      "question_number": 143,
       "question": "Phương pháp tải trước của Ball Screw sử dụng cấu trúc lò xo gọi là gì?",
       "options": [
         {
@@ -2074,13 +3227,29 @@
         }
       ],
       "correct_answer": "B",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 78",
+      "question_type": "theory",
+      "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "Phương pháp Pressure",
+        "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Phương pháp Pressure' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Phương pháp Position; C: Phương pháp Offset; D: Phương pháp Deflector) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 78
     },
     {
-      "id": "EXAM_TEST_02_Q79",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 79,
+      "id": "WS_EXAM_MCH_144",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Linh kiện máy cơ bản",
+      "subject_code": "machine",
+      "module": "Truyền động cơ khí & Dung sai lắp ghép",
+      "difficulty": "Dễ",
+      "question_number": 144,
       "question": "Đáp án không đúng với mô tả về Ball screw?",
       "options": [
         {
@@ -2101,13 +3270,29 @@
         }
       ],
       "correct_answer": "B",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 79",
+      "question_type": "theory",
+      "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+        "correct_answer": "B",
+        "correct_text": "Phương pháp tải trước Static Pressure là phương pháp thay đổi Home Pitch.",
+        "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Phương pháp tải trước Static Pressure là phương pháp thay đổi Home Pitch.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+        "why_wrong": "Các phương án còn lại (A: Phương pháp tải trước Double Nut, được chèn một miếng đệm.; C: Phân loại thành loại tuần hoàn bi và loại tải trọng trước.; D: Khi bảo quản Ball screw, hãy cất nó theo hướng nằm ngang.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 79
     },
     {
-      "id": "EXAM_TEST_02_Q80",
-      "exam_id": "EXAM_TEST_02",
-      "section": "",
-      "question_number": 80,
+      "id": "WS_EXAM_MCH_145",
+      "source": "Đề thi thử White Star - Test 02",
+      "subject": "Linh kiện máy cơ bản",
+      "subject_code": "machine",
+      "module": "Truyền động cơ khí & Dung sai lắp ghép",
+      "difficulty": "Dễ",
+      "question_number": 145,
       "question": "Trong số các loại vạch dưới đây, vạch nào có độ\ndày khác biệt nhất?",
       "options": [
         {
@@ -2128,7 +3313,20 @@
         }
       ],
       "correct_answer": "D",
-      "images": []
+      "images": [],
+      "author": "White Star Examination Board",
+      "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 80",
+      "question_type": "theory",
+      "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+      "explanation": {
+        "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+        "correct_answer": "D",
+        "correct_text": "Đường ẩn",
+        "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Đường ẩn' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+        "why_wrong": "Các phương án còn lại (A: Đường kích thước; B: Đường trung tâm; C: Dòng chỉ thị) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+        "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      },
+      "exam_q_num": 80
     }
   ]
 }

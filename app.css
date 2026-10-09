@@ -1144,11 +1144,31 @@ input:checked + .slider:before {
   margin-bottom: 28px;
 }
 
+.exam-group-title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.exam-group-title span {
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.exam-group-title small {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
 .exam-selection-list {
   display: flex;
   flex-direction: column;
   gap: 14px;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 .exam-item {
@@ -1168,6 +1188,7 @@ input:checked + .slider:before {
 .exam-item.active {
   border-color: var(--primary);
   background: rgba(99, 102, 241, 0.12);
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.15);
 }
 
 .exam-item-header {
@@ -1189,6 +1210,37 @@ input:checked + .slider:before {
   padding: 4px 10px;
   border-radius: var(--radius-full);
   color: #38bdf8;
+}
+
+.badge-smart {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.25), rgba(168, 85, 247, 0.25));
+  border: 1px solid rgba(168, 85, 247, 0.4);
+  color: #c084fc;
+}
+
+.subject-select-inline {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 8px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.subject-select-inline label {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.subject-select-inline select {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 5px 12px;
+  font-size: 0.85rem;
+  cursor: pointer;
 }
 
 .exam-start-action {
@@ -1300,6 +1352,22 @@ input:checked + .slider:before {
   background: var(--success-bg);
   border-color: var(--success);
   color: #34d399;
+}
+
+.palette-btn.flagged {
+  background: rgba(245, 158, 11, 0.2) !important;
+  border-color: #f59e0b !important;
+  color: #fbbf24 !important;
+  position: relative;
+}
+
+.palette-btn.flagged::after {
+  content: '🚩';
+  position: absolute;
+  top: -6px;
+  right: -4px;
+  font-size: 8px;
+  line-height: 1;
 }
 
 /* Exam Result View */

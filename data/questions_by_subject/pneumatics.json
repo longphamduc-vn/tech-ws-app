@@ -4273,5 +4273,2494 @@
       "why_wrong": "A chỉ là xử lý tín hiệu điện đơn thuần; C là xử lý tín hiệu số của vi xử lý; D chỉ giới hạn ở chế độ Delay.",
       "supplementary_knowledge": "💡 **Ứng dụng kinh điển:** Sử dụng trong mạch khởi động động cơ Sao - Tam giác (Star-Delta Starter): Đóng chạy chế độ Sao trong 5 giây, sau đó Timer tác động ngắt Sao và đóng sang chế độ Tam giác."
     }
+  },
+  {
+    "id": "WS_EXAM_PNE_101",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 101,
+    "question": "Điều nào không đúng về ưu điểm của công nghệ khí nén?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dễ dàng khuếch đại lực."
+      },
+      {
+        "key": "B",
+        "text": "Không có nguy cơ dẫn hỏa."
+      },
+      {
+        "key": "C",
+        "text": "Dễ dàng tích lũy năng lượng."
+      },
+      {
+        "key": "D",
+        "text": "Có thể kiểm soát tốc độ chính xác và mang lại hiệu quả tốt."
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 41",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Có thể kiểm soát tốc độ chính xác và mang lại hiệu quả tốt.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [D] 'Có thể kiểm soát tốc độ chính xác và mang lại hiệu quả tốt.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Dễ dàng khuếch đại lực.; B: Không có nguy cơ dẫn hỏa.; C: Dễ dàng tích lũy năng lượng.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_102",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 102,
+    "question": "Điều nào không đúng về nhược điểm của công nghệ khí nén?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Khả năng phản hồi kém."
+      },
+      {
+        "key": "B",
+        "text": "Khó kiểm soát tốc độc một cách chính xác."
+      },
+      {
+        "key": "C",
+        "text": "Khó tích lũy năng lượng."
+      },
+      {
+        "key": "D",
+        "text": "Tiếng ồn lớn."
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 42",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Khó tích lũy năng lượng.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [C] 'Khó tích lũy năng lượng.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Khả năng phản hồi kém.; B: Khó kiểm soát tốc độc một cách chính xác.; D: Tiếng ồn lớn.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_103",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 103,
+    "question": "Quy tắc nào đúng với quy luật thay đổi trạng thái của một bình kín trong điều kiện áp suất khí không đổi?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Định luật Boyle"
+      },
+      {
+        "key": "B",
+        "text": "Định luật Charles"
+      },
+      {
+        "key": "C",
+        "text": "Định luật pascal"
+      },
+      {
+        "key": "D",
+        "text": "Quy tắc Charles- Boyle"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 43",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Định luật Charles",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [B] 'Định luật Charles' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Định luật Boyle; C: Định luật pascal; D: Quy tắc Charles- Boyle) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_104",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 104,
+    "question": "Đâu không phải là phương pháp sấy của máy sấy khí tạo ra khí nén khô?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phương pháp làm lạnh không khí"
+      },
+      {
+        "key": "B",
+        "text": "Phương pháp làm đông"
+      },
+      {
+        "key": "C",
+        "text": "Phương pháp kết dính"
+      },
+      {
+        "key": "D",
+        "text": "Phương pháp hấp thụ"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/exams/exam_de_01_q44_1.png",
+      "images/exams/exam_de_01_q44_2.png",
+      "images/exams/exam_de_01_q44_3.png",
+      "images/exams/exam_de_01_q44_4.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 44",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Phương pháp làm lạnh không khí",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [A] 'Phương pháp làm lạnh không khí' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Phương pháp làm đông; C: Phương pháp kết dính; D: Phương pháp hấp thụ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_105",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 105,
+    "question": "Máy nén khí nào được sử dụng nhiều làm nguồn cấp của mô tơ khí nén do việc cấp khí nén được thực hiện liên tục, dễ dàng nên xung và tiếng ồn nhỏ, kích thước nhỏ?",
+    "options": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/exams/exam_de_01_q45_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 45",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [A] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_106",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 106,
+    "question": "Tên gọi xi lanh tác động kép có gì sai?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đáp án A"
+      },
+      {
+        "key": "B",
+        "text": "Đáp án B"
+      },
+      {
+        "key": "C",
+        "text": "Đáp án C"
+      },
+      {
+        "key": "D",
+        "text": "Đáp án D"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 46",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Đáp án D",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [D] 'Đáp án D' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Đáp án A; B: Đáp án B; C: Đáp án C) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_107",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 107,
+    "question": "Thiết bị đệm nào của xi lanh chủ yếu được sử dụng trong các xi lanh có đường kính trên 20 mm?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Van cao su"
+      },
+      {
+        "key": "B",
+        "text": "Bộ giảm xung"
+      },
+      {
+        "key": "C",
+        "text": "Aircushion"
+      },
+      {
+        "key": "D",
+        "text": "Xy lanh hãm (Stopper)"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 47",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Aircushion",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [C] 'Aircushion' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Van cao su; B: Bộ giảm xung; D: Xy lanh hãm (Stopper)) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_108",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 108,
+    "question": "Cấu trúc nào của bộ truyền động quay không phải là loại piston?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thiết bị truyền động kiểu cánh gạt (vane)"
+      },
+      {
+        "key": "B",
+        "text": "Thiết bị truyền động tay quay (crank)"
+      },
+      {
+        "key": "C",
+        "text": "Thiết bị truyền động kiểu yoke"
+      },
+      {
+        "key": "D",
+        "text": "Thiết bị truyền động quay Rack-Pinion"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 48",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Thiết bị truyền động kiểu cánh gạt (vane)",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [A] 'Thiết bị truyền động kiểu cánh gạt (vane)' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Thiết bị truyền động tay quay (crank); C: Thiết bị truyền động kiểu yoke; D: Thiết bị truyền động quay Rack-Pinion) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_109",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 109,
+    "question": "Loại van nào đúng với hình khí nén sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Van tiết lưu"
+      },
+      {
+        "key": "B",
+        "text": "Van tuần tự"
+      },
+      {
+        "key": "C",
+        "text": "Van giảm áp"
+      },
+      {
+        "key": "D",
+        "text": "Van xả áp"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 49",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Van giảm áp",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [C] 'Van giảm áp' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Van tiết lưu; B: Van tuần tự; D: Van xả áp) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_110",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 110,
+    "question": "Giải thích nào đúng cho hình sau?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đây là van làm tăng tốc độ xi lanh bằng cách làm giảm sức cản khí thải của không khí thoát ra từ xi lanh."
+      },
+      {
+        "key": "B",
+        "text": "Đây là van điều khiển lưu lượng, làm thay đổi mặt cắt ngang của dòng chảy."
+      },
+      {
+        "key": "C",
+        "text": "Được sử dụng như một bộ hẹn giờ cùng với bình khí nén hoặc điều tiết nguồn cung và thải khí của xi lanh khí nén."
+      },
+      {
+        "key": "D",
+        "text": "Đây là van kết nối với ống xả van điện tử để kiểm soát tốc độ xi lanh."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 50",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Đây là van làm tăng tốc độ xi lanh bằng cách làm giảm sức cản khí thải của không khí thoát ra từ xi lanh.",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [A] 'Đây là van làm tăng tốc độ xi lanh bằng cách làm giảm sức cản khí thải của không khí thoát ra từ xi lanh.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Đây là van điều khiển lưu lượng, làm thay đổi mặt cắt ngang của dòng chảy.; C: Được sử dụng như một bộ hẹn giờ cùng với bình khí nén hoặc điều tiết nguồn cung và thải khí của xi lanh khí nén.; D: Đây là van kết nối với ống xả van điện tử để kiểm soát tốc độ xi lanh.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_111",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 111,
+    "question": "Đâu không phải là mô tả về phương pháp Meter - in của bộ điều khiển tốc độ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Do khả năng nén của không khí nên rất khó để ngăn chặn hoàn toàn sự khởi động nhanh của piston."
+      },
+      {
+        "key": "B",
+        "text": "Vì áp suất của ⓑ ở trạng thái dòng chảy tự do nên sẽ nhanh chóng giảm xuống mức áp suất khí quyển."
+      },
+      {
+        "key": "C",
+        "text": "Vì không khí cung cấp được điều tiết nên cần có thời gian để áp suất ở phía ⓐ tăng lên."
+      },
+      {
+        "key": "D",
+        "text": "Chuyển động của piston không ổn định do áp suất của ⓐ và ⓑ không cân bằng."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 51",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Do khả năng nén của không khí nên rất khó để ngăn chặn hoàn toàn sự khởi động nhanh của piston.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [A] 'Do khả năng nén của không khí nên rất khó để ngăn chặn hoàn toàn sự khởi động nhanh của piston.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Vì áp suất của ⓑ ở trạng thái dòng chảy tự do nên sẽ nhanh chóng giảm xuống mức áp suất khí quyển.; C: Vì không khí cung cấp được điều tiết nên cần có thời gian để áp suất ở phía ⓐ tăng lên.; D: Chuyển động của piston không ổn định do áp suất của ⓐ và ⓑ không cân bằng.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_112",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 112,
+    "question": "Trong số các ký hiệu khí nén của van điều khiển hướng, đường kẻ ngắn ở bên ngoài hộp hình vuông thể hiện cho điều gì? (hình mũi tên)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dòng chảy của chất lỏng"
+      },
+      {
+        "key": "B",
+        "text": "Biểu thị cổng"
+      },
+      {
+        "key": "C",
+        "text": "Số switching"
+      },
+      {
+        "key": "D",
+        "text": "Chặn dòng chảy của chất lỏng"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 52",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Biểu thị cổng",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [B] 'Biểu thị cổng' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Dòng chảy của chất lỏng; C: Số switching; D: Chặn dòng chảy của chất lỏng) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_113",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 113,
+    "question": "Tên gọi chính xác của đế xi lanh \u000btrong dưới là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dạng Foot"
+      },
+      {
+        "key": "B",
+        "text": "Dạng Trunnion"
+      },
+      {
+        "key": "C",
+        "text": "Dạng Flange"
+      },
+      {
+        "key": "D",
+        "text": "Dạng Clevis"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 53",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Dạng Flange",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [C] 'Dạng Flange' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Dạng Foot; B: Dạng Trunnion; D: Dạng Clevis) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_114",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 114,
+    "question": "Van poppete có đặc điểm gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phù hợp với áp suất cao hoặc van điều khiển tự động."
+      },
+      {
+        "key": "B",
+        "text": "Cấu trúc đơn giản và dễ dàng chế tác với độ chính xác cao."
+      },
+      {
+        "key": "C",
+        "text": "Lực hoạt động của van nhỏ."
+      },
+      {
+        "key": "D",
+        "text": "Khoảng cách di chuyển của bộ phận hoạt động là ngắn, tốc độ đóng/mở nhanh."
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 54",
+    "question_type": "calculation",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Khoảng cách di chuyển của bộ phận hoạt động là ngắn, tốc độ đóng/mở nhanh.",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [D] 'Khoảng cách di chuyển của bộ phận hoạt động là ngắn, tốc độ đóng/mở nhanh.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Phù hợp với áp suất cao hoặc van điều khiển tự động.; B: Cấu trúc đơn giản và dễ dàng chế tác với độ chính xác cao.; C: Lực hoạt động của van nhỏ.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_115",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 115,
+    "question": "Khi cung cấp áp suất khác nhau tại hai đầu nhập thì áp suất của đầu ra là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "9kgf/㎠"
+      },
+      {
+        "key": "B",
+        "text": "4kgf/㎠"
+      },
+      {
+        "key": "C",
+        "text": "1kgf/㎠"
+      },
+      {
+        "key": "D",
+        "text": "5kgf/㎠"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/exams/exam_de_01_q55_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 55",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "4kgf/㎠",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [B] '4kgf/㎠' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: 9kgf/㎠; C: 1kgf/㎠; D: 5kgf/㎠) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_116",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 116,
+    "question": "Van nào cho phép dòng chảy theo một hướng nhưng chặn dòng chảy theo hướng ngược lại và được sử dụng để ngăn dòng chảy ngược?",
+    "options": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 56",
+    "question_type": "calculation",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [A] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_117",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 117,
+    "question": "Thiết bị khí nén nào không được sử dụng với máy phun chân không khí nén?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Van điện tử"
+      },
+      {
+        "key": "B",
+        "text": "Bộ lọc"
+      },
+      {
+        "key": "C",
+        "text": "Van một chiều"
+      },
+      {
+        "key": "D",
+        "text": "Công tắc áp suất"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/exams/exam_de_01_q57_1.png",
+      "images/exams/exam_de_01_q57_2.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 57",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Van một chiều",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [C] 'Van một chiều' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Van điện tử; B: Bộ lọc; D: Công tắc áp suất) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_118",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 118,
+    "question": "Đâu không phải là loại công tắc phát hiện có thể phát hiện khi không tiếp xúc với vật thể phát hiện?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Công tắc tiệm cận"
+      },
+      {
+        "key": "B",
+        "text": "Công tắc hành trình"
+      },
+      {
+        "key": "C",
+        "text": "Công tắc mức siêu âm"
+      },
+      {
+        "key": "D",
+        "text": "Công tắc quang điện"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/exams/exam_de_01_q58_1.png",
+      "images/exams/exam_de_01_q58_2.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 58",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Công tắc hành trình",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [B] 'Công tắc hành trình' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Công tắc tiệm cận; C: Công tắc mức siêu âm; D: Công tắc quang điện) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_119",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 119,
+    "question": "Giải thích nào đúng khi nói về tính năng bộ nhớ trong các tính năng tiêu biểu của rơ le?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Trạng thái đầu vào có thể được duy trì bởi tiếp điểm tiếp xúc của rơ le và có thể ghi nhớ tín hiệu hoạt động."
+      },
+      {
+        "key": "B",
+        "text": "Khi số lượng tiếp điểm đầu ra về tín hiệu đầu vào của 1 cuộn dây nhiều thì tín hiệu được phân nhánh và có thể điều khiển đồng thời một số thiết bị."
+      },
+      {
+        "key": "C",
+        "text": "Khi lấy điện năng tiêu thụ của cuộn dây là đầu vào thì ở tiếp điểm đầu ra điện năng có thể tăng gấp mấy chục lần đầu vào."
+      },
+      {
+        "key": "D",
+        "text": "Do phần cuộn dây và phần tiếp điểm được phân tách bằng điện nên có thể xử lý tín hiệu của các thuộc tính khác nhau."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 59",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Trạng thái đầu vào có thể được duy trì bởi tiếp điểm tiếp xúc của rơ le và có thể ghi nhớ tín hiệu hoạt động.",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [A] 'Trạng thái đầu vào có thể được duy trì bởi tiếp điểm tiếp xúc của rơ le và có thể ghi nhớ tín hiệu hoạt động.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Khi số lượng tiếp điểm đầu ra về tín hiệu đầu vào của 1 cuộn dây nhiều thì tín hiệu được phân nhánh và có thể điều khiển đồng thời một số thiết bị.; C: Khi lấy điện năng tiêu thụ của cuộn dây là đầu vào thì ở tiếp điểm đầu ra điện năng có thể tăng gấp mấy chục lần đầu vào.; D: Do phần cuộn dây và phần tiếp điểm được phân tách bằng điện nên có thể xử lý tín hiệu của các thuộc tính khác nhau.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_120",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 120,
+    "question": "Đâu không phải loại hình dòng chảy ở vị trí trung lập?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Loại đóng giữa"
+      },
+      {
+        "key": "B",
+        "text": "Loại nhấn giữa"
+      },
+      {
+        "key": "C",
+        "text": "Loại kết nối PAR"
+      },
+      {
+        "key": "D",
+        "text": "Loại xả giữa"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 60",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Loại kết nối PAR",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [C] 'Loại kết nối PAR' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Loại đóng giữa; B: Loại nhấn giữa; D: Loại xả giữa) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_121",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 121,
+    "question": "Đâu không phải là phương pháp làm khô của máy sấy khí?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Máy sấy khí làm mát bằng nước"
+      },
+      {
+        "key": "B",
+        "text": "Máy sấy khí hấp thụ"
+      },
+      {
+        "key": "C",
+        "text": "Máy sấy khí làm mát"
+      },
+      {
+        "key": "D",
+        "text": "Máy sấy khí hấp phụ"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 52",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Máy sấy khí làm mát bằng nước",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [A] 'Máy sấy khí làm mát bằng nước' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Máy sấy khí hấp thụ; C: Máy sấy khí làm mát; D: Máy sấy khí hấp phụ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_122",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 122,
+    "question": "Đâu không phải là ưu điểm của ống nhựa?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Có khả năng tăng dung lượng nhiều hơn so với tỷ lệ đường kính ống."
+      },
+      {
+        "key": "B",
+        "text": "Giá thành đắt"
+      },
+      {
+        "key": "C",
+        "text": "Dễ duy trì, bảo dưỡng"
+      },
+      {
+        "key": "D",
+        "text": "Có tính mềm dẻo, linh động nên dễ thao tác và dễ sử dụng với cả ống dẫn của máy có bộ phận quay."
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 53",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Giá thành đắt",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [B] 'Giá thành đắt' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Có khả năng tăng dung lượng nhiều hơn so với tỷ lệ đường kính ống.; C: Dễ duy trì, bảo dưỡng; D: Có tính mềm dẻo, linh động nên dễ thao tác và dễ sử dụng với cả ống dẫn của máy có bộ phận quay.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_123",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 123,
+    "question": "Hoạt động độc lập ở hai hoặc nhiều vị trí điều khiển, có thể được gọi là van kiểm tra đôi. Là loại van nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/exams/exam_test_01_q54_1.png",
+      "images/exams/exam_test_01_q54_2.png",
+      "images/exams/exam_test_01_q54_3.png",
+      "images/exams/exam_test_01_q54_4.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 54",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [D] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: ; B: ; C: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_124",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 124,
+    "question": "Duy trì áp suất chất khí cố định và khi nhiệt độ và thể tích thay đổi thì nhiệt độ và thể tích tỷ lệ thuận với nhau.\nLà định luật nào ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Định luật Pascal"
+      },
+      {
+        "key": "B",
+        "text": "Định luật Charles-Boyle"
+      },
+      {
+        "key": "C",
+        "text": "Định luật Charles"
+      },
+      {
+        "key": "D",
+        "text": "Định luật Boyle"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 55",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Định luật Charles",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [C] 'Định luật Charles' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Định luật Pascal; B: Định luật Charles-Boyle; D: Định luật Boyle) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_125",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 125,
+    "question": "Cho khí nén đi qua tại một vị trí điều khiển nào đó và dừng tại vị trí điều khiển khác, được sử dụng chủ yếu với vai trò là van chuyên để dừng. Là loại van nào ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Van 3 cửa 2 vị trí"
+      },
+      {
+        "key": "B",
+        "text": "Van chặn"
+      },
+      {
+        "key": "C",
+        "text": "Van áp suất"
+      },
+      {
+        "key": "D",
+        "text": "Van 2 cửa 2 vị trí"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 56",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Van 2 cửa 2 vị trí",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [D] 'Van 2 cửa 2 vị trí' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Van 3 cửa 2 vị trí; B: Van chặn; C: Van áp suất) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_126",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 126,
+    "question": "Có ưu điểm là tối thiểu hóa diện tích lắp đặt, lực đẩy tiến / lùi đồng nhất, dừng giữa chừng tốt.\nĐang nói tới loại xilanh nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/exams/exam_test_01_q57_1.png",
+      "images/exams/exam_test_01_q57_2.png",
+      "images/exams/exam_test_01_q57_3.png",
+      "images/exams/exam_test_01_q57_4.png",
+      "images/exams/exam_test_01_q57_5.png",
+      "images/exams/exam_test_01_q57_6.png",
+      "images/exams/exam_test_01_q57_7.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 57",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [A] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_127",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 127,
+    "question": "Chọn đáp án có cấu trúc bên trong của van điều khiển hướng so với ký hiệu và vị trí cổng không khớp.",
+    "options": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 58",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [C] '' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: ; B: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_128",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 128,
+    "question": "Giải thích đúng về chức năng của rơle dưới đây là gì?\n\nCó thể cho dòng điện gấp hàng chục lần dòng điện nhập ở tiếp điểm đầu ra khi nhập lực điện từ tiêu thụ của coil rơ le.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chức năng bộ nhớ"
+      },
+      {
+        "key": "B",
+        "text": "Chức năng rẽ nhánh"
+      },
+      {
+        "key": "C",
+        "text": "Chức năng khuếch đại"
+      },
+      {
+        "key": "D",
+        "text": "Chức năng chuyển đổi"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 59",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Chức năng khuếch đại",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [C] 'Chức năng khuếch đại' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Chức năng bộ nhớ; B: Chức năng rẽ nhánh; D: Chức năng chuyển đổi) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_129",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 129,
+    "question": "Sơ đồ mạch khí nén của van trễ thời gian là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/exams/exam_test_01_q60_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 60",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [B] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_130",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 130,
+    "question": "Đâu không phải là ưu điểm của kỹ thuật khí nén?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nhận khí nén từ nguồn điện một cách đơn giản."
+      },
+      {
+        "key": "B",
+        "text": "Không có nguy cơ bắt lửa"
+      },
+      {
+        "key": "C",
+        "text": "Có thể kiểm soát tốc độ chính xác"
+      },
+      {
+        "key": "D",
+        "text": "Có thể tích lũy năng lượng"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 41",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Có thể kiểm soát tốc độ chính xác",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [C] 'Có thể kiểm soát tốc độ chính xác' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Nhận khí nén từ nguồn điện một cách đơn giản.; B: Không có nguy cơ bắt lửa; D: Có thể tích lũy năng lượng) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_131",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 131,
+    "question": "Không phải là đặc điểm của van điện từ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Giá thành rẻ"
+      },
+      {
+        "key": "B",
+        "text": "Không dễ bị hỏng"
+      },
+      {
+        "key": "C",
+        "text": "Không cần phải vệ sinh vật trung gian"
+      },
+      {
+        "key": "D",
+        "text": "Tiêu thụ điện thấp"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 42",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Tiêu thụ điện thấp",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [D] 'Tiêu thụ điện thấp' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Giá thành rẻ; B: Không dễ bị hỏng; C: Không cần phải vệ sinh vật trung gian) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_132",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 132,
+    "question": "Phía dưới đang nói về chức năng nào của rơle ?\n\nTrạng thái đầu vào có thể được duy trì bằng tiếp điểm riêng của rơle, do đó, tín hiệu hoạt động có thể được ghi nhớ.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chức năng phân chia"
+      },
+      {
+        "key": "B",
+        "text": "Chức năng biến đổi"
+      },
+      {
+        "key": "C",
+        "text": "Chức năng bộ nhớ"
+      },
+      {
+        "key": "D",
+        "text": "Chức năng khuếch đại"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 43",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Chức năng bộ nhớ",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [C] 'Chức năng bộ nhớ' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Chức năng phân chia; B: Chức năng biến đổi; D: Chức năng khuếch đại) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_133",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 133,
+    "question": "Van nào có chức năng giảm áp suất từ nguồn khí nén, duy trì lượng áp suất không đổi tới các bộ phận phía sau ?",
+    "options": [
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 44",
+    "question_type": "calculation",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [B] '' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_134",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 134,
+    "question": "Xilanh nào được dùng ở nơi cần lực lớn và có giới hạn đường kính xi lanh?",
+    "options": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 45",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [A] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_135",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 135,
+    "question": "Kiểm soát an toàn, kiểm soát chuyển động, chức năng kiểm tra, hoạt động logic, v.v.\nĐang nói tới chức năng của van nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/exams/exam_test_03_q46_1.png",
+      "images/exams/exam_test_03_q46_2.png",
+      "images/exams/exam_test_03_q46_3.png",
+      "images/exams/exam_test_03_q46_4.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 46",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [B] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_136",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 136,
+    "question": "Chọn đáp án có cấu trúc van so với ký hiệu van không khớp nhau.",
+    "options": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 47",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [C] '' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: ; B: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_137",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 137,
+    "question": "Đáp án không đúng với đặc điểm của Ejector?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cần có tank chứa khí chân không"
+      },
+      {
+        "key": "B",
+        "text": "Tuổi thọ cao do không có bộ phận truyền động bên trong."
+      },
+      {
+        "key": "C",
+        "text": "So với các máy bơm chân không khác, nó có kích thước nhỏ bằng 1/10"
+      },
+      {
+        "key": "D",
+        "text": "Thích hợp để bật / tắt liên tục"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/exams/exam_test_03_q48_1.png",
+      "images/exams/exam_test_03_q48_2.png",
+      "images/exams/exam_test_03_q48_3.png",
+      "images/exams/exam_test_03_q48_4.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 48",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Cần có tank chứa khí chân không",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [A] 'Cần có tank chứa khí chân không' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Tuổi thọ cao do không có bộ phận truyền động bên trong.; C: So với các máy bơm chân không khác, nó có kích thước nhỏ bằng 1/10; D: Thích hợp để bật / tắt liên tục) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_138",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 138,
+    "question": "Đâu không phải là tên 1 bộ phận của tube One - touch?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Flange"
+      },
+      {
+        "key": "B",
+        "text": "Đinh ốc"
+      },
+      {
+        "key": "C",
+        "text": "Housing"
+      },
+      {
+        "key": "D",
+        "text": "Tube fitting"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/exams/exam_test_03_q49_1.png",
+      "images/exams/exam_test_03_q49_2.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 49",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Flange",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [A] 'Flange' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Đinh ốc; C: Housing; D: Tube fitting) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_139",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 139,
+    "question": "Đáp án sai khi mô tả mạch meter - in và meter - out?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chuyển động của piston không ổn định do áp suất trong buồng tiến và buồng lùi không cân bằng."
+      },
+      {
+        "key": "B",
+        "text": "Piston chuyển động không đều và xảy ra hiện tượng trượt thanh."
+      },
+      {
+        "key": "C",
+        "text": "Do không khí cửa nguồn được tiết lưu, nên cần thời gian để áp suất trong buồng đảo chiều tăng lên."
+      },
+      {
+        "key": "D",
+        "text": "Không khí được tiết lưu ở cửa nguồn, do đó tốc độ xả bị hạn chế."
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/exams/exam_test_03_q50_1.png",
+      "images/exams/exam_test_03_q50_2.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 50",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Không khí được tiết lưu ở cửa nguồn, do đó tốc độ xả bị hạn chế.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [D] 'Không khí được tiết lưu ở cửa nguồn, do đó tốc độ xả bị hạn chế.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Chuyển động của piston không ổn định do áp suất trong buồng tiến và buồng lùi không cân bằng.; B: Piston chuyển động không đều và xảy ra hiện tượng trượt thanh.; C: Do không khí cửa nguồn được tiết lưu, nên cần thời gian để áp suất trong buồng đảo chiều tăng lên.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_140",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 140,
+    "question": "Đáp án sai khi sử dụng bộ giảm thanh khí nén?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tránh những nơi có cấu trúc hoặc vật cản gần cửa xả."
+      },
+      {
+        "key": "B",
+        "text": "Chọn một loại có hiệu suất chống tiếng ồn tốt bất kể tốc độ và kích thước luồng không khí"
+      },
+      {
+        "key": "C",
+        "text": "Khi bị tắc, rửa sạch và sử dụng lại."
+      },
+      {
+        "key": "D",
+        "text": "Hướng xả của bộ giảm thanh cần chú ý vào vị trí lắp đặt."
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/exams/exam_test_03_q51_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 51",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Chọn một loại có hiệu suất chống tiếng ồn tốt bất kể tốc độ và kích thước luồng không khí",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [B] 'Chọn một loại có hiệu suất chống tiếng ồn tốt bất kể tốc độ và kích thước luồng không khí' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Tránh những nơi có cấu trúc hoặc vật cản gần cửa xả.; C: Khi bị tắc, rửa sạch và sử dụng lại.; D: Hướng xả của bộ giảm thanh cần chú ý vào vị trí lắp đặt.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_141",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 141,
+    "question": "Không phải là điều kiện lựa chọn bộ lọc khí nén ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Màng lọc phải lọc dễ dàng"
+      },
+      {
+        "key": "B",
+        "text": "Kích thước bộ lọc nhỏ gọn"
+      },
+      {
+        "key": "C",
+        "text": "Ít tổn thất áp suất"
+      },
+      {
+        "key": "D",
+        "text": "Có tuổi thọ lâu dài"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 52",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Kích thước bộ lọc nhỏ gọn",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [B] 'Kích thước bộ lọc nhỏ gọn' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Màng lọc phải lọc dễ dàng; C: Ít tổn thất áp suất; D: Có tuổi thọ lâu dài) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_142",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 142,
+    "question": "Van nào có chức năng cấp khí nén ở một vị trí điều khiển và xả khí nén đã cấp ở một vị trí điều khiển khác?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Van 3 cửa 2 vị trí"
+      },
+      {
+        "key": "B",
+        "text": "Van một chiều"
+      },
+      {
+        "key": "C",
+        "text": "Van shuttle"
+      },
+      {
+        "key": "D",
+        "text": "Van 2 cửa 2 vị trí"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 53",
+    "question_type": "calculation",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Van 3 cửa 2 vị trí",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [A] 'Van 3 cửa 2 vị trí' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Van một chiều; C: Van shuttle; D: Van 2 cửa 2 vị trí) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_143",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 143,
+    "question": "Động cơ khí nén thường được sử dụng để quay tốc độ cao, ít rung, tuổi thọ dài là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Động cơ kiểu cánh gạt"
+      },
+      {
+        "key": "B",
+        "text": "Động cơ kiểu piston"
+      },
+      {
+        "key": "C",
+        "text": "Động cơ bánh răng"
+      },
+      {
+        "key": "D",
+        "text": "Động cơ tuabin"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 54",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Động cơ tuabin",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [D] 'Động cơ tuabin' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Động cơ kiểu cánh gạt; B: Động cơ kiểu piston; C: Động cơ bánh răng) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_144",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 144,
+    "question": "Trong số các loại máy nén khí piston, phương pháp làm mát nào được sử dụng cho máy nén khí nhỏ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Làm mát bằng không khí"
+      },
+      {
+        "key": "B",
+        "text": "Làm mát bằng nước"
+      },
+      {
+        "key": "C",
+        "text": "Loại làm mát"
+      },
+      {
+        "key": "D",
+        "text": "Loại hấp thụ"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/exams/exam_test_03_q55_1.png",
+      "images/exams/exam_test_03_q55_2.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 55",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Làm mát bằng không khí",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [A] 'Làm mát bằng không khí' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Làm mát bằng nước; C: Loại làm mát; D: Loại hấp thụ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_145",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 145,
+    "question": "Phân loại theo phương thức return của van, đâu là phân loại theo phương thức return của van khí nén?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Return bằng khí nén"
+      },
+      {
+        "key": "B",
+        "text": "Return bằng máy dò tìm"
+      },
+      {
+        "key": "C",
+        "text": "Return bằng con người"
+      },
+      {
+        "key": "D",
+        "text": "Return bằng Lò xo (Spring)"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/exams/exam_test_03_q56_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 56",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Return bằng con người",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [C] 'Return bằng con người' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Return bằng khí nén; B: Return bằng máy dò tìm; D: Return bằng Lò xo (Spring)) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_146",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 146,
+    "question": "Điều gì không phải là đặc điểm của van poppet?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Có thể kiểm soát dòng chảy và phù hợp với đường kính lớn"
+      },
+      {
+        "key": "B",
+        "text": "Lực hoạt động của van phải được tăng lên tương\nứng với áp suất chất lỏng."
+      },
+      {
+        "key": "C",
+        "text": "Cấu trúc đơn giản, dễ sản xuất và có độ chính xác\ncao."
+      },
+      {
+        "key": "D",
+        "text": "Khả năng niêm phong tốt, và ngay cả khi lò xo bị hỏng, nó được đóng lại bởi áp suất chất lỏng."
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 58",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Cấu trúc đơn giản, dễ sản xuất và có độ chính xác\ncao.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [C] 'Cấu trúc đơn giản, dễ sản xuất và có độ chính xác\ncao.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Có thể kiểm soát dòng chảy và phù hợp với đường kính lớn; B: Lực hoạt động của van phải được tăng lên tương\nứng với áp suất chất lỏng.; D: Khả năng niêm phong tốt, và ngay cả khi lò xo bị hỏng, nó được đóng lại bởi áp suất chất lỏng.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_147",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 147,
+    "question": "Định luật nào trong đó áp suất và thể tích tỉ lệ nghịch với nhau trong khi nhiệt độ của khí không đổi?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Định luật Charles"
+      },
+      {
+        "key": "B",
+        "text": "Định luật Boyle"
+      },
+      {
+        "key": "C",
+        "text": "Định luật Pascal"
+      },
+      {
+        "key": "D",
+        "text": "Định luật Charles-Boyle"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 59",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Định luật Boyle",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [B] 'Định luật Boyle' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Định luật Charles; C: Định luật Pascal; D: Định luật Charles-Boyle) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_148",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 148,
+    "question": "Sơ đồ mạch khí nén cho van off delay là gì?\n(Van tiết lưu mở 20%)",
+    "options": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/exams/exam_test_03_q60_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 60",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [D] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: ; B: ; C: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_149",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 149,
+    "question": "Van nào không thuộc van điều khiển áp suất?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Van giảm áp"
+      },
+      {
+        "key": "B",
+        "text": "Van tuần tự"
+      },
+      {
+        "key": "C",
+        "text": "Van Relief"
+      },
+      {
+        "key": "D",
+        "text": "Van xả cấp tốc"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 41",
+    "question_type": "calculation",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Van xả cấp tốc",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [D] 'Van xả cấp tốc' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Van giảm áp; B: Van tuần tự; C: Van Relief) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_150",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 150,
+    "question": "Phụ tùng nào có điện cảm ở bộ phận phân tích, phân tích lượng biến hóa dung lượng tĩnh điện đó do giữa đất và điện cực tồn tại vật thể phát tín hiệu đầu ra?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Công tắc limit và micro"
+      },
+      {
+        "key": "B",
+        "text": "Công tắc tiếp giáp"
+      },
+      {
+        "key": "C",
+        "text": "Công tắc điện dung"
+      },
+      {
+        "key": "D",
+        "text": "Công tăc quang điện"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 42",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Công tắc điện dung",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [C] 'Công tắc điện dung' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Công tắc limit và micro; B: Công tắc tiếp giáp; D: Công tăc quang điện) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_151",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Trung bình",
+    "question_number": 151,
+    "question": "Biểu tượng khí nén cho van điều khiển hướng dưới đây. Giải thích đúng cho mũi tên là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vị trí ban đầu của van"
+      },
+      {
+        "key": "B",
+        "text": "Hướng dòng chảy của van"
+      },
+      {
+        "key": "C",
+        "text": "Số cửa trên van"
+      },
+      {
+        "key": "D",
+        "text": "Ngắt dòng chất lỏng khỏi van"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [
+      "images/exams/exam_test_04_q43_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 43",
+    "question_type": "diagram",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Hướng dòng chảy của van",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [B] 'Hướng dòng chảy của van' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Vị trí ban đầu của van; C: Số cửa trên van; D: Ngắt dòng chất lỏng khỏi van) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_152",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 152,
+    "question": "Cho điện chạy qua bộ hẹn giờ thì tiếp điểm được nối dựa vào hoạt động hút của nam châm điện, cam của đoạn sau tiếp điểm quay, hoạt động tiếp điểm?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hẹn giờ khí nén"
+      },
+      {
+        "key": "B",
+        "text": "Hẹn giờ kỹ thuật số"
+      },
+      {
+        "key": "C",
+        "text": "Hẹn giờ kiểu động cơ"
+      },
+      {
+        "key": "D",
+        "text": "Hẹn giờ điện tử"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 44",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Hẹn giờ kiểu động cơ",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [C] 'Hẹn giờ kiểu động cơ' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Hẹn giờ khí nén; B: Hẹn giờ kỹ thuật số; D: Hẹn giờ điện tử) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_153",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 153,
+    "question": "Công tắc không thuộc về loại không tiếp xúc?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Công tắc micro"
+      },
+      {
+        "key": "B",
+        "text": "Công tắc quang điện"
+      },
+      {
+        "key": "C",
+        "text": "Công tắc sóng siêu âm"
+      },
+      {
+        "key": "D",
+        "text": "Công tắc tiếp giáp"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 45",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Công tắc micro",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [A] 'Công tắc micro' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Công tắc quang điện; C: Công tắc sóng siêu âm; D: Công tắc tiếp giáp) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_154",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 154,
+    "question": "Đâu không phải là đặc điểm của thiết bị hút chân\nkhông (ejector)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Không có bộ phận chuyển động trong bộ phận tạo\nchân không nên có tuổi thọ cao."
+      },
+      {
+        "key": "B",
+        "text": "Có thể kiểm soát tốt"
+      },
+      {
+        "key": "C",
+        "text": "Có thể sử dụng van điều khiển chung"
+      },
+      {
+        "key": "D",
+        "text": "Có xung đột áp lực nên cần có bình chứa.\nThích hợp khi lặp lại On-Off"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 46",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Có xung đột áp lực nên cần có bình chứa.\nThích hợp khi lặp lại On-Off",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [D] 'Có xung đột áp lực nên cần có bình chứa.\nThích hợp khi lặp lại On-Off' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Không có bộ phận chuyển động trong bộ phận tạo\nchân không nên có tuổi thọ cao.; B: Có thể kiểm soát tốt; C: Có thể sử dụng van điều khiển chung) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_155",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 155,
+    "question": "Không được phân loại theo phương pháp trở lại (return) của Valve?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Trở lại bằng tác động con người"
+      },
+      {
+        "key": "B",
+        "text": "Trở lại bằng lò xo"
+      },
+      {
+        "key": "C",
+        "text": "Trở lại bằng khí nén"
+      },
+      {
+        "key": "D",
+        "text": "Trở lại phát hiện"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 47",
+    "question_type": "calculation",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Trở lại bằng tác động con người",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [A] 'Trở lại bằng tác động con người' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Trở lại bằng lò xo; C: Trở lại bằng khí nén; D: Trở lại phát hiện) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_156",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 156,
+    "question": "Trong cấu tạo của Xilanh có bộ phận giảm chấn.\nCái nào dưới đây không được coi là giảm chấn?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cushion adjustment screw"
+      },
+      {
+        "key": "B",
+        "text": "Scraping ring"
+      },
+      {
+        "key": "C",
+        "text": "Cushion ring"
+      },
+      {
+        "key": "D",
+        "text": "Sealing ring"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 48",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Scraping ring",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [B] 'Scraping ring' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Cushion adjustment screw; C: Cushion ring; D: Sealing ring) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_157",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 157,
+    "question": "Chức năng nào không phải là chức năng đại diện của rơle?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chức năng chuyển đổi"
+      },
+      {
+        "key": "B",
+        "text": "Chức năng rẽ nhánh"
+      },
+      {
+        "key": "C",
+        "text": "Chức năng nhân đôi tốc độ"
+      },
+      {
+        "key": "D",
+        "text": "Chức năng bộ nhớ"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 51",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Chức năng nhân đôi tốc độ",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [C] 'Chức năng nhân đôi tốc độ' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Chức năng chuyển đổi; B: Chức năng rẽ nhánh; D: Chức năng bộ nhớ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_PNE_158",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Khí nén cơ bản",
+    "subject_code": "pneumatics",
+    "module": "Mạch van & Thiết bị khí nén",
+    "difficulty": "Dễ",
+    "question_number": 158,
+    "question": "Chi phí lắp đặt và bảo trì cao, nhưng máy sấy khí nào có thể được sử dụng bán vĩnh cửu vì nó có thể tái sinh bằng cách tác động nhiệt?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Máy sấy khí làm mát bằng không khí"
+      },
+      {
+        "key": "B",
+        "text": "Máy sấy khí làm mát"
+      },
+      {
+        "key": "C",
+        "text": "Máy sấy khí hấp thụ"
+      },
+      {
+        "key": "D",
+        "text": "Máy sấy khí hấp phụ"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 52",
+    "question_type": "theory",
+    "topic_tag": "Mạch van & Thiết bị khí nén",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Máy sấy khí hấp phụ",
+      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [D] 'Máy sấy khí hấp phụ' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Máy sấy khí làm mát bằng không khí; B: Máy sấy khí làm mát; C: Máy sấy khí hấp thụ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
   }
 ]

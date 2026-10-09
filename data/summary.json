@@ -1,20 +1,19 @@
 {
   "project": "White Star Quiz Data Extraction",
-  "generated_at": "2026-10-07",
-  "total_master_questions": 398,
+  "generated_at": "2026-10-09",
+  "total_master_questions": 834,
   "master_questions_by_subject": {
-    "electric": 99,
-    "plc": 99,
-    "machine": 100,
-    "pneumatics": 100
+    "electric": 282,
+    "plc": 202,
+    "machine": 192,
+    "pneumatics": 158
   },
   "difficulty_breakdown": {
-    "Dễ": 112,
-    "Trung bình": 198,
+    "Dễ": 498,
+    "Trung bình": 248,
     "Khó": 88
   },
-  "total_review_questions": 486,
-  "total_mock_exams": 5,
+  "total_mock_exams": 6,
   "mock_exam_list": [
     {
       "id": "EXAM_DE_01",
@@ -34,20 +33,18 @@
     {
       "id": "EXAM_TEST_03",
       "title": "Đề thi thử White Star - Test 03",
-      "total_questions": 69
+      "total_questions": 80
     },
     {
       "id": "EXAM_TEST_04",
       "title": "Đề thi thử White Star - Test 04",
       "total_questions": 76
+    },
+    {
+      "id": "EXAM_2021_01",
+      "title": "Đề thi thử WS (Tháng 01-2021)",
+      "total_questions": 78
     }
   ],
-  "total_extracted_images": 213,
-  "directories": {
-    "master_json": "data/questions_master.json",
-    "by_subject": "data/questions_by_subject/",
-    "review_bank_json": "data/questions_review_bank.json",
-    "mock_exams": "data/exams/",
-    "images": "data/images/"
-  }
+  "total_extracted_images": 330
 }

@@ -1,1 +1,51 @@
-window.APP_DATA_SUMMARY = {"project":"White Star Quiz Data Extraction","generated_at":"2026-10-07","total_master_questions":398,"master_questions_by_subject":{"electric":99,"plc":99,"machine":100,"pneumatics":100},"difficulty_breakdown":{"Dễ":112,"Trung bình":198,"Khó":88},"total_review_questions":486,"total_mock_exams":5,"mock_exam_list":[{"id":"EXAM_DE_01","title":"Đề thi thử White Star - Đề số 01","total_questions":78},{"id":"EXAM_TEST_01","title":"Đề thi thử White Star - Test 01","total_questions":80},{"id":"EXAM_TEST_02","title":"Đề thi thử White Star - Test 02","total_questions":77},{"id":"EXAM_TEST_03","title":"Đề thi thử White Star - Test 03","total_questions":69},{"id":"EXAM_TEST_04","title":"Đề thi thử White Star - Test 04","total_questions":76}],"total_extracted_images":213,"directories":{"master_json":"data/questions_master.json","by_subject":"data/questions_by_subject/","review_bank_json":"data/questions_review_bank.json","mock_exams":"data/exams/","images":"data/images/"}};
+// Thống kê tổng quan dữ liệu White Star Quiz
+window.APP_SUMMARY = {
+  "project": "White Star Quiz Data Extraction",
+  "generated_at": "2026-10-09",
+  "total_master_questions": 834,
+  "master_questions_by_subject": {
+    "electric": 282,
+    "plc": 202,
+    "machine": 192,
+    "pneumatics": 158
+  },
+  "difficulty_breakdown": {
+    "Dễ": 498,
+    "Trung bình": 248,
+    "Khó": 88
+  },
+  "total_mock_exams": 6,
+  "mock_exam_list": [
+    {
+      "id": "EXAM_DE_01",
+      "title": "Đề thi thử White Star - Đề số 01",
+      "total_questions": 78
+    },
+    {
+      "id": "EXAM_TEST_01",
+      "title": "Đề thi thử White Star - Test 01",
+      "total_questions": 80
+    },
+    {
+      "id": "EXAM_TEST_02",
+      "title": "Đề thi thử White Star - Test 02",
+      "total_questions": 77
+    },
+    {
+      "id": "EXAM_TEST_03",
+      "title": "Đề thi thử White Star - Test 03",
+      "total_questions": 80
+    },
+    {
+      "id": "EXAM_TEST_04",
+      "title": "Đề thi thử White Star - Test 04",
+      "total_questions": 76
+    },
+    {
+      "id": "EXAM_2021_01",
+      "title": "Đề thi thử WS (Tháng 01-2021)",
+      "total_questions": 78
+    }
+  ],
+  "total_extracted_images": 330
+};

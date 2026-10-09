@@ -4242,5 +4242,3870 @@
       "why_wrong": "10³ lần là quy đổi từ mét sang milimét; 10⁹ lần là quy đổi từ kilômét sang micromét.",
       "supplementary_knowledge": "💡 **Chuỗi quy đổi đo lường cơ khí:** 1 km = 10³ m = 10⁶ mm = 10⁹ μm = 10¹² nm."
     }
+  },
+  {
+    "id": "WS_EXAM_MCH_101",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 101,
+    "question": "Ký hiệu nào không đúng với tiêu chuẩn công nghiệp ở mỗi quốc gia?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Anh - BM"
+      },
+      {
+        "key": "B",
+        "text": "Đức - DIN"
+      },
+      {
+        "key": "C",
+        "text": "Thụy Sĩ - VSM"
+      },
+      {
+        "key": "D",
+        "text": "Hoa Kỳ – ANSI"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 61",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Anh - BM",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Anh - BM' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Đức - DIN; C: Thụy Sĩ - VSM; D: Hoa Kỳ – ANSI) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_102",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 102,
+    "question": "Giải thích nào không đúng về động cơ trục chính?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Trục có đường kính lớn và trục dài"
+      },
+      {
+        "key": "B",
+        "text": "Xoay với tốc độ cao 10.000 RPM."
+      },
+      {
+        "key": "C",
+        "text": "Bị xoắn và uốn đồng thời."
+      },
+      {
+        "key": "D",
+        "text": "Số lượng biến dạng phải cực nhỏ."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 62",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Trục có đường kính lớn và trục dài",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Trục có đường kính lớn và trục dài' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Xoay với tốc độ cao 10.000 RPM.; C: Bị xoắn và uốn đồng thời.; D: Số lượng biến dạng phải cực nhỏ.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_103",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 103,
+    "question": "Đáp án nào không đúng trong phân loại theo mục đích sử dụng của trục?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Trục xe"
+      },
+      {
+        "key": "B",
+        "text": "Trục truyền"
+      },
+      {
+        "key": "C",
+        "text": "Trục khuỷu"
+      },
+      {
+        "key": "D",
+        "text": "Cổ trục"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 63",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Trục khuỷu",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Trục khuỷu' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Trục xe; B: Trục truyền; D: Cổ trục) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_104",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 104,
+    "question": "Giải thích nào không đúng về các hạng mục cần lưu ý khi sử dụng trục?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tránh tải trọng ngang quá mức."
+      },
+      {
+        "key": "B",
+        "text": "Không bảo quản ở nơi có sự thay đổi về nhiệt độ."
+      },
+      {
+        "key": "C",
+        "text": "Khi bảo quản chỉ cần chú ý tới phần journal bị đâm."
+      },
+      {
+        "key": "D",
+        "text": "Không để tiếp xúc với khí ga."
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 64",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Khi bảo quản chỉ cần chú ý tới phần journal bị đâm.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Khi bảo quản chỉ cần chú ý tới phần journal bị đâm.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Tránh tải trọng ngang quá mức.; B: Không bảo quản ở nơi có sự thay đổi về nhiệt độ.; D: Không để tiếp xúc với khí ga.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_105",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 105,
+    "question": "Khớp nối nào không được sử dụng khi đường trục nằm trên cùng một đường?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Khớp nối ống"
+      },
+      {
+        "key": "B",
+        "text": "Khớp nối mặt bích"
+      },
+      {
+        "key": "C",
+        "text": "Khớp nối Sellers"
+      },
+      {
+        "key": "D",
+        "text": "Khớp nối Oldham"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 65",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Khớp nối Oldham",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Khớp nối Oldham' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Khớp nối ống; B: Khớp nối mặt bích; C: Khớp nối Sellers) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_106",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 106,
+    "question": "Đặc điểm nào đúng với vòng bi rãnh sâu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Press Retainer của tấm thép thường được sử dụng."
+      },
+      {
+        "key": "B",
+        "text": "Chỉ chịu được tải theo hướng trục."
+      },
+      {
+        "key": "C",
+        "text": "Góc tiếp xúc càng lớn thì khả năng hỗ trợ trục càng lớn."
+      },
+      {
+        "key": "D",
+        "text": "Nếu góc tiếp xúc nhỏ thì có lợi trong việc quay nhanh."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 66",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Press Retainer của tấm thép thường được sử dụng.",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Press Retainer của tấm thép thường được sử dụng.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Chỉ chịu được tải theo hướng trục.; C: Góc tiếp xúc càng lớn thì khả năng hỗ trợ trục càng lớn.; D: Nếu góc tiếp xúc nhỏ thì có lợi trong việc quay nhanh.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_107",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 107,
+    "question": "Đâu không phải là đặc điểm của ổ bi tiếp xúc 4 điểm?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vòng trong được chia thành 2 phần."
+      },
+      {
+        "key": "B",
+        "text": "Góc tiếp xúc giữa vòng trong và vòng ngoài là 35 độ."
+      },
+      {
+        "key": "C",
+        "text": "Có thể sử dụng thay cho vòng bi đỡ chặn tiếp xúc."
+      },
+      {
+        "key": "D",
+        "text": "Press Retainer của tấm thép thường được sử dụng."
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 67",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Press Retainer của tấm thép thường được sử dụng.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Press Retainer của tấm thép thường được sử dụng.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Vòng trong được chia thành 2 phần.; B: Góc tiếp xúc giữa vòng trong và vòng ngoài là 35 độ.; C: Có thể sử dụng thay cho vòng bi đỡ chặn tiếp xúc.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_108",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 108,
+    "question": "Bu lông ốc vít nào được dùng để kết hợp?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ren vuông"
+      },
+      {
+        "key": "B",
+        "text": "Ren chặn"
+      },
+      {
+        "key": "C",
+        "text": "Ren tròn"
+      },
+      {
+        "key": "D",
+        "text": "Ren hợp nhất"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 68",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Ren hợp nhất",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Ren hợp nhất' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Ren vuông; B: Ren chặn; C: Ren tròn) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_109",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 109,
+    "question": "Tên gọi bộ phận của bu lông ốc vít bị sai?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bước ren “Pitch”: Là khoảng cách của đỉnh ren và bu lông"
+      },
+      {
+        "key": "B",
+        "text": "Đường kính danh nghĩa: Đường kính ngoài của bu lông"
+      },
+      {
+        "key": "C",
+        "text": "Phai: Điểm kết nối phía cuối hai đầu của đỉnh ren"
+      },
+      {
+        "key": "D",
+        "text": "Chân ren: Mặt mà hai bên phai của rãnh ốc vít được nối với nhau"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 69",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Phai: Điểm kết nối phía cuối hai đầu của đỉnh ren",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Phai: Điểm kết nối phía cuối hai đầu của đỉnh ren' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Bước ren “Pitch”: Là khoảng cách của đỉnh ren và bu lông; B: Đường kính danh nghĩa: Đường kính ngoài của bu lông; D: Chân ren: Mặt mà hai bên phai của rãnh ốc vít được nối với nhau) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_110",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 110,
+    "question": "Giải thích nào về chốt ghim không đúng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chốt ghim được sử dụng ở những nơi có tải trọng lớn như bánh răng, ròng rọc và phương pháp lắp đặt đơn giản."
+      },
+      {
+        "key": "B",
+        "text": "Chốt côn có loại tách và không tách ở phần đuôi."
+      },
+      {
+        "key": "C",
+        "text": "Chốt bản lề cơ cấu lái được kết nối để 2 thanh có thể hoạt động."
+      },
+      {
+        "key": "D",
+        "text": "Chốt định vị được sử dụng để nối các thanh với nhau."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 70",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Chốt ghim được sử dụng ở những nơi có tải trọng lớn như bánh răng, ròng rọc và phương pháp lắp đặt đơn giản.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Chốt ghim được sử dụng ở những nơi có tải trọng lớn như bánh răng, ròng rọc và phương pháp lắp đặt đơn giản.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Chốt côn có loại tách và không tách ở phần đuôi.; C: Chốt bản lề cơ cấu lái được kết nối để 2 thanh có thể hoạt động.; D: Chốt định vị được sử dụng để nối các thanh với nhau.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_111",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 111,
+    "question": "Trong các loại then (key), đâu là loại nên được sử dụng với áp lực bên thấp?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Then ma sát (saddle key)"
+      },
+      {
+        "key": "B",
+        "text": "Then bán nguyệt (woodruff key)"
+      },
+      {
+        "key": "C",
+        "text": "Then bằng (flat key)"
+      },
+      {
+        "key": "D",
+        "text": "Then trượt (sliding key)"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 71",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Then trượt (sliding key)",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Then trượt (sliding key)' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Then ma sát (saddle key); B: Then bán nguyệt (woodruff key); C: Then bằng (flat key)) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_112",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 112,
+    "question": "Mô tả nào không đúng về đặc điểm của then bán nguyệt (woodruff key)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Được sử dụng cho các trục nhỏ dưới 60 mm."
+      },
+      {
+        "key": "B",
+        "text": "Độ sâu của rãnh làm tăng độ cứng của trục."
+      },
+      {
+        "key": "C",
+        "text": "Phù hợp với trục taper của máy móc chế tạo."
+      },
+      {
+        "key": "D",
+        "text": "Dễ dàng gia công và điều chỉnh."
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 72",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Độ sâu của rãnh làm tăng độ cứng của trục.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Độ sâu của rãnh làm tăng độ cứng của trục.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Được sử dụng cho các trục nhỏ dưới 60 mm.; C: Phù hợp với trục taper của máy móc chế tạo.; D: Dễ dàng gia công và điều chỉnh.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_113",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 113,
+    "question": "Trong phương pháp phân loại bánh răng (trục song song) dưới đây, loại nào khác với những loại còn lại?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bánh răng trụ tròn (spur gear)"
+      },
+      {
+        "key": "B",
+        "text": "Bánh răng ăn khớp trong (internal gear)"
+      },
+      {
+        "key": "C",
+        "text": "Bánh răng côn xoắn (helical gear)"
+      },
+      {
+        "key": "D",
+        "text": "Bánh răng xoắn ốc (srew gear)"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 73",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Bánh răng côn xoắn (helical gear)",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Bánh răng côn xoắn (helical gear)' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Bánh răng trụ tròn (spur gear); B: Bánh răng ăn khớp trong (internal gear); D: Bánh răng xoắn ốc (srew gear)) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_114",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 114,
+    "question": "Bánh răng nào có đặc điểm là trục trung tâm của bánh răng và bánh răng nhỏ (pinion) không giao nhau mà đan chéo nhau?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bánh răng côn xoắn (Helical gear)"
+      },
+      {
+        "key": "B",
+        "text": "Bánh răng hypoid (Hypoid gear)\nBánh răng côn spiral (Spiral bevel gear)\nThanh răng (Rack gear)"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 74",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Bánh răng hypoid (Hypoid gear)\nBánh răng côn spiral (Spiral bevel gear)\nThanh răng (Rack gear)",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Bánh răng hypoid (Hypoid gear)\nBánh răng côn spiral (Spiral bevel gear)\nThanh răng (Rack gear)' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Bánh răng côn xoắn (Helical gear)) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_115",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 115,
+    "question": "Mô tả nào không đúng về bộ giảm tốc?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bộ giảm tốc bánh răng côn xoắn (helical gear) có 2 chục chéo nhau."
+      },
+      {
+        "key": "B",
+        "text": "Bộ giảm tốc bánh răng nón (bevel gear) có 2 trục giao nhau tại 1 điểm."
+      },
+      {
+        "key": "C",
+        "text": "Bộ truyền Harmonic Drive có khe hở nhỏ."
+      },
+      {
+        "key": "D",
+        "text": "Hộp giảm tốc nhiều bánh răng có thể được chế tác cho tải cao."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 75",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Bộ giảm tốc bánh răng côn xoắn (helical gear) có 2 chục chéo nhau.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Bộ giảm tốc bánh răng côn xoắn (helical gear) có 2 chục chéo nhau.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Bộ giảm tốc bánh răng nón (bevel gear) có 2 trục giao nhau tại 1 điểm.; C: Bộ truyền Harmonic Drive có khe hở nhỏ.; D: Hộp giảm tốc nhiều bánh răng có thể được chế tác cho tải cao.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_116",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 116,
+    "question": "Bộ giảm tốc bánh răng sâu (worm gear) có đặc tính gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tuy cấu trúc phức tạp nhưng khi vận hành sẽ ít gây rung và tiếng ồn."
+      },
+      {
+        "key": "B",
+        "text": "Tải trọng tác động mạnh và chỉ có thể nhập vào trục vuông góc."
+      },
+      {
+        "key": "C",
+        "text": "Cần vận hành sơ bộ thích hợp."
+      },
+      {
+        "key": "D",
+        "text": "Hiệu quả cao và không phát nhiệt."
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 76",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Cần vận hành sơ bộ thích hợp.",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Cần vận hành sơ bộ thích hợp.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Tuy cấu trúc phức tạp nhưng khi vận hành sẽ ít gây rung và tiếng ồn.; B: Tải trọng tác động mạnh và chỉ có thể nhập vào trục vuông góc.; D: Hiệu quả cao và không phát nhiệt.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_117",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 117,
+    "question": "Mô tả nào về truyền động dây đai không đúng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dây đai V có độ linh hoạt cao và độ trượt nhỏ."
+      },
+      {
+        "key": "B",
+        "text": "Dây đai V có thể truyền động lực lớn do sức căng nhỏ của mối nối."
+      },
+      {
+        "key": "C",
+        "text": "Dây đai Timing cần lực căng ban đầu và có thể đạt được hiệu suất cao."
+      },
+      {
+        "key": "D",
+        "text": "Dây đai Timing có thể ngăn ngừa tổn thất truyền động do nhiệt ma sát, tối thiểu hoá phụ tải của vòng bi."
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 77",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Dây đai Timing cần lực căng ban đầu và có thể đạt được hiệu suất cao.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Dây đai Timing cần lực căng ban đầu và có thể đạt được hiệu suất cao.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Dây đai V có độ linh hoạt cao và độ trượt nhỏ.; B: Dây đai V có thể truyền động lực lớn do sức căng nhỏ của mối nối.; D: Dây đai Timing có thể ngăn ngừa tổn thất truyền động do nhiệt ma sát, tối thiểu hoá phụ tải của vòng bi.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_118",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 118,
+    "question": "Đâu không phải là đặc tính của truyền động xích?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Không tăng tải trọng lên vòng bi."
+      },
+      {
+        "key": "B",
+        "text": "Cần lực căng ban đầu và lực căng tĩnh không hoạt động."
+      },
+      {
+        "key": "C",
+        "text": "Khả năng chống ẩm cao."
+      },
+      {
+        "key": "D",
+        "text": "Hiệu quả là hơn 95%."
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 78",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Cần lực căng ban đầu và lực căng tĩnh không hoạt động.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Cần lực căng ban đầu và lực căng tĩnh không hoạt động.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Không tăng tải trọng lên vòng bi.; C: Khả năng chống ẩm cao.; D: Hiệu quả là hơn 95%.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_119",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 119,
+    "question": "Đâu không phải là đặc tính của thanh trượt dẫn hướng tuyến tính (LM)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phương thức hướng dẫn trượt có hệ số ma sát cao nên hiệu quả thấp."
+      },
+      {
+        "key": "B",
+        "text": "Ống lót tuyến tính có tải trọng cho phép lớn."
+      },
+      {
+        "key": "C",
+        "text": "Thanh trượt dẫn hướng tuyến tính hầu như không có sự quay trượt và chảy không tải."
+      },
+      {
+        "key": "D",
+        "text": "Vít me bi (ball screw) có thể giảm thiểu khe hở."
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 79",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Ống lót tuyến tính có tải trọng cho phép lớn.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Ống lót tuyến tính có tải trọng cho phép lớn.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Phương thức hướng dẫn trượt có hệ số ma sát cao nên hiệu quả thấp.; C: Thanh trượt dẫn hướng tuyến tính hầu như không có sự quay trượt và chảy không tải.; D: Vít me bi (ball screw) có thể giảm thiểu khe hở.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_120",
+    "source": "Đề thi thử White Star - Đề số 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 120,
+    "question": "Trong những giải thích về bôi trơn, tính năng nào giúp làm giảm ma sát và hư hỏng, kéo dài tuổi thọ thiết bị?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tác động làm mát"
+      },
+      {
+        "key": "B",
+        "text": "Tác động phân tán ứng lực"
+      },
+      {
+        "key": "C",
+        "text": "Tác động niêm phong"
+      },
+      {
+        "key": "D",
+        "text": "Tác động Gamma"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 80",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Tác động Gamma",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Tác động Gamma' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Tác động làm mát; B: Tác động phân tán ứng lực; C: Tác động niêm phong) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_121",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 121,
+    "question": "Điều gì sai với mô tả kỹ thuật của máy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Máy được cấu thành bởi tổng hợp các linh kiện"
+      },
+      {
+        "key": "B",
+        "text": "Chuyển đổi cung cấp năng lượng hữu hạn"
+      },
+      {
+        "key": "C",
+        "text": "Có những chuyển động phù hợp với mục đích của con người"
+      },
+      {
+        "key": "D",
+        "text": "Cần cung cấp năng lượng để làm việc"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 61",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Có những chuyển động phù hợp với mục đích của con người",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Có những chuyển động phù hợp với mục đích của con người' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Máy được cấu thành bởi tổng hợp các linh kiện; B: Chuyển đổi cung cấp năng lượng hữu hạn; D: Cần cung cấp năng lượng để làm việc) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_122",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 122,
+    "question": "Phân loại TRỤC (Shaft) nào sau đây là sai?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phân loại theo chất liệu vật liệu"
+      },
+      {
+        "key": "B",
+        "text": "Phân loại theo mục đích sử dụng"
+      },
+      {
+        "key": "C",
+        "text": "Phân loại theo hình dạng"
+      },
+      {
+        "key": "D",
+        "text": "Phân loại theo cấu trúc mặt cắt"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 62",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Phân loại theo chất liệu vật liệu",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Phân loại theo chất liệu vật liệu' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Phân loại theo mục đích sử dụng; C: Phân loại theo hình dạng; D: Phân loại theo cấu trúc mặt cắt) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_123",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 123,
+    "question": "Khớp nối nào sau đây được sử dụng để nối các trục\ncắt nhau?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Universal Coupling"
+      },
+      {
+        "key": "B",
+        "text": "Oldham Coupling"
+      },
+      {
+        "key": "C",
+        "text": "Flange Coupling"
+      },
+      {
+        "key": "D",
+        "text": "Flexible coupling"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 63",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Universal Coupling",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Universal Coupling' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Oldham Coupling; C: Flange Coupling; D: Flexible coupling) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_124",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Trung bình",
+    "question_number": 124,
+    "question": "Hình dưới đây là loại vòng bi nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Single row deep groove ball bearing"
+      },
+      {
+        "key": "B",
+        "text": "Magneto ball Bearing"
+      },
+      {
+        "key": "C",
+        "text": "Angular ball bearing"
+      },
+      {
+        "key": "D",
+        "text": "Self-aligning ball bearing"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [
+      "images/exams/exam_test_01_q64_1.jpg"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 64",
+    "question_type": "diagram",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Angular ball bearing",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Angular ball bearing' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Single row deep groove ball bearing; B: Magneto ball Bearing; D: Self-aligning ball bearing) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_125",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 125,
+    "question": "Vòng bi có chỉ số như sau 62 08 C2 P6\nĐáp án nào sai?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Là Self-aligning ball bearing ."
+      },
+      {
+        "key": "B",
+        "text": "Đường kính trong là 40mm."
+      },
+      {
+        "key": "C",
+        "text": "C2 là ký hiệu Clearance."
+      },
+      {
+        "key": "D",
+        "text": "Độ chính xác là cấp 6."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 65",
+    "question_type": "calculation",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Là Self-aligning ball bearing .",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Là Self-aligning ball bearing .' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Đường kính trong là 40mm.; C: C2 là ký hiệu Clearance.; D: Độ chính xác là cấp 6.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_126",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 126,
+    "question": "Loại đinh ốc nào sau đây dùng để nối?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đinh ốc Square"
+      },
+      {
+        "key": "B",
+        "text": "Đinh ốc buttress screw"
+      },
+      {
+        "key": "C",
+        "text": "Đinh ốc knuckle"
+      },
+      {
+        "key": "D",
+        "text": "Đinh ốc unified thread"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 66",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Đinh ốc unified thread",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Đinh ốc unified thread' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Đinh ốc Square; B: Đinh ốc buttress screw; C: Đinh ốc knuckle) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_127",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 127,
+    "question": "Chốt Pin nào được sử dụng để ngăn chặn việc nới lỏng bu lông và đai ốc, và để kết nối các bản lề?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Parallel pin"
+      },
+      {
+        "key": "B",
+        "text": "Taper pin"
+      },
+      {
+        "key": "C",
+        "text": "Split Pin"
+      },
+      {
+        "key": "D",
+        "text": "Spring pin"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 67",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Spring pin",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Spring pin' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Parallel pin; B: Taper pin; C: Split Pin) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_128",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 128,
+    "question": "Điều gì là chính xác từ lời giải thích của Woodruff key?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thường được sử dụng cho các trục lớn"
+      },
+      {
+        "key": "B",
+        "text": "Độ bền của trục vượt trội"
+      },
+      {
+        "key": "C",
+        "text": "Thích hợp cho trục côn của ô tô và máy công cụ"
+      },
+      {
+        "key": "D",
+        "text": "Rất khó để xử lý và điều chỉnh."
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 68",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Thích hợp cho trục côn của ô tô và máy công cụ",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Thích hợp cho trục côn của ô tô và máy công cụ' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Thường được sử dụng cho các trục lớn; B: Độ bền của trục vượt trội; D: Rất khó để xử lý và điều chỉnh.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_129",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 129,
+    "question": "Bánh răng nào sau đây không thuộc trục song song?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Worm Gear"
+      },
+      {
+        "key": "B",
+        "text": "Internal Gear"
+      },
+      {
+        "key": "C",
+        "text": "Helical Gear"
+      },
+      {
+        "key": "D",
+        "text": "Rack Gear"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 69",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Worm Gear",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Worm Gear' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Internal Gear; C: Helical Gear; D: Rack Gear) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_130",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 130,
+    "question": "Có răng trên mặt nón, bánh răng có đường răng đồng nhất trên mặt trụ tròn. Bánh răng nào đang được nhắc tới?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bánh răng vít Hypoid"
+      },
+      {
+        "key": "B",
+        "text": "Bánh răng Helicon"
+      },
+      {
+        "key": "C",
+        "text": "Bánh răng xoắn ốc"
+      },
+      {
+        "key": "D",
+        "text": "Bánh răng côn thẳng"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 70",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Bánh răng côn thẳng",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Bánh răng côn thẳng' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Bánh răng vít Hypoid; B: Bánh răng Helicon; C: Bánh răng xoắn ốc) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_131",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 131,
+    "question": "Nêu tính năng của hộp giảm tốc đa hệ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ít được sử dụng"
+      },
+      {
+        "key": "B",
+        "text": "Được sử dụng cho tải trọng không cố định"
+      },
+      {
+        "key": "C",
+        "text": "Khi sử dụng góc xiên, nó sẽ trở thành trục chéo"
+      },
+      {
+        "key": "D",
+        "text": "Có thể sử dụng ở tốc độ quay cao, tiếng ồn thấp"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 71",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Có thể sử dụng ở tốc độ quay cao, tiếng ồn thấp",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Có thể sử dụng ở tốc độ quay cao, tiếng ồn thấp' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Ít được sử dụng; B: Được sử dụng cho tải trọng không cố định; C: Khi sử dụng góc xiên, nó sẽ trở thành trục chéo) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_132",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 132,
+    "question": "Điều nào không đúng với đặc điểm của Timing Belt?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hoạt động chính xác, không bị trơn trượt"
+      },
+      {
+        "key": "B",
+        "text": "Lực căng căng ban đầu cao"
+      },
+      {
+        "key": "C",
+        "text": "Chịu tải trọng tốt"
+      },
+      {
+        "key": "D",
+        "text": "Tiếng ồn thấp"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 72",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Lực căng căng ban đầu cao",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Lực căng căng ban đầu cao' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Hoạt động chính xác, không bị trơn trượt; C: Chịu tải trọng tốt; D: Tiếng ồn thấp) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_133",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 133,
+    "question": "Điều nào không đúng với đặc điểm của Ball Screw?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hiệu quả cao vì được truyền bằng ma sát lăn"
+      },
+      {
+        "key": "B",
+        "text": "Có thể giảm thiểu Backlash"
+      },
+      {
+        "key": "C",
+        "text": "Lực kháng lăn lớn."
+      },
+      {
+        "key": "D",
+        "text": "Tuổi thọ cao hơn so với thiết bị sử dụng ma sát trượt"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 73",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Lực kháng lăn lớn.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Lực kháng lăn lớn.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Hiệu quả cao vì được truyền bằng ma sát lăn; B: Có thể giảm thiểu Backlash; D: Tuổi thọ cao hơn so với thiết bị sử dụng ma sát trượt) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_134",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 134,
+    "question": "Điều gì không đúng với các đặc điểm của Thanh dẫn LM?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Xảy ra trơn trượt và không bị mất chuyển động."
+      },
+      {
+        "key": "B",
+        "text": "Cho tải trọng ban đầu phù hợp nên có thể tạo nên độ bền cao."
+      },
+      {
+        "key": "C",
+        "text": "Có thể duy trì mức độ trong thời gian dài"
+      },
+      {
+        "key": "D",
+        "text": "Hệ số ma sát thấp nên hiệu suất chuyển động cao"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 74",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Xảy ra trơn trượt và không bị mất chuyển động.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Xảy ra trơn trượt và không bị mất chuyển động.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Cho tải trọng ban đầu phù hợp nên có thể tạo nên độ bền cao.; C: Có thể duy trì mức độ trong thời gian dài; D: Hệ số ma sát thấp nên hiệu suất chuyển động cao) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_135",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 135,
+    "question": "Tính năng đặc trưng của Ball Spline là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Có thể cho tải trọng ban đầu"
+      },
+      {
+        "key": "B",
+        "text": "Không thể truyền mô-men xoắn"
+      },
+      {
+        "key": "C",
+        "text": "Không được dùng cho có tải trọng quá mức."
+      },
+      {
+        "key": "D",
+        "text": "Không có Stick slip và Lost motion."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 75",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Có thể cho tải trọng ban đầu",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Có thể cho tải trọng ban đầu' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Không thể truyền mô-men xoắn; C: Không được dùng cho có tải trọng quá mức.; D: Không có Stick slip và Lost motion.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_136",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 136,
+    "question": "Thay đổi Home Pitch của Nut rồi cung cấp Preload.\nPhương pháp Ball Screw nào đang được nhắc đến?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Double Nut Type"
+      },
+      {
+        "key": "B",
+        "text": "Precison(Grinding) Ball Screw"
+      },
+      {
+        "key": "C",
+        "text": "Offset Preload Type"
+      },
+      {
+        "key": "D",
+        "text": "Static Pressure Preload Type"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 76",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Offset Preload Type",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Offset Preload Type' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Double Nut Type; B: Precison(Grinding) Ball Screw; D: Static Pressure Preload Type) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_137",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 137,
+    "question": "Điều gì không đúng với mô tả về chất bôi trơn?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hầu hết các chất bôi trơn đều có nguồn gốc từ\ndầu khoáng"
+      },
+      {
+        "key": "B",
+        "text": "Cần có đủ độ dính (nhớt)"
+      },
+      {
+        "key": "C",
+        "text": "Tính nhớt có thể chịu được ở trạng thái bôi trơn có giới hạn"
+      },
+      {
+        "key": "D",
+        "text": "Phải có độ ổn định cao chống lại quá trình oxy hóa hoặc nhiệt"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 77",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Tính nhớt có thể chịu được ở trạng thái bôi trơn có giới hạn",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Tính nhớt có thể chịu được ở trạng thái bôi trơn có giới hạn' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Hầu hết các chất bôi trơn đều có nguồn gốc từ\ndầu khoáng; B: Cần có đủ độ dính (nhớt); D: Phải có độ ổn định cao chống lại quá trình oxy hóa hoặc nhiệt) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_138",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 138,
+    "question": "Đâu không phải là một trong ba yếu tố chính của thành phần bôi trơn?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chất làm cô đặc"
+      },
+      {
+        "key": "B",
+        "text": "Chất ức chế gỉ"
+      },
+      {
+        "key": "C",
+        "text": "Chất phụ gia"
+      },
+      {
+        "key": "D",
+        "text": "Dầu cơ bản"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 78",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Chất ức chế gỉ",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Chất ức chế gỉ' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Chất làm cô đặc; C: Chất phụ gia; D: Dầu cơ bản) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_139",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 139,
+    "question": "Trong vẽ kỹ thuật, Đường vẽ nào được sử dụng ở đường quỹ đạo bước răng ghi trên răng của xích v.v?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Leader line"
+      },
+      {
+        "key": "B",
+        "text": "Pitch Line"
+      },
+      {
+        "key": "C",
+        "text": "Imaginary line"
+      },
+      {
+        "key": "D",
+        "text": "Cutting Plane Line"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 79",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Pitch Line",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Pitch Line' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Leader line; C: Imaginary line; D: Cutting Plane Line) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_140",
+    "source": "Đề thi thử White Star - Test 01",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 140,
+    "question": "Khi chia 1 vạch lớn thước cặp Vernier Calipers thành 20 phần bằng nhau. Giá trị đo tối thiểu 1 vạch nhỏ là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0,01 ㎜"
+      },
+      {
+        "key": "B",
+        "text": "0,02 ㎜"
+      },
+      {
+        "key": "C",
+        "text": "0,04 ㎜"
+      },
+      {
+        "key": "D",
+        "text": "0,05 ㎜"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 80",
+    "question_type": "calculation",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "0,05 ㎜",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] '0,05 ㎜' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: 0,01 ㎜; B: 0,02 ㎜; C: 0,04 ㎜) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_141",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 141,
+    "question": "Trong số các loại Timing belt, dù có giảm\nchiều rộng đi 60% thì độ bền gấp 4 lần?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Power Giip HTD"
+      },
+      {
+        "key": "B",
+        "text": "Power Giip GT"
+      },
+      {
+        "key": "C",
+        "text": "Poly Chain GT2"
+      },
+      {
+        "key": "D",
+        "text": "Power Giip GT2"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 76",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Poly Chain GT2",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Poly Chain GT2' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Power Giip HTD; B: Power Giip GT; D: Power Giip GT2) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_142",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 142,
+    "question": "Điều nào không phù hợp với đặc điểm của Ball Spline?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Truyền mô-men xoắn thông qua chuyển động thẳng nhẹ nhàng."
+      },
+      {
+        "key": "B",
+        "text": "Có thể được sử dụng để thay thế cho Linear Bush"
+      },
+      {
+        "key": "C",
+        "text": "Cấu trúc không thể tải trước Preload"
+      },
+      {
+        "key": "D",
+        "text": "Được sử dụng khi áp dụng tải trọng và mômen\nnhô ra"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 77",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Cấu trúc không thể tải trước Preload",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Cấu trúc không thể tải trước Preload' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Truyền mô-men xoắn thông qua chuyển động thẳng nhẹ nhàng.; B: Có thể được sử dụng để thay thế cho Linear Bush; D: Được sử dụng khi áp dụng tải trọng và mômen\nnhô ra) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_143",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 143,
+    "question": "Phương pháp tải trước của Ball Screw sử dụng cấu trúc lò xo gọi là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phương pháp Position"
+      },
+      {
+        "key": "B",
+        "text": "Phương pháp Pressure"
+      },
+      {
+        "key": "C",
+        "text": "Phương pháp Offset"
+      },
+      {
+        "key": "D",
+        "text": "Phương pháp Deflector"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 78",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Phương pháp Pressure",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Phương pháp Pressure' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Phương pháp Position; C: Phương pháp Offset; D: Phương pháp Deflector) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_144",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 144,
+    "question": "Đáp án không đúng với mô tả về Ball screw?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phương pháp tải trước Double Nut, được chèn một miếng đệm."
+      },
+      {
+        "key": "B",
+        "text": "Phương pháp tải trước Static Pressure là phương pháp thay đổi Home Pitch."
+      },
+      {
+        "key": "C",
+        "text": "Phân loại thành loại tuần hoàn bi và loại tải trọng trước."
+      },
+      {
+        "key": "D",
+        "text": "Khi bảo quản Ball screw, hãy cất nó theo hướng nằm ngang."
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 79",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Phương pháp tải trước Static Pressure là phương pháp thay đổi Home Pitch.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Phương pháp tải trước Static Pressure là phương pháp thay đổi Home Pitch.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Phương pháp tải trước Double Nut, được chèn một miếng đệm.; C: Phân loại thành loại tuần hoàn bi và loại tải trọng trước.; D: Khi bảo quản Ball screw, hãy cất nó theo hướng nằm ngang.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_145",
+    "source": "Đề thi thử White Star - Test 02",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 145,
+    "question": "Trong số các loại vạch dưới đây, vạch nào có độ\ndày khác biệt nhất?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đường kích thước"
+      },
+      {
+        "key": "B",
+        "text": "Đường trung tâm"
+      },
+      {
+        "key": "C",
+        "text": "Dòng chỉ thị"
+      },
+      {
+        "key": "D",
+        "text": "Đường ẩn"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 02 - Câu 80",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Đường ẩn",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Đường ẩn' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Đường kích thước; B: Đường trung tâm; C: Dòng chỉ thị) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_146",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 146,
+    "question": "Tiêu chuẩn công nghiệp Thụy Sĩ được viết là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "VSM"
+      },
+      {
+        "key": "B",
+        "text": "DIN"
+      },
+      {
+        "key": "C",
+        "text": "BS"
+      },
+      {
+        "key": "D",
+        "text": "ISO"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 61",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "VSM",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [A] 'VSM' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: DIN; C: BS; D: ISO) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_147",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 147,
+    "question": "Trục nào không được phân chia theo hình dạng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Trục Axle"
+      },
+      {
+        "key": "B",
+        "text": "Trục Liner"
+      },
+      {
+        "key": "C",
+        "text": "Trục Crank."
+      },
+      {
+        "key": "D",
+        "text": "Trục Flexible."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 62",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Trục Axle",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Trục Axle' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: Trục Liner; C: Trục Crank.; D: Trục Flexible.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_148",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 148,
+    "question": "Khi lắp trục mà trục lớn, lỗ nhỏ được gọi là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vừa vặn."
+      },
+      {
+        "key": "B",
+        "text": "Lắp khít."
+      },
+      {
+        "key": "C",
+        "text": "Ấn vào"
+      },
+      {
+        "key": "D",
+        "text": "Lắp lỏng."
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 63",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Ấn vào",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Ấn vào' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Vừa vặn.; B: Lắp khít.; D: Lắp lỏng.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_149",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 149,
+    "question": "Lời giải thích chính xác nhất cho dung sai là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ấn vào xảy ra do sự khác biệt về kích thước, khi trục nhỏ và lỗ lớn."
+      },
+      {
+        "key": "B",
+        "text": "Kích thước tối đa cho phép là kích thước thực cộng với dung sai."
+      },
+      {
+        "key": "C",
+        "text": "Kích thước dung sai bằng kích thước tối đa cho phép trừ đi kích thước tối thiểu cho phép"
+      },
+      {
+        "key": "D",
+        "text": "Kích thước tối thiểu cho phép là kích thước thực cộng với dung sai."
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 64",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Kích thước dung sai bằng kích thước tối đa cho phép trừ đi kích thước tối thiểu cho phép",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Kích thước dung sai bằng kích thước tối đa cho phép trừ đi kích thước tối thiểu cho phép' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Ấn vào xảy ra do sự khác biệt về kích thước, khi trục nhỏ và lỗ lớn.; B: Kích thước tối đa cho phép là kích thước thực cộng với dung sai.; D: Kích thước tối thiểu cho phép là kích thước thực cộng với dung sai.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_150",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 150,
+    "question": "Khớp nối nào được sử dụng khi nối 2 đường trục song song?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Universal coupling"
+      },
+      {
+        "key": "B",
+        "text": "Flange coupling"
+      },
+      {
+        "key": "C",
+        "text": "Seller’s coupling"
+      },
+      {
+        "key": "D",
+        "text": "Oldham coupling"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 65",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Oldham coupling",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Oldham coupling' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Universal coupling; B: Flange coupling; C: Seller’s coupling) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_151",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 151,
+    "question": "Khớp nối trục nào có thể truyền chuyển động tự do ngay cả khi có góc thay đổi nhỏ trong khi truyền động là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Universal coupling"
+      },
+      {
+        "key": "B",
+        "text": "Rubber coupling"
+      },
+      {
+        "key": "C",
+        "text": "Clamp coupling"
+      },
+      {
+        "key": "D",
+        "text": "Seller’s coupling"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 66",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Universal coupling",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Universal coupling' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Rubber coupling; C: Clamp coupling; D: Seller’s coupling) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_152",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 152,
+    "question": "Nêu đặc điểm của Rolling Bearing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mômen ma sát khởi động lớn."
+      },
+      {
+        "key": "B",
+        "text": "Không thể được sử dụng để thay thế cho nhau"
+      },
+      {
+        "key": "C",
+        "text": "Chỉ sử dụng ở nhiệt độ cao."
+      },
+      {
+        "key": "D",
+        "text": "Độ bền có thể được tăng lên bằng cách áp dụng tải trước."
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 67",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Độ bền có thể được tăng lên bằng cách áp dụng tải trước.",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Độ bền có thể được tăng lên bằng cách áp dụng tải trước.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Mômen ma sát khởi động lớn.; B: Không thể được sử dụng để thay thế cho nhau; C: Chỉ sử dụng ở nhiệt độ cao.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_153",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 153,
+    "question": "Vòng bi nào phù hợp nhất khi đòi hỏi tốc độ quay cao, tiếng ồn thấp và độ rung thấp do mômen ma sát thấp?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Double row angular ball bearing"
+      },
+      {
+        "key": "B",
+        "text": "Magneto ball bearing"
+      },
+      {
+        "key": "C",
+        "text": "Self-aligning ball bearing"
+      },
+      {
+        "key": "D",
+        "text": "Deep groove ball bearing"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 68",
+    "question_type": "calculation",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Deep groove ball bearing",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Deep groove ball bearing' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Double row angular ball bearing; B: Magneto ball bearing; C: Self-aligning ball bearing) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_154",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 154,
+    "question": "Không phải là kiểu kết hợp của Angular ball bearing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "DB"
+      },
+      {
+        "key": "B",
+        "text": "DF"
+      },
+      {
+        "key": "C",
+        "text": "DG"
+      },
+      {
+        "key": "D",
+        "text": "DT"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 69",
+    "question_type": "calculation",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "DG",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [C] 'DG' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: DB; B: DF; D: DT) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_155",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 155,
+    "question": "Khoảng cách giữa 2 Ren của đinh ốc được gọi là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pitch."
+      },
+      {
+        "key": "B",
+        "text": "Lead."
+      },
+      {
+        "key": "C",
+        "text": "Đường kính danh nghĩa."
+      },
+      {
+        "key": "D",
+        "text": "Sườn."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 70",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Pitch.",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Pitch.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Lead.; C: Đường kính danh nghĩa.; D: Sườn.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_156",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 156,
+    "question": "Đinh ốc nào có góc ren nhỏ nhất?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đinh ốc Metric"
+      },
+      {
+        "key": "B",
+        "text": "Đinh ốc Unified"
+      },
+      {
+        "key": "C",
+        "text": "Đinh ốc Pipe"
+      },
+      {
+        "key": "D",
+        "text": "Đinh ốc tròn"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 71",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Đinh ốc tròn",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Đinh ốc tròn' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Đinh ốc Metric; B: Đinh ốc Unified; C: Đinh ốc Pipe) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_157",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 157,
+    "question": "Chốt nào được sử dụng để ngăn việc nới lỏng các vít và đai ốc hoặc để ngăn các bộ phận lắp vào trục không bị bung ra?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chốt Parallel"
+      },
+      {
+        "key": "B",
+        "text": "Chốt Split"
+      },
+      {
+        "key": "C",
+        "text": "Chốt Knuckle"
+      },
+      {
+        "key": "D",
+        "text": "Chốt côn"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 72",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Chốt Split",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Chốt Split' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Chốt Parallel; C: Chốt Knuckle; D: Chốt côn) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_158",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 158,
+    "question": "Không đúng với đặc điểm của bánh răng xoắn Screw Gear?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hai trục sole."
+      },
+      {
+        "key": "B",
+        "text": "Dễ dàng lắp đặt."
+      },
+      {
+        "key": "C",
+        "text": "Giá thành cao."
+      },
+      {
+        "key": "D",
+        "text": "Góc trục trung tâm và khoảng cách giữa hai trục không mẫn cảm với sự thay đổi"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 73",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Giá thành cao.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Giá thành cao.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Hai trục sole.; B: Dễ dàng lắp đặt.; D: Góc trục trung tâm và khoảng cách giữa hai trục không mẫn cảm với sự thay đổi) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_159",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 159,
+    "question": "Điều gì không đúng với đặc điểm của Key bán nguyệt?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thường được sử dụng trên một trục nhỏ"
+      },
+      {
+        "key": "B",
+        "text": "Tăng độ bền của trục."
+      },
+      {
+        "key": "C",
+        "text": "Thích hợp cho trục côn như máy công cụ."
+      },
+      {
+        "key": "D",
+        "text": "Dễ dàng lắp đặt và sửa chữa"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 74",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Tăng độ bền của trục.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Tăng độ bền của trục.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Thường được sử dụng trên một trục nhỏ; C: Thích hợp cho trục côn như máy công cụ.; D: Dễ dàng lắp đặt và sửa chữa) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_160",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 160,
+    "question": "Bộ giảm tốc thuộc loại nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Động cơ bánh răng."
+      },
+      {
+        "key": "B",
+        "text": "Đồng tâm trục."
+      },
+      {
+        "key": "C",
+        "text": "Loại nằm ngang."
+      },
+      {
+        "key": "D",
+        "text": "Trục đặc."
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 75",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Động cơ bánh răng.",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Động cơ bánh răng.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Đồng tâm trục.; C: Loại nằm ngang.; D: Trục đặc.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_161",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 161,
+    "question": "Đáp án không đúng với đặc điểm của Ball Screw?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hiệu quả cao vì được tạo ra bởi ma sát\nlăn của các viên bi thép"
+      },
+      {
+        "key": "B",
+        "text": "Có thể giảm thiểu backlash, mang lại độ\nchính xác cao"
+      },
+      {
+        "key": "C",
+        "text": "Nó có tuổi thọ thấp hơn so với ma sát trượt."
+      },
+      {
+        "key": "D",
+        "text": "Lực kháng lăn thấp cho phép chuyển động cực kỳ nhỏ và\ndễ dàng điều chỉnh"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 77",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Nó có tuổi thọ thấp hơn so với ma sát trượt.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Nó có tuổi thọ thấp hơn so với ma sát trượt.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Hiệu quả cao vì được tạo ra bởi ma sát\nlăn của các viên bi thép; B: Có thể giảm thiểu backlash, mang lại độ\nchính xác cao; D: Lực kháng lăn thấp cho phép chuyển động cực kỳ nhỏ và\ndễ dàng điều chỉnh) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_162",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 162,
+    "question": "Cấu trúc tải trước Preload được sử dụng trong Static Presure Preload là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sử dụng miếng đệm"
+      },
+      {
+        "key": "B",
+        "text": "Sử dụng lò xo"
+      },
+      {
+        "key": "C",
+        "text": "Thay đổi độ cao home pitch"
+      },
+      {
+        "key": "D",
+        "text": "Chèn bộ làm lệch hướng"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 78",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Sử dụng lò xo",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Sử dụng lò xo' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Sử dụng miếng đệm; C: Thay đổi độ cao home pitch; D: Chèn bộ làm lệch hướng) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_163",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 163,
+    "question": "Dầu nào được sử dụng với mục đích là dầu động cơ máy bay và đầu làm nguội (dầu cắt gọt)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dầu khoáng."
+      },
+      {
+        "key": "B",
+        "text": "Dầu béo."
+      },
+      {
+        "key": "C",
+        "text": "Dầu hỗn hợp."
+      },
+      {
+        "key": "D",
+        "text": "Dầu tổng hợp."
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 79",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Dầu béo.",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Dầu béo.' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Dầu khoáng.; C: Dầu hỗn hợp.; D: Dầu tổng hợp.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_164",
+    "source": "Đề thi thử White Star - Test 03",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 164,
+    "question": "Đường nào sau đây có độ dày lớn nhất?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đường kích thước"
+      },
+      {
+        "key": "B",
+        "text": "Đường trung tâm"
+      },
+      {
+        "key": "C",
+        "text": "Đường chỉ thị"
+      },
+      {
+        "key": "D",
+        "text": "Đường ẩn"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 80",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Đường ẩn",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Đường ẩn' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Đường kích thước; B: Đường trung tâm; C: Đường chỉ thị) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_165",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 165,
+    "question": "Hình bên dưới đây đề cập đến định luật nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Định luật Charles-Boyle"
+      },
+      {
+        "key": "B",
+        "text": "Định luật Pascal"
+      },
+      {
+        "key": "C",
+        "text": "Định luật Boyle"
+      },
+      {
+        "key": "D",
+        "text": "Định luật Charles"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 54",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Định luật Boyle",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Định luật Boyle' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Định luật Charles-Boyle; B: Định luật Pascal; D: Định luật Charles) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_166",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 166,
+    "question": "Đâu không phải là thành phần của One- touch fiiting?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thread part"
+      },
+      {
+        "key": "B",
+        "text": "Tube fitting part"
+      },
+      {
+        "key": "C",
+        "text": "Housing part"
+      },
+      {
+        "key": "D",
+        "text": "Flange part"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 55",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Flange part",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Flange part' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Thread part; B: Tube fitting part; C: Housing part) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_167",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 167,
+    "question": "Trong số các phương pháp làm mát của máy nén khí piston đa tầng, phương pháp làm mát nào chủ yếu được sử dụng cho máy nén nhỏ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Loại làm mát bằng nước"
+      },
+      {
+        "key": "B",
+        "text": "Loại làm mát bằng không khí"
+      },
+      {
+        "key": "C",
+        "text": "Loại hấp thụ"
+      },
+      {
+        "key": "D",
+        "text": "Loại làm mát"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 56",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Loại làm mát bằng không khí",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Loại làm mát bằng không khí' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Loại làm mát bằng nước; C: Loại hấp thụ; D: Loại làm mát) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_168",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 168,
+    "question": "Các điều kiện lựa chọn khác nhau đối với bộ lọc khí nén là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ít tổn thất áp suất"
+      },
+      {
+        "key": "B",
+        "text": "Thời gian sử dụng phải lâu dài"
+      },
+      {
+        "key": "C",
+        "text": "Phạm vi lọc phải nhỏ"
+      },
+      {
+        "key": "D",
+        "text": "Phải có khả năng tách nước cao"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 57",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Phạm vi lọc phải nhỏ",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Phạm vi lọc phải nhỏ' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Ít tổn thất áp suất; B: Thời gian sử dụng phải lâu dài; D: Phải có khả năng tách nước cao) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_169",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Trung bình",
+    "question_number": 169,
+    "question": "Điền đáp án thích hợp cho đồ thị sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phương án A (Xem hình minh họa A)"
+      },
+      {
+        "key": "B",
+        "text": "Phương án B (Xem hình minh họa B)"
+      },
+      {
+        "key": "C",
+        "text": "Phương án C (Xem hình minh họa C)"
+      },
+      {
+        "key": "D",
+        "text": "Phương án D (Xem hình minh họa D)"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/exams/exam_test_04_q58_1.png",
+      "images/exams/exam_test_04_q58_2.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 58",
+    "question_type": "diagram",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Phương án D (Xem hình minh họa D)",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Phương án D (Xem hình minh họa D)' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Phương án A (Xem hình minh họa A); B: Phương án B (Xem hình minh họa B); C: Phương án C (Xem hình minh họa C)) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_170",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Trung bình",
+    "question_number": 170,
+    "question": "Nhìn vào biểu đồ dưới đây, mạch điện phù hợp cho bộ hẹn giờ (timer) khí nén là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "correct_answer": "A",
+    "images": [
+      "images/exams/exam_test_04_q60_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 60",
+    "question_type": "diagram",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [A] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_171",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 171,
+    "question": "Đâu không phải là phương pháp Preload trục Ballscrew?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Static Pressure Preload Type"
+      },
+      {
+        "key": "B",
+        "text": "Deflector method"
+      },
+      {
+        "key": "C",
+        "text": "Double nut method"
+      },
+      {
+        "key": "D",
+        "text": "Offset method"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 78",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Deflector method",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Deflector method' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Static Pressure Preload Type; C: Double nut method; D: Offset method) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_172",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 172,
+    "question": "Điều gì được mô tả sai đặc điểm của phương pháp dẫn hướng Linear?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phương pháp dẫn hướng trượt có hệ số ma sát lớn, hiệu quả kém."
+      },
+      {
+        "key": "B",
+        "text": "Linear Bush có tải trọng cho phép lớn."
+      },
+      {
+        "key": "C",
+        "text": "Thanh dẫn hướng LM hầu như không có hiện tượng trượt thanh và mất chuyển động."
+      },
+      {
+        "key": "D",
+        "text": "Ball screw có thể giảm thiểu Backlash"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 79",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Linear Bush có tải trọng cho phép lớn.",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Linear Bush có tải trọng cho phép lớn.' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Phương pháp dẫn hướng trượt có hệ số ma sát lớn, hiệu quả kém.; C: Thanh dẫn hướng LM hầu như không có hiện tượng trượt thanh và mất chuyển động.; D: Ball screw có thể giảm thiểu Backlash) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_173",
+    "source": "Đề thi thử White Star - Test 04",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 173,
+    "question": "Trong số các chức năng của bôi trơn, chức năng nào kéo dài tuổi thọ máy bằng cách giảm ma sát và hỏng hóc?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Làm mát"
+      },
+      {
+        "key": "B",
+        "text": "Phân tán tải trọng"
+      },
+      {
+        "key": "C",
+        "text": "Niêm phong"
+      },
+      {
+        "key": "D",
+        "text": "Giảm mài mòn"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử White Star - Test 04 - Câu 80",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Giảm mài mòn",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Giảm mài mòn' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Làm mát; B: Phân tán tải trọng; C: Niêm phong) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_174",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 174,
+    "question": "Đâu không phải đặc trưng của máy giảm tốc?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Loại nhỏ có khả năng truyền tải lớn"
+      },
+      {
+        "key": "B",
+        "text": "Không bị trơn trượt nên tỷ lệ giảm tốc ổn định."
+      },
+      {
+        "key": "C",
+        "text": "Tỷ lệ gia tốc và giảm tốc lựa chọn trong phạm vi rộng"
+      },
+      {
+        "key": "D",
+        "text": "Bền."
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 61",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Tỷ lệ gia tốc và giảm tốc lựa chọn trong phạm vi rộng",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Tỷ lệ gia tốc và giảm tốc lựa chọn trong phạm vi rộng' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Loại nhỏ có khả năng truyền tải lớn; B: Không bị trơn trượt nên tỷ lệ giảm tốc ổn định.; D: Bền.) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_175",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 175,
+    "question": "Chọn đáp án không phải là phân loại hình dạng của trục ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Trục tuyến tính (Liner)"
+      },
+      {
+        "key": "B",
+        "text": "Trục truyền động (Transmission)"
+      },
+      {
+        "key": "C",
+        "text": "Trục Crack (Crank)"
+      },
+      {
+        "key": "D",
+        "text": "Trục dẻo ( Flexible )"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 62",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Trục truyền động (Transmission)",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Trục truyền động (Transmission)' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Trục tuyến tính (Liner); C: Trục Crack (Crank); D: Trục dẻo ( Flexible )) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_176",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 176,
+    "question": "Key được gọi là key chìm, được gia công ở cả trục và Bose,\ncó mặt cắt hình vuông hoặc hình chữ nhật gọi là ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Key ma sát (saddle key)"
+      },
+      {
+        "key": "B",
+        "text": "Key thường ( Sunk key)"
+      },
+      {
+        "key": "C",
+        "text": "Key phẳng (Flat key)"
+      },
+      {
+        "key": "D",
+        "text": "key trơn"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 63",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Key thường ( Sunk key)",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Key thường ( Sunk key)' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Key ma sát (saddle key); C: Key phẳng (Flat key); D: key trơn) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_177",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 177,
+    "question": "Tên gọi của đai ốc được biểu thị là L2N M30 × 3 – 1\nVậy khoảng cách một vòng xoáy là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3 mm"
+      },
+      {
+        "key": "B",
+        "text": "4 mm"
+      },
+      {
+        "key": "C",
+        "text": "2mm"
+      },
+      {
+        "key": "D",
+        "text": "6mm"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 64",
+    "question_type": "calculation",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "6mm",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] '6mm' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: 3 mm; B: 4 mm; C: 2mm) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_178",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 178,
+    "question": "Cái nào không liên quan đến đối sách chống long của đinh ốc?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vòng đệm vênh(Spring washer)"
+      },
+      {
+        "key": "B",
+        "text": "Power lock"
+      },
+      {
+        "key": "C",
+        "text": "Vòng đệm răng"
+      },
+      {
+        "key": "D",
+        "text": "Lock nut"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 66",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Power lock",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Power lock' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Vòng đệm vênh(Spring washer); C: Vòng đệm răng; D: Lock nut) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_179",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 179,
+    "question": "Kích thước của tờ A3 trong khổ giấy A là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "210 * 297"
+      },
+      {
+        "key": "B",
+        "text": "841 * 1189"
+      },
+      {
+        "key": "C",
+        "text": "420 * 594"
+      },
+      {
+        "key": "D",
+        "text": "297 * 420"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 67",
+    "question_type": "calculation",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "297 * 420",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] '297 * 420' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: 210 * 297; B: 841 * 1189; C: 420 * 594) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_180",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 180,
+    "question": "Chọn đáp án không phải là ưu điểm của gear?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Truyền lực hoặc xoay chắc chắn."
+      },
+      {
+        "key": "B",
+        "text": "Cấu trúc khá đơn giản"
+      },
+      {
+        "key": "C",
+        "text": "Tuổi thọ cao"
+      },
+      {
+        "key": "D",
+        "text": "Truyền tải bằng chi phí vận hành chính xác"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 68",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Truyền tải bằng chi phí vận hành chính xác",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Truyền tải bằng chi phí vận hành chính xác' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Truyền lực hoặc xoay chắc chắn.; B: Cấu trúc khá đơn giản; C: Tuổi thọ cao) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_181",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 181,
+    "question": "Dưới đây là nội dung giải thích về cái gì?\n‘là thiết bị thay đổi tốc độ sử dụng Gear, có thể nhận được lực lớn đồng thời giảm được số lần quay của phần động cơ thành số lần quay mong muốn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gear"
+      },
+      {
+        "key": "B",
+        "text": "Bộ giảm tốc"
+      },
+      {
+        "key": "C",
+        "text": "Belt"
+      },
+      {
+        "key": "D",
+        "text": "Chain"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 69",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Bộ giảm tốc",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Bộ giảm tốc' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Gear; C: Belt; D: Chain) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_182",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Trung bình",
+    "question_number": 182,
+    "question": "Tên của A trong hình dưới đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Accelerator (phần gia tốc)"
+      },
+      {
+        "key": "B",
+        "text": "Wave Generator (Phần Input)"
+      },
+      {
+        "key": "C",
+        "text": "Circular Spline (Phần truyền động)"
+      },
+      {
+        "key": "D",
+        "text": "Flexspline (phần giảm tốc)"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [
+      "images/exams/exam_2021_01_q70_1.png"
+    ],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 70",
+    "question_type": "diagram",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Flexspline (phần giảm tốc)",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Flexspline (phần giảm tốc)' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Accelerator (phần gia tốc); B: Wave Generator (Phần Input); C: Circular Spline (Phần truyền động)) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_183",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 183,
+    "question": "Chọn đáp án không phải là 5 yếu tố cơ bản quản lí bôi trơn?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dầu phù hợp"
+      },
+      {
+        "key": "B",
+        "text": "Khu vực phù hợp"
+      },
+      {
+        "key": "C",
+        "text": "Lượng phù hợp"
+      },
+      {
+        "key": "D",
+        "text": "Nhiệt độ phù hợp"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 71",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Nhiệt độ phù hợp",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Nhiệt độ phù hợp' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Dầu phù hợp; B: Khu vực phù hợp; C: Lượng phù hợp) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_184",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 184,
+    "question": "Phụ tùng nào sau đây giúp Ball không bị rơi ra ngay cả khi\ntháo bỏ LM Block?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Base Plate"
+      },
+      {
+        "key": "B",
+        "text": "End Plate"
+      },
+      {
+        "key": "C",
+        "text": "Side Seal"
+      },
+      {
+        "key": "D",
+        "text": "Inner Seal"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 72",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Base Plate",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Base Plate' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (B: End Plate; C: Side Seal; D: Inner Seal) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_185",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 185,
+    "question": "Tên gọi của bánh răng cho trục so le có hình dạng như sau?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Helical Gear"
+      },
+      {
+        "key": "B",
+        "text": "Double Helical Gear"
+      },
+      {
+        "key": "C",
+        "text": "Worm gear"
+      },
+      {
+        "key": "D",
+        "text": "Rack Gear"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 73",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Worm gear",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Worm gear' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Helical Gear; B: Double Helical Gear; D: Rack Gear) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_186",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 186,
+    "question": "Chọn đáp án không phải là phân loại Ball Screw theo phương thức tải trọng đặt trước ( Preloaded)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Double Nut Type"
+      },
+      {
+        "key": "B",
+        "text": "Deflectors Type"
+      },
+      {
+        "key": "C",
+        "text": "Offset Preload Type)"
+      },
+      {
+        "key": "D",
+        "text": "Static Pressure Preload Type ( Loại tải trước áp suất tĩnh)"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 74",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "Deflectors Type",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [B] 'Deflectors Type' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Double Nut Type; C: Offset Preload Type); D: Static Pressure Preload Type ( Loại tải trước áp suất tĩnh)) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_187",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 187,
+    "question": "Gear có nhiều răng gọi là Gear, gear có số răng ít gọi là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gear Motor"
+      },
+      {
+        "key": "B",
+        "text": "Gear dẫn động"
+      },
+      {
+        "key": "C",
+        "text": "Rack Gear"
+      },
+      {
+        "key": "D",
+        "text": "Pinion"
+      }
+    ],
+    "correct_answer": "D",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 75",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **D**.",
+      "correct_answer": "D",
+      "correct_text": "Pinion",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [D] 'Pinion' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Gear Motor; B: Gear dẫn động; C: Rack Gear) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_188",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 188,
+    "question": "Chọn đáp án không phải là thiết bị đo?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vernier calipers"
+      },
+      {
+        "key": "B",
+        "text": "Micrometer"
+      },
+      {
+        "key": "C",
+        "text": "Gap Gauge"
+      },
+      {
+        "key": "D",
+        "text": "Thước cặp đo chiều cao ( Height gauge)"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 76",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Gap Gauge",
+      "why_correct": "Theo tiêu chuẩn kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Gap Gauge' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
+      "why_wrong": "Các phương án còn lại (A: Vernier calipers; B: Micrometer; D: Thước cặp đo chiều cao ( Height gauge)) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_189",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 189,
+    "question": "Nếu chia một vạch của thước chính quả Vernier Calipers ra 50 lần thì được bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.2mm"
+      },
+      {
+        "key": "B",
+        "text": "0.02mm"
+      },
+      {
+        "key": "C",
+        "text": "0.5mm"
+      },
+      {
+        "key": "D",
+        "text": "0.05mm"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 77",
+    "question_type": "calculation",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "0.02mm",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [B] '0.02mm' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: 0.2mm; C: 0.5mm; D: 0.05mm) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_190",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 190,
+    "question": "Tên gọi của công cụ sau là ?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thước đo level"
+      },
+      {
+        "key": "B",
+        "text": "Gap Gauge"
+      },
+      {
+        "key": "C",
+        "text": "Thickness gauge"
+      },
+      {
+        "key": "D",
+        "text": "Counterbore"
+      }
+    ],
+    "correct_answer": "C",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 78",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **C**.",
+      "correct_answer": "C",
+      "correct_text": "Thickness gauge",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [C] 'Thickness gauge' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: Thước đo level; B: Gap Gauge; D: Counterbore) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_191",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 191,
+    "question": "Giá trị đo của thước kẹp đo độ cao ( height Gauge) là",
+    "options": [
+      {
+        "key": "A",
+        "text": "70.48 ㎜"
+      },
+      {
+        "key": "B",
+        "text": "46.48 ㎜"
+      },
+      {
+        "key": "C",
+        "text": "70.44 ㎜"
+      },
+      {
+        "key": "D",
+        "text": "46.44 ㎜"
+      }
+    ],
+    "correct_answer": "B",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 79",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **B**.",
+      "correct_answer": "B",
+      "correct_text": "46.48 ㎜",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [B] '46.48 ㎜' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (A: 70.48 ㎜; C: 70.44 ㎜; D: 46.44 ㎜) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
+  },
+  {
+    "id": "WS_EXAM_MCH_192",
+    "source": "Đề thi thử WS (Tháng 01-2021)",
+    "subject": "Linh kiện máy cơ bản",
+    "subject_code": "machine",
+    "module": "Truyền động cơ khí & Dung sai lắp ghép",
+    "difficulty": "Dễ",
+    "question_number": 192,
+    "question": "Trường hợp 2 trục giao nhau thì sử dụng Gear gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Straight Bevel Gear"
+      },
+      {
+        "key": "B",
+        "text": "Spur Gear"
+      },
+      {
+        "key": "C",
+        "text": "Worm Gear"
+      },
+      {
+        "key": "D",
+        "text": "Screw Gear"
+      }
+    ],
+    "correct_answer": "A",
+    "images": [],
+    "author": "White Star Examination Board",
+    "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 80",
+    "question_type": "theory",
+    "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
+    "explanation": {
+      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "correct_answer": "A",
+      "correct_text": "Straight Bevel Gear",
+      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [A] 'Straight Bevel Gear' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
+      "why_wrong": "Các phương án còn lại (B: Spur Gear; C: Worm Gear; D: Screw Gear) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
+      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+    }
   }
 ]
