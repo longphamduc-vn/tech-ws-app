@@ -487,18 +487,36 @@ function navigateExamNext() {
 // VIEW 1: DASHBOARD
 // =============================================================================
 function initDashboard() {
-  if (!APP_STATE.summary) return;
+  const totalMaster = (APP_STATE.masterQuestions && APP_STATE.masterQuestions.length > 0) 
+    ? APP_STATE.masterQuestions.length 
+    : (APP_STATE.summary?.total_master_questions || 834);
+    
+  const totalExams = (APP_STATE.mockExams && APP_STATE.mockExams.length > 0)
+    ? APP_STATE.mockExams.length
+    : (APP_STATE.summary?.total_mock_exams || 6);
 
-  setText('val-master-count', APP_STATE.summary.master_question_bank?.total_questions || 398);
-  setText('val-review-count', APP_STATE.summary.review_slides_bank?.total_extracted || 486);
-  setText('val-exams-count', APP_STATE.summary.mock_exams?.count || 5);
-  setText('val-images-count', APP_STATE.summary.diagram_images?.total_files || 213);
+  const totalImages = APP_STATE.summary?.total_extracted_images || 330;
+  const reviewCount = APP_STATE.summary?.total_review_questions || 486;
 
-  const bySub = APP_STATE.summary.master_question_bank?.by_subject || {};
-  setText('count-electric', `${bySub['Điện - Điện tử cơ bản'] || 99} câu hỏi`);
-  setText('count-plc', `${bySub['PLC cơ bản'] || 99} câu hỏi`);
-  setText('count-machine', `${bySub['Linh kiện máy cơ bản'] || 100} câu hỏi`);
-  setText('count-pneumatics', `${bySub['Khí nén cơ bản'] || 100} câu hỏi`);
+  setText('val-master-count', totalMaster);
+  setText('val-review-count', reviewCount);
+  setText('val-exams-count', `${totalExams}+`);
+  setText('val-images-count', `${totalImages}+`);
+
+  const countBySub = (code, fallback) => {
+    if (APP_STATE.summary?.master_questions_by_subject && APP_STATE.summary.master_questions_by_subject[code]) {
+      return APP_STATE.summary.master_questions_by_subject[code];
+    }
+    if (APP_STATE.masterQuestions && APP_STATE.masterQuestions.length > 0) {
+      return APP_STATE.masterQuestions.filter(q => q.subject_code === code).length;
+    }
+    return fallback;
+  };
+
+  setText('count-electric', `${countBySub('electric', 282)} câu hỏi`);
+  setText('count-plc', `${countBySub('plc', 202)} câu hỏi`);
+  setText('count-machine', `${countBySub('machine', 192)} câu hỏi`);
+  setText('count-pneumatics', `${countBySub('pneumatics', 158)} câu hỏi`);
 }
 
 function startQuickPractice() {
