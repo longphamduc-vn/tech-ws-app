@@ -11,3 +11,4 @@ WS/
 # Temporary and log files
 *.log
 *.tmp
+scratch/

@@ -7150,19 +7150,19 @@
     "options": [
       {
         "key": "A",
-        "text": ""
+        "text": "Mạch ①: Mạch trễ đóng On-Delay (nạp áp qua tiết lưu vào bình chứa để kích hoạt sau khoảng trễ t)"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "Mạch ②: Mạch trễ ngắt Off-Delay (tác động tức thời và duy trì sau khi ngắt)"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Mạch ③: Mạch tạo xung đơn chu kỳ (One-shot pulse timer)"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Mạch ④: Mạch tự dao động đa hài nhấp nháy liên tục"
       }
     ],
     "correct_answer": "A",
@@ -7174,12 +7174,12 @@
     "question_type": "diagram",
     "topic_tag": "Truyền động cơ khí & Dung sai lắp ghép",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Truyền động cơ khí & Dung sai lắp ghép** (Linh kiện máy cơ bản). Đáp án chính xác là **A**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Đặc tính thời gian của bộ hẹn giờ khí nén**. Đáp án chính xác là **A** (Mạch ①).",
       "correct_answer": "A",
-      "correct_text": "",
-      "why_correct": "Theo nguyên lý kỹ thuật Linh kiện máy cơ bản, phương án [A] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (B: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Truyền động cơ khí & Dung sai lắp ghép**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Mạch ①: Mạch trễ đóng On-Delay (nạp áp qua tiết lưu vào bình chứa để kích hoạt sau khoảng trễ t)",
+      "why_correct": "Trên biểu đồ thời gian (Timing Chart), tín hiệu đầu vào Start chuyển sang mức ON, nhưng tín hiệu đầu ra Out phải sau khoảng thời gian t mới chuyển sang mức ON. Đây chính là biểu đồ đặc tuyến của rơle thời gian On-Delay (trễ tác động). Mạch điện và khí nén ① cấu hình đúng van tiết lưu nạp chậm vào bình tích để kích hoạt cuộn điều khiển sau khoảng trễ t.",
+      "why_wrong": "Mạch Off-Delay (B) cho ngõ ra ON ngay lập tức và chỉ trễ khi ngắt; Mạch tạo xung (C) có thời gian ON rất ngắn rồi tự tắt.",
+      "supplementary_knowledge": "💡 **Điều chỉnh thời gian trễ:** Thời gian trễ t được điều chỉnh bằng vít chỉnh độ mở của van tiết lưu (mở càng nhỏ thì thời gian trễ càng dài)."
     }
   },
   {

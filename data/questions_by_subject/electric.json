@@ -5544,10 +5544,12 @@
       }
     ],
     "correct_answer": "B",
-    "images": [],
+    "images": [
+      "images/exams/circuit_diode_zener.png"
+    ],
     "author": "White Star Examination Board",
     "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 14",
-    "question_type": "calculation",
+    "question_type": "diagram",
     "topic_tag": "Lý thuyết điện & Mạch điện tử",
     "explanation": {
       "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **B**.",
@@ -5690,9 +5692,9 @@
     "subject": "Điện - Điện tử cơ bản",
     "subject_code": "electric",
     "module": "Lý thuyết điện & Mạch điện tử",
-    "difficulty": "Dễ",
+    "difficulty": "Trung bình",
     "question_number": 136,
-    "question": "Hiệu điện thế qua điện trở trong đoạn mạch sau là bao nhiêu?",
+    "question": "Hiệu điện thế qua điện trở R trong sơ đồ mạch bán dẫn bên dưới là bao nhiêu (biết nguồn cấp 5V, Diode bán dẫn Ge có điện áp rơi thuận 0.2V)?",
     "options": [
       {
         "key": "A",
@@ -5712,18 +5714,20 @@
       }
     ],
     "correct_answer": "D",
-    "images": [],
+    "images": [
+      "images/exams/circuit_diode_ge.png"
+    ],
     "author": "White Star Examination Board",
     "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 18",
-    "question_type": "theory",
+    "question_type": "diagram",
     "topic_tag": "Lý thuyết điện & Mạch điện tử",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+      "overview": "Câu hỏi kiểm tra tính toán điện áp mạch phân cực diode thuận. Đáp án đúng là **D (4,8V)**.",
       "correct_answer": "D",
       "correct_text": "4,8V",
-      "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [D] '4,8V' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (A: 0V; B: 0,2V; C: 0,7V) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "why_correct": "Diode Gecmani (Ge) mắc phân cực thuận có điện áp rơi tiếp giáp p-n là UD ≈ 0.2V. Theo định luật Kirchhoff 2: U_R = E - UD = 5V - 0.2V = 4.8V.",
+      "why_wrong": "A (0V): Diode đã mở nên có dòng điện chạy qua; B (0,2V): 0.2V là sụt áp trên Diode Ge chứ không phải trên điện trở R; C (0,7V): 0.7V là điện áp sụt điển hình của Diode Silic (Si).",
+      "supplementary_knowledge": "💡 **Điện áp rơi tiếp giáp:** Diode Silic (Si) có UD ≈ 0.7V; Diode Gecmani (Ge) có UD ≈ 0.2V ~ 0.3V; Diode Schottky có UD ≈ 0.15V ~ 0.3V."
     }
   },
   {
@@ -5732,9 +5736,9 @@
     "subject": "Điện - Điện tử cơ bản",
     "subject_code": "electric",
     "module": "Lý thuyết điện & Mạch điện tử",
-    "difficulty": "Dễ",
+    "difficulty": "Trung bình",
     "question_number": 137,
-    "question": "Tần số của dạng sóng phía dưới là bao nhiêu?",
+    "question": "Quan sát màn hình dao động ký bên dưới (cài đặt thang thời gian M = 500μs/ô, độ lệch 1 chu kỳ là 4 ô), tần số của dạng sóng sin là bao nhiêu?",
     "options": [
       {
         "key": "A",
@@ -5754,18 +5758,20 @@
       }
     ],
     "correct_answer": "C",
-    "images": [],
+    "images": [
+      "images/exams/oscilloscope_sine_500us.png"
+    ],
     "author": "White Star Examination Board",
     "note": "Trích xuất từ Đề thi thử White Star - Test 01 - Câu 20",
-    "question_type": "theory",
+    "question_type": "diagram",
     "topic_tag": "Lý thuyết điện & Mạch điện tử",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **C**.",
+      "overview": "Câu hỏi kiểm tra kỹ năng đo lường dạng sóng xoay chiều trên máy dao động ký (Oscilloscope). Đáp án đúng là **C (500 hz)**.",
       "correct_answer": "C",
       "correct_text": "500 hz",
-      "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [C] '500 hz' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (A: 200 hz; B: 250 hz; D: 1khz) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "why_correct": "Theo hình ảnh dao động ký: 1 chu kỳ sóng sin chiếm 4 ô ngang trên trục thời gian. Với cài đặt M = 500μs/ô, chu kỳ của sóng là: T = 4 × 500μs = 2000μs = 2ms = 0.002s. Tần số dòng điện: f = 1 / T = 1 / 0.002 = 500 Hz.",
+      "why_wrong": "A (200 hz): Tương ứng T = 5ms (10 ô); B (250 hz): Tương ứng cài đặt M = 1000μs/ô; D (1khz): Tương ứng T = 1ms.",
+      "supplementary_knowledge": "💡 **Công thức dao động ký cơ bản:** Chu kỳ T = (Số ô ngang / chu kỳ) × (Hệ số Time/Div M). Tần số f = 1 / T (Hz)."
     }
   },
   {
@@ -5822,19 +5828,19 @@
     "options": [
       {
         "key": "A",
-        "text": ""
+        "text": "Phương án ①: Van xả áp / Van an toàn (Pressure Relief Valve) - Tự động xả khí khi vượt quá áp suất đặt"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "Phương án ②: Van tuần tự (Sequence Valve) - Đóng mở đường khí khi đạt áp suất định mức"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Phương án ③: Van điều áp (Pressure Regulator) - Duy trì ổn định áp suất làm việc đầu ra"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Phương án ④: Van tiết lưu một chiều (One-way Flow Control Valve) - Điều chỉnh lưu lượng khí nén"
       }
     ],
     "correct_answer": "A",
@@ -5849,12 +5855,12 @@
     "question_type": "diagram",
     "topic_tag": "Lý thuyết điện & Mạch điện tử",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **A**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Van điều chỉnh áp suất khí nén**. Đáp án chính xác là **A** (Van xả áp / Van an toàn).",
       "correct_answer": "A",
-      "correct_text": "",
-      "why_correct": "Theo tiêu chuẩn kỹ thuật Điện - Điện tử cơ bản, phương án [A] '' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
-      "why_wrong": "Các phương án còn lại (B: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Phương án ①: Van xả áp / Van an toàn (Pressure Relief Valve) - Tự động xả khí khi vượt quá áp suất đặt",
+      "why_correct": "Van xả áp (Relief Valve / Safety Valve) là thiết bị an toàn bảo vệ mạch khí nén. Khi áp suất trong đường ống vượt ngưỡng áp suất lò xo cài đặt, bi van bị đẩy lùi mở cửa xả khí nén ra ngoài khí quyển để đưa áp suất mạch trở lại mức an toàn.",
+      "why_wrong": "Van tuần tự (B) dùng để chuyển tiếp thứ tự hoạt động của các xilanh; Van điều áp (C) dùng để ổn định áp suất thứ cấp; Van tiết lưu (D) dùng để điều chỉnh vận tốc.",
+      "supplementary_knowledge": "💡 **Các loại van áp suất:** Van xả áp (Relief/Safety valve), Van giảm áp/điều áp (Regulator), Van tuần tự (Sequence valve), Rơle áp suất (Pressure switch)."
     }
   },
   {
@@ -6125,19 +6131,19 @@
     "options": [
       {
         "key": "A",
-        "text": ""
+        "text": "Phương án ①: Van tác động trực tiếp bằng cơ khí (Direct Mechanical Acting)"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "Phương án ②: Van điều khiển thủ công bằng tay gạt / nút nhấn (Manual Acting)"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Phương án ③: Van tác động bằng cữ hành trình bánh xe (Roller Lever Acting)"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Phương án ④: Van tác động gián tiếp bằng tín hiệu khí nén / Solenoid Pilot (Pilot Operated - Khác biệt nhất)"
       }
     ],
     "correct_answer": "D",
@@ -6150,12 +6156,12 @@
     "question_type": "diagram",
     "topic_tag": "Lý thuyết điện & Mạch điện tử",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Phương thức tác động của van đảo chiều khí nén**. Đáp án chính xác là **D** (Van tác động gián tiếp Pilot).",
       "correct_answer": "D",
-      "correct_text": "",
-      "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [D] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (A: ; B: ; C: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Phương án ④: Van tác động gián tiếp bằng tín hiệu khí nén / Solenoid Pilot (Pilot Operated - Khác biệt nhất)",
+      "why_correct": "Xét theo nguyên lý điều khiển: Các phương án ①, ②, ③ đều là loại tác động TRỰC TIẾP (Direct acting - dùng lực cơ bắp, cơ khí để di chuyển con trượt bên trong). Riêng phương án ④ là loại tác động GIÁN TIẾP (Pilot operated - dùng một luồng khí nén phụ trợ hoặc cuộn hút điện từ phụ trợ để mở van chính), do đó khác biệt nhất về phương thức vận hành.",
+      "why_wrong": "Các van cơ khí và thủ công (A, B, C) đều thuộc nhóm van tác động cơ học trực tiếp, không sử dụng đường khí điều khiển phụ trợ (pilot).",
+      "supplementary_knowledge": "💡 **Van tác động gián tiếp (Pilot operated):** Được dùng khi cần điều khiển van lưu lượng lớn mà lực hút điện từ hoặc lực cơ khí trực tiếp không đủ mạnh để thắng lực cản của lò xo và áp suất khí."
     }
   },
   {
@@ -7262,19 +7268,19 @@
     "options": [
       {
         "key": "A",
-        "text": ""
+        "text": "Ký hiệu ①: Van 3/2 thường đóng (NC - 3 cửa 2 vị trí)"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "Ký hiệu ②: Van 3/2 thường mở (NO - 3 cửa 2 vị trí)"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Ký hiệu ③: Van 4/2 điều khiển cơ khí hồi vị lò xo"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Ký hiệu ④: Van 5/2 (5 cửa 2 vị trí) điều khiển bằng khí nén hai đầu / lò xo hồi vị"
       }
     ],
     "correct_answer": "D",
@@ -7284,12 +7290,12 @@
     "question_type": "theory",
     "topic_tag": "Lý thuyết điện & Mạch điện tử",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Ký hiệu van đảo chiều khí nén**. Đáp án chính xác là **D** (Ký hiệu ④).",
       "correct_answer": "D",
-      "correct_text": "",
-      "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [D] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (A: ; B: ; C: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Ký hiệu ④: Van 5/2 (5 cửa 2 vị trí) điều khiển bằng khí nén hai đầu / lò xo hồi vị",
+      "why_correct": "Cấu tạo cắt dọc của van trên hình có 5 cổng khí (cổng P cấp nguồn, 2 cổng làm việc A, B, và 2 cổng xả R, S) cùng 2 vị trí làm việc của con trượt trượt ngang. Đây là cấu trúc tiêu chuẩn của van phân phối 5 cửa 2 vị trí (5/2 Way Directional Valve). Ký hiệu tương ứng chuẩn ISO là ký hiệu có 2 ô vuông với 5 đầu cổng ở phương án ④.",
+      "why_wrong": "Các phương án A và B là van 3/2 (chỉ có 3 cổng); Phương án C là van 4/2 (chỉ có 1 cửa xả chung), không khớp với cấu tạo 5 cửa trên hình.",
+      "supplementary_knowledge": "💡 **Ứng dụng van 5/2:** Thường được sử dụng để điều khiển trực tiếp xilanh tác động kép, cho phép đảo chiều tiến và lùi của piston."
     }
   },
   {
@@ -8984,9 +8990,9 @@
     "subject": "Điện - Điện tử cơ bản",
     "subject_code": "electric",
     "module": "Lý thuyết điện & Mạch điện tử",
-    "difficulty": "Dễ",
+    "difficulty": "Trung bình",
     "question_number": 214,
-    "question": "Tần số của dạng sóng sin bên dưới là bao nhiêu?",
+    "question": "Quan sát màn hình dao động ký bên dưới (cài đặt thang thời gian M = 1000μs/ô, độ lệch 1 chu kỳ là 4 ô), tần số của dạng sóng sin là bao nhiêu?",
     "options": [
       {
         "key": "A",
@@ -9006,18 +9012,20 @@
       }
     ],
     "correct_answer": "B",
-    "images": [],
+    "images": [
+      "images/exams/oscilloscope_sine_1000us.png"
+    ],
     "author": "White Star Examination Board",
     "note": "Trích xuất từ Đề thi thử White Star - Test 03 - Câu 20",
-    "question_type": "theory",
+    "question_type": "diagram",
     "topic_tag": "Lý thuyết điện & Mạch điện tử",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **B**.",
+      "overview": "Câu hỏi kiểm tra kỹ năng đo lường dạng sóng xoay chiều trên máy dao động ký (Oscilloscope). Đáp án đúng là **B (250 hz)**.",
       "correct_answer": "B",
       "correct_text": "250 hz",
-      "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [B] '250 hz' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (A: 200 hz; C: 500 hz; D: 1khz) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "why_correct": "Theo hình ảnh dao động ký: 1 chu kỳ sóng sin chiếm 4 ô ngang trên trục thời gian. Với cài đặt M = 1000μs/ô, chu kỳ của sóng là: T = 4 × 1000μs = 4000μs = 4ms = 0.004s. Tần số dòng điện: f = 1 / T = 1 / 0.004 = 250 Hz.",
+      "why_wrong": "A (200 hz): Tương ứng chu kỳ T = 5ms; C (500 hz): Tương ứng cài đặt M = 500μs/ô; D (1khz): Tương ứng chu kỳ T = 1ms.",
+      "supplementary_knowledge": "💡 **Công thức dao động ký cơ bản:** Chu kỳ T = (Số ô ngang / chu kỳ) × (Hệ số Time/Div M). Tần số f = 1 / T (Hz)."
     }
   },
   {
@@ -9830,19 +9838,19 @@
     "options": [
       {
         "key": "A",
-        "text": ""
+        "text": "Hình ①: Vòng bi cầu đỡ chặn / rãnh sâu một dãy (Deep Groove Ball Bearing)"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "Hình ②: Vòng bi côn (Tapered Roller Bearing - Chịu tải hướng tâm và hướng trục lớn)"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Hình ③: Vòng bi đũa trụ (Cylindrical Roller Bearing - Chịu tải trọng hướng tâm lớn)"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Hình ④: Vòng bi cầu tự lựa (Self-aligning Ball Bearing - 2 dãy bi với vòng ngoài mặt cầu tự khử độ lệch tâm trục)"
       }
     ],
     "correct_answer": "D",
@@ -9857,12 +9865,12 @@
     "question_type": "diagram",
     "topic_tag": "Lý thuyết điện & Mạch điện tử",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **D**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Ổ lăn & Vòng bi công nghiệp (Bearing)**. Đáp án chính xác là **D** (Hình ④).",
       "correct_answer": "D",
-      "correct_text": "",
-      "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [D] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (A: ; B: ; C: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Hình ④: Vòng bi cầu tự lựa (Self-aligning Ball Bearing - 2 dãy bi với vòng ngoài mặt cầu tự khử độ lệch tâm trục)",
+      "why_correct": "Vòng bi cầu tự lựa (Self-aligning ball bearing) có đặc điểm nhận dạng đặc trưng gồm 2 dãy bi cầu lăn trên một rãnh lăn chung ở vòng ngoài có biên dạng hình cầu liền khối. Tâm mặt cầu trùng với tâm của ổ lăn, cho phép cụm vòng trong và bi có thể tự xoay nghiêng một góc nhỏ quanh tâm để bù trừ độ võng trục hoặc độ lệch tâm giữa gối đỡ và trục quay mà không gây kẹt bi.",
+      "why_wrong": "Hình ① là vòng bi cầu rãnh sâu 1 dãy tiêu chuẩn; Hình ② là vòng bi côn với con lăn hình nón; Hình ③ là vòng bi đũa với con lăn hình trụ.",
+      "supplementary_knowledge": "💡 **Mã ký hiệu vòng bi tự lựa:** Trong hệ thống ký hiệu tiêu chuẩn ISO/JIS, vòng bi cầu tự lựa bắt đầu bằng số 1xxx hoặc 2xxx (ví dụ: 1205, 2206)."
     }
   },
   {
@@ -11064,31 +11072,37 @@
     "question": "Đâu là ký hiệu của diode Schottky ?",
     "options": [
       {
+        "key": "A",
+        "text": "Ký hiệu ①: Diode chỉnh lưu thường (vạch cathode thẳng đứng)"
+      },
+      {
         "key": "B",
-        "text": ""
+        "text": "Ký hiệu ②: Diode Schottky (vạch cathode uốn cong đối xứng hình chữ S, tốc độ chuyển mạch cực nhanh)"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Ký hiệu ③: Diode Zener (vạch cathode có hai nét gạch bẻ góc hình chữ Z)"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Ký hiệu ④: Diode phát quang - LED (có hai mũi tên phát xạ ánh sáng ra ngoài)"
       }
     ],
     "correct_answer": "B",
-    "images": [],
+    "images": [
+      "images/exams/exam_jan_2021_q20_1.png"
+    ],
     "author": "White Star Examination Board",
     "note": "Trích xuất từ Đề thi thử WS (Tháng 01-2021) - Câu 20",
     "question_type": "theory",
     "topic_tag": "Lý thuyết điện & Mạch điện tử",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Lý thuyết điện & Mạch điện tử** (Điện - Điện tử cơ bản). Đáp án chính xác là **B**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Linh kiện bán dẫn & Diode đặc biệt**. Đáp án chính xác là **B** (Ký hiệu ②).",
       "correct_answer": "B",
-      "correct_text": "",
-      "why_correct": "Theo nguyên lý kỹ thuật Điện - Điện tử cơ bản, phương án [B] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Lý thuyết điện & Mạch điện tử**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Ký hiệu ②: Diode Schottky (vạch cathode uốn cong đối xứng hình chữ S, tốc độ chuyển mạch cực nhanh)",
+      "why_correct": "Ký hiệu tiêu chuẩn quốc tế của Diode Schottky có vạch cực âm (Cathode) uốn cong hoặc bẻ góc hai đầu đối xứng tạo thành hình chữ S (viết tắt của Schottky). Diode Schottky được tạo thành từ mối tiếp giáp kim loại - bán dẫn, có điện áp rơi thuận rất thấp (0.15V - 0.45V) và thời gian phục hồi ngược cực ngắn, chuyên dùng cho các mạch nguồn xung cao tần.",
+      "why_wrong": "Ký hiệu A là diode P-N thông thường; Ký hiệu C là diode Zener ổn áp; Ký hiệu D là LED phát quang.",
+      "supplementary_knowledge": "💡 **Ưu điểm diode Schottky:** Thời gian chuyển mạch nano giây (ns), tổn hao công suất thấp, nhưng điện áp đánh thủng ngược thấp hơn diode tiếp giáp P-N."
     }
   },
   {

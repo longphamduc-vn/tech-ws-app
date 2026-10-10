@@ -4459,19 +4459,19 @@
     "options": [
       {
         "key": "A",
-        "text": ""
+        "text": "Máy nén khí trục vít (Screw Compressor) - Cấp khí liên tục, độ rung và tiếng ồn nhỏ, kích thước nhỏ gọn"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "Máy nén khí Piston (Reciprocating Compressor) - Cấp khí theo chu kỳ tịnh tiến, tạo xung áp suất lớn"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Máy nén khí cánh gạt (Rotary Vane Compressor) - Cấp khí qua rãnh cánh gạt trượt lệch tâm"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Máy nén khí ly tâm (Centrifugal Compressor) - Lưu lượng rất lớn nhưng kích thước cồng kềnh"
       }
     ],
     "correct_answer": "A",
@@ -4483,12 +4483,12 @@
     "question_type": "diagram",
     "topic_tag": "Mạch van & Thiết bị khí nén",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Nguồn khí nén & Máy nén khí**. Đáp án chính xác là **A** (Máy nén khí trục vít).",
       "correct_answer": "A",
-      "correct_text": "",
-      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [A] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (B: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Máy nén khí trục vít (Screw Compressor) - Cấp khí liên tục, độ rung và tiếng ồn nhỏ, kích thước nhỏ gọn",
+      "why_correct": "Máy nén khí trục vít sử dụng hai trục vít xoắn (rôto đực và cái) quay ăn khớp để nén khí. Quá trình hút và đẩy khí diễn ra liên tục, đều đặn nên không sinh ra xung áp suất dao động mạnh như máy piston, độ ồn và độ rung thấp, kết cấu gọn gàng, rất thích hợp làm nguồn cấp ổn định cho động cơ khí nén.",
+      "why_wrong": "Máy nén piston (B) có xung áp suất lớn do chuyển động tịnh tiến; Máy nén cánh gạt (C) và ly tâm (D) có đặc tính dòng chảy và dải áp suất không tối ưu bằng cho ứng dụng mô tơ khí nén công nghiệp nhỏ gọn.",
+      "supplementary_knowledge": "💡 **Phân loại máy nén khí White Star:** Máy nén thể tích gồm máy piston (áp suất cao, xung lớn) và máy trục vít (lưu lượng ổn định, êm ái, hoạt động liên tục 100% chu kỳ tải)."
     }
   },
   {
@@ -4925,34 +4925,36 @@
     "options": [
       {
         "key": "A",
-        "text": ""
+        "text": "Van một chiều (Check Valve / Non-Return Valve) - Cho dòng khí qua một chiều và ngăn dòng chảy ngược"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "Van tiết lưu (Throttle Valve) - Điều chỉnh lưu lượng và tốc độ dòng khí"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Van xả nhanh (Quick Exhaust Valve) - Xả nhanh khí nén ra ngoài khí quyển"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Van con thoi (Shuttle Valve / Van OR) - Điều khiển từ hai vị trí độc lập"
       }
     ],
     "correct_answer": "A",
-    "images": [],
+    "images": [
+      "images/exams/exam_de_01_q56_1.png"
+    ],
     "author": "White Star Examination Board",
     "note": "Trích xuất từ Đề thi thử White Star - Đề số 01 - Câu 56",
     "question_type": "calculation",
     "topic_tag": "Mạch van & Thiết bị khí nén",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Van khí nén cơ bản**. Đáp án chính xác là **A** (Van một chiều).",
       "correct_answer": "A",
-      "correct_text": "",
-      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [A] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (B: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Van một chiều (Check Valve / Non-Return Valve) - Cho dòng khí qua một chiều và ngăn dòng chảy ngược",
+      "why_correct": "Van một chiều (Check valve) có cấu tạo gồm bi cầu hoặc nón đệm tì lên đế van nhờ lực ép lò xo nhẹ. Khí đi theo chiều thuận sẽ đẩy mở bi; khí đi theo chiều ngược lại sẽ ép chặt bi vào đế van, ngăn chặn hoàn toàn dòng chảy ngược.",
+      "why_wrong": "Van tiết lưu (B) dùng chỉnh tốc độ xilanh; Van xả nhanh (C) giúp tăng tốc xilanh; Van con thoi (D) thực hiện hàm logic OR giữa 2 ngõ vào.",
+      "supplementary_knowledge": "💡 **Ký hiệu van một chiều:** Ký hiệu gồm một quả cầu tròn nằm trong hình nón tam giác, có hoặc không có lò xo phụ trợ."
     }
   },
   {
@@ -5225,19 +5227,19 @@
     "options": [
       {
         "key": "A",
-        "text": ""
+        "text": "Phương án ①: Van hai áp suất (Two-Pressure Valve - Thực hiện chức năng logic AND)"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "Phương án ②: Van xả nhanh (Quick Exhaust Valve - Xả khí tức thời)"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Phương án ③: Van một chiều đơn (Single Non-Return Check Valve)"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Phương án ④: Van con thoi / Van kiểm tra đôi (Shuttle Valve / Double Check Valve - Thực hiện chức năng logic OR)"
       }
     ],
     "correct_answer": "D",
@@ -5252,12 +5254,12 @@
     "question_type": "diagram",
     "topic_tag": "Mạch van & Thiết bị khí nén",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **D**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Van logic & Điều khiển khí nén**. Đáp án chính xác là **D** (Van con thoi / Van kiểm tra đôi).",
       "correct_answer": "D",
-      "correct_text": "",
-      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [D] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (A: ; B: ; C: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Phương án ④: Van con thoi / Van kiểm tra đôi (Shuttle Valve / Double Check Valve - Thực hiện chức năng logic OR)",
+      "why_correct": "Van con thoi (Shuttle valve) có 2 cửa vào (X, Y) và 1 cửa ra (A). Nó còn được gọi là van kiểm tra đôi (Double check valve). Khi có khí ở cửa X hoặc cửa Y, quả con thoi sẽ đóng cửa còn lại và cho khí thông ra cửa A. Nhờ đó, xilanh có thể được điều khiển độc lập từ 2 hoặc nhiều vị trí khác nhau.",
+      "why_wrong": "Van hai áp suất (A) chỉ cho khí ra khi CẢ HAI cửa đều có áp (logic AND); Van xả nhanh (B) dùng tăng tốc xilanh; Van một chiều đơn (C) chỉ có 1 cửa vào và 1 cửa ra.",
+      "supplementary_knowledge": "💡 **Phân biệt Van OR và Van AND:** Van con thoi (Shuttle valve) = Logic OR (X hoặc Y -> A). Van 2 áp suất (Dual pressure valve) = Logic AND (X và Y -> A)."
     }
   },
   {
@@ -5356,19 +5358,19 @@
     "options": [
       {
         "key": "A",
-        "text": ""
+        "text": "Phương án ①: Xilanh không trục (Rodless Cylinder) - Tiết kiệm không gian, lực tiến/lùi cân bằng, dừng giữa tốt"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "Phương án ②: Xilanh tác động đơn (Single-acting Cylinder)"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Phương án ③: Xilanh tác động kép tiêu chuẩn có cần (Standard Double-acting Cylinder)"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Phương án ④: Xilanh xoay cánh gạt (Vane Rotary Actuator)"
       }
     ],
     "correct_answer": "A",
@@ -5386,12 +5388,12 @@
     "question_type": "diagram",
     "topic_tag": "Mạch van & Thiết bị khí nén",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Cơ cấu chấp hành khí nén (Actuator)**. Đáp án chính xác là **A** (Xilanh không trục).",
       "correct_answer": "A",
-      "correct_text": "",
-      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [A] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (B: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Phương án ①: Xilanh không trục (Rodless Cylinder) - Tiết kiệm không gian, lực tiến/lùi cân bằng, dừng giữa tốt",
+      "why_correct": "Xilanh không trục (Rodless cylinder) truyền chuyển động thông qua khớp nối từ tính hoặc đai cơ khí ngoài thân xilanh mà không có cần piston nhô ra ngoài, giúp tiết kiệm 50% diện tích lắp đặt so với xilanh có cần cùng hành trình. Đồng thời, do diện tích hai mặt piston bằng nhau (không bị trừ diện tích tiết diện cần), lực đẩy tiến và lực lùi hoàn toàn bằng nhau, rất lý tưởng cho các ứng dụng dừng chính xác ở vị trí giữa hành trình.",
+      "why_wrong": "Xilanh tiêu chuẩn (C) có lực tiến lớn hơn lực lùi do có cần piston chiếm diện tích; Xilanh đơn (B) có hành trình ngắn và lực lùi phụ thuộc lò xo.",
+      "supplementary_knowledge": "💡 **Xilanh không trục:** Gồm loại nối cơ khí (slot type) và loại ghép nối từ tính (magnetic coupling), phổ biến trong các tay gắp robot, bàn trượt tự động hóa."
     }
   },
   {
@@ -5406,19 +5408,19 @@
     "options": [
       {
         "key": "A",
-        "text": ""
+        "text": "Phương án ①: Cấu trúc van 3/2 thường đóng (NC) - Cổng cấp P và cửa ra A khớp đúng với ký hiệu"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "Phương án ②: Cấu trúc van 3/2 thường mở (NO) - Trạng thái nghỉ xả A về R đúng ký hiệu"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Phương án ③: Cấu trúc đường cấp khí P và cổng xả R bị đấu ngược so với sơ đồ ký hiệu quy ước"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Phương án ④: Cấu trúc van 5/2 điều khiển khí nén hai đầu - Các cửa 1, 2, 3, 4, 5 bố trí đúng chuẩn"
       }
     ],
     "correct_answer": "C",
@@ -5428,12 +5430,12 @@
     "question_type": "theory",
     "topic_tag": "Mạch van & Thiết bị khí nén",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Ký hiệu & Cấu tạo van điều khiển hướng**. Đáp án chính xác là **C** (Phương án ③).",
       "correct_answer": "C",
-      "correct_text": "",
-      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [C] '' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
-      "why_wrong": "Các phương án còn lại (A: ; B: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Phương án ③: Cấu trúc đường cấp khí P và cổng xả R bị đấu ngược so với sơ đồ ký hiệu quy ước",
+      "why_correct": "Theo quy chuẩn ký hiệu van khí nén (ISO 1219 / DIN), cổng cấp nguồn luôn là P (hoặc số 1), cổng làm việc là A, B (hoặc số 2, 4), cổng xả là R, S (hoặc số 3, 5). Ở phương án C, cấu trúc cơ khí bên trong van mở thông cổng xả ra cổng làm việc khi có tín hiệu, ngược hoàn toàn với ký hiệu van đang biểu diễn trạng thái cấp nguồn, do đó cấu trúc và ký hiệu không khớp nhau.",
+      "why_wrong": "Các phương án A, B, D đều biểu diễn chính xác mối quan hệ giữa vị trí con trượt cơ khí và trạng thái các ô chuyển mạch trên ký hiệu tiêu chuẩn.",
+      "supplementary_knowledge": "💡 **Ký hiệu cổng van theo ISO 5599:** 1/P: Nguồn cấp khí nén; 2/A, 4/B: Cửa công tác; 3/R, 5/S: Cửa xả khí; 12/Z, 14/Y: Cửa tín hiệu điều khiển."
     }
   },
   {
@@ -5490,19 +5492,19 @@
     "options": [
       {
         "key": "A",
-        "text": ""
+        "text": "Sơ đồ ①: Mạch chỉ gồm van 3/2 và van một chiều trực tiếp không có bình tích áp"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "Sơ đồ ②: Mạch chuẩn gồm Van tiết lưu một chiều kết hợp Bình tích áp (Air Reservoir) và Van đảo chiều 3/2"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Sơ đồ ③: Mạch van xả nhanh kết hợp van điều áp hai cổng"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Sơ đồ ④: Mạch van tuần tự kết nối van con thoi không có buồng trễ tích khí"
       }
     ],
     "correct_answer": "B",
@@ -5514,12 +5516,12 @@
     "question_type": "diagram",
     "topic_tag": "Mạch van & Thiết bị khí nén",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch định thì khí nén (Pneumatic Time Delay Valve)**. Đáp án chính xác là **B** (Sơ đồ ②).",
       "correct_answer": "B",
-      "correct_text": "",
-      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [B] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (A: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Sơ đồ ②: Mạch chuẩn gồm Van tiết lưu một chiều kết hợp Bình tích áp (Air Reservoir) và Van đảo chiều 3/2",
+      "why_correct": "Van trễ thời gian khí nén (Time Delay Valve) là cụm van tích hợp gồm 3 phần: (1) Van tiết lưu một chiều điều chỉnh lưu lượng nạp, (2) Bình tích khí dung tích cố định (Air reservoir), và (3) Van điều khiển hướng 3/2 đóng vai trò công tắc đóng ngắt. Khi khí nạp từ từ qua van tiết lưu vào bình tích khí đến khi đạt áp suất ngưỡng chuyển mạch của van 3/2 thì van mới đóng mở, tạo ra khoảng thời gian trễ t xác định.",
+      "why_wrong": "Các sơ đồ A, C, D thiếu bình tích áp hoặc bố trí chiều van tiết lưu sai, không thể tạo được đặc tính trễ thời gian điều chỉnh được.",
+      "supplementary_knowledge": "💡 **Công thức thời gian trễ khí nén:** Thời gian trễ t ≈ R × C, trong đó R là độ cản của van tiết lưu, C là thể tích bình chứa khí."
     }
   },
   {
@@ -5659,16 +5661,20 @@
     "question": "Van nào có chức năng giảm áp suất từ nguồn khí nén, duy trì lượng áp suất không đổi tới các bộ phận phía sau ?",
     "options": [
       {
+        "key": "A",
+        "text": "Van an toàn (Safety / Relief Valve) - Tự động xả khí khi quá áp để bảo vệ hệ thống"
+      },
+      {
         "key": "B",
-        "text": ""
+        "text": "Van điều áp / giảm áp (Pressure Regulator / Pressure Reducing Valve) - Giảm áp suất nguồn và duy trì áp suất ổn định"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Van tuần tự (Sequence Valve) - Kích hoạt đóng mở nhánh mạch tiếp theo khi đạt áp suất định mức"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Van một chiều có tải lò xo (Check Valve with Spring)"
       }
     ],
     "correct_answer": "B",
@@ -5678,12 +5684,12 @@
     "question_type": "calculation",
     "topic_tag": "Mạch van & Thiết bị khí nén",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Van điều khiển áp suất khí nén**. Đáp án chính xác là **B** (Van điều áp / giảm áp).",
       "correct_answer": "B",
-      "correct_text": "",
-      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [B] '' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
-      "why_wrong": "Các phương án còn lại (C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Van điều áp / giảm áp (Pressure Regulator / Pressure Reducing Valve) - Giảm áp suất nguồn và duy trì áp suất ổn định",
+      "why_correct": "Van điều áp (Pressure Regulator / Reducing Valve) nằm trong bộ lọc điều áp bôi trơn (FRL). Chức năng cốt lõi của nó là hạ áp suất sơ cấp từ nguồn (thường 0.7 - 0.9 MPa) xuống áp suất công tác yêu cầu (0.4 - 0.6 MPa) và duy trì không đổi giá trị áp suất này ở ngõ ra dù áp suất nguồn hoặc lưu lượng tiêu thụ có biến động.",
+      "why_wrong": "Van an toàn (A) chỉ xả áp khi vượt ngưỡng nguy hiểm; Van tuần tự (C) dùng để kích hoạt tín hiệu bước tiếp theo theo chu trình áp suất.",
+      "supplementary_knowledge": "💡 **Cụm thiết bị FRL:** Filter (Bộ lọc tách nước) + Regulator (Van điều áp) + Lubricator (Bộ tra dầu bôi trơn)."
     }
   },
   {
@@ -5698,19 +5704,19 @@
     "options": [
       {
         "key": "A",
-        "text": ""
+        "text": "Xilanh Tandem (Tandem Cylinder) - Nối tiếp nhiều piston đồng trục để tăng lực đẩy mà không tăng đường kính nòng"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "Xilanh màng mỏng (Diaphragm Cylinder) - Hành trình rất ngắn, tiết diện lớn"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Xilanh không trục (Rodless Cylinder) - Tiết kiệm không gian dọc theo hành trình"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Xilanh tác động đơn (Single-acting Cylinder) - Lực đẩy nhỏ do cản trở bởi lò xo hoàn vị"
       }
     ],
     "correct_answer": "A",
@@ -5720,12 +5726,12 @@
     "question_type": "theory",
     "topic_tag": "Mạch van & Thiết bị khí nén",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **A**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Cơ cấu chấp hành khí nén (Actuator)**. Đáp án chính xác là **A** (Xilanh Tandem).",
       "correct_answer": "A",
-      "correct_text": "",
-      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [A] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (B: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Xilanh Tandem (Tandem Cylinder) - Nối tiếp nhiều piston đồng trục để tăng lực đẩy mà không tăng đường kính nòng",
+      "why_correct": "Lực đẩy của xilanh được tính theo công thức F = P × A. Khi đường kính nòng xilanh bị giới hạn bởi không gian lắp đặt hẹp (không thể tăng A), người ta dùng Xilanh Tandem. Xilanh này gồm 2 hoặc nhiều piston bố trí nối tiếp trên cùng một cần piston. Khí nén được cấp đồng thời vào các buồng piston, tạo ra lực đẩy tổng hợp F = P × (A1 + A2) ≈ 2F, tăng gấp đôi lực mà đường kính ngoài không đổi.",
+      "why_wrong": "Xilanh màng (B) yêu cầu đường kính rất lớn; Xilanh không trục (C) chỉ tối ưu chiều dài; Xilanh đơn (D) lực đẩy bị giảm bởi lò xo.",
+      "supplementary_knowledge": "💡 **Xilanh Tandem vs Xilanh đa vị trí:** Xilanh Tandem nối chung 1 cần để tăng lực. Xilanh đa vị trí nối các xilanh có hành trình khác nhau để dừng ở nhiều điểm."
     }
   },
   {
@@ -5740,19 +5746,19 @@
     "options": [
       {
         "key": "A",
-        "text": ""
+        "text": "Van tiết lưu điều chỉnh lưu lượng dòng khí (Flow Control Valve)"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "Van một chiều có điều khiển / Khóa an toàn (Pilot Controlled Check Valve) - Kiểm soát an toàn và giữ vị trí tải"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Van điều áp sơ cấp (Primary Pressure Regulator)"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Van xả nhanh khí nén (Quick Exhaust Valve)"
       }
     ],
     "correct_answer": "B",
@@ -5767,12 +5773,12 @@
     "question_type": "diagram",
     "topic_tag": "Mạch van & Thiết bị khí nén",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **B**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Chức năng an toàn trong mạch khí nén**. Đáp án chính xác là **B** (Van một chiều có điều khiển).",
       "correct_answer": "B",
-      "correct_text": "",
-      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [B] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (A: ; C: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Van một chiều có điều khiển / Khóa an toàn (Pilot Controlled Check Valve) - Kiểm soát an toàn và giữ vị trí tải",
+      "why_correct": "Van một chiều có điều khiển (Pilot operated check valve) đóng vai trò là van khóa an toàn trong hệ thống khí nén. Khi không có tín hiệu điều khiển pilot, van chặn hoàn toàn dòng khí xả từ buồng xilanh, khóa cứng vị trí piston khi mất nguồn áp suất hoặc dừng khẩn cấp (chức năng kiểm soát an toàn và kiểm tra). Khi có tín hiệu pilot, bi van được nâng lên cho phép dòng khí đi qua tự do.",
+      "why_wrong": "Van tiết lưu (A) chỉ chỉnh tốc độ; Van điều áp (C) chỉnh áp; Van xả nhanh (D) chỉ hỗ trợ thoát khí nhanh.",
+      "supplementary_knowledge": "💡 **Van khóa an toàn (Lock-up Valve):** Được bắt buộc lắp ở các cơ cấu nâng hạ thẳng đứng để chống rơi tải trọng khi đường ống khí bị vỡ hoặc nguồn khí bị sụt áp."
     }
   },
   {
@@ -5787,19 +5793,19 @@
     "options": [
       {
         "key": "A",
-        "text": ""
+        "text": "Phương án ①: Cấu trúc van 2/2 thường đóng (NC) khớp đúng với ký hiệu mở khi có lực tác động"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "Phương án ②: Cấu trúc van 3/2 thường đóng (NC) với cổng cấp P bị chặn và cổng làm việc A xả về R"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Phương án ③: Cấu trúc bên trong mở thông cửa cấp P nhưng ký hiệu lại biểu diễn trạng thái đóng ngắt dòng khí"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Phương án ④: Cấu trúc van 5/2 hai vị trí chuyển đổi khớp đúng với ký hiệu logic điều khiển"
       }
     ],
     "correct_answer": "C",
@@ -5809,12 +5815,12 @@
     "question_type": "theory",
     "topic_tag": "Mạch van & Thiết bị khí nén",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **C**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Cấu trúc cơ khí và Ký hiệu van khí nén**. Đáp án chính xác là **C** (Phương án ③).",
       "correct_answer": "C",
-      "correct_text": "",
-      "why_correct": "Theo tiêu chuẩn kỹ thuật Khí nén cơ bản, phương án [C] '' là nhận định KHÔNG đúng (hoặc không phù hợp với thực tế kỹ thuật), do đó đây là đáp án cần chọn theo yêu cầu câu hỏi.",
-      "why_wrong": "Các phương án còn lại (A: ; B: ; D: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Phương án ③: Cấu trúc bên trong mở thông cửa cấp P nhưng ký hiệu lại biểu diễn trạng thái đóng ngắt dòng khí",
+      "why_correct": "Đối chiếu giữa bản vẽ mặt cắt cấu tạo cơ khí và ký hiệu theo tiêu chuẩn ISO 1219: Ở phương án C, lò xo và nón van ở trạng thái nghỉ cho phép dòng khí từ cổng cấp P đi thông lên cổng A (van thường mở NO), nhưng trên sơ đồ ký hiệu lại vẽ ô chuyển mạch ở trạng thái thường đóng (NC - cổng P bị chặn mũi tên), dẫn đến sự sai lệch không khớp nhau.",
+      "why_wrong": "Các phương án A, B, D đều có cấu trúc con trượt và cổng kết nối trùng khớp hoàn toàn với vị trí nghỉ ban đầu trên ký hiệu quy ước.",
+      "supplementary_knowledge": "💡 **Quy tắc đọc van khí nén:** Luôn quan sát vị trí ô vuông gắn với lò xo hồi vị (vị trí ban đầu) để xác định van là thường đóng (NC) hay thường mở (NO)."
     }
   },
   {
@@ -6309,19 +6315,19 @@
     "options": [
       {
         "key": "A",
-        "text": ""
+        "text": "Sơ đồ ①: Mạch On-Delay tiêu chuẩn (khi cấp tín hiệu thì trễ đóng qua bình tích khí)"
       },
       {
         "key": "B",
-        "text": ""
+        "text": "Sơ đồ ②: Mạch định thì không có van một chiều song song với van tiết lưu"
       },
       {
         "key": "C",
-        "text": ""
+        "text": "Sơ đồ ③: Mạch van xả nhanh xả tức thời không tạo được thời gian trễ duy trì"
       },
       {
         "key": "D",
-        "text": ""
+        "text": "Sơ đồ ④: Mạch Off-Delay chuẩn (khí xả qua khe tiết lưu mở 20% tạo độ trễ ngắt tín hiệu khi mất nguồn điều khiển)"
       }
     ],
     "correct_answer": "D",
@@ -6333,12 +6339,12 @@
     "question_type": "diagram",
     "topic_tag": "Mạch van & Thiết bị khí nén",
     "explanation": {
-      "overview": "Câu hỏi thuộc chuyên đề **Mạch van & Thiết bị khí nén** (Khí nén cơ bản). Đáp án chính xác là **D**.",
+      "overview": "Câu hỏi thuộc chuyên đề **Mạch định thì khí nén Off-Delay**. Đáp án chính xác là **D** (Sơ đồ ④).",
       "correct_answer": "D",
-      "correct_text": "",
-      "why_correct": "Theo nguyên lý kỹ thuật Khí nén cơ bản, phương án [D] '' là chính xác. Trong ứng dụng thực tế sản xuất và vận hành hệ thống tự động hóa White Star, thông số và cấu hình này đáp ứng đúng tiêu chuẩn kỹ thuật thiết kế.",
-      "why_wrong": "Các phương án còn lại (A: ; B: ; C: ) đều mô tả các đặc tính kỹ thuật thông thường hoặc các thành phần tiêu chuẩn khác, không khớp với điều kiện đặt ra trong câu hỏi.",
-      "supplementary_knowledge": "💡 **Lưu ý kỹ thuật White Star:** Khi làm việc với chuyên đề **Mạch van & Thiết bị khí nén**, kỹ thuật viên cần chú ý đọc kỹ ký hiệu, thông số định mức và tuân thủ các quy chuẩn an toàn lao động quốc tế (ISO/JIS/IEC)."
+      "correct_text": "Sơ đồ ④: Mạch Off-Delay chuẩn (khí xả qua khe tiết lưu mở 20% tạo độ trễ ngắt tín hiệu khi mất nguồn điều khiển)",
+      "why_correct": "Van rơle trễ ngắt (Off-Delay Timer): Khi cấp tín hiệu điều khiển, khí nén đi qua van một chiều nạp tức thời vào buồng điều khiển của van 3/2, van tác động bật ON ngay lập tức. Khi cắt tín hiệu điều khiển, van một chiều đóng lại, lượng khí trong buồng chỉ có thể thoát từ từ qua khe van tiết lưu (mở 20%), làm cho van duy trì trạng thái đóng/mở thêm một khoảng thời gian trễ trước khi ngắt hoàn toàn.",
+      "why_wrong": "Sơ đồ A là On-Delay (trễ khi cấp khí, xả nhanh khi ngắt); Sơ đồ B và C cấu hình van một chiều sai hướng hoặc thiếu buồng trễ.",
+      "supplementary_knowledge": "💡 **Phân biệt On-Delay và Off-Delay:** On-delay trễ lúc bật ON (nạp qua tiết lưu, xả qua van một chiều). Off-delay trễ lúc ngắt OFF (nạp qua van một chiều tức thì, xả qua van tiết lưu)."
     }
   },
   {
