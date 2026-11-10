@@ -69,8 +69,8 @@ const AudioEngine = {
 
   playCorrect() {
     if (!this.enabled) return;
-    this.playTone(587.33, 0.1, 'triangle', 0.12); // D5
-    setTimeout(() => this.playTone(880.00, 0.18, 'triangle', 0.15), 100); // A5
+    this.playTone(587.33, 0.1, 'triangle', 0.12);
+    setTimeout(() => this.playTone(880.00, 0.18, 'triangle', 0.15), 100);
   },
 
   playWrong() {
@@ -218,6 +218,7 @@ const AppState = {
   currentTab: 'dashboard',
   theme: 'midnight',
   soundEnabled: true,
+  isDataReady: false,
 
   currentUser: {
     id: 'ws_user_default',
@@ -269,8 +270,8 @@ const AppState = {
     selectedPreset: 'SMART_80',
     activeExam: null,
     currentIndex: 0,
-    answers: {}, // index -> key
-    flags: new Set(), // indices flagged
+    answers: {},
+    flags: new Set(),
     secondsRemaining: 3600,
     timeSpentSeconds: 0,
     timerInterval: null,
@@ -286,7 +287,22 @@ const AppState = {
 
   init() {
     this.loadStorage();
+    if (window.QUESTIONS_MASTER && window.QUESTIONS_MASTER.length > 0) {
+      this.onDataReady();
+    }
+  },
+
+  onDataReady() {
+    this.isDataReady = true;
     this.loadBundledData();
+    DashboardController.render();
+    UI.updateBadges();
+
+    if (this.currentTab === 'practice') PracticeController.init();
+    else if (this.currentTab === 'flashcards') FlashcardController.init();
+    else if (this.currentTab === 'mistakes') MistakesController.render();
+    else if (this.currentTab === 'gallery') GalleryController.render();
+    else if (this.currentTab === 'history') HistoryController.render();
   },
 
   loadStorage() {
@@ -346,7 +362,6 @@ const AppState = {
     this.mockExams = window.MOCK_EXAMS_DATA || [];
     this.summary = window.APP_SUMMARY || {};
 
-    // Normalize each question
     this.masterQuestions.forEach(q => {
       if (!q.question_type) {
         const text = (q.question || '').toLowerCase();
@@ -358,7 +373,6 @@ const AppState = {
       if (!q.difficulty) q.difficulty = 'Dễ';
     });
 
-    // Populate leitner box1 if empty
     if (!this.leitner.box1 || this.leitner.box1.length === 0) {
       this.leitner.box1 = this.masterQuestions.slice(0, 100).map(q => q.id);
       this.leitner.box2 = [];
@@ -377,7 +391,6 @@ const AppState = {
       existing.timesWrong += 1;
       this.mistakes.add(qId);
     } else {
-      // If answered correctly in mistakes mode or normal, we can graduate from mistakes
       if (this.mistakes.has(qId)) {
         this.mistakes.delete(qId);
       }
@@ -454,6 +467,35 @@ const StorageManager = {
       }
     };
     reader.readAsText(file);
+  },
+
+  resetPracticeOnly() {
+    if (confirm('Bạn muốn đặt lại tiến độ bài làm trắc nghiệm? (Tất cả câu đã làm đúng/sai sẽ được làm mới để bạn luyện tập lại từ đầu, lịch sử thi vẫn được giữ nguyên).')) {
+      const uid = AppState.currentUser.id || 'ws_user_default';
+      AppState.userAnswersRecord = {};
+      localStorage.removeItem(`ws_answers_${uid}`);
+      AppState.saveStorage();
+      DashboardController.render();
+      PracticeController.applyFilters();
+      alert('✅ Đã đặt lại toàn bộ bài làm luyện tập! Bạn có thể bắt đầu ôn lại như mới.');
+    }
+  },
+
+  resetAllProgress() {
+    if (confirm('CẢNH BÁO NGUY HIỂM:\nBạn có chắc chắn muốn đặt lại TOÀN BỘ bài làm, sổ tay câu sai và lịch sử thi thử?\n(Toàn bộ dữ liệu luyện tập sẽ trở về trạng thái ban đầu).')) {
+      const uid = AppState.currentUser.id || 'ws_user_default';
+      AppState.userAnswersRecord = {};
+      AppState.mistakes.clear();
+      AppState.userBookmarks.clear();
+      AppState.history = [];
+      localStorage.removeItem(`ws_answers_${uid}`);
+      localStorage.removeItem(`ws_bookmarks_${uid}`);
+      localStorage.removeItem(`ws_mistakes_${uid}`);
+      localStorage.removeItem(`ws_history_${uid}`);
+      AppState.saveStorage();
+      alert('✅ Đã làm mới toàn bộ ứng dụng thành công!');
+      location.reload();
+    }
   }
 };
 
@@ -465,9 +507,8 @@ const DashboardController = {
     const correctCount = Object.values(AppState.userAnswersRecord).filter(a => a.isCorrect).length;
     const accuracy = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
 
-    // Metrics
     const totalEl = document.getElementById('val-total-master');
-    if (totalEl) totalEl.innerText = totalQ;
+    if (totalEl) totalEl.innerText = totalQ || 834;
 
     const accEl = document.getElementById('val-accuracy-rate');
     if (accEl) accEl.innerText = answeredCount > 0 ? `${accuracy}%` : '--%';
@@ -476,9 +517,8 @@ const DashboardController = {
     if (accSub) accSub.innerText = `${correctCount} / ${answeredCount} câu đã làm`;
 
     const sideProg = document.getElementById('sidebar-progress-percent');
-    if (sideProg) sideProg.innerText = `${Math.round((answeredCount / totalQ) * 100)}%`;
+    if (sideProg) sideProg.innerText = totalQ > 0 ? `${Math.round((answeredCount / totalQ) * 100)}%` : '0%';
 
-    // 4 Subjects progress
     const subjects = ['electric', 'plc', 'machine', 'pneumatics'];
     subjects.forEach(sub => {
       const subQs = AppState.masterQuestions.filter(q => q.subject_code === sub);
@@ -492,7 +532,6 @@ const DashboardController = {
       if (rateLabel) rateLabel.innerText = `${pct}% hoàn thành`;
     });
 
-    // Rank logic
     this.updateRank(correctCount);
   },
 
@@ -586,12 +625,19 @@ const PracticeController = {
     AppState.practice.search = '';
     AppState.practice.page = 1;
 
-    document.getElementById('p-filter-subject').value = 'all';
-    document.getElementById('p-filter-module').value = 'all';
-    document.getElementById('p-filter-type').value = 'all';
-    document.getElementById('p-filter-diff').value = 'all';
-    document.getElementById('p-filter-status').value = 'all';
-    document.getElementById('p-filter-search').value = '';
+    const sSub = document.getElementById('p-filter-subject');
+    const sMod = document.getElementById('p-filter-module');
+    const sTyp = document.getElementById('p-filter-type');
+    const sDif = document.getElementById('p-filter-diff');
+    const sSta = document.getElementById('p-filter-status');
+    const sSea = document.getElementById('p-filter-search');
+
+    if (sSub) sSub.value = 'all';
+    if (sMod) sMod.value = 'all';
+    if (sTyp) sTyp.value = 'all';
+    if (sDif) sDif.value = 'all';
+    if (sSta) sSta.value = 'all';
+    if (sSea) sSea.value = '';
 
     this.populateModuleDropdown();
     this.applyFilters();
@@ -606,7 +652,6 @@ const PracticeController = {
       if (type !== 'all' && q.question_type !== type) return false;
       if (difficulty !== 'all' && q.difficulty !== difficulty) return false;
 
-      // Status filter
       if (status !== 'all') {
         const record = AppState.userAnswersRecord[q.id];
         if (status === 'unattempted' && record) return false;
@@ -615,7 +660,6 @@ const PracticeController = {
         if (status === 'bookmarked' && !AppState.userBookmarks.has(q.id)) return false;
       }
 
-      // Search filter
       if (search) {
         const text = `${q.id} ${q.question} ${(q.options || []).map(o => o.text).join(' ')}`.toLowerCase();
         if (!text.includes(search)) return false;
@@ -635,12 +679,22 @@ const PracticeController = {
     const list = document.getElementById('practice-questions-list');
     if (!list) return;
 
+    if (!AppState.isDataReady || AppState.masterQuestions.length === 0) {
+      list.innerHTML = `
+        <div style="text-align: center; padding: 60px 20px; background: var(--bg-card); border-radius: 14px; border: 1px solid var(--border-color);">
+          <div style="font-size: 36px; margin-bottom: 12px;">⏳</div>
+          <h3>Đang nạp 834 câu hỏi và 330 sơ đồ kỹ thuật...</h3>
+          <p style="color: var(--text-secondary);">Vui lòng chờ trong giây lát...</p>
+        </div>
+      `;
+      return;
+    }
+
     const { page, pageSize, filtered, shuffle } = AppState.practice;
     const totalPages = Math.ceil(filtered.length / pageSize) || 1;
     const startIdx = (page - 1) * pageSize;
     const pageItems = filtered.slice(startIdx, startIdx + pageSize);
 
-    // Update pagination
     const pageInfo = document.getElementById('pagination-info');
     if (pageInfo) pageInfo.innerText = `Trang ${page} / ${totalPages} (${filtered.length} câu)`;
 
@@ -666,14 +720,11 @@ const PracticeController = {
       const isBookmarked = AppState.userBookmarks.has(q.id);
       const record = AppState.userAnswersRecord[q.id];
 
-      // Prepare options
       let options = (q.options || []).map(opt => ({ ...opt }));
       if (shuffle) {
-        // Deterministic shuffle based on question ID
         options.sort((a, b) => a.key.localeCompare(b.key));
       }
 
-      // Check option states
       const optHtml = options.map(opt => {
         let optClass = 'option-btn';
         if (record) {
@@ -690,7 +741,6 @@ const PracticeController = {
         `;
       }).join('');
 
-      // Images
       let imgHtml = '';
       if (q.images && q.images.length > 0) {
         imgHtml = `
@@ -704,7 +754,6 @@ const PracticeController = {
         `;
       }
 
-      // Explanation
       let expHtml = '';
       if (q.explanation && record) {
         const exp = q.explanation;
@@ -800,7 +849,7 @@ const PracticeController = {
   }
 };
 
-/* --- 8. FLASHCARDS CONTROLLER (SPACED REPETITION) --- */
+/* --- 8. FLASHCARDS CONTROLLER --- */
 const FlashcardController = {
   init() {
     this.onSubjectChange();
@@ -862,7 +911,6 @@ const FlashcardController = {
     const q = deck[currentIndex];
     if (counterEl) counterEl.innerText = `Thẻ ${currentIndex + 1} / ${deck.length}`;
 
-    // Front
     const fSubject = document.getElementById('flash-front-subject');
     const fQuestion = document.getElementById('flash-front-question');
     const fImgBox = document.getElementById('flash-front-img-container');
@@ -878,14 +926,12 @@ const FlashcardController = {
       }
     }
 
-    // Back
     const bId = document.getElementById('flash-back-id');
     const bAnswer = document.getElementById('flash-back-answer');
     const bExp = document.getElementById('flash-back-explanation');
 
     if (bId) bId.innerText = q.id;
 
-    // Find correct option text
     const correctOpt = (q.options || []).find(o => o.key === q.correct_answer);
     const ansText = correctOpt ? correctOpt.text : q.correct_answer;
     if (bAnswer) bAnswer.innerHTML = `Đáp án ${q.correct_answer}: ${TextEngine.format(ansText)}`;
@@ -901,12 +947,10 @@ const FlashcardController = {
     if (deck.length === 0) return;
 
     const qId = deck[currentIndex].id;
-    // Remove from other boxes
     AppState.leitner.box1 = AppState.leitner.box1.filter(id => id !== qId);
     AppState.leitner.box2 = AppState.leitner.box2.filter(id => id !== qId);
     AppState.leitner.box3 = AppState.leitner.box3.filter(id => id !== qId);
 
-    // Add to rated box
     if (boxNum === 1) {
       AppState.leitner.box1.push(qId);
       AppState.mistakes.add(qId);
@@ -1006,7 +1050,8 @@ const MistakesController = {
 
   practiceAllMistakes() {
     AppState.practice.status = 'wrong';
-    document.getElementById('p-filter-status').value = 'wrong';
+    const sSta = document.getElementById('p-filter-status');
+    if (sSta) sSta.value = 'wrong';
     PracticeController.applyFilters();
     UI.switchTab('practice');
   },
@@ -1021,7 +1066,7 @@ const MistakesController = {
   }
 };
 
-/* --- 10. EXAM CONTROLLER (EXAM SIMULATION ENGINE) --- */
+/* --- 10. EXAM CONTROLLER --- */
 const ExamController = {
   selectPreset(presetKey, elem) {
     AppState.exam.selectedPreset = presetKey;
@@ -1045,7 +1090,6 @@ const ExamController = {
       title = gen.title;
       durationMinutes = gen.duration;
     } else {
-      // Find official mock exam
       const found = AppState.mockExams.find(e => e.id === preset);
       if (found) {
         examQuestions = found.questions.map(q => ({ ...q }));
@@ -1073,7 +1117,6 @@ const ExamController = {
     AppState.exam.timeSpentSeconds = 0;
     AppState.exam.isSubmitted = false;
 
-    // Switch views
     document.getElementById('exam-setup-view').style.display = 'none';
     document.getElementById('exam-result-view').style.display = 'none';
     document.getElementById('exam-active-view').style.display = 'flex';
@@ -1141,7 +1184,6 @@ const ExamController = {
         display.innerText = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
       }
 
-      // Warning when < 5 mins
       if (AppState.exam.secondsRemaining <= 300) {
         if (timerBox) timerBox.classList.add('warning');
         if (AppState.exam.secondsRemaining % 60 === 0) AudioEngine.playTick();
@@ -1162,7 +1204,6 @@ const ExamController = {
     const q = activeExam.questions[currentIndex];
     const total = activeExam.questions.length;
 
-    // Progress
     const progText = document.getElementById('active-exam-progress');
     if (progText) progText.innerText = `Câu ${currentIndex + 1} / ${total}`;
 
@@ -1176,7 +1217,6 @@ const ExamController = {
     const box = document.getElementById('exam-question-content');
     if (!box) return;
 
-    // Images
     let imgHtml = '';
     if (q.images && q.images.length > 0) {
       imgHtml = `
@@ -1190,7 +1230,6 @@ const ExamController = {
       `;
     }
 
-    // Options
     const selected = answers[currentIndex];
     const optHtml = (q.options || []).map(opt => {
       const isSelected = selected === opt.key;
@@ -1332,12 +1371,10 @@ const ExamController = {
       const isCorr = userAns === q.correct_answer;
       if (isCorr) correctCount += 1;
 
-      // Record in central state for learning analytics
       if (userAns) {
         AppState.recordAnswer(q.id, userAns, isCorr);
       }
 
-      // Breakdown
       const sub = q.subject_code || 'electric';
       if (subjectBreakdown[sub]) {
         subjectBreakdown[sub].total += 1;
@@ -1349,8 +1386,10 @@ const ExamController = {
     const percent = Math.round((correctCount / total) * 100);
     const passed = percent >= 70;
 
+    // Save full question data inside result so review mode and retake are 100% faithful!
     const result = {
       id: 'exam_' + Date.now(),
+      presetId: activeExam.presetId,
       title: activeExam.title,
       date: new Date().toLocaleString('vi-VN'),
       score: correctCount,
@@ -1359,7 +1398,19 @@ const ExamController = {
       passed: passed,
       timeSpent: timeSpentSeconds,
       breakdown: subjectBreakdown,
-      answers: { ...answers }
+      answers: { ...answers },
+      questions: questions.map(q => ({
+        id: q.id,
+        question: q.question,
+        context: q.context,
+        options: q.options,
+        correct_answer: q.correct_answer,
+        explanation: q.explanation,
+        images: q.images,
+        subject: q.subject,
+        subject_code: q.subject_code,
+        difficulty: q.difficulty
+      }))
     };
 
     AppState.exam.lastResult = result;
@@ -1367,7 +1418,6 @@ const ExamController = {
     AppState.history.unshift(result);
     AppState.saveStorage();
 
-    // Sound
     if (passed) AudioEngine.playComplete();
     else AudioEngine.playWrong();
 
@@ -1399,7 +1449,6 @@ const ExamController = {
       badge.innerText = res.passed ? '✓ ĐẠT CHUẨN WHITE STAR (≥ 70%)' : '✕ CHƯA ĐẠT CHUẨN WHITE STAR (< 70%)';
     }
 
-    // Breakdown bars
     const box = document.getElementById('result-breakdown-box');
     if (box) {
       box.innerHTML = Object.values(res.breakdown).map(b => {
@@ -1417,6 +1466,60 @@ const ExamController = {
     }
 
     DashboardController.render();
+  },
+
+  retakeCurrentExam() {
+    const res = AppState.exam.lastResult;
+    if (!res || !res.questions) return;
+
+    if (confirm(`Bắt đầu làm lại bài thi "${res.title}"?`)) {
+      AppState.exam.activeExam = {
+        presetId: res.presetId || 'RETAKE',
+        title: res.title + ' (Thi lại)',
+        questions: res.questions.map(q => ({ ...q })),
+        shuffleOptions: true,
+        durationMinutes: 60
+      };
+      AppState.exam.currentIndex = 0;
+      AppState.exam.answers = {};
+      AppState.exam.flags.clear();
+      AppState.exam.secondsRemaining = 60 * 60;
+      AppState.exam.timeSpentSeconds = 0;
+      AppState.exam.isSubmitted = false;
+
+      document.getElementById('exam-setup-view').style.display = 'none';
+      document.getElementById('exam-result-view').style.display = 'none';
+      document.getElementById('exam-active-view').style.display = 'flex';
+      document.getElementById('active-exam-title').innerText = res.title + ' (Thi lại)';
+
+      this.startTimer();
+      this.renderActiveQuestion();
+      this.renderPalette();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  },
+
+  practiceWrongQuestions() {
+    const res = AppState.exam.lastResult;
+    if (!res || !res.questions) return;
+    const wrongQs = res.questions.filter((q, idx) => res.answers[idx] !== q.correct_answer);
+
+    if (wrongQs.length === 0) {
+      alert('🎉 Xuất sắc! Bạn không làm sai bất kỳ câu hỏi nào trong bài thi này.');
+      return;
+    }
+
+    wrongQs.forEach(q => AppState.mistakes.add(q.id));
+    AppState.saveStorage();
+    UI.updateBadges();
+
+    AppState.practice.filtered = wrongQs;
+    AppState.practice.page = 1;
+    UI.switchTab('practice');
+    const counter = document.getElementById('practice-result-counter');
+    if (counter) counter.innerText = `Ôn luyện ${wrongQs.length} câu làm sai từ bài thi`;
+    PracticeController.renderQuestions();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   },
 
   restartSelection() {
@@ -1439,7 +1542,7 @@ const ExamController = {
     if (!res) return;
 
     const stream = document.getElementById('review-questions-stream');
-    const questions = AppState.exam.activeExam.questions || [];
+    const questions = res.questions || [];
 
     const filtered = questions.filter((q, idx) => {
       const userAns = res.answers[idx];
@@ -1449,8 +1552,12 @@ const ExamController = {
       return true;
     });
 
-    stream.innerHTML = filtered.map((q, i) => {
-      // Find index in original
+    if (filtered.length === 0) {
+      stream.innerHTML = '<div style="text-align: center; padding: 30px; color: var(--text-muted);">Không có câu hỏi nào trong danh mục lọc này.</div>';
+      return;
+    }
+
+    stream.innerHTML = filtered.map((q) => {
       const originalIdx = questions.findIndex(orig => orig.id === q.id);
       const userAns = res.answers[originalIdx];
       const isCorrect = userAns === q.correct_answer;
@@ -1631,7 +1738,6 @@ const GalleryController = {
     const grid = document.getElementById('gallery-grid');
     if (!grid) return;
 
-    // Collect all images from master questions
     const imgList = [];
     AppState.masterQuestions.forEach(q => {
       if (q.images && q.images.length > 0) {
@@ -1700,7 +1806,6 @@ const HistoryController = {
     if (avgEl) avgEl.innerText = `${avg}%`;
     if (passEl) passEl.innerText = `${passRate}%`;
 
-    // Table rows
     const tbody = document.getElementById('history-table-body');
     if (tbody) {
       tbody.innerHTML = AppState.history.map((h, i) => {
@@ -1715,8 +1820,11 @@ const HistoryController = {
             <td><strong style="color: ${h.passed ? 'var(--success)' : 'var(--danger)'};">${h.score}/${h.total} (${h.percent}%)</strong></td>
             <td><span class="tag ${h.passed ? 'tag-diff-easy' : 'tag-diff-hard'}">${h.passed ? 'ĐẠT' : 'CHƯA ĐẠT'}</span></td>
             <td>
-              <button class="btn btn-sm btn-outline" onclick="HistoryController.viewDetail('${h.id}')">Xem lại</button>
-              <button class="btn btn-sm btn-danger-outline" onclick="HistoryController.deleteItem('${h.id}')">Xóa</button>
+              <div style="display: flex; gap: 6px;">
+                <button class="btn btn-sm btn-outline" onclick="HistoryController.viewDetail('${h.id}')" title="Xem lại chi tiết bài làm">👁️ Xem</button>
+                <button class="btn btn-sm btn-primary" onclick="HistoryController.retakeExam('${h.id}')" title="Làm lại đề thi này để nâng điểm">🔄 Thi lại</button>
+                <button class="btn btn-sm btn-danger-outline" onclick="HistoryController.deleteItem('${h.id}')" title="Xóa bản ghi này">✕</button>
+              </div>
             </td>
           </tr>
         `;
@@ -1728,8 +1836,90 @@ const HistoryController = {
     const item = AppState.history.find(h => h.id === historyId);
     if (!item) return;
     AppState.exam.lastResult = item;
-    AppState.exam.activeExam = { questions: AppState.masterQuestions };
     UI.openExamReview(item);
+  },
+
+  retakeExam(historyId) {
+    const item = AppState.history.find(h => h.id === historyId);
+    if (!item) return;
+
+    if (confirm(`Bạn muốn làm lại đề thi "${item.title}"?`)) {
+      UI.closeExamReview();
+      UI.switchTab('exam');
+
+      let questionsToUse = [];
+      if (item.questions && item.questions.length > 0) {
+        questionsToUse = item.questions.map(q => ({ ...q }));
+      } else if (item.presetId) {
+        const found = AppState.mockExams.find(e => e.id === item.presetId);
+        if (found) questionsToUse = found.questions.map(q => ({ ...q }));
+        else questionsToUse = AppState.masterQuestions.slice(0, 80).map(q => ({ ...q }));
+      } else {
+        questionsToUse = AppState.masterQuestions.slice(0, 80).map(q => ({ ...q }));
+      }
+
+      AppState.exam.activeExam = {
+        presetId: item.presetId || 'RETAKE',
+        title: item.title + ' (Thi lại)',
+        questions: questionsToUse,
+        shuffleOptions: true,
+        durationMinutes: 60
+      };
+      AppState.exam.currentIndex = 0;
+      AppState.exam.answers = {};
+      AppState.exam.flags.clear();
+      AppState.exam.secondsRemaining = 60 * 60;
+      AppState.exam.timeSpentSeconds = 0;
+      AppState.exam.isSubmitted = false;
+
+      document.getElementById('exam-setup-view').style.display = 'none';
+      document.getElementById('exam-result-view').style.display = 'none';
+      document.getElementById('exam-active-view').style.display = 'flex';
+      document.getElementById('active-exam-title').innerText = item.title + ' (Thi lại)';
+
+      ExamController.startTimer();
+      ExamController.renderActiveQuestion();
+      ExamController.renderPalette();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  },
+
+  addWrongToMistakes(historyId) {
+    const item = AppState.history.find(h => h.id === historyId) || AppState.exam.lastResult;
+    if (!item || !item.questions) return;
+    let added = 0;
+    item.questions.forEach((q, idx) => {
+      const userAns = item.answers[idx];
+      if (userAns !== q.correct_answer) {
+        AppState.mistakes.add(q.id);
+        added++;
+      }
+    });
+    AppState.saveStorage();
+    UI.updateBadges();
+    alert(`✅ Đã thêm ${added} câu hỏi làm sai vào Sổ tay câu sai!`);
+  },
+
+  practiceWrongFromExam(historyId) {
+    const item = AppState.history.find(h => h.id === historyId) || AppState.exam.lastResult;
+    if (!item || !item.questions) return;
+    const wrongQs = item.questions.filter((q, idx) => item.answers[idx] !== q.correct_answer);
+    if (wrongQs.length === 0) {
+      alert('🎉 Bài thi này bạn làm đúng 100%, không có câu sai nào!');
+      return;
+    }
+    UI.closeExamReview();
+    wrongQs.forEach(q => AppState.mistakes.add(q.id));
+    AppState.saveStorage();
+    UI.updateBadges();
+
+    AppState.practice.filtered = wrongQs;
+    AppState.practice.page = 1;
+    UI.switchTab('practice');
+    const counter = document.getElementById('practice-result-counter');
+    if (counter) counter.innerText = `Ôn luyện ${wrongQs.length} câu làm sai từ đề thi`;
+    PracticeController.renderQuestions();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   },
 
   deleteItem(historyId) {
@@ -1756,7 +1946,6 @@ const UI = {
     this.updateUserProfileDisplay();
     this.updateBadges();
 
-    // Check query params for tab
     const urlParams = new URLSearchParams(window.location.search);
     const tabParam = urlParams.get('tab');
     if (tabParam) {
@@ -1765,14 +1954,12 @@ const UI = {
       this.switchTab('dashboard');
     }
 
-    // Audio status
     const audioBtn = document.getElementById('btn-audio-toggle');
     if (audioBtn) {
       audioBtn.innerHTML = AppState.soundEnabled ? '🔊' : '🔇';
       audioBtn.classList.toggle('active', AppState.soundEnabled);
     }
 
-    // Close popovers on click outside
     document.addEventListener('click', (e) => {
       const themeWrapper = document.getElementById('theme-menu-wrapper');
       if (themeWrapper && !themeWrapper.contains(e.target)) {
@@ -1780,35 +1967,30 @@ const UI = {
       }
     });
 
-    // Keyboard shortcuts
     this.initKeyboardShortcuts();
   },
 
   switchTab(tabId) {
     AppState.currentTab = tabId;
 
-    // Sidebar active item
     document.querySelectorAll('.sidebar .nav-item').forEach(btn => {
       btn.classList.remove('active');
     });
     const sideBtn = document.getElementById(`nav-${tabId}`);
     if (sideBtn) sideBtn.classList.add('active');
 
-    // Bottom nav active item
     document.querySelectorAll('.mobile-bottom-nav .bottom-nav-item').forEach(btn => {
       btn.classList.remove('active');
     });
     const bottomBtn = document.getElementById(`b-nav-${tabId}`);
     if (bottomBtn) bottomBtn.classList.add('active');
 
-    // Show active tab view
     document.querySelectorAll('.tab-view').forEach(view => {
       view.classList.remove('active');
     });
     const targetView = document.getElementById(`view-${tabId}`);
     if (targetView) targetView.classList.add('active');
 
-    // Update Breadcrumb
     const bTitle = document.getElementById('breadcrumb-title');
     const titles = {
       dashboard: 'Tổng quan kho đề',
@@ -1822,7 +2004,6 @@ const UI = {
     };
     if (bTitle) bTitle.innerText = titles[tabId] || tabId;
 
-    // Trigger tab-specific initialization
     if (tabId === 'dashboard') DashboardController.render();
     else if (tabId === 'practice') PracticeController.init();
     else if (tabId === 'flashcards') FlashcardController.init();
@@ -1904,7 +2085,7 @@ const UI = {
 
     const practiceBadge = document.getElementById('nav-badge-practice');
     if (practiceBadge) {
-      practiceBadge.innerText = AppState.masterQuestions.length;
+      practiceBadge.innerText = AppState.masterQuestions.length || 834;
     }
   },
 
@@ -1921,7 +2102,6 @@ const UI = {
     if (codeInput) codeInput.value = u.code;
     if (deptInput) deptInput.value = u.dept || '';
 
-    // Render avatar choices
     const avatars = ['👨‍💻', '👩‍🔧', '🧑‍🏭', '🧑‍🔬', '⚡', '💻', '⚙️', '💨', '🚀', '⭐'];
     const grid = document.getElementById('avatar-picker-grid');
     if (grid) {
@@ -2002,12 +2182,10 @@ const UI = {
 
   initKeyboardShortcuts() {
     window.addEventListener('keydown', (e) => {
-      // Ignore if focus is in an input
       if (['INPUT', 'SELECT', 'TEXTAREA'].includes(e.target.tagName)) return;
 
       const key = e.key.toUpperCase();
 
-      // Exam Mode Shortcuts
       if (AppState.currentTab === 'exam' && AppState.exam.activeExam && !AppState.exam.isSubmitted) {
         if (['1', '2', '3', '4'].includes(key)) {
           const optMap = { '1': 'A', '2': 'B', '3': 'C', '4': 'D' };
@@ -2023,7 +2201,6 @@ const UI = {
         }
       }
 
-      // Flashcards Shortcuts
       if (AppState.currentTab === 'flashcards') {
         if (e.code === 'Space') {
           e.preventDefault();
@@ -2041,7 +2218,6 @@ const UI = {
         }
       }
 
-      // Help Shortcut
       if (key === '?') {
         UI.openShortcutsModal();
       }
@@ -2049,7 +2225,23 @@ const UI = {
   }
 };
 
-/* --- 15. BOOTSTRAP APPLICATION --- */
+/* --- 15. ATTACH TO WINDOW GLOBAL SCOPE (GUARANTEES ACCESSIBILITY EVERYWHERE) --- */
+window.UI = UI;
+window.AudioEngine = AudioEngine;
+window.LightboxEngine = LightboxEngine;
+window.TextEngine = TextEngine;
+window.AppState = AppState;
+window.DashboardController = DashboardController;
+window.PracticeController = PracticeController;
+window.FlashcardController = FlashcardController;
+window.MistakesController = MistakesController;
+window.ExamController = ExamController;
+window.CheatsheetController = CheatsheetController;
+window.GalleryController = GalleryController;
+window.HistoryController = HistoryController;
+window.StorageManager = StorageManager;
+
+/* --- 16. BOOTSTRAP APPLICATION --- */
 document.addEventListener('DOMContentLoaded', () => {
   AudioEngine.init();
   AppState.init();

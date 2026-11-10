@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="app.css">
+  <!-- Load app.js first so window.UI, window.AppState and all controllers exist immediately -->
+  <script src="app.js"></script>
 </head>
 <body class="theme-midnight">
 
@@ -317,9 +319,10 @@
                 <span>🔍</span>
                 <h4>Bộ Lọc Đa Chiều & Phân Loại Câu Hỏi</h4>
               </div>
-              <div style="display: flex; gap: 10px; align-items: center;">
+              <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
                 <span id="practice-result-counter" style="font-size: 13px; font-weight: 700; color: var(--accent-primary);">Hiển thị 834 câu</span>
                 <button class="btn btn-sm btn-outline" onclick="PracticeController.resetFilters()">Đặt lại lọc</button>
+                <button class="btn btn-sm btn-outline" onclick="StorageManager.resetPracticeOnly()" title="Xóa toàn bộ câu đúng/sai để luyện tập lại từ đầu">🔄 Làm lại bài làm</button>
               </div>
             </div>
 
@@ -733,9 +736,11 @@
             </div>
 
             <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
-              <button class="btn btn-primary" onclick="ExamController.openReviewDetail()">Xem lại chi tiết bài làm</button>
-              <button class="btn btn-outline" onclick="UI.switchTab('history')">📜 Xem lịch sử thi</button>
-              <button class="btn btn-secondary" onclick="ExamController.restartSelection()">Chọn đề thi khác</button>
+              <button class="btn btn-primary" onclick="ExamController.retakeCurrentExam()">🔄 Thi lại đề này ngay</button>
+              <button class="btn btn-danger-outline" onclick="ExamController.practiceWrongQuestions()">❌ Luyện lại các câu sai của bài này</button>
+              <button class="btn btn-secondary" onclick="ExamController.openReviewDetail()">👁️ Xem lại chi tiết bài làm</button>
+              <button class="btn btn-outline" onclick="UI.switchTab('history')">📜 Lịch sử thi</button>
+              <button class="btn btn-outline" onclick="ExamController.restartSelection()">Chọn đề thi khác</button>
             </div>
           </div>
         </div>
@@ -954,10 +959,15 @@
         <div id="review-exam-score" style="font-size: 18px; font-weight: 800; color: var(--accent-primary);">85% (68/80 câu)</div>
       </div>
 
-      <div style="display: flex; gap: 8px; margin-bottom: 16px;">
+      <div style="display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; align-items: center;">
         <button class="btn btn-sm btn-outline active" onclick="ExamController.filterReview('all', this)">Tất cả câu hỏi</button>
         <button class="btn btn-sm btn-danger-outline" onclick="ExamController.filterReview('wrong', this)">❌ Chỉ câu làm sai</button>
         <button class="btn btn-sm btn-outline" onclick="ExamController.filterReview('correct', this)">✓ Câu làm đúng</button>
+        <div style="margin-left: auto; display: flex; gap: 8px; flex-wrap: wrap;">
+          <button class="btn btn-sm btn-primary" onclick="ExamController.retakeCurrentExam()">🔄 Thi lại đề này</button>
+          <button class="btn btn-sm btn-danger-outline" onclick="HistoryController.addWrongToMistakes()">❌ Thêm vào sổ sai</button>
+          <button class="btn btn-sm btn-outline" onclick="HistoryController.practiceWrongFromExam()">🎯 Luyện các câu sai</button>
+        </div>
       </div>
 
       <div class="questions-list" id="review-questions-stream" style="max-height: 65vh; overflow-y: auto;">
@@ -1011,6 +1021,11 @@
   <script src="data/summary.js"></script>
   <script src="data/questions_master.js"></script>
   <script src="data/mock_exams.js"></script>
-  <script src="app.js"></script>
+  <script>
+    // Hydrate data as soon as data scripts finish loading
+    if (window.AppState) {
+      window.AppState.onDataReady();
+    }
+  </script>
 </body>
 </html>
