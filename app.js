@@ -1,67 +1,10 @@
-// =============================================================================
-// WHITE STAR QUIZ PRO - JAVASCRIPT APPLICATION CORE (VERSION 2.5)
-// =============================================================================
-
-const APP_STATE = {
-  currentTab: 'dashboard',
-  isDarkTheme: true,
-  summary: null,
-  masterQuestions: [],
-  mockExams: [],
-  
-  // User Profile
-  currentUser: {
-    id: 'u_default',
-    name: 'Kỹ thuật viên WS',
-    code: 'WS-2026-001',
-    dept: 'Kỹ thuật sản xuất',
-    avatar: '👨‍💻'
-  },
-  userHistory: [],
-  userBookmarks: [], // list of question IDs
-  userAnswersRecord: {}, // qId -> { isCorrect: boolean, selectedKey: string, timestamp: number }
-
-  // Practice state
-  practiceFiltered: [],
-  practicePage: 1,
-  practicePageSize: 10,
-  selectedAvatarTemp: '👨‍💻',
-  
-  // Exam state
-  selectedExamPreset: 'EXAM_TEST_01',
-  activeExam: null,
-  examCurrentIndex: 0,
-  examAnswers: {}, // index -> key
-  examTimerInterval: null,
-  examSecondsRemaining: 3600,
-  examTimeSpentSeconds: 0,
-  examIsSubmitted: false,
-  examConfig: {
-    shuffleOptions: true,
-    shuffleQuestions: false,
-    enableTimer: true
-  }
-};
-
-// Document Ready
-document.addEventListener('DOMContentLoaded', async () => {
-  initTheme();
-  initUserProfile();
-  await loadApplicationData();
-  initDashboard();
-  initSchematicGallery();
-  initPracticeModuleDropdown();
-  renderHistoryDashboard();
-  switchTab('dashboard');
-
-  // Click outside to close theme popover
-  document.addEventListener('click', (e) => {
-    const wrapper = document.getElementById('theme-menu-wrapper');
-    if (wrapper && !wrapper.contains(e.target)) {
-      wrapper.classList.remove('open');
-    }
-  });
-});
+/**
+ * =============================================================================
+ * WHITE STAR QUIZ PRO v3.0 - APPLICATION CORE
+ * Complete High-Performance Client-Side Technical Learning & Exam Platform
+ * Zero-Dependency, 100% Offline Compatible, Audio Engine & Leitner Flashcards
+ * =============================================================================
+ */
 
 // Global image error fallback handler (works offline, Windows, and GitHub Pages)
 window.handleImgError = function(el) {
@@ -75,1670 +18,2040 @@ window.handleImgError = function(el) {
   }
 };
 
-// =============================================================================
-// DATA FETCHING & INITIALIZATION (SUPPORTS OFFLINE FILE:// & HTTP SERVER)
-// =============================================================================
-async function loadApplicationData() {
-  try {
-    const preloadedMaster = window.QUESTIONS_MASTER || window.APP_DATA_MASTER;
-    const preloadedExams = window.MOCK_EXAMS || window.APP_DATA_EXAMS;
-    const preloadedSummary = window.APP_SUMMARY || window.APP_DATA_SUMMARY;
+/* --- 1. AUDIO ENGINE (Synthesized Web Audio API - Zero External Files) --- */
+const AudioEngine = {
+  ctx: null,
+  enabled: true,
 
-    // 1. Prefer preloaded JS bundles if available (works offline with 0 server/CORS errors)
-    if (preloadedMaster && preloadedExams) {
-      APP_STATE.summary = preloadedSummary || {};
-      APP_STATE.masterQuestions = preloadedMaster;
-      APP_STATE.mockExams = preloadedExams;
-    } else {
-      // 2. Fallback to standard fetch when hosted on web server or GitHub Pages
-      const [summaryRes, masterRes, examsRes] = await Promise.all([
-        fetch('data/summary.json'),
-        fetch('data/questions_master.json'),
-        fetch('data/mock_exams.json')
-      ]);
-
-      APP_STATE.summary = await summaryRes.json();
-      APP_STATE.masterQuestions = await masterRes.json();
-      APP_STATE.mockExams = await examsRes.json();
-    }
-
-    // Ensure all questions have question_type, topic_tag, and explanation
-    APP_STATE.masterQuestions.forEach(q => ensureQuestionEnriched(q));
-
-    // Update badges
-    const badge = document.getElementById('badge-count');
-    if (badge) badge.innerText = `${APP_STATE.masterQuestions.length} Master Qs`;
-    
-    updatePracticeStatCounters();
-  } catch (error) {
-    console.warn('Network fetch error, attempting offline bundle fallback:', error);
-    const preloadedMaster = window.QUESTIONS_MASTER || window.APP_DATA_MASTER;
-    const preloadedExams = window.MOCK_EXAMS || window.APP_DATA_EXAMS;
-    const preloadedSummary = window.APP_SUMMARY || window.APP_DATA_SUMMARY;
-
-    if (preloadedMaster) {
-      APP_STATE.summary = preloadedSummary || {};
-      APP_STATE.masterQuestions = preloadedMaster;
-      APP_STATE.mockExams = preloadedExams || [];
-      APP_STATE.masterQuestions.forEach(q => ensureQuestionEnriched(q));
-      updatePracticeStatCounters();
-    } else {
-      console.error('Fatal: Unable to load question data via fetch or offline bundles.', error);
-    }
-  }
-}
-
-// Fallback dynamic enrichment helper
-function ensureQuestionEnriched(q) {
-  if (!q.question_type) {
-    const text = (q.question || '').toLowerCase();
-    const imgs = q.images || [];
-    if (imgs.length > 0 || /ký hiệu|kí hiệu|sơ đồ|hình|time chart|đồ thị|sóng/.test(text)) {
-      q.question_type = 'schema';
-    } else if (/bao nhiêu|tính|giá trị|tần số|chu kỳ|1005|1003|1km|vrms|vin/.test(text)) {
-      q.question_type = 'calculation';
-    } else if (/sự cố|lỗi|khắc phục|bảo trì|lắp đặt|thước|bôi trơn|chống bụi/.test(text)) {
-      q.question_type = 'application';
-    } else {
-      q.question_type = 'theory';
-    }
-  }
-
-  if (!q.topic_tag) {
-    q.topic_tag = q.module ? q.module.split('.').pop().trim() : 'Kiến thức cốt lõi';
-  }
-
-  if (!q.explanation) {
-    const ansKey = (q.correct_answer || 'A').toUpperCase();
-    const correctOpt = (q.options || []).find(o => o.key === ansKey);
-    const optText = correctOpt ? correctOpt.text : '';
-    q.explanation = {
-      overview: `Câu hỏi kiểm tra kiến thức về chuyên đề **${q.topic_tag}** (${q.subject}). Đáp án chuẩn là **${ansKey}**.`,
-      correct_answer: ansKey,
-      correct_text: optText,
-      why_correct: `Đáp án ${ansKey} ("${optText}") thể hiện chính xác nguyên lý kỹ thuật của ${q.topic_tag || 'chuyên đề'}.`,
-      why_wrong: `Các phương án còn lại đưa ra thông số hoặc bản chất cơ điện không phù hợp với yêu cầu của câu hỏi.`,
-      supplementary_knowledge: `💡 **Kiến thức trọng tâm:** Nắm vững công thức tính và quy chuẩn vận hành liên quan đến ${q.topic_tag || 'chuyên đề'}.`
-    };
-  }
-}
-
-// =============================================================================
-// NAVIGATION & TABS
-// =============================================================================
-function switchTab(tabId) {
-  APP_STATE.currentTab = tabId;
-  
-  // Update sidebar active buttons
-  document.querySelectorAll('.nav-item').forEach(btn => btn.classList.remove('active'));
-  const activeBtn = document.getElementById(`nav-${tabId}`);
-  if (activeBtn) activeBtn.classList.add('active');
-
-  // Update mobile bottom nav active buttons
-  document.querySelectorAll('.bottom-nav-item').forEach(btn => btn.classList.remove('active'));
-  const activeBottomBtn = document.getElementById(`bottom-nav-${tabId}`);
-  if (activeBottomBtn) activeBottomBtn.classList.add('active');
-
-  // Auto-close mobile sidebar if open
-  closeSidebar();
-
-  // Show bottom nav unless taking an active exam
-  const bottomNav = document.getElementById('mobile-bottom-nav');
-  if (bottomNav) {
-    const isExamActive = (tabId === 'exam' && document.getElementById('exam-active-view')?.style.display === 'block');
-    bottomNav.style.display = isExamActive ? 'none' : '';
-  }
-
-  // Update views
-  document.querySelectorAll('.tab-view').forEach(view => view.classList.remove('active'));
-  const activeView = document.getElementById(`view-${tabId}`);
-  if (activeView) activeView.classList.add('active');
-
-  // Update Breadcrumb
-  const breadcrumbMap = {
-    dashboard: 'Hệ thống trắc nghiệm / Tổng quan kho đề',
-    practice: 'Hệ thống trắc nghiệm / Luyện tập theo môn',
-    exam: 'Hệ thống trắc nghiệm / Thi thử White Star',
-    history: 'Hệ thống trắc nghiệm / Lịch sử & Thống kê kết quả thi',
-    gallery: 'Hệ thống trắc nghiệm / Kho sơ đồ kỹ thuật'
-  };
-  const bc = document.getElementById('current-breadcrumb');
-  if (bc) bc.innerText = breadcrumbMap[tabId] || 'White Star Quiz';
-
-  // Trigger tab-specific setup
-  if (tabId === 'practice') {
-    applyPracticeFilters();
-  } else if (tabId === 'history') {
-    renderHistoryDashboard();
-  }
-}
-
-// =============================================================================
-// USER PROFILE MANAGEMENT
-// =============================================================================
-function initUserProfile() {
-  const savedUser = localStorage.getItem('ws_quiz_user');
-  if (savedUser) {
+  init() {
     try {
-      APP_STATE.currentUser = JSON.parse(savedUser);
+      const AudioCtx = window.AudioContext || window.webkitAudioContext;
+      if (AudioCtx) this.ctx = new AudioCtx();
     } catch (e) {
-      console.warn('Could not parse saved user profile');
+      this.enabled = false;
     }
-  }
+  },
 
-  // Load history & bookmarks for this user
-  loadUserHistoryAndBookmarks();
-  updateUserProfileDisplay();
-}
+  ensureContext() {
+    if (this.ctx && this.ctx.state === 'suspended') {
+      this.ctx.resume();
+    }
+  },
 
-function loadUserHistoryAndBookmarks() {
-  const uid = APP_STATE.currentUser.id || 'u_default';
-  
-  // History
-  const savedHist = localStorage.getItem(`ws_quiz_history_${uid}`);
-  if (savedHist) {
+  toggleSound() {
+    this.enabled = !this.enabled;
+    const btn = document.getElementById('btn-audio-toggle');
+    if (btn) {
+      btn.innerHTML = this.enabled ? '🔊' : '🔇';
+      btn.title = this.enabled ? 'Tắt hiệu ứng âm thanh' : 'Bật hiệu ứng âm thanh';
+      btn.classList.toggle('active', this.enabled);
+    }
+    AppState.saveSoundPreference(this.enabled);
+    if (this.enabled) this.playTone(523.25, 0.08, 'sine');
+  },
+
+  playTone(freq, duration, type = 'sine', gainVal = 0.15) {
+    if (!this.enabled || !this.ctx) return;
+    this.ensureContext();
     try {
-      APP_STATE.userHistory = JSON.parse(savedHist);
-    } catch (e) {
-      APP_STATE.userHistory = [];
-    }
-  } else {
-    APP_STATE.userHistory = [];
+      const osc = this.ctx.createOscillator();
+      const gain = this.ctx.createGain();
+      osc.type = type;
+      osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
+      gain.gain.setValueAtTime(gainVal, this.ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + duration);
+      osc.connect(gain);
+      gain.connect(this.ctx.destination);
+      osc.start();
+      osc.stop(this.ctx.currentTime + duration);
+    } catch (e) {}
+  },
+
+  playCorrect() {
+    if (!this.enabled) return;
+    this.playTone(587.33, 0.1, 'triangle', 0.12); // D5
+    setTimeout(() => this.playTone(880.00, 0.18, 'triangle', 0.15), 100); // A5
+  },
+
+  playWrong() {
+    if (!this.enabled) return;
+    this.playTone(220.00, 0.15, 'sawtooth', 0.12);
+  },
+
+  playTick() {
+    if (!this.enabled) return;
+    this.playTone(900, 0.03, 'sine', 0.05);
+  },
+
+  playComplete() {
+    if (!this.enabled) return;
+    [523.25, 659.25, 783.99, 1046.50].forEach((freq, i) => {
+      setTimeout(() => this.playTone(freq, 0.25, 'triangle', 0.15), i * 120);
+    });
   }
-
-  // Bookmarks
-  const savedBm = localStorage.getItem(`ws_quiz_bookmarks_${uid}`);
-  if (savedBm) {
-    try {
-      APP_STATE.userBookmarks = JSON.parse(savedBm);
-    } catch (e) {
-      APP_STATE.userBookmarks = [];
-    }
-  } else {
-    APP_STATE.userBookmarks = [];
-  }
-
-  // Answers record
-  const savedAns = localStorage.getItem(`ws_quiz_answers_${uid}`);
-  if (savedAns) {
-    try {
-      APP_STATE.userAnswersRecord = JSON.parse(savedAns);
-    } catch (e) {
-      APP_STATE.userAnswersRecord = {};
-    }
-  } else {
-    APP_STATE.userAnswersRecord = {};
-  }
-}
-
-function saveUserHistoryAndBookmarks() {
-  const uid = APP_STATE.currentUser.id || 'u_default';
-  localStorage.setItem(`ws_quiz_history_${uid}`, JSON.stringify(APP_STATE.userHistory));
-  localStorage.setItem(`ws_quiz_bookmarks_${uid}`, JSON.stringify(APP_STATE.userBookmarks));
-  localStorage.setItem(`ws_quiz_answers_${uid}`, JSON.stringify(APP_STATE.userAnswersRecord));
-}
-
-function updateUserProfileDisplay() {
-  const user = APP_STATE.currentUser;
-  setText('topbar-user-name', user.name);
-  setText('topbar-user-code', user.code);
-  const avatarTop = document.getElementById('topbar-user-avatar');
-  if (avatarTop) avatarTop.innerText = user.avatar;
-
-  // Exam setup banner
-  setText('exam-setup-cand-name', user.name);
-  setText('exam-setup-cand-meta', `Mã học viên: ${user.code} • ${user.dept || 'Kỹ thuật'}`);
-  const candAv = document.getElementById('exam-setup-cand-avatar');
-  if (candAv) candAv.innerText = user.avatar;
-
-  // History hero display name
-  setText('history-user-display-name', user.name);
-}
-
-function openUserProfileModal() {
-  const user = APP_STATE.currentUser;
-  const modal = document.getElementById('user-profile-modal');
-  if (!modal) return;
-
-  const nameInput = document.getElementById('prof-input-name');
-  const codeInput = document.getElementById('prof-input-code');
-  const deptInput = document.getElementById('prof-input-dept');
-
-  if (nameInput) nameInput.value = user.name;
-  if (codeInput) codeInput.value = user.code;
-  if (deptInput) deptInput.value = user.dept || '';
-
-  APP_STATE.selectedAvatarTemp = user.avatar || '👨‍💻';
-  document.querySelectorAll('.avatar-opt').forEach(btn => {
-    btn.classList.toggle('active', btn.innerText.trim() === APP_STATE.selectedAvatarTemp);
-  });
-
-  modal.classList.add('active');
-}
-
-function closeUserProfileModal() {
-  const modal = document.getElementById('user-profile-modal');
-  if (modal) modal.classList.remove('active');
-}
-
-function pickAvatar(emoji, btnElem) {
-  APP_STATE.selectedAvatarTemp = emoji;
-  document.querySelectorAll('.avatar-opt').forEach(btn => btn.classList.remove('active'));
-  if (btnElem) btnElem.classList.add('active');
-}
-
-function saveUserProfile(e) {
-  if (e) e.preventDefault();
-  
-  const name = document.getElementById('prof-input-name')?.value.trim() || 'Kỹ thuật viên WS';
-  const code = document.getElementById('prof-input-code')?.value.trim() || 'WS-2026-001';
-  const dept = document.getElementById('prof-input-dept')?.value.trim() || 'Kỹ thuật sản xuất';
-  const avatar = APP_STATE.selectedAvatarTemp || '👨‍💻';
-
-  APP_STATE.currentUser.name = name;
-  APP_STATE.currentUser.code = code;
-  APP_STATE.currentUser.dept = dept;
-  APP_STATE.currentUser.avatar = avatar;
-
-  localStorage.setItem('ws_quiz_user', JSON.stringify(APP_STATE.currentUser));
-  updateUserProfileDisplay();
-  closeUserProfileModal();
-  renderHistoryDashboard();
-}
-
-// =============================================================================
-// BOOKMARK SYSTEM
-// =============================================================================
-function toggleBookmark(qId) {
-  const idx = APP_STATE.userBookmarks.indexOf(qId);
-  if (idx > -1) {
-    APP_STATE.userBookmarks.splice(idx, 1);
-  } else {
-    APP_STATE.userBookmarks.push(qId);
-  }
-  saveUserHistoryAndBookmarks();
-  updatePracticeStatCounters();
-
-  // Update button in place if visible
-  const btn = document.getElementById(`btn-bm-${qId}`);
-  if (btn) {
-    const isBookmarked = APP_STATE.userBookmarks.includes(qId);
-    btn.classList.toggle('bookmarked', isBookmarked);
-    btn.innerHTML = isBookmarked ? '⭐' : '☆';
-  }
-}
-
-function updatePracticeStatCounters() {
-  const wrongCount = Object.values(APP_STATE.userAnswersRecord).filter(r => r.isCorrect === false).length;
-  const bmCount = APP_STATE.userBookmarks.length;
-
-  setText('count-wrong-stat', wrongCount);
-  setText('count-bm-stat', bmCount);
-}
-
-// =============================================================================
-// THEME MANAGEMENT (MIDNIGHT / CYBER / EMERALD / LIGHT)
-// =============================================================================
-const THEMES = {
-  midnight: { name: 'Midnight', icon: '🌌', className: 'dark-theme' },
-  cyber:    { name: 'Cyber',    icon: '🔮', className: 'theme-cyber' },
-  emerald:  { name: 'Emerald',  icon: '🌲', className: 'theme-emerald' },
-  light:    { name: 'Clean Day',icon: '☀️', className: 'theme-light' }
 };
 
-function initTheme() {
-  const savedTheme = localStorage.getItem('ws_quiz_theme') || 'midnight';
-  applyTheme(savedTheme, false);
-}
+/* --- 2. LIGHTBOX PAN-ZOOM ENGINE --- */
+const LightboxEngine = {
+  scale: 1,
+  panX: 0,
+  panY: 0,
+  isPanning: false,
+  startX: 0,
+  startY: 0,
 
-function applyTheme(themeKey, save = true) {
-  const theme = THEMES[themeKey] || THEMES.midnight;
-  document.body.className = theme.className;
+  open(imgSrc, title = 'Sơ đồ kỹ thuật') {
+    const modal = document.getElementById('modal-lightbox');
+    const img = document.getElementById('lightbox-img');
+    const titleEl = document.getElementById('lightbox-title');
+    if (!modal || !img) return;
 
-  setText('current-theme-name', theme.name);
-  setText('current-theme-icon', theme.icon);
+    img.src = imgSrc;
+    if (titleEl) titleEl.innerText = title;
+    this.reset();
+    modal.classList.add('open');
+  },
 
-  document.querySelectorAll('.theme-option').forEach(opt => {
-    opt.classList.toggle('active', opt.id === `theme-opt-${themeKey}`);
-  });
+  close() {
+    const modal = document.getElementById('modal-lightbox');
+    if (modal) modal.classList.remove('open');
+    this.reset();
+  },
 
-  const sidebarIcon = document.getElementById('theme-icon');
-  const sidebarLabel = document.getElementById('theme-label');
-  if (sidebarIcon && sidebarLabel) {
-    if (themeKey === 'light') {
-      sidebarIcon.innerText = '☀️';
-      sidebarLabel.innerText = 'Giao diện Sáng';
+  updateTransform() {
+    const img = document.getElementById('lightbox-img');
+    const zoomVal = document.getElementById('lightbox-zoom-val');
+    if (img) {
+      img.style.transform = `translate(${this.panX}px, ${this.panY}px) scale(${this.scale})`;
+    }
+    if (zoomVal) {
+      zoomVal.innerText = `${Math.round(this.scale * 100)}%`;
+    }
+  },
+
+  zoomIn() {
+    this.scale = Math.min(this.scale + 0.25, 4.0);
+    this.updateTransform();
+  },
+
+  zoomOut() {
+    this.scale = Math.max(this.scale - 0.25, 0.5);
+    this.updateTransform();
+  },
+
+  reset() {
+    this.scale = 1;
+    this.panX = 0;
+    this.panY = 0;
+    this.updateTransform();
+  },
+
+  handleWheel(e) {
+    e.preventDefault();
+    if (e.deltaY < 0) {
+      this.zoomIn();
     } else {
-      sidebarIcon.innerText = '🌙';
-      sidebarLabel.innerText = 'Giao diện Tối';
+      this.zoomOut();
     }
+  },
+
+  startPan(e) {
+    if (e.button !== 0) return;
+    this.isPanning = true;
+    this.startX = e.clientX - this.panX;
+    this.startY = e.clientY - this.panY;
+    const vp = document.getElementById('lightbox-viewport');
+    if (vp) vp.classList.add('panning');
+
+    const onMouseMove = (ev) => {
+      if (!this.isPanning) return;
+      this.panX = ev.clientX - this.startX;
+      this.panY = ev.clientY - this.startY;
+      this.updateTransform();
+    };
+
+    const onMouseUp = () => {
+      this.isPanning = false;
+      if (vp) vp.classList.remove('panning');
+      window.removeEventListener('mousemove', onMouseMove);
+      window.removeEventListener('mouseup', onMouseUp);
+    };
+
+    window.addEventListener('mousemove', onMouseMove);
+    window.addEventListener('mouseup', onMouseUp);
   }
+};
 
-  if (save) {
-    localStorage.setItem('ws_quiz_theme', themeKey);
+/* --- 3. TEXT & TECHNICAL FORMULA ENGINE --- */
+const TextEngine = {
+  format(text) {
+    if (!text) return '';
+    let out = String(text);
+
+    // Escape HTML first
+    out = out
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+
+    // Bold markdown **text**
+    out = out.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+    // Code formatting `text`
+    out = out.replace(/`([^`]+)`/g, '<code class="inline-code">$1</code>');
+
+    // Engineering units & Greek symbols
+    out = out
+      .replace(/\\Omega/g, 'Ω')
+      .replace(/\\mu\\text\{F\}/g, 'μF')
+      .replace(/\\text\{k\}\\Omega/g, 'kΩ')
+      .replace(/\\beta/g, 'β')
+      .replace(/\\omega/g, 'ω')
+      .replace(/\\pi/g, 'π');
+
+    return out;
   }
-}
+};
 
-function toggleThemeDropdown() {
-  const wrapper = document.getElementById('theme-menu-wrapper');
-  if (wrapper) wrapper.classList.toggle('open');
-}
+/* --- 4. CENTRAL APPLICATION STATE --- */
+const AppState = {
+  currentTab: 'dashboard',
+  theme: 'midnight',
+  soundEnabled: true,
 
-function selectTheme(themeKey) {
-  applyTheme(themeKey, true);
-  const wrapper = document.getElementById('theme-menu-wrapper');
-  if (wrapper) wrapper.classList.remove('open');
-}
+  currentUser: {
+    id: 'ws_user_default',
+    name: 'Kỹ thuật viên WS',
+    code: 'WS-2026-001',
+    dept: 'Kỹ thuật sản xuất',
+    avatar: '👨‍💻'
+  },
 
-function toggleTheme() {
-  const current = localStorage.getItem('ws_quiz_theme') || 'midnight';
-  const next = current === 'light' ? 'midnight' : 'light';
-  applyTheme(next, true);
-}
+  masterQuestions: [],
+  mockExams: [],
+  summary: null,
 
-function toggleSidebar() {
-  const sidebar = document.getElementById('sidebar');
-  const backdrop = document.getElementById('sidebar-backdrop');
-  if (sidebar) {
-    sidebar.classList.toggle('open');
-    if (backdrop) backdrop.classList.toggle('active', sidebar.classList.contains('open'));
-  }
-}
+  // Learning tracking
+  userAnswersRecord: {}, // qId -> { isCorrect: bool, selectedKey: str, timesAttempted: int, timesWrong: int }
+  userBookmarks: new Set(),
+  mistakes: new Set(),
+  leitner: {
+    box1: [], // Chưa nhớ
+    box2: [], // Đang nhớ
+    box3: []  // Đã thuộc
+  },
 
-function closeSidebar() {
-  const sidebar = document.getElementById('sidebar');
-  const backdrop = document.getElementById('sidebar-backdrop');
-  if (sidebar) sidebar.classList.remove('open');
-  if (backdrop) backdrop.classList.remove('active');
-}
+  // Practice state
+  practice: {
+    subject: 'all',
+    module: 'all',
+    type: 'all',
+    difficulty: 'all',
+    status: 'all',
+    search: '',
+    page: 1,
+    pageSize: 10,
+    instantFeedback: true,
+    shuffle: true,
+    filtered: []
+  },
 
-function toggleExamPalette() {
-  const palette = document.getElementById('exam-palette-sidebar');
-  const backdrop = document.getElementById('palette-backdrop');
-  if (palette) {
-    palette.classList.toggle('mobile-open');
-    if (backdrop) backdrop.classList.toggle('active', palette.classList.contains('mobile-open'));
-  }
-}
+  // Flashcards state
+  flashcards: {
+    subject: 'all',
+    deck: [],
+    currentIndex: 0,
+    isFlipped: false
+  },
 
-function closeExamPalette() {
-  const palette = document.getElementById('exam-palette-sidebar');
-  const backdrop = document.getElementById('palette-backdrop');
-  if (palette) palette.classList.remove('mobile-open');
-  if (backdrop) backdrop.classList.remove('active');
-}
+  // Exam state
+  exam: {
+    selectedPreset: 'SMART_80',
+    activeExam: null,
+    currentIndex: 0,
+    answers: {}, // index -> key
+    flags: new Set(), // indices flagged
+    secondsRemaining: 3600,
+    timeSpentSeconds: 0,
+    timerInterval: null,
+    isSubmitted: false,
+    lastResult: null,
+    shuffleOptions: true,
+    shuffleQuestions: false,
+    enableTimer: true
+  },
 
-function navigateExamPrev() {
-  if (APP_STATE.activeExam && APP_STATE.examCurrentIndex > 0) {
-    jumpToExamQuestion(APP_STATE.examCurrentIndex - 1);
-  }
-}
+  // History state
+  history: [],
 
-function navigateExamNext() {
-  if (!APP_STATE.activeExam) return;
-  if (APP_STATE.examCurrentIndex < APP_STATE.activeExam.questions.length - 1) {
-    jumpToExamQuestion(APP_STATE.examCurrentIndex + 1);
-  } else {
-    confirmSubmitExam();
-  }
-}
+  init() {
+    this.loadStorage();
+    this.loadBundledData();
+  },
 
-// =============================================================================
-// VIEW 1: DASHBOARD
-// =============================================================================
-function initDashboard() {
-  const totalMaster = (APP_STATE.masterQuestions && APP_STATE.masterQuestions.length > 0) 
-    ? APP_STATE.masterQuestions.length 
-    : (APP_STATE.summary?.total_master_questions || 834);
-    
-  const totalExams = (APP_STATE.mockExams && APP_STATE.mockExams.length > 0)
-    ? APP_STATE.mockExams.length
-    : (APP_STATE.summary?.total_mock_exams || 6);
+  loadStorage() {
+    try {
+      const savedTheme = localStorage.getItem('ws_quiz_theme');
+      if (savedTheme) this.theme = savedTheme;
 
-  const totalImages = APP_STATE.summary?.total_extracted_images || 330;
-  const reviewCount = APP_STATE.summary?.total_review_questions || 486;
+      const savedSound = localStorage.getItem('ws_quiz_sound');
+      if (savedSound !== null) this.soundEnabled = savedSound === 'true';
 
-  setText('val-master-count', totalMaster);
-  setText('val-review-count', reviewCount);
-  setText('val-exams-count', `${totalExams}+`);
-  setText('val-images-count', `${totalImages}+`);
+      const savedUser = localStorage.getItem('ws_quiz_user');
+      if (savedUser) this.currentUser = JSON.parse(savedUser);
 
-  const countBySub = (code, fallback) => {
-    if (APP_STATE.summary?.master_questions_by_subject && APP_STATE.summary.master_questions_by_subject[code]) {
-      return APP_STATE.summary.master_questions_by_subject[code];
+      const uid = this.currentUser.id || 'ws_user_default';
+      const savedAnswers = localStorage.getItem(`ws_answers_${uid}`);
+      if (savedAnswers) this.userAnswersRecord = JSON.parse(savedAnswers);
+
+      const savedBm = localStorage.getItem(`ws_bookmarks_${uid}`);
+      if (savedBm) this.userBookmarks = new Set(JSON.parse(savedBm));
+
+      const savedMistakes = localStorage.getItem(`ws_mistakes_${uid}`);
+      if (savedMistakes) this.mistakes = new Set(JSON.parse(savedMistakes));
+
+      const savedLeitner = localStorage.getItem(`ws_leitner_${uid}`);
+      if (savedLeitner) this.leitner = JSON.parse(savedLeitner);
+
+      const savedHistory = localStorage.getItem(`ws_history_${uid}`);
+      if (savedHistory) this.history = JSON.parse(savedHistory);
+    } catch (e) {
+      console.warn('Storage load failed:', e);
     }
-    if (APP_STATE.masterQuestions && APP_STATE.masterQuestions.length > 0) {
-      return APP_STATE.masterQuestions.filter(q => q.subject_code === code).length;
+  },
+
+  saveStorage() {
+    try {
+      const uid = this.currentUser.id || 'ws_user_default';
+      localStorage.setItem('ws_quiz_theme', this.theme);
+      localStorage.setItem('ws_quiz_sound', String(this.soundEnabled));
+      localStorage.setItem('ws_quiz_user', JSON.stringify(this.currentUser));
+      localStorage.setItem(`ws_answers_${uid}`, JSON.stringify(this.userAnswersRecord));
+      localStorage.setItem(`ws_bookmarks_${uid}`, JSON.stringify([...this.userBookmarks]));
+      localStorage.setItem(`ws_mistakes_${uid}`, JSON.stringify([...this.mistakes]));
+      localStorage.setItem(`ws_leitner_${uid}`, JSON.stringify(this.leitner));
+      localStorage.setItem(`ws_history_${uid}`, JSON.stringify(this.history));
+    } catch (e) {
+      console.warn('Storage save failed:', e);
     }
-    return fallback;
-  };
+  },
 
-  setText('count-electric', `${countBySub('electric', 282)} câu hỏi`);
-  setText('count-plc', `${countBySub('plc', 202)} câu hỏi`);
-  setText('count-machine', `${countBySub('machine', 192)} câu hỏi`);
-  setText('count-pneumatics', `${countBySub('pneumatics', 158)} câu hỏi`);
-}
+  saveSoundPreference(val) {
+    this.soundEnabled = val;
+    localStorage.setItem('ws_quiz_sound', String(val));
+  },
 
-function startQuickPractice() {
-  switchTab('practice');
-}
+  loadBundledData() {
+    this.masterQuestions = window.QUESTIONS_MASTER || [];
+    this.mockExams = window.MOCK_EXAMS_DATA || [];
+    this.summary = window.APP_SUMMARY || {};
 
-function startQuickExam() {
-  switchTab('exam');
-}
+    // Normalize each question
+    this.masterQuestions.forEach(q => {
+      if (!q.question_type) {
+        const text = (q.question || '').toLowerCase();
+        if (q.images && q.images.length > 0) q.question_type = 'schema';
+        else if (/tính|giá trị|bao nhiêu|tần số|chu kỳ/.test(text)) q.question_type = 'calculation';
+        else if (/sự cố|lỗi|khắc phục|bảo trì/.test(text)) q.question_type = 'application';
+        else q.question_type = 'theory';
+      }
+      if (!q.difficulty) q.difficulty = 'Dễ';
+    });
 
-function startSubjectPractice(subjectCode) {
-  const sel = document.getElementById('practice-subject-select');
-  if (sel) sel.value = subjectCode;
-  onSubjectFilterChange();
-  switchTab('practice');
-}
-
-// =============================================================================
-// VIEW 2: PRACTICE MODE WITH ADVANCED CLASSIFICATION & SHUFFLE
-// =============================================================================
-function initPracticeModuleDropdown() {
-  onSubjectFilterChange(false);
-}
-
-function onSubjectFilterChange(triggerFilter = true) {
-  const subSelect = document.getElementById('practice-subject-select');
-  const modSelect = document.getElementById('practice-module-select');
-  if (!subSelect || !modSelect) return;
-
-  const subVal = subSelect.value;
-  let availableModules = new Set();
-
-  APP_STATE.masterQuestions.forEach(q => {
-    if (subVal === 'all' || q.subject_code === subVal) {
-      if (q.module) availableModules.add(q.module.trim());
+    // Populate leitner box1 if empty
+    if (!this.leitner.box1 || this.leitner.box1.length === 0) {
+      this.leitner.box1 = this.masterQuestions.slice(0, 100).map(q => q.id);
+      this.leitner.box2 = [];
+      this.leitner.box3 = [];
     }
-  });
+  },
 
-  const sortedModules = Array.from(availableModules).sort();
-  modSelect.innerHTML = `<option value="all">Tất cả chuyên đề (${sortedModules.length})</option>` +
-    sortedModules.map(m => `<option value="${escapeHtml(m)}">${escapeHtml(m)}</option>`).join('');
+  recordAnswer(qId, selectedKey, isCorrect) {
+    const existing = this.userAnswersRecord[qId] || { timesAttempted: 0, timesWrong: 0 };
+    existing.isCorrect = isCorrect;
+    existing.selectedKey = selectedKey;
+    existing.timesAttempted += 1;
+    existing.timestamp = Date.now();
 
-  if (triggerFilter) {
-    applyPracticeFilters();
-  }
-}
-
-function applyPracticeFilters() {
-  const sub = document.getElementById('practice-subject-select')?.value || 'all';
-  const mod = document.getElementById('practice-module-select')?.value || 'all';
-  const qType = document.getElementById('practice-type-select')?.value || 'all';
-  const diff = document.getElementById('practice-diff-select')?.value || 'all';
-  const status = document.getElementById('practice-status-select')?.value || 'all';
-  const query = (document.getElementById('practice-search-input')?.value || '').trim().toLowerCase();
-
-  // Filter questions
-  APP_STATE.practiceFiltered = APP_STATE.masterQuestions.filter(q => {
-    // Subject filter
-    if (sub !== 'all' && q.subject_code !== sub) return false;
-
-    // Module filter
-    if (mod !== 'all' && q.module !== mod) return false;
-
-    // Question type filter
-    if (qType !== 'all' && q.question_type !== qType) return false;
-
-    // Difficulty filter
-    if (diff !== 'all' && q.difficulty !== diff) return false;
-
-    // Practice status filter
-    if (status !== 'all') {
-      const rec = APP_STATE.userAnswersRecord[q.id];
-      if (status === 'unanswered' && rec) return false;
-      if (status === 'correct' && (!rec || rec.isCorrect !== true)) return false;
-      if (status === 'wrong' && (!rec || rec.isCorrect !== false)) return false;
-      if (status === 'bookmarked' && !APP_STATE.userBookmarks.includes(q.id)) return false;
-    }
-
-    // Search query
-    if (query) {
-      const matchText = (q.question || '').toLowerCase();
-      const matchId = (q.id || '').toLowerCase();
-      const matchModule = (q.module || '').toLowerCase();
-      const matchTag = (q.topic_tag || '').toLowerCase();
-      const matchNote = (q.note || '').toLowerCase();
-      if (!matchText.includes(query) && !matchId.includes(query) && !matchModule.includes(query) && !matchTag.includes(query) && !matchNote.includes(query)) {
-        return false;
+    if (!isCorrect) {
+      existing.timesWrong += 1;
+      this.mistakes.add(qId);
+    } else {
+      // If answered correctly in mistakes mode or normal, we can graduate from mistakes
+      if (this.mistakes.has(qId)) {
+        this.mistakes.delete(qId);
       }
     }
 
-    return true;
-  });
+    this.userAnswersRecord[qId] = existing;
+    this.saveStorage();
+    UI.updateBadges();
+  },
 
-  // Update counters
-  setText('filter-result-count', `Hiển thị ${APP_STATE.practiceFiltered.length} / ${APP_STATE.masterQuestions.length} câu hỏi`);
-  updatePracticeStatCounters();
-
-  APP_STATE.practicePage = 1;
-  renderPracticeQuestions();
-}
-
-function resetPracticeFilters() {
-  const setVal = (id, val) => { const el = document.getElementById(id); if (el) el.value = val; };
-  setVal('practice-subject-select', 'all');
-  setVal('practice-type-select', 'all');
-  setVal('practice-diff-select', 'all');
-  setVal('practice-status-select', 'all');
-  setVal('practice-search-input', '');
-
-  onSubjectFilterChange(false);
-  applyPracticeFilters();
-}
-
-function clearPracticeSearch() {
-  const searchInput = document.getElementById('practice-search-input');
-  if (searchInput) searchInput.value = '';
-  applyPracticeFilters();
-}
-
-function filterOnlyWrongQuestions() {
-  const statSelect = document.getElementById('practice-status-select');
-  if (statSelect) {
-    statSelect.value = 'wrong';
-    applyPracticeFilters();
-  }
-}
-
-function filterOnlyBookmarked() {
-  const statSelect = document.getElementById('practice-status-select');
-  if (statSelect) {
-    statSelect.value = 'bookmarked';
-    applyPracticeFilters();
-  }
-}
-
-// Option shuffling algorithm (Fisher-Yates) with accurate key remapping
-function shuffleQuestionOptions(options, originalCorrectKey) {
-  if (!options || options.length <= 1) {
-    return { options: options || [], correct_answer: originalCorrectKey };
-  }
-
-  const target = options.find(o => o.key === originalCorrectKey);
-  const targetText = target ? target.text : null;
-
-  const shuffled = options.map(o => ({ ...o }));
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-
-  const letters = ['A', 'B', 'C', 'D'];
-  let newCorrectKey = originalCorrectKey;
-
-  const remapped = shuffled.map((opt, idx) => {
-    const newKey = letters[idx] || String.fromCharCode(65 + idx);
-    if (targetText && opt.text === targetText) {
-      newCorrectKey = newKey;
-    } else if (!targetText && opt.key === originalCorrectKey) {
-      newCorrectKey = newKey;
+  toggleBookmark(qId) {
+    if (this.userBookmarks.has(qId)) {
+      this.userBookmarks.delete(qId);
+    } else {
+      this.userBookmarks.add(qId);
     }
-    return {
-      key: newKey,
-      text: opt.text,
-      original_key: opt.key
-    };
-  });
-
-  return {
-    options: remapped,
-    correct_answer: newCorrectKey
-  };
-}
-
-// Get question type badge info
-function getQuestionTypeBadge(type) {
-  const map = {
-    schema: { icon: '📐', text: 'Đọc sơ đồ' },
-    theory: { icon: '📖', text: 'Lý thuyết' },
-    calculation: { icon: '🧮', text: 'Tính toán' },
-    application: { icon: '🛠️', text: 'Ứng dụng & Lỗi' }
-  };
-  return map[type] || { icon: '📌', text: 'Kiến thức' };
-}
-
-function renderPracticeQuestions() {
-  const container = document.getElementById('practice-question-stream');
-  if (!container) return;
-
-  const total = APP_STATE.practiceFiltered.length;
-  const start = (APP_STATE.practicePage - 1) * APP_STATE.practicePageSize;
-  const end = start + APP_STATE.practicePageSize;
-  const pageItems = APP_STATE.practiceFiltered.slice(start, end);
-
-  const totalPages = Math.ceil(total / APP_STATE.practicePageSize) || 1;
-  setText('practice-page-info', `Trang ${APP_STATE.practicePage} / ${totalPages} (${total} câu)`);
-
-  const prevBtn = document.getElementById('btn-prev-page');
-  const nextBtn = document.getElementById('btn-next-page');
-  if (prevBtn) prevBtn.disabled = APP_STATE.practicePage <= 1;
-  if (nextBtn) nextBtn.disabled = APP_STATE.practicePage >= totalPages;
-
-  if (pageItems.length === 0) {
-    container.innerHTML = `
-      <div class="q-card" style="text-align: center; color: var(--text-muted); padding: 40px;">
-        <span style="font-size: 2.5rem; display: block; margin-bottom: 12px;">🔍</span>
-        <h4>Không tìm thấy câu hỏi nào phù hợp với bộ lọc</h4>
-        <p>Thử nới lỏng bộ lọc hoặc nhấn nút "Đặt lại bộ lọc" để xem toàn bộ 398 câu hỏi.</p>
-        <button class="btn btn-primary" style="margin-top: 14px;" onclick="resetPracticeFilters()">Đặt lại bộ lọc</button>
-      </div>`;
-    return;
+    this.saveStorage();
+    UI.updateBadges();
   }
+};
 
-  const isShuffle = document.getElementById('practice-shuffle-toggle')?.checked ?? false;
+/* --- 5. STORAGE & BACKUP MANAGER --- */
+const StorageManager = {
+  exportBackup() {
+    const backupData = {
+      version: '3.0',
+      exportedAt: new Date().toISOString(),
+      user: AppState.currentUser,
+      answers: AppState.userAnswersRecord,
+      bookmarks: [...AppState.userBookmarks],
+      mistakes: [...AppState.mistakes],
+      leitner: AppState.leitner,
+      history: AppState.history
+    };
 
-  container.innerHTML = pageItems.map((q, idx) => {
-    const qIndexGlobal = start + idx + 1;
-    const diffBadgeClass = q.difficulty === 'Dễ' ? 'badge-diff-de' : (q.difficulty === 'Khó' ? 'badge-diff-kho' : 'badge-diff-tb');
-    const isBookmarked = APP_STATE.userBookmarks.includes(q.id);
-    const prevAnswer = APP_STATE.userAnswersRecord[q.id];
-    const typeInfo = getQuestionTypeBadge(q.question_type);
+    const blob = new Blob([JSON.stringify(backupData, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `white-star-quiz-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    alert('✅ Đã xuất dữ liệu sao lưu thành công! Hãy lưu file này cẩn thận.');
+  },
 
-    // Media block
-    const mediaHtml = (q.images && q.images.length > 0)
-      ? `<div class="q-media-box">
-          <div class="q-media-grid ${q.images.length > 1 ? 'multi' : ''}">
-            ${q.images.map((img, i) => `
-              <div class="q-media-item">
-                <img class="q-media-img" src="${img}" alt="Sơ đồ minh họa ${i+1}" onerror="handleImgError(this)" onclick="openImageModal('${img}', '${escapeHtml(q.question)}')">
-                ${q.images.length > 1 ? `<span class="q-media-label">Hình ${String.fromCharCode(65 + i)}</span>` : ''}
-              </div>
+  handleImport(e) {
+    const file = e.target.files && e.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = (event) => {
+      try {
+        const data = JSON.parse(event.target.result);
+        if (!data.answers && !data.history) {
+          throw new Error('Định dạng file không tương thích.');
+        }
+
+        if (confirm('Bạn có chắc muốn nạp lại bản sao lưu này? Dữ liệu hiện tại sẽ được cập nhật.')) {
+          if (data.user) AppState.currentUser = data.user;
+          if (data.answers) AppState.userAnswersRecord = data.answers;
+          if (data.bookmarks) AppState.userBookmarks = new Set(data.bookmarks);
+          if (data.mistakes) AppState.mistakes = new Set(data.mistakes);
+          if (data.leitner) AppState.leitner = data.leitner;
+          if (data.history) AppState.history = data.history;
+
+          AppState.saveStorage();
+          alert('🎉 Khôi phục dữ liệu thành công!');
+          location.reload();
+        }
+      } catch (err) {
+        alert('❌ Lỗi khi đọc file sao lưu: ' + err.message);
+      }
+    };
+    reader.readAsText(file);
+  }
+};
+
+/* --- 6. DASHBOARD CONTROLLER --- */
+const DashboardController = {
+  render() {
+    const totalQ = AppState.masterQuestions.length;
+    const answeredCount = Object.keys(AppState.userAnswersRecord).length;
+    const correctCount = Object.values(AppState.userAnswersRecord).filter(a => a.isCorrect).length;
+    const accuracy = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
+
+    // Metrics
+    const totalEl = document.getElementById('val-total-master');
+    if (totalEl) totalEl.innerText = totalQ;
+
+    const accEl = document.getElementById('val-accuracy-rate');
+    if (accEl) accEl.innerText = answeredCount > 0 ? `${accuracy}%` : '--%';
+
+    const accSub = document.getElementById('val-accuracy-sub');
+    if (accSub) accSub.innerText = `${correctCount} / ${answeredCount} câu đã làm`;
+
+    const sideProg = document.getElementById('sidebar-progress-percent');
+    if (sideProg) sideProg.innerText = `${Math.round((answeredCount / totalQ) * 100)}%`;
+
+    // 4 Subjects progress
+    const subjects = ['electric', 'plc', 'machine', 'pneumatics'];
+    subjects.forEach(sub => {
+      const subQs = AppState.masterQuestions.filter(q => q.subject_code === sub);
+      const subAnswered = subQs.filter(q => AppState.userAnswersRecord[q.id]).length;
+      const pct = subQs.length > 0 ? Math.round((subAnswered / subQs.length) * 100) : 0;
+
+      const fill = document.getElementById(`prog-${sub}`);
+      if (fill) fill.style.width = `${pct}%`;
+
+      const rateLabel = document.getElementById(`rate-${sub}`);
+      if (rateLabel) rateLabel.innerText = `${pct}% hoàn thành`;
+    });
+
+    // Rank logic
+    this.updateRank(correctCount);
+  },
+
+  updateRank(correctCount) {
+    const iconEl = document.getElementById('rank-icon');
+    const nameEl = document.getElementById('rank-name');
+    const descEl = document.getElementById('rank-desc');
+
+    if (correctCount >= 500) {
+      if (iconEl) iconEl.innerText = '🏆';
+      if (nameEl) nameEl.innerText = 'Kỹ Thuật Viên White Star Master';
+      if (descEl) descEl.innerText = 'Xuất sắc! Bạn đã làm chủ hoàn toàn các chuyên đề kỹ thuật White Star.';
+    } else if (correctCount >= 250) {
+      if (iconEl) iconEl.innerText = '⭐';
+      if (nameEl) nameEl.innerText = 'Kỹ Thuật Viên Bậc 2 (Senior)';
+      if (descEl) descEl.innerText = 'Rất tốt! Điểm số ổn định, sẵn sàng cho các bài thi đánh giá chuẩn.';
+    } else if (correctCount >= 100) {
+      if (iconEl) iconEl.innerText = '🔧';
+      if (nameEl) nameEl.innerText = 'Kỹ Thuật Viên Bậc 1 (Junior)';
+      if (descEl) descEl.innerText = 'Đã nắm vững lý thuyết cốt lõi, tiếp tục rèn luyện các bài thi thử.';
+    } else {
+      if (iconEl) iconEl.innerText = '🎖️';
+      if (nameEl) nameEl.innerText = 'Kỹ Thuật Viên Tập Sự';
+      if (descEl) descEl.innerText = 'Hãy làm quen với các câu hỏi và sơ đồ kỹ thuật ở 4 môn chuyên đề.';
+    }
+  }
+};
+
+/* --- 7. PRACTICE CONTROLLER --- */
+const PracticeController = {
+  init() {
+    this.populateModuleDropdown();
+    this.applyFilters();
+  },
+
+  populateModuleDropdown() {
+    const select = document.getElementById('p-filter-module');
+    if (!select) return;
+
+    const currentSub = AppState.practice.subject;
+    const questions = currentSub === 'all'
+      ? AppState.masterQuestions
+      : AppState.masterQuestions.filter(q => q.subject_code === currentSub);
+
+    const modules = [...new Set(questions.map(q => q.module).filter(Boolean))].sort();
+    select.innerHTML = '<option value="all">Tất cả chuyên đề</option>' +
+      modules.map(m => `<option value="${m}">${m}</option>`).join('');
+  },
+
+  startSubject(subCode) {
+    AppState.practice.subject = subCode;
+    const subSelect = document.getElementById('p-filter-subject');
+    if (subSelect) subSelect.value = subCode;
+    this.populateModuleDropdown();
+    this.applyFilters();
+    UI.switchTab('practice');
+  },
+
+  onFilterChange() {
+    AppState.practice.subject = document.getElementById('p-filter-subject').value;
+    AppState.practice.module = document.getElementById('p-filter-module').value;
+    AppState.practice.type = document.getElementById('p-filter-type').value;
+    AppState.practice.difficulty = document.getElementById('p-filter-diff').value;
+    AppState.practice.status = document.getElementById('p-filter-status').value;
+    AppState.practice.page = 1;
+    this.populateModuleDropdown();
+    this.applyFilters();
+  },
+
+  onSearchInput() {
+    AppState.practice.search = document.getElementById('p-filter-search').value.trim().toLowerCase();
+    AppState.practice.page = 1;
+    this.applyFilters();
+  },
+
+  toggleOption(key) {
+    if (key === 'instantFeedback') {
+      AppState.practice.instantFeedback = document.getElementById('p-opt-instant').checked;
+    } else if (key === 'shuffle') {
+      AppState.practice.shuffle = document.getElementById('p-opt-shuffle').checked;
+    }
+    this.renderQuestions();
+  },
+
+  resetFilters() {
+    AppState.practice.subject = 'all';
+    AppState.practice.module = 'all';
+    AppState.practice.type = 'all';
+    AppState.practice.difficulty = 'all';
+    AppState.practice.status = 'all';
+    AppState.practice.search = '';
+    AppState.practice.page = 1;
+
+    document.getElementById('p-filter-subject').value = 'all';
+    document.getElementById('p-filter-module').value = 'all';
+    document.getElementById('p-filter-type').value = 'all';
+    document.getElementById('p-filter-diff').value = 'all';
+    document.getElementById('p-filter-status').value = 'all';
+    document.getElementById('p-filter-search').value = '';
+
+    this.populateModuleDropdown();
+    this.applyFilters();
+  },
+
+  applyFilters() {
+    const { subject, module, type, difficulty, status, search } = AppState.practice;
+
+    let res = AppState.masterQuestions.filter(q => {
+      if (subject !== 'all' && q.subject_code !== subject) return false;
+      if (module !== 'all' && q.module !== module) return false;
+      if (type !== 'all' && q.question_type !== type) return false;
+      if (difficulty !== 'all' && q.difficulty !== difficulty) return false;
+
+      // Status filter
+      if (status !== 'all') {
+        const record = AppState.userAnswersRecord[q.id];
+        if (status === 'unattempted' && record) return false;
+        if (status === 'correct' && (!record || !record.isCorrect)) return false;
+        if (status === 'wrong' && (!record || record.isCorrect)) return false;
+        if (status === 'bookmarked' && !AppState.userBookmarks.has(q.id)) return false;
+      }
+
+      // Search filter
+      if (search) {
+        const text = `${q.id} ${q.question} ${(q.options || []).map(o => o.text).join(' ')}`.toLowerCase();
+        if (!text.includes(search)) return false;
+      }
+
+      return true;
+    });
+
+    AppState.practice.filtered = res;
+    const counter = document.getElementById('practice-result-counter');
+    if (counter) counter.innerText = `Hiển thị ${res.length} câu`;
+
+    this.renderQuestions();
+  },
+
+  renderQuestions() {
+    const list = document.getElementById('practice-questions-list');
+    if (!list) return;
+
+    const { page, pageSize, filtered, shuffle } = AppState.practice;
+    const totalPages = Math.ceil(filtered.length / pageSize) || 1;
+    const startIdx = (page - 1) * pageSize;
+    const pageItems = filtered.slice(startIdx, startIdx + pageSize);
+
+    // Update pagination
+    const pageInfo = document.getElementById('pagination-info');
+    if (pageInfo) pageInfo.innerText = `Trang ${page} / ${totalPages} (${filtered.length} câu)`;
+
+    const btnPrev = document.getElementById('btn-page-prev');
+    const btnNext = document.getElementById('btn-page-next');
+    if (btnPrev) btnPrev.disabled = page <= 1;
+    if (btnNext) btnNext.disabled = page >= totalPages;
+
+    if (pageItems.length === 0) {
+      list.innerHTML = `
+        <div style="text-align: center; padding: 60px 20px; background: var(--bg-card); border-radius: 14px; border: 1px solid var(--border-color);">
+          <div style="font-size: 48px; margin-bottom: 12px;">🔍</div>
+          <h3>Không tìm thấy câu hỏi phù hợp</h3>
+          <p style="color: var(--text-secondary); margin-bottom: 16px;">Vui lòng thử điều chỉnh lại bộ lọc hoặc từ khóa tìm kiếm.</p>
+          <button class="btn btn-primary btn-sm" onclick="PracticeController.resetFilters()">Đặt lại bộ lọc</button>
+        </div>
+      `;
+      return;
+    }
+
+    list.innerHTML = pageItems.map((q, idx) => {
+      const qNum = startIdx + idx + 1;
+      const isBookmarked = AppState.userBookmarks.has(q.id);
+      const record = AppState.userAnswersRecord[q.id];
+
+      // Prepare options
+      let options = (q.options || []).map(opt => ({ ...opt }));
+      if (shuffle) {
+        // Deterministic shuffle based on question ID
+        options.sort((a, b) => a.key.localeCompare(b.key));
+      }
+
+      // Check option states
+      const optHtml = options.map(opt => {
+        let optClass = 'option-btn';
+        if (record) {
+          if (opt.key === q.correct_answer) optClass += ' correct';
+          else if (record.selectedKey === opt.key && !record.isCorrect) optClass += ' wrong';
+          else optClass += ' disabled';
+        }
+
+        return `
+          <button class="${optClass}" onclick="PracticeController.selectOption('${q.id}', '${opt.key}', '${q.correct_answer}')">
+            <span class="opt-badge">${opt.key}</span>
+            <span class="opt-text">${TextEngine.format(opt.text)}</span>
+          </button>
+        `;
+      }).join('');
+
+      // Images
+      let imgHtml = '';
+      if (q.images && q.images.length > 0) {
+        imgHtml = `
+          <div class="question-images">
+            ${q.images.map(img => `
+              <img src="${img}" alt="Schematic" class="q-img-thumb" 
+                   onclick="LightboxEngine.open('${img}', '${q.id}: ${q.module || 'Sơ đồ'}')" 
+                   onerror="handleImgError(this)">
             `).join('')}
           </div>
-          <span class="q-media-hint"><i class="fas fa-search-plus"></i> Nhấp vào hình để phóng to / xem chi tiết</span>
-         </div>`
-      : '';
+        `;
+      }
 
-    // Handle options & shuffle
-    let rawOptions = (q.options && q.options.length > 0) ? q.options : [
-      { key: 'A', text: 'Đáp án A / Hình A (Xem sơ đồ minh họa)' },
-      { key: 'B', text: 'Đáp án B / Hình B (Xem sơ đồ minh họa)' },
-      { key: 'C', text: 'Đáp án C / Hình C (Xem sơ đồ minh họa)' },
-      { key: 'D', text: 'Đáp án D / Hình D (Xem sơ đồ minh họa)' }
-    ];
-
-    let effectiveOptions = rawOptions;
-    let effectiveCorrect = q.correct_answer;
-
-    if (isShuffle) {
-      const shuffledPack = shuffleQuestionOptions(rawOptions, q.correct_answer);
-      effectiveOptions = shuffledPack.options;
-      effectiveCorrect = shuffledPack.correct_answer;
-    }
-
-    const optionsHtml = effectiveOptions.map(opt => {
-      let extraClass = '';
-      if (prevAnswer) {
-        if (opt.key === effectiveCorrect) extraClass = 'correct';
-        else if (opt.key === prevAnswer.selectedKey) extraClass = 'wrong';
+      // Explanation
+      let expHtml = '';
+      if (q.explanation && record) {
+        const exp = q.explanation;
+        expHtml = `
+          <div class="explanation-box">
+            <div class="explanation-toggle-btn" onclick="UI.toggleAccordion('exp-${q.id}')">
+              <span>💡 Giải thích chi tiết câu #${q.id}</span>
+              <span>▼</span>
+            </div>
+            <div class="explanation-content" id="exp-${q.id}">
+              <div class="exp-section why-correct">
+                <h5>✓ Vì sao đáp án [${exp.correct_answer || q.correct_answer}] chính xác:</h5>
+                <p>${TextEngine.format(exp.why_correct || exp.overview || '')}</p>
+              </div>
+              ${exp.why_wrong ? `
+                <div class="exp-section why-wrong">
+                  <h5>⚠ Phân tích phương án gây nhiễu & bẫy thi:</h5>
+                  <p>${TextEngine.format(exp.why_wrong)}</p>
+                </div>
+              ` : ''}
+              ${exp.supplementary_knowledge ? `
+                <div class="exp-section supplementary">
+                  <h5>📌 Kiến thức cốt lõi cần nhớ:</h5>
+                  <p>${TextEngine.format(exp.supplementary_knowledge)}</p>
+                </div>
+              ` : ''}
+            </div>
+          </div>
+        `;
       }
 
       return `
-        <button class="opt-btn ${extraClass}" id="opt-btn-${q.id}-${opt.key}" ${prevAnswer ? 'disabled' : ''} onclick="handlePracticeOptionClick('${q.id}', '${opt.key}', '${effectiveCorrect}')">
-          <span class="opt-key">${opt.key}</span>
-          <span class="opt-text">${escapeHtml(opt.text)}</span>
+        <div class="question-card" id="qcard-${q.id}">
+          <div class="question-card-header">
+            <div class="question-meta-tags">
+              <span class="tag tag-id">#${qNum} (${q.id})</span>
+              <span class="tag tag-subject">${q.subject || q.subject_code}</span>
+              <span class="tag tag-diff-${q.difficulty === 'Dễ' ? 'easy' : q.difficulty === 'Khó' ? 'hard' : 'medium'}">${q.difficulty}</span>
+              ${q.module ? `<span class="tag" style="background: var(--bg-surface); color: var(--text-secondary);">${q.module}</span>` : ''}
+            </div>
+            <button class="bookmark-btn ${isBookmarked ? 'active' : ''}" onclick="PracticeController.toggleBookmark('${q.id}')" title="Gắn sao câu hỏi này">
+              ${isBookmarked ? '⭐' : '☆'}
+            </button>
+          </div>
+
+          <div class="question-title">${TextEngine.format(q.question)}</div>
+          ${q.context ? `<div class="question-context">${TextEngine.format(q.context)}</div>` : ''}
+          ${imgHtml}
+
+          <div class="options-grid">
+            ${optHtml}
+          </div>
+
+          ${expHtml}
+        </div>
+      `;
+    }).join('');
+  },
+
+  selectOption(qId, selectedKey, correctKey) {
+    const isCorrect = selectedKey === correctKey;
+    if (isCorrect) {
+      AudioEngine.playCorrect();
+    } else {
+      AudioEngine.playWrong();
+    }
+
+    AppState.recordAnswer(qId, selectedKey, isCorrect);
+    this.renderQuestions();
+    DashboardController.render();
+  },
+
+  toggleBookmark(qId) {
+    AppState.toggleBookmark(qId);
+    this.renderQuestions();
+  },
+
+  prevPage() {
+    if (AppState.practice.page > 1) {
+      AppState.practice.page -= 1;
+      this.renderQuestions();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  },
+
+  nextPage() {
+    const totalPages = Math.ceil(AppState.practice.filtered.length / AppState.practice.pageSize);
+    if (AppState.practice.page < totalPages) {
+      AppState.practice.page += 1;
+      this.renderQuestions();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+};
+
+/* --- 8. FLASHCARDS CONTROLLER (SPACED REPETITION) --- */
+const FlashcardController = {
+  init() {
+    this.onSubjectChange();
+  },
+
+  onSubjectChange() {
+    const sub = document.getElementById('flashcard-subject-select').value;
+    AppState.flashcards.subject = sub;
+
+    let deck = [];
+    if (sub === 'mistakes') {
+      deck = AppState.masterQuestions.filter(q => AppState.mistakes.has(q.id));
+    } else if (sub === 'all') {
+      deck = [...AppState.masterQuestions];
+    } else {
+      deck = AppState.masterQuestions.filter(q => q.subject_code === sub);
+    }
+
+    AppState.flashcards.deck = deck;
+    AppState.flashcards.currentIndex = 0;
+    AppState.flashcards.isFlipped = false;
+    this.updateCounters();
+    this.renderCard();
+  },
+
+  shuffleCards() {
+    const arr = AppState.flashcards.deck;
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    AppState.flashcards.currentIndex = 0;
+    AppState.flashcards.isFlipped = false;
+    this.renderCard();
+  },
+
+  flipCard() {
+    AppState.flashcards.isFlipped = !AppState.flashcards.isFlipped;
+    const cardEl = document.getElementById('active-flashcard');
+    if (cardEl) {
+      cardEl.classList.toggle('flipped', AppState.flashcards.isFlipped);
+    }
+  },
+
+  renderCard() {
+    const { deck, currentIndex } = AppState.flashcards;
+    const counterEl = document.getElementById('flashcard-counter');
+    const cardEl = document.getElementById('active-flashcard');
+    if (cardEl) cardEl.classList.remove('flipped');
+    AppState.flashcards.isFlipped = false;
+
+    if (deck.length === 0) {
+      if (counterEl) counterEl.innerText = '0 / 0 thẻ';
+      const frontQ = document.getElementById('flash-front-question');
+      if (frontQ) frontQ.innerText = 'Không có thẻ ghi nhớ nào trong mục này.';
+      return;
+    }
+
+    const q = deck[currentIndex];
+    if (counterEl) counterEl.innerText = `Thẻ ${currentIndex + 1} / ${deck.length}`;
+
+    // Front
+    const fSubject = document.getElementById('flash-front-subject');
+    const fQuestion = document.getElementById('flash-front-question');
+    const fImgBox = document.getElementById('flash-front-img-container');
+
+    if (fSubject) fSubject.innerText = q.subject || q.subject_code;
+    if (fQuestion) fQuestion.innerHTML = TextEngine.format(q.question);
+
+    if (fImgBox) {
+      if (q.images && q.images.length > 0) {
+        fImgBox.innerHTML = `<img src="${q.images[0]}" alt="diagram" style="max-height: 140px; border-radius: 8px; border: 1px solid var(--border-color); background: #fff;" onerror="handleImgError(this)">`;
+      } else {
+        fImgBox.innerHTML = '';
+      }
+    }
+
+    // Back
+    const bId = document.getElementById('flash-back-id');
+    const bAnswer = document.getElementById('flash-back-answer');
+    const bExp = document.getElementById('flash-back-explanation');
+
+    if (bId) bId.innerText = q.id;
+
+    // Find correct option text
+    const correctOpt = (q.options || []).find(o => o.key === q.correct_answer);
+    const ansText = correctOpt ? correctOpt.text : q.correct_answer;
+    if (bAnswer) bAnswer.innerHTML = `Đáp án ${q.correct_answer}: ${TextEngine.format(ansText)}`;
+
+    if (bExp) {
+      const whyCorrect = q.explanation ? (q.explanation.why_correct || q.explanation.overview || '') : '';
+      bExp.innerHTML = TextEngine.format(whyCorrect);
+    }
+  },
+
+  rateCard(boxNum) {
+    const { deck, currentIndex } = AppState.flashcards;
+    if (deck.length === 0) return;
+
+    const qId = deck[currentIndex].id;
+    // Remove from other boxes
+    AppState.leitner.box1 = AppState.leitner.box1.filter(id => id !== qId);
+    AppState.leitner.box2 = AppState.leitner.box2.filter(id => id !== qId);
+    AppState.leitner.box3 = AppState.leitner.box3.filter(id => id !== qId);
+
+    // Add to rated box
+    if (boxNum === 1) {
+      AppState.leitner.box1.push(qId);
+      AppState.mistakes.add(qId);
+      AudioEngine.playWrong();
+    } else if (boxNum === 2) {
+      AppState.leitner.box2.push(qId);
+      AudioEngine.playTone(600, 0.1, 'sine');
+    } else if (boxNum === 3) {
+      AppState.leitner.box3.push(qId);
+      AppState.mistakes.delete(qId);
+      AudioEngine.playCorrect();
+    }
+
+    AppState.saveStorage();
+    this.updateCounters();
+    this.nextCard();
+  },
+
+  nextCard() {
+    const { deck } = AppState.flashcards;
+    if (deck.length === 0) return;
+    AppState.flashcards.currentIndex = (AppState.flashcards.currentIndex + 1) % deck.length;
+    this.renderCard();
+  },
+
+  prevCard() {
+    const { deck } = AppState.flashcards;
+    if (deck.length === 0) return;
+    AppState.flashcards.currentIndex = (AppState.flashcards.currentIndex - 1 + deck.length) % deck.length;
+    this.renderCard();
+  },
+
+  updateCounters() {
+    const b1 = document.getElementById('flash-count-box1');
+    const b2 = document.getElementById('flash-count-box2');
+    const b3 = document.getElementById('flash-count-box3');
+
+    if (b1) b1.innerText = AppState.leitner.box1.length;
+    if (b2) b2.innerText = AppState.leitner.box2.length;
+    if (b3) b3.innerText = AppState.leitner.box3.length;
+  }
+};
+
+/* --- 9. MISTAKES CONTROLLER --- */
+const MistakesController = {
+  render() {
+    const list = document.getElementById('mistakes-questions-list');
+    if (!list) return;
+
+    const mistakeQuestions = AppState.masterQuestions.filter(q => AppState.mistakes.has(q.id));
+
+    if (mistakeQuestions.length === 0) {
+      list.innerHTML = `
+        <div style="text-align: center; padding: 60px 20px; background: var(--bg-card); border-radius: 14px; border: 1px solid var(--border-color);">
+          <div style="font-size: 48px; margin-bottom: 12px;">🎉</div>
+          <h3>Sổ tay câu sai đang trống!</h3>
+          <p style="color: var(--text-secondary);">Bạn không có câu hỏi nào bị sai hoặc đã hoàn thành xuất sắc tất cả các câu đã làm.</p>
+        </div>
+      `;
+      return;
+    }
+
+    list.innerHTML = mistakeQuestions.map(q => {
+      const record = AppState.userAnswersRecord[q.id] || {};
+      const wrongCount = record.timesWrong || 1;
+
+      return `
+        <div class="question-card" style="border-left: 4px solid var(--danger);">
+          <div class="question-card-header">
+            <div class="question-meta-tags">
+              <span class="tag tag-id">${q.id}</span>
+              <span class="tag tag-subject">${q.subject || q.subject_code}</span>
+              <span class="mistake-badge">Đã sai ${wrongCount} lần</span>
+            </div>
+            <button class="btn btn-sm btn-outline" onclick="MistakesController.graduateQuestion('${q.id}')">
+              ✓ Đã hiểu (Gỡ khỏi sổ sai)
+            </button>
+          </div>
+
+          <div class="question-title">${TextEngine.format(q.question)}</div>
+
+          <div style="background: var(--bg-surface); padding: 14px; border-radius: 8px; margin-top: 10px;">
+            <div style="color: var(--success); font-weight: 700; margin-bottom: 4px;">Đáp án chuẩn: [${q.correct_answer}]</div>
+            <div style="font-size: 13px; color: var(--text-secondary);">${TextEngine.format(q.explanation ? (q.explanation.why_correct || q.explanation.overview || '') : '')}</div>
+          </div>
+        </div>
+      `;
+    }).join('');
+  },
+
+  graduateQuestion(qId) {
+    AppState.mistakes.delete(qId);
+    AppState.saveStorage();
+    UI.updateBadges();
+    this.render();
+  },
+
+  practiceAllMistakes() {
+    AppState.practice.status = 'wrong';
+    document.getElementById('p-filter-status').value = 'wrong';
+    PracticeController.applyFilters();
+    UI.switchTab('practice');
+  },
+
+  clearMistakes() {
+    if (confirm('Bạn có chắc muốn xóa tất cả câu hỏi trong Sổ tay câu sai?')) {
+      AppState.mistakes.clear();
+      AppState.saveStorage();
+      UI.updateBadges();
+      this.render();
+    }
+  }
+};
+
+/* --- 10. EXAM CONTROLLER (EXAM SIMULATION ENGINE) --- */
+const ExamController = {
+  selectPreset(presetKey, elem) {
+    AppState.exam.selectedPreset = presetKey;
+    document.querySelectorAll('.exam-card-item').forEach(el => el.classList.remove('active'));
+    if (elem) elem.classList.add('active');
+  },
+
+  startExam() {
+    const preset = AppState.exam.selectedPreset;
+    const shuffleOpts = document.getElementById('exam-shuffle-options').checked;
+    const shuffleQs = document.getElementById('exam-shuffle-questions').checked;
+    const enableTimer = document.getElementById('exam-enable-timer').checked;
+
+    let examQuestions = [];
+    let title = 'Bài thi thử White Star';
+    let durationMinutes = 60;
+
+    if (preset.startsWith('SMART_')) {
+      const gen = this.generateSmartExam(preset);
+      examQuestions = gen.questions;
+      title = gen.title;
+      durationMinutes = gen.duration;
+    } else {
+      // Find official mock exam
+      const found = AppState.mockExams.find(e => e.id === preset);
+      if (found) {
+        examQuestions = found.questions.map(q => ({ ...q }));
+        title = found.title;
+        durationMinutes = 60;
+      }
+    }
+
+    if (shuffleQs) {
+      examQuestions.sort(() => Math.random() - 0.5);
+    }
+
+    AppState.exam.activeExam = {
+      presetId: preset,
+      title: title,
+      questions: examQuestions,
+      shuffleOptions: shuffleOpts,
+      durationMinutes: durationMinutes
+    };
+
+    AppState.exam.currentIndex = 0;
+    AppState.exam.answers = {};
+    AppState.exam.flags.clear();
+    AppState.exam.secondsRemaining = durationMinutes * 60;
+    AppState.exam.timeSpentSeconds = 0;
+    AppState.exam.isSubmitted = false;
+
+    // Switch views
+    document.getElementById('exam-setup-view').style.display = 'none';
+    document.getElementById('exam-result-view').style.display = 'none';
+    document.getElementById('exam-active-view').style.display = 'flex';
+
+    document.getElementById('active-exam-title').innerText = title;
+
+    if (enableTimer) {
+      this.startTimer();
+    } else {
+      document.getElementById('exam-timer-display').innerText = 'Không giới hạn';
+    }
+
+    this.renderActiveQuestion();
+    this.renderPalette();
+  },
+
+  generateSmartExam(preset) {
+    let count = 80;
+    let duration = 60;
+    let title = 'Đề Chuẩn Mô Phỏng White Star (80 câu)';
+
+    if (preset === 'SMART_40') {
+      count = 40;
+      duration = 30;
+      title = 'Đề Rút Gọn Cân Bằng (40 câu)';
+    } else if (preset === 'SMART_20') {
+      count = 20;
+      duration = 15;
+      title = 'Đề Cấp Tốc (20 câu)';
+    } else if (preset === 'SMART_SUBJECT') {
+      count = 25;
+      duration = 20;
+      title = 'Đề Chuyên Sâu Từng Môn (25 câu)';
+    }
+
+    const perSubject = Math.floor(count / 4);
+    const subjects = ['electric', 'plc', 'machine', 'pneumatics'];
+    let selected = [];
+
+    subjects.forEach(sub => {
+      const pool = AppState.masterQuestions.filter(q => q.subject_code === sub);
+      const shuffled = [...pool].sort(() => Math.random() - 0.5);
+      selected.push(...shuffled.slice(0, perSubject));
+    });
+
+    return {
+      title,
+      duration,
+      questions: selected.map(q => ({ ...q }))
+    };
+  },
+
+  startTimer() {
+    clearInterval(AppState.exam.timerInterval);
+    const display = document.getElementById('exam-timer-display');
+    const timerBox = document.getElementById('exam-timer-box');
+
+    AppState.exam.timerInterval = setInterval(() => {
+      AppState.exam.secondsRemaining -= 1;
+      AppState.exam.timeSpentSeconds += 1;
+
+      const mins = Math.floor(AppState.exam.secondsRemaining / 60);
+      const secs = AppState.exam.secondsRemaining % 60;
+      if (display) {
+        display.innerText = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+      }
+
+      // Warning when < 5 mins
+      if (AppState.exam.secondsRemaining <= 300) {
+        if (timerBox) timerBox.classList.add('warning');
+        if (AppState.exam.secondsRemaining % 60 === 0) AudioEngine.playTick();
+      }
+
+      if (AppState.exam.secondsRemaining <= 0) {
+        clearInterval(AppState.exam.timerInterval);
+        alert('⏰ Đã hết thời gian làm bài! Hệ thống đang tự động nộp bài.');
+        this.submitExam();
+      }
+    }, 1000);
+  },
+
+  renderActiveQuestion() {
+    const { activeExam, currentIndex, answers, flags } = AppState.exam;
+    if (!activeExam || !activeExam.questions) return;
+
+    const q = activeExam.questions[currentIndex];
+    const total = activeExam.questions.length;
+
+    // Progress
+    const progText = document.getElementById('active-exam-progress');
+    if (progText) progText.innerText = `Câu ${currentIndex + 1} / ${total}`;
+
+    const flagBtn = document.getElementById('btn-exam-flag');
+    if (flagBtn) {
+      const isFlagged = flags.has(currentIndex);
+      flagBtn.innerHTML = isFlagged ? '🚩 Đã cắm cờ' : '🏳️ Cắm cờ phân vân';
+      flagBtn.classList.toggle('active', isFlagged);
+    }
+
+    const box = document.getElementById('exam-question-content');
+    if (!box) return;
+
+    // Images
+    let imgHtml = '';
+    if (q.images && q.images.length > 0) {
+      imgHtml = `
+        <div class="question-images">
+          ${q.images.map(img => `
+            <img src="${img}" alt="Schematic" class="q-img-thumb" 
+                 onclick="LightboxEngine.open('${img}', '${q.id}: ${q.module || 'Sơ đồ'}')" 
+                 onerror="handleImgError(this)">
+          `).join('')}
+        </div>
+      `;
+    }
+
+    // Options
+    const selected = answers[currentIndex];
+    const optHtml = (q.options || []).map(opt => {
+      const isSelected = selected === opt.key;
+      return `
+        <button class="option-btn ${isSelected ? 'selected' : ''}" onclick="ExamController.selectAnswer('${opt.key}')">
+          <span class="opt-badge">${opt.key}</span>
+          <span class="opt-text">${TextEngine.format(opt.text)}</span>
         </button>
       `;
     }).join('');
 
-    // Detailed explanation block
-    const expl = q.explanation || {};
-    const explDisplay = prevAnswer ? 'block' : 'none';
-    const statusText = prevAnswer ? (prevAnswer.isCorrect ? '✅ Bạn đã trả lời CHÍNH XÁC' : `❌ Bạn chọn đáp án ${prevAnswer.selectedKey} (Chưa chính xác)`) : '';
-    const statusClass = prevAnswer ? (prevAnswer.isCorrect ? 'correct' : 'wrong') : '';
+    box.innerHTML = `
+      <div class="question-meta-tags" style="margin-bottom: 12px;">
+        <span class="tag tag-id">Câu #${currentIndex + 1} (${q.id})</span>
+        <span class="tag tag-subject">${q.subject || q.subject_code}</span>
+        <span class="tag tag-diff-medium">${q.difficulty}</span>
+      </div>
 
-    return `
-      <div class="q-card" id="q-card-${q.id}">
-        <div class="q-card-header">
-          <div class="q-badge-group">
-            <span class="badge badge-subject">${q.subject}</span>
-            <span class="badge ${diffBadgeClass}">${q.difficulty}</span>
-            <span class="badge badge-type">${typeInfo.icon} ${typeInfo.text}</span>
-            ${q.topic_tag ? `<span class="badge badge-topic">${escapeHtml(q.topic_tag)}</span>` : ''}
-          </div>
-          <div style="display: flex; align-items: center; gap: 8px;">
-            <button class="btn-bookmark ${isBookmarked ? 'bookmarked' : ''}" id="btn-bm-${q.id}" onclick="toggleBookmark('${q.id}')" title="Đánh dấu câu hỏi này">
-              ${isBookmarked ? '⭐' : '☆'}
-            </button>
-            <span class="q-id">#${q.id} (Câu ${qIndexGlobal})</span>
-          </div>
-        </div>
+      <div class="question-title">${TextEngine.format(q.question)}</div>
+      ${q.context ? `<div class="question-context">${TextEngine.format(q.context)}</div>` : ''}
+      ${imgHtml}
 
-        <div class="q-title">${escapeHtml(q.question)}</div>
-
-        ${mediaHtml}
-
-        <div class="q-options-list">
-          ${optionsHtml}
-        </div>
-
-        <!-- Rich Detailed Explanation Box -->
-        <div class="q-explanation-box" id="expl-box-${q.id}" style="display: ${explDisplay};">
-          <div class="expl-header-bar">
-            <span class="expl-status-tag ${statusClass}" id="expl-status-${q.id}">
-              ${statusText}
-            </span>
-            <button class="expl-toggle-btn" onclick="toggleExplanationCollapse('${q.id}')">
-              Thu gọn / Mở rộng
-            </button>
-          </div>
-          
-          <div class="expl-content-body" id="expl-body-${q.id}">
-            <div class="expl-block why-correct">
-              <h5><span class="icon">✓</span> Phân tích đáp án chuẩn (${effectiveCorrect}):</h5>
-              <p>${expl.why_correct || ('Đáp án ' + effectiveCorrect + ' là phương án chính xác theo nguyên lý kỹ thuật.')}</p>
-            </div>
-
-            ${expl.why_wrong ? `
-              <div class="expl-block why-wrong">
-                <h5><span class="icon">⚠️</span> Phân tích phương án nhiễu & Bẫy thường gặp:</h5>
-                <p>${expl.why_wrong}</p>
-              </div>
-            ` : ''}
-
-            ${expl.supplementary_knowledge ? `
-              <div class="expl-block supplementary">
-                <h5><span class="icon">💡</span> Cẩm nang kỹ thuật & Kiến thức bổ trợ:</h5>
-                <p>${expl.supplementary_knowledge}</p>
-              </div>
-            ` : ''}
-          </div>
-        </div>
+      <div class="options-grid">
+        ${optHtml}
       </div>
     `;
-  }).join('');
-}
+  },
 
-function handlePracticeOptionClick(qId, selectedKey, correctKey) {
-  const isInstant = document.getElementById('instant-feedback-toggle')?.checked ?? true;
-  const isCorrect = (selectedKey === correctKey);
+  selectAnswer(key) {
+    const { currentIndex } = AppState.exam;
+    AppState.exam.answers[currentIndex] = key;
+    AudioEngine.playTone(450, 0.05, 'sine', 0.08);
+    this.renderActiveQuestion();
+    this.renderPalette();
+  },
 
-  // Save record in userAnswersRecord
-  APP_STATE.userAnswersRecord[qId] = {
-    isCorrect: isCorrect,
-    selectedKey: selectedKey,
-    timestamp: Date.now()
-  };
-  saveUserHistoryAndBookmarks();
-  updatePracticeStatCounters();
-
-  const card = document.getElementById(`q-card-${qId}`);
-  if (!card) return;
-
-  const buttons = card.querySelectorAll('.opt-btn');
-  buttons.forEach(btn => {
-    btn.disabled = true;
-    const key = btn.querySelector('.opt-key').innerText.trim();
-    if (key === correctKey) {
-      btn.classList.add('correct');
-    } else if (key === selectedKey) {
-      btn.classList.add('wrong');
-    }
-  });
-
-  // Display rich explanation box
-  const explBox = document.getElementById(`expl-box-${qId}`);
-  const explStatus = document.getElementById(`expl-status-${qId}`);
-  if (explBox && explStatus) {
-    explStatus.className = `expl-status-tag ${isCorrect ? 'correct' : 'wrong'}`;
-    explStatus.innerText = isCorrect 
-      ? '✅ Bạn đã trả lời CHÍNH XÁC!' 
-      : `❌ Bạn chọn đáp án ${selectedKey} (Chưa chính xác)`;
-    
-    if (isInstant) {
-      explBox.style.display = 'block';
-    }
-  }
-}
-
-function toggleExplanationCollapse(qId) {
-  const body = document.getElementById(`expl-body-${qId}`);
-  if (body) {
-    body.style.display = (body.style.display === 'none') ? 'flex' : 'none';
-  }
-}
-
-function prevPracticePage() {
-  if (APP_STATE.practicePage > 1) {
-    APP_STATE.practicePage--;
-    renderPracticeQuestions();
-    window.scrollTo({ top: 300, behavior: 'smooth' });
-  }
-}
-
-function nextPracticePage() {
-  const totalPages = Math.ceil(APP_STATE.practiceFiltered.length / APP_STATE.practicePageSize);
-  if (APP_STATE.practicePage < totalPages) {
-    APP_STATE.practicePage++;
-    renderPracticeQuestions();
-    window.scrollTo({ top: 300, behavior: 'smooth' });
-  }
-}
-
-// =============================================================================
-// VIEW 3: EXAM MODE WITH SHUFFLE OPTIONS & TIMER
-// =============================================================================
-// =============================================================================
-// VIEW 3: EXAM MODE WITH SMART EXAM GENERATION & SHUFFLE OPTIONS
-// =============================================================================
-function selectExamPreset(presetId, elem) {
-  APP_STATE.selectedExamPreset = presetId;
-  document.querySelectorAll('.exam-item').forEach(item => item.classList.remove('active'));
-  if (elem) {
-    elem.classList.add('active');
-  } else {
-    const targetItem = document.querySelector(`.exam-item[onclick*="${presetId}"]`);
-    if (targetItem) targetItem.classList.add('active');
-  }
-}
-
-function onSmartSubjectChange() {
-  const targetItem = document.querySelector('.exam-item[onclick*="SMART_SUBJECT"]');
-  selectExamPreset('SMART_SUBJECT', targetItem);
-}
-
-function startSelectedExam() {
-  // Read config settings
-  APP_STATE.examConfig.shuffleOptions = document.getElementById('exam-shuffle-options')?.checked ?? true;
-  APP_STATE.examConfig.shuffleQuestions = document.getElementById('exam-shuffle-questions')?.checked ?? false;
-  APP_STATE.examConfig.enableTimer = document.getElementById('exam-enable-timer')?.checked ?? true;
-
-  const preset = APP_STATE.selectedExamPreset || 'SMART_80';
-
-  if (preset === 'SMART_80') {
-    APP_STATE.activeExam = generateSmartExam({ count: 80, mode: 'balanced', timeMinutes: 60 });
-  } else if (preset === 'SMART_40') {
-    APP_STATE.activeExam = generateSmartExam({ count: 40, mode: 'balanced', timeMinutes: 30 });
-  } else if (preset === 'SMART_20') {
-    APP_STATE.activeExam = generateSmartExam({ count: 20, mode: 'balanced', timeMinutes: 15 });
-  } else if (preset === 'SMART_SUBJECT') {
-    const selSub = document.getElementById('smart-subject-picker')?.value || 'electric';
-    APP_STATE.activeExam = generateSmartExam({ count: 25, mode: 'subject', subject: selSub, timeMinutes: 20 });
-  } else if (preset === 'RANDOM_40') {
-    APP_STATE.activeExam = generateSmartExam({ count: 40, mode: 'balanced', timeMinutes: 30 });
-  } else {
-    // Find preset in mockExams
-    const found = APP_STATE.mockExams.find(e => e.id === preset);
-    if (found) {
-      APP_STATE.activeExam = JSON.parse(JSON.stringify(found));
-      APP_STATE.activeExam.time_minutes = 60;
+  toggleFlag() {
+    const { currentIndex, flags } = AppState.exam;
+    if (flags.has(currentIndex)) {
+      flags.delete(currentIndex);
     } else {
-      APP_STATE.activeExam = generateSmartExam({ count: 80, mode: 'balanced', timeMinutes: 60 });
+      flags.add(currentIndex);
     }
-  }
+    this.renderActiveQuestion();
+    this.renderPalette();
+  },
 
-  // Ensure all questions are enriched
-  APP_STATE.activeExam.questions.forEach(q => ensureQuestionEnriched(q));
-
-  // 1. Shuffle Questions if configured
-  if (APP_STATE.examConfig.shuffleQuestions) {
-    for (let i = APP_STATE.activeExam.questions.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [APP_STATE.activeExam.questions[i], APP_STATE.activeExam.questions[j]] = [APP_STATE.activeExam.questions[j], APP_STATE.activeExam.questions[i]];
+  prevQuestion() {
+    if (AppState.exam.currentIndex > 0) {
+      AppState.exam.currentIndex -= 1;
+      this.renderActiveQuestion();
+      this.renderPalette();
     }
-    // Re-index displayed question numbers
-    APP_STATE.activeExam.questions.forEach((q, idx) => {
-      q.display_number = idx + 1;
-    });
-  }
+  },
 
-  // 2. Shuffle Options for each question if configured (Chống học vẹt A-B-C-D)
-  if (APP_STATE.examConfig.shuffleOptions) {
-    APP_STATE.activeExam.questions.forEach(q => {
-      const shuffledPack = shuffleQuestionOptions(q.options, q.correct_answer);
-      q.options = shuffledPack.options;
-      q.correct_answer = shuffledPack.correct_answer;
-    });
-  }
-
-  // Reset exam state
-  APP_STATE.examCurrentIndex = 0;
-  APP_STATE.examAnswers = {};
-  APP_STATE.examIsSubmitted = false;
-  const timeMinutes = APP_STATE.activeExam.time_minutes || (APP_STATE.activeExam.questions.length > 50 ? 60 : 30);
-  APP_STATE.examSecondsRemaining = timeMinutes * 60;
-  APP_STATE.examTimeSpentSeconds = 0;
-
-  // Switch to active exam view
-  document.getElementById('exam-setup-view').style.display = 'none';
-  document.getElementById('exam-result-view').style.display = 'none';
-  document.getElementById('exam-active-view').style.display = 'block';
-
-  // Hide mobile bottom nav during exam
-  const bottomNav = document.getElementById('mobile-bottom-nav');
-  if (bottomNav) bottomNav.style.display = 'none';
-
-  setText('active-exam-title', APP_STATE.activeExam.title);
-  buildExamPalette();
-  renderExamQuestion(0);
-  
-  if (APP_STATE.examConfig.enableTimer) {
-    startExamTimer();
-  } else {
-    setText('exam-timer-text', 'Không giới hạn');
-  }
-}
-
-// Logic phân bổ câu hỏi thông minh cân bằng 4 môn và độ khó
-function generateSmartExam(config = {}) {
-  const totalCount = config.count || 80;
-  const isSubjectMode = (config.mode === 'subject');
-  let questions = [];
-
-  if (isSubjectMode) {
-    const sub = config.subject || 'electric';
-    const subNameMap = {
-      electric: 'Điện & Điện Tử Cơ Bản',
-      plc: 'PLC Cơ Bản',
-      machine: 'Linh Kiện Máy Cơ Bản',
-      pneumatics: 'Khí Nén Cơ Bản'
-    };
-    const subName = subNameMap[sub] || 'Chuyên Đề';
-    const pool = APP_STATE.masterQuestions.filter(q => q.subject_code === sub);
-    const selected = sampleQuestionsWithDifficultyBalance(pool, totalCount);
-
-    selected.forEach((q, idx) => {
-      const cloned = JSON.parse(JSON.stringify(q));
-      cloned.exam_q_num = idx + 1;
-      cloned.display_number = idx + 1;
-      questions.push(cloned);
-    });
-
-    return {
-      id: `SMART_SUBJ_${sub.toUpperCase()}`,
-      title: `Đề Thi Chuyên Sâu: ${subName} (${totalCount} câu)`,
-      total_questions: questions.length,
-      questions: questions,
-      time_minutes: config.timeMinutes || 20
-    };
-  } else {
-    // Cân đối 4 môn: Điện (25%), PLC (25%), Khí nén (25%), Máy (25%)
-    const subjects = ['electric', 'plc', 'pneumatics', 'machine'];
-    const perSubject = Math.floor(totalCount / 4);
-
-    subjects.forEach((sub, subIdx) => {
-      const countForThisSub = (subIdx === 3) ? (totalCount - perSubject * 3) : perSubject;
-      const pool = APP_STATE.masterQuestions.filter(q => q.subject_code === sub);
-      const selected = sampleQuestionsWithDifficultyBalance(pool, countForThisSub);
-
-      selected.forEach(q => {
-        const cloned = JSON.parse(JSON.stringify(q));
-        cloned.exam_q_num = questions.length + 1;
-        cloned.display_number = questions.length + 1;
-        questions.push(cloned);
-      });
-    });
-
-    const titleMap = {
-      80: '🎯 Đề Chuẩn Mô Phỏng White Star (80 câu)',
-      40: '⚡ Đề Rút Gọn Cân Bằng 4 Môn (40 câu)',
-      20: '🚀 Đề Cấp Tốc Cân Bằng 4 Môn (20 câu)'
-    };
-
-    return {
-      id: `SMART_${totalCount}`,
-      title: titleMap[totalCount] || `Đề Thi Mô Phỏng White Star (${totalCount} câu)`,
-      total_questions: questions.length,
-      questions: questions,
-      time_minutes: config.timeMinutes || (totalCount >= 80 ? 60 : (totalCount >= 40 ? 30 : 15))
-    };
-  }
-}
-
-// Thuật toán lấy mẫu cân bằng độ khó (45% Dễ, 40% Trung bình, 15% Khó) và ưu tiên câu có sơ đồ/hình ảnh
-function sampleQuestionsWithDifficultyBalance(pool, targetCount) {
-  if (!pool || pool.length === 0) return [];
-  if (pool.length <= targetCount) {
-    return [...pool].sort(() => 0.5 - Math.random());
-  }
-
-  const countEasy = Math.max(1, Math.round(targetCount * 0.45));
-  const countMed = Math.max(1, Math.round(targetCount * 0.40));
-  const countHard = Math.max(1, targetCount - countEasy - countMed);
-
-  const easyPool = pool.filter(q => q.difficulty === 'Dễ' || !q.difficulty).sort(() => 0.5 - Math.random());
-  const medPool = pool.filter(q => q.difficulty === 'Trung bình').sort(() => 0.5 - Math.random());
-  const hardPool = pool.filter(q => q.difficulty === 'Khó').sort(() => 0.5 - Math.random());
-
-  let chosen = [];
-  chosen.push(...easyPool.slice(0, countEasy));
-  chosen.push(...medPool.slice(0, countMed));
-  chosen.push(...hardPool.slice(0, countHard));
-
-  // Nếu thiếu do pool của mức độ đó ít, bù từ phần còn lại
-  if (chosen.length < targetCount) {
-    const chosenIds = new Set(chosen.map(q => q.id));
-    const remainder = pool.filter(q => !chosenIds.has(q.id)).sort(() => 0.5 - Math.random());
-    chosen.push(...remainder.slice(0, targetCount - chosen.length));
-  }
-
-  // Đảm bảo có ít nhất 1-2 câu có hình ảnh minh họa nếu môn đó có hình ảnh
-  const hasImage = chosen.some(q => q.images && q.images.length > 0);
-  if (!hasImage) {
-    const imgQ = pool.find(q => q.images && q.images.length > 0);
-    if (imgQ && !chosen.some(q => q.id === imgQ.id)) {
-      chosen[chosen.length - 1] = imgQ;
+  nextQuestion() {
+    const total = AppState.exam.activeExam.questions.length;
+    if (AppState.exam.currentIndex < total - 1) {
+      AppState.exam.currentIndex += 1;
+      this.renderActiveQuestion();
+      this.renderPalette();
     }
-  }
+  },
 
-  return chosen.slice(0, targetCount);
-}
+  jumpToQuestion(idx) {
+    AppState.exam.currentIndex = idx;
+    this.renderActiveQuestion();
+    this.renderPalette();
+    if (window.innerWidth <= 1024) {
+      this.togglePaletteMobile(false);
+    }
+  },
 
-function toggleExamFlag(index) {
-  if (!APP_STATE.examFlags) APP_STATE.examFlags = new Set();
-  if (APP_STATE.examFlags.has(index)) {
-    APP_STATE.examFlags.delete(index);
-  } else {
-    APP_STATE.examFlags.add(index);
-  }
-  updatePaletteButton(index);
-  renderExamQuestion(index);
-}
+  renderPalette() {
+    const grid = document.getElementById('exam-palette-grid');
+    if (!grid) return;
 
-function updatePaletteButton(index) {
-  const btn = document.getElementById(`pal-btn-${index}`);
-  if (!btn) return;
-  const isAnswered = APP_STATE.examAnswers && APP_STATE.examAnswers[index] !== undefined;
-  const isFlagged = APP_STATE.examFlags && APP_STATE.examFlags.has(index);
-  btn.classList.toggle('answered', isAnswered);
-  btn.classList.toggle('flagged', isFlagged);
-}
+    const { activeExam, currentIndex, answers, flags } = AppState.exam;
+    const questions = activeExam.questions || [];
 
-function buildExamPalette() {
-  const palette = document.getElementById('exam-palette-grid');
-  if (!palette || !APP_STATE.activeExam) return;
+    grid.innerHTML = questions.map((q, idx) => {
+      let cls = 'palette-btn';
+      if (idx === currentIndex) cls += ' current';
+      else if (answers[idx]) cls += ' done';
+      else cls += ' pending';
 
-  palette.innerHTML = APP_STATE.activeExam.questions.map((q, idx) => {
-    const isAnswered = APP_STATE.examAnswers && APP_STATE.examAnswers[idx] !== undefined;
-    const isFlagged = APP_STATE.examFlags && APP_STATE.examFlags.has(idx);
-    let classes = 'palette-btn';
-    if (isAnswered) classes += ' answered';
-    if (isFlagged) classes += ' flagged';
-    return `
-      <button class="${classes}" id="pal-btn-${idx}" onclick="jumpToExamQuestion(${idx})">
-        ${idx + 1}
-      </button>
-    `;
-  }).join('');
-}
+      if (flags.has(idx)) cls += ' flagged';
 
-function renderExamQuestion(index) {
-  const exam = APP_STATE.activeExam;
-  if (!exam || !exam.questions[index]) return;
+      return `<button class="${cls}" onclick="ExamController.jumpToQuestion(${idx})">${idx + 1}</button>`;
+    }).join('');
+  },
 
-  APP_STATE.examCurrentIndex = index;
-  const q = exam.questions[index];
+  togglePaletteMobile(forceOpen) {
+    const palette = document.getElementById('exam-palette-sidebar');
+    const closeBtn = document.getElementById('btn-close-palette-mobile');
+    if (!palette) return;
 
-  // Update header progress and mobile status counters
-  const statusStr = `${index + 1} / ${exam.questions.length}`;
-  setText('exam-progress-counter', `Câu ${statusStr}`);
-  setText('exam-palette-status-count', `${index + 1}/${exam.questions.length}`);
-  setText('exam-palette-status-count-b', `${index + 1}/${exam.questions.length}`);
-
-  // Update mobile bottom controls state
-  const prevMobBtn = document.getElementById('btn-exam-prev-mobile');
-  const nextMobBtn = document.getElementById('btn-exam-next-mobile');
-  if (prevMobBtn) prevMobBtn.disabled = (index === 0);
-  if (nextMobBtn) {
-    if (index === exam.questions.length - 1) {
-      nextMobBtn.innerText = 'Nộp bài 🏁';
-      nextMobBtn.className = 'btn btn-danger btn-sm';
+    if (forceOpen !== undefined) {
+      palette.classList.toggle('mobile-open', forceOpen);
     } else {
-      nextMobBtn.innerText = 'Tiếp →';
-      nextMobBtn.className = 'btn btn-primary btn-sm';
+      palette.classList.toggle('mobile-open');
     }
-  }
 
-  // Update palette active states
-  exam.questions.forEach((_, i) => {
-    const btn = document.getElementById(`pal-btn-${i}`);
-    if (!btn) return;
-    btn.classList.toggle('current', i === index);
-    const isAnswered = APP_STATE.examAnswers && APP_STATE.examAnswers[i] !== undefined;
-    const isFlagged = APP_STATE.examFlags && APP_STATE.examFlags.has(i);
-    btn.classList.toggle('answered', isAnswered);
-    btn.classList.toggle('flagged', isFlagged);
-  });
+    if (closeBtn) closeBtn.style.display = palette.classList.contains('mobile-open') ? 'block' : 'none';
+  },
 
-  const selectedAnswer = APP_STATE.examAnswers[index];
-  const isFlagged = APP_STATE.examFlags && APP_STATE.examFlags.has(index);
+  confirmSubmit() {
+    const { activeExam, answers } = AppState.exam;
+    const total = activeExam.questions.length;
+    const answeredCount = Object.keys(answers).length;
+    const unanswered = total - answeredCount;
 
-  // Media
-  const mediaHtml = (q.images && q.images.length > 0)
-    ? `<div class="q-media-box">
-        <div class="q-media-grid ${q.images.length > 1 ? 'multi' : ''}">
-          ${q.images.map((img, i) => `
-            <div class="q-media-item">
-              <img class="q-media-img" src="${img}" alt="Sơ đồ minh họa ${i+1}" onerror="handleImgError(this)" onclick="openImageModal('${img}', '${escapeHtml(q.question)}')">
-              ${q.images.length > 1 ? `<span class="q-media-label">Hình ${String.fromCharCode(65 + i)}</span>` : ''}
-            </div>
-          `).join('')}
-        </div>
-        <span class="q-media-hint"><i class="fas fa-search-plus"></i> Nhấp vào hình để phóng to / xem chi tiết</span>
-       </div>`
-    : '';
+    let msg = `Bạn đã làm ${answeredCount} / ${total} câu.`;
+    if (unanswered > 0) {
+      msg += ` Còn ${unanswered} câu CHƯA LÀM!`;
+    }
+    msg += '\nBạn có chắc chắn muốn nộp bài thi ngay bây giờ?';
 
-  // Options with robust fallback
-  const effectiveOptions = (q.options && q.options.length > 0) ? q.options : [
-    { key: 'A', text: 'Đáp án A / Hình A (Xem sơ đồ minh họa)' },
-    { key: 'B', text: 'Đáp án B / Hình B (Xem sơ đồ minh họa)' },
-    { key: 'C', text: 'Đáp án C / Hình C (Xem sơ đồ minh họa)' },
-    { key: 'D', text: 'Đáp án D / Hình D (Xem sơ đồ minh họa)' }
-  ];
+    if (confirm(msg)) {
+      this.submitExam();
+    }
+  },
 
-  const optionsHtml = effectiveOptions.map(opt => {
-    const isSelected = selectedAnswer === opt.key;
-    return `
-      <button class="opt-btn ${isSelected ? 'active' : ''}" style="${isSelected ? 'background: rgba(99,102,241,0.2); border-color: var(--primary);' : ''}" onclick="selectExamAnswer(${index}, '${opt.key}')">
-        <span class="opt-key" style="${isSelected ? 'background: var(--primary); color: white;' : ''}">${opt.key}</span>
-        <span class="opt-text">${escapeHtml(opt.text)}</span>
-      </button>
-    `;
-  }).join('');
+  submitExam() {
+    clearInterval(AppState.exam.timerInterval);
+    const { activeExam, answers, timeSpentSeconds } = AppState.exam;
+    const questions = activeExam.questions || [];
+    let correctCount = 0;
 
-  const subjText = q.subject || q.section || 'Kỹ thuật';
-  const diffBadge = q.difficulty ? `<span class="badge badge-diff diff-${q.difficulty.toLowerCase()}">${q.difficulty}</span>` : '';
+    const subjectBreakdown = {
+      electric: { total: 0, correct: 0, name: 'Điện & Điện Tử' },
+      plc: { total: 0, correct: 0, name: 'PLC Cơ Bản' },
+      machine: { total: 0, correct: 0, name: 'Linh Kiện Máy' },
+      pneumatics: { total: 0, correct: 0, name: 'Khí Nén Cơ Bản' }
+    };
 
-  const container = document.getElementById('exam-question-content');
-  container.innerHTML = `
-    <div class="q-card-header">
-      <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
-        <span class="badge badge-subject">${escapeHtml(subjText)}</span>
-        ${diffBadge}
-        <span class="q-id">Câu ${index + 1} / ${exam.questions.length}</span>
-      </div>
-      <button class="btn btn-sm ${isFlagged ? 'btn-warning' : 'btn-outline'}" onclick="toggleExamFlag(${index})" title="Đánh dấu câu hỏi này để xem lại sau">
-        ${isFlagged ? '🚩 Đã đánh dấu' : '🏳️ Đánh dấu xem lại'}
-      </button>
-    </div>
-    <div class="q-title" style="font-size: 1.25rem;">${escapeHtml(q.question)}</div>
-    ${mediaHtml}
-    <div class="q-options-list" style="margin-top: 24px;">
-      ${optionsHtml}
-    </div>
-    <div style="display: flex; justify-content: space-between; margin-top: auto; padding-top: 24px; gap: 10px;">
-      <button class="btn btn-secondary" ${index === 0 ? 'disabled' : ''} onclick="jumpToExamQuestion(${index - 1})">← Câu trước</button>
-      ${index < exam.questions.length - 1 
-        ? `<button class="btn btn-primary" onclick="jumpToExamQuestion(${index + 1})">Câu tiếp theo →</button>`
-        : `<button class="btn btn-danger" onclick="confirmSubmitExam()">Nộp bài thi</button>`
+    questions.forEach((q, idx) => {
+      const userAns = answers[idx];
+      const isCorr = userAns === q.correct_answer;
+      if (isCorr) correctCount += 1;
+
+      // Record in central state for learning analytics
+      if (userAns) {
+        AppState.recordAnswer(q.id, userAns, isCorr);
       }
-    </div>
-  `;
-}
 
-function selectExamAnswer(qIndex, key) {
-  APP_STATE.examAnswers[qIndex] = key;
-  updatePaletteButton(qIndex);
-  renderExamQuestion(qIndex);
-}
-
-function jumpToExamQuestion(index) {
-  closeExamPalette();
-  renderExamQuestion(index);
-}
-
-function startExamTimer() {
-  clearInterval(APP_STATE.examTimerInterval);
-  updateTimerDisplay();
-
-  APP_STATE.examTimerInterval = setInterval(() => {
-    APP_STATE.examSecondsRemaining--;
-    APP_STATE.examTimeSpentSeconds++;
-    updateTimerDisplay();
-
-    if (APP_STATE.examSecondsRemaining <= 0) {
-      clearInterval(APP_STATE.examTimerInterval);
-      alert('Hết giờ làm bài! Hệ thống tự động thu bài thi.');
-      submitExam();
-    }
-  }, 1000);
-}
-
-function updateTimerDisplay() {
-  const m = Math.floor(APP_STATE.examSecondsRemaining / 60);
-  const s = APP_STATE.examSecondsRemaining % 60;
-  const timeStr = `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
-  setText('exam-timer-text', timeStr);
-}
-
-function confirmSubmitExam() {
-  const answeredCount = Object.keys(APP_STATE.examAnswers || {}).length;
-  const total = APP_STATE.activeExam.questions.length;
-  const flaggedCount = APP_STATE.examFlags ? APP_STATE.examFlags.size : 0;
-  let msg = `Bạn đã hoàn thành ${answeredCount}/${total} câu hỏi.`;
-  if (answeredCount < total) {
-    msg += ` Còn ${total - answeredCount} câu chưa trả lời.`;
-  }
-  if (flaggedCount > 0) {
-    msg += ` Có ${flaggedCount} câu đang đánh dấu xem lại.`;
-  }
-  msg += `\n\nBạn có chắc chắn muốn nộp bài thi ngay không?`;
-  if (confirm(msg)) {
-    submitExam();
-  }
-}
-
-function submitExam() {
-  clearInterval(APP_STATE.examTimerInterval);
-  APP_STATE.examIsSubmitted = true;
-
-  const exam = APP_STATE.activeExam;
-  let correctCount = 0;
-  const subStats = {};
-
-  const recordAnswers = [];
-
-  exam.questions.forEach((q, idx) => {
-    const sec = q.section || 'Tổng hợp';
-    if (!subStats[sec]) subStats[sec] = { total: 0, correct: 0 };
-    subStats[sec].total++;
-
-    const userAns = APP_STATE.examAnswers[idx];
-    const isCorrect = (userAns && userAns === q.correct_answer);
-
-    if (isCorrect) {
-      correctCount++;
-      subStats[sec].correct++;
-    }
-
-    recordAnswers.push({
-      questionIndex: idx + 1,
-      id: q.id,
-      question: q.question,
-      options: q.options,
-      correct_answer: q.correct_answer,
-      user_answer: userAns || null,
-      is_correct: isCorrect,
-      section: sec,
-      explanation: q.explanation || null
+      // Breakdown
+      const sub = q.subject_code || 'electric';
+      if (subjectBreakdown[sub]) {
+        subjectBreakdown[sub].total += 1;
+        if (isCorr) subjectBreakdown[sub].correct += 1;
+      }
     });
-  });
 
-  const percent = Math.round((correctCount / exam.questions.length) * 100);
-  const isPassed = percent >= 70;
+    const total = questions.length;
+    const percent = Math.round((correctCount / total) * 100);
+    const passed = percent >= 70;
 
-  // Format time spent
-  const timeSpentMin = Math.floor(APP_STATE.examTimeSpentSeconds / 60);
-  const timeSpentSec = APP_STATE.examTimeSpentSeconds % 60;
-  const timeSpentStr = `${timeSpentMin}m ${timeSpentSec}s`;
+    const result = {
+      id: 'exam_' + Date.now(),
+      title: activeExam.title,
+      date: new Date().toLocaleString('vi-VN'),
+      score: correctCount,
+      total: total,
+      percent: percent,
+      passed: passed,
+      timeSpent: timeSpentSeconds,
+      breakdown: subjectBreakdown,
+      answers: { ...answers }
+    };
 
-  // Create Exam Attempt Record
-  const attempt = {
-    id: `ATTEMPT_${Date.now()}`,
-    userId: APP_STATE.currentUser.id,
-    userName: APP_STATE.currentUser.name,
-    userCode: APP_STATE.currentUser.code,
-    examId: exam.id,
-    examTitle: exam.title,
-    date: new Date().toLocaleString('vi-VN'),
-    timeSpent: timeSpentStr,
-    scorePercent: percent,
-    correctCount: correctCount,
-    totalQuestions: exam.questions.length,
-    isPassed: isPassed,
-    subjectBreakdown: subStats,
-    answers: recordAnswers
-  };
+    AppState.exam.lastResult = result;
+    AppState.exam.isSubmitted = true;
+    AppState.history.unshift(result);
+    AppState.saveStorage();
 
-  // Save to history
-  APP_STATE.userHistory.unshift(attempt);
-  saveUserHistoryAndBookmarks();
-  renderHistoryDashboard();
+    // Sound
+    if (passed) AudioEngine.playComplete();
+    else AudioEngine.playWrong();
 
-  // Show result view
-  document.getElementById('exam-active-view').style.display = 'none';
-  document.getElementById('exam-result-view').style.display = 'block';
+    this.renderResult(result);
+  },
 
-  // Restore mobile bottom nav
-  const bottomNav = document.getElementById('mobile-bottom-nav');
-  if (bottomNav) bottomNav.style.display = '';
+  renderResult(res) {
+    document.getElementById('exam-active-view').style.display = 'none';
+    document.getElementById('exam-result-view').style.display = 'block';
 
-  setText('result-score-percent', `${percent}%`);
-  setText('result-score-fraction', `${correctCount} / ${exam.questions.length} câu đúng`);
+    const icon = document.getElementById('result-icon');
+    const title = document.getElementById('result-exam-title');
+    const scorePct = document.getElementById('result-score-percent');
+    const scoreFraction = document.getElementById('result-score-fraction');
+    const badge = document.getElementById('result-status-badge');
 
-  const icon = document.getElementById('result-badge-icon');
-  const title = document.getElementById('result-title');
-  if (percent >= 80) {
-    if (icon) icon.innerText = '🏆';
-    if (title) title.innerText = 'XUẤT SẮC - ĐẠT CHUẨN WHITE STAR!';
-  } else if (percent >= 70) {
-    if (icon) icon.innerText = '🎉';
-    if (title) title.innerText = 'CHÚC MỪNG - BẠN ĐÃ ĐẠT KỲ THI!';
-  } else {
-    if (icon) icon.innerText = '📚';
-    if (title) title.innerText = 'CHƯA ĐẠT CHUẨN (CẦN ÔN TẬP THÊM)';
-  }
+    if (icon) icon.innerText = res.passed ? '🎉' : '⚠️';
+    if (title) title.innerText = res.title;
+    if (scorePct) scorePct.innerText = `${res.percent}%`;
 
-  // Render subject breakdown
-  const breakdownDiv = document.getElementById('result-subject-breakdown');
-  if (breakdownDiv) {
-    breakdownDiv.innerHTML = Object.entries(subStats).map(([sec, stat]) => {
-      const p = Math.round((stat.correct / stat.total) * 100);
-      return `
-        <div class="result-row">
-          <span>${sec}</span>
-          <strong>${stat.correct}/${stat.total} câu (${p}%)</strong>
-        </div>
-      `;
-    }).join('');
-  }
-}
-
-function restartExamSelection() {
-  document.getElementById('exam-result-view').style.display = 'none';
-  document.getElementById('exam-setup-view').style.display = 'block';
-  const bottomNav = document.getElementById('mobile-bottom-nav');
-  if (bottomNav) bottomNav.style.display = '';
-}
-
-function reviewExamAnswers() {
-  if (APP_STATE.userHistory.length > 0) {
-    openExamReviewModal(APP_STATE.userHistory[0].id);
-  }
-}
-
-// =============================================================================
-// VIEW 5: EXAM HISTORY DASHBOARD & DETAILED ATTEMPT REVIEW
-// =============================================================================
-function renderHistoryDashboard() {
-  const history = APP_STATE.userHistory;
-
-  const totalAttempts = history.length;
-  setText('hist-total-attempts', totalAttempts);
-
-  if (totalAttempts === 0) {
-    setText('hist-best-score', '--%');
-    setText('hist-avg-score', '--%');
-    setText('hist-pass-rate', '--%');
-
-    const timeline = document.getElementById('history-progression-timeline');
-    if (timeline) {
-      timeline.innerHTML = `<div style="color: var(--text-muted); padding: 40px; width: 100%; text-align: center;">Chưa có bài thi nào được thực hiện. Bấm vào "Thi thử bài mới" để bắt đầu làm bài!</div>`;
+    const mins = Math.floor(res.timeSpent / 60);
+    const secs = res.timeSpent % 60;
+    if (scoreFraction) {
+      scoreFraction.innerText = `${res.score} / ${res.total} câu đúng • Thời gian: ${mins} phút ${secs} giây`;
     }
 
-    const tableBody = document.getElementById('history-table-body');
-    if (tableBody) {
-      tableBody.innerHTML = `<tr><td colspan="8" style="text-align: center; color: var(--text-muted); padding: 30px;">Chưa có dữ liệu lịch sử thi</td></tr>`;
+    if (badge) {
+      badge.className = `result-status-badge ${res.passed ? 'passed' : 'failed'}`;
+      badge.innerText = res.passed ? '✓ ĐẠT CHUẨN WHITE STAR (≥ 70%)' : '✕ CHƯA ĐẠT CHUẨN WHITE STAR (< 70%)';
     }
-    return;
-  }
 
-  // Calculate metrics
-  const scores = history.map(h => h.scorePercent);
-  const bestScore = Math.max(...scores);
-  const avgScore = Math.round(scores.reduce((a, b) => a + b, 0) / totalAttempts);
-  const passCount = history.filter(h => h.isPassed).length;
-  const passRate = Math.round((passCount / totalAttempts) * 100);
-
-  setText('hist-best-score', `${bestScore}%`);
-  setText('hist-avg-score', `${avgScore}%`);
-  setText('hist-pass-rate', `${passRate}%`);
-
-  // Render Progression Chart (Recent 10 attempts)
-  const timeline = document.getElementById('history-progression-timeline');
-  if (timeline) {
-    const recent = history.slice(0, 10).reverse();
-    timeline.innerHTML = recent.map((item, idx) => {
-      const heightPercent = Math.max(15, item.scorePercent);
-      const isPass = item.isPassed;
-      return `
-        <div class="chart-bar-item" title="${item.examTitle}: ${item.scorePercent}% (${item.date})">
-          <div class="bar-pill ${isPass ? 'pass' : 'fail'}" style="height: ${heightPercent}%;">
-            <span class="bar-score-val">${item.scorePercent}%</span>
+    // Breakdown bars
+    const box = document.getElementById('result-breakdown-box');
+    if (box) {
+      box.innerHTML = Object.values(res.breakdown).map(b => {
+        const pct = b.total > 0 ? Math.round((b.correct / b.total) * 100) : 0;
+        return `
+          <div class="sub-breakdown-row">
+            <span style="width: 140px; font-weight: 600;">${b.name}:</span>
+            <div class="sub-breakdown-bar">
+              <div class="sub-breakdown-fill" style="width: ${pct}%;"></div>
+            </div>
+            <span style="width: 80px; text-align: right; font-family: var(--font-mono); font-weight: 700;">${b.correct}/${b.total} (${pct}%)</span>
           </div>
-          <span class="bar-label">Lần ${idx + 1}</span>
+        `;
+      }).join('');
+    }
+
+    DashboardController.render();
+  },
+
+  restartSelection() {
+    document.getElementById('exam-result-view').style.display = 'none';
+    document.getElementById('exam-active-view').style.display = 'none';
+    document.getElementById('exam-setup-view').style.display = 'block';
+  },
+
+  openReviewDetail() {
+    const res = AppState.exam.lastResult;
+    if (!res) return;
+    UI.openExamReview(res);
+  },
+
+  filterReview(filterType, btn) {
+    document.querySelectorAll('#modal-exam-review .btn-sm').forEach(b => b.classList.remove('active'));
+    if (btn) btn.classList.add('active');
+
+    const res = AppState.exam.lastResult;
+    if (!res) return;
+
+    const stream = document.getElementById('review-questions-stream');
+    const questions = AppState.exam.activeExam.questions || [];
+
+    const filtered = questions.filter((q, idx) => {
+      const userAns = res.answers[idx];
+      const isCorrect = userAns === q.correct_answer;
+      if (filterType === 'wrong') return !isCorrect;
+      if (filterType === 'correct') return isCorrect;
+      return true;
+    });
+
+    stream.innerHTML = filtered.map((q, i) => {
+      // Find index in original
+      const originalIdx = questions.findIndex(orig => orig.id === q.id);
+      const userAns = res.answers[originalIdx];
+      const isCorrect = userAns === q.correct_answer;
+
+      return `
+        <div class="question-card" style="border-left: 4px solid ${isCorrect ? 'var(--success)' : 'var(--danger)'};">
+          <div class="question-card-header">
+            <span class="tag tag-id">#${originalIdx + 1} (${q.id})</span>
+            <span class="tag ${isCorrect ? 'tag-diff-easy' : 'tag-diff-hard'}">${isCorrect ? '✓ Đúng' : '✕ Sai'}</span>
+          </div>
+          <div class="question-title">${TextEngine.format(q.question)}</div>
+
+          <div style="margin: 12px 0;">
+            <div style="font-size: 13px;">Đáp án bạn chọn: <strong style="color: ${isCorrect ? 'var(--success)' : 'var(--danger)'};">[${userAns || 'Chưa làm'}]</strong></div>
+            <div style="font-size: 13px;">Đáp án chính xác: <strong style="color: var(--success);">[${q.correct_answer}]</strong></div>
+          </div>
+
+          ${q.explanation ? `
+            <div style="background: var(--bg-surface); padding: 12px; border-radius: 8px; font-size: 13px; color: var(--text-secondary);">
+              <strong>Giải thích:</strong> ${TextEngine.format(q.explanation.why_correct || q.explanation.overview || '')}
+            </div>
+          ` : ''}
         </div>
       `;
     }).join('');
   }
+};
 
-  // Render History Table
-  const tableBody = document.getElementById('history-table-body');
-  if (tableBody) {
-    tableBody.innerHTML = history.map((item, idx) => {
-      const breakdownText = Object.entries(item.subjectBreakdown || {})
-        .map(([sec, st]) => `${sec.substring(0, 10)}: ${st.correct}/${st.total}`)
-        .join(' • ');
+/* --- 11. CHEATSHEET CONTROLLER --- */
+const CheatsheetController = {
+  activeTab: 'electric',
 
-      return `
-        <tr>
-          <td>#${idx + 1}</td>
-          <td><strong>${escapeHtml(item.examTitle)}</strong></td>
-          <td>${item.date}</td>
-          <td>${item.timeSpent || '60m'}</td>
-          <td><strong>${item.scorePercent}%</strong> (${item.correctCount}/${item.totalQuestions})</td>
-          <td>
-            <span class="${item.isPassed ? 'badge-pass' : 'badge-fail'}">
-              ${item.isPassed ? '✓ ĐẠT' : '✕ CHƯA ĐẠT'}
-            </span>
-          </td>
-          <td><small style="color: var(--text-muted);">${breakdownText || '--'}</small></td>
-          <td>
-            <div style="display: flex; gap: 8px;">
-              <button class="btn btn-sm btn-outline" onclick="openExamReviewModal('${item.id}')" title="Xem lại bài làm">
-                👁️ Xem
-              </button>
-              <button class="btn btn-sm btn-secondary" onclick="retakeExam('${item.examId}')" title="Thi lại đề này">
-                🔄 Thi lại
-              </button>
-              <button class="btn btn-sm btn-danger-outline" onclick="deleteHistoryAttempt('${item.id}')" title="Xóa">
-                🗑️
-              </button>
-            </div>
-          </td>
-        </tr>
-      `;
-    }).join('');
+  data: {
+    electric: [
+      {
+        title: '⚡ Định luật Ohm & Mạch RLC Nối Tiếp',
+        content: `
+          <table class="cheat-table">
+            <tr><th>Công thức</th><th>Ý nghĩa kỹ thuật</th></tr>
+            <tr><td><code>I = U / R</code></td><td>Định luật Ohm cơ bản</td></tr>
+            <tr><td><code>Z = √(R² + (X_L - X_C)²)</code></td><td>Tổng trở mạch RLC xoay chiều</td></tr>
+            <tr><td><code>X_L = 2πfL = ωL</code></td><td>Cảm kháng cuộn cảm (Ω)</td></tr>
+            <tr><td><code>X_C = 1 / (2πfC) = 1 / (ωC)</code></td><td>Dung kháng tụ điện (Ω)</td></tr>
+            <tr><td><code>f_0 = 1 / (2π√(LC))</code></td><td>Tần số cộng hưởng (Resonance Frequency)</td></tr>
+            <tr><td><code>P = U.I.cosφ</code></td><td>Công suất tác dụng mạch xoay chiều 1 pha</td></tr>
+          </table>
+        `
+      },
+      {
+        title: '🔬 Linh Kiện Bán Dẫn (BJT, Diode, Op-Amp)',
+        content: `
+          <table class="cheat-table">
+            <tr><th>Linh kiện</th><th>Đặc tính trọng tâm White Star</th></tr>
+            <tr><td><strong>Diode Zener</strong></td><td>Phân cực ngược để ổn định điện áp chuẩn (Vz)</td></tr>
+            <tr><td><strong>BJT NPN</strong></td><td>Dòng điện: <code>I_E = I_B + I_C</code>, Hệ số khuếch đại dòng: <code>β = I_C / I_B</code></td></tr>
+            <tr><td><strong>SSR Relay</strong></td><td>Solid State Relay - đóng cắt không tiếp điểm bằng Optocoupler</td></tr>
+            <tr><td><strong>Op-Amp Đảo</strong></td><td>Độ lợi: <code>Av = -R_f / R_in</code> (Đảo pha 180°)</td></tr>
+            <tr><td><strong>Op-Amp Không Đảo</strong></td><td>Độ lợi: <code>Av = 1 + (R_f / R_in)</code> (Cùng pha)</td></tr>
+          </table>
+        `
+      }
+    ],
+
+    plc: [
+      {
+        title: '💻 Bảng Thiết Bị PLC Mitsubishi (FX/Q Series Device)',
+        content: `
+          <table class="cheat-table">
+            <tr><th>Ký hiệu</th><th>Tên thiết bị</th><th>Bản chất kỹ thuật</th></tr>
+            <tr><td><strong>X</strong></td><td>Input</td><td>Ngõ vào số (Optocoupler cách ly quang từ cảm biến)</td></tr>
+            <tr><td><strong>Y</strong></td><td>Output</td><td>Ngõ ra số (Relay / Transistor lái tải ngoài)</td></tr>
+            <tr><td><strong>M</strong></td><td>Internal Relay</td><td>Rơ le phụ trợ nội bộ (Bit 0/1)</td></tr>
+            <tr><td><strong>D</strong></td><td>Data Register</td><td>Thanh ghi dữ liệu 16-bit (-32,768 đến 32,767)</td></tr>
+            <tr><td><strong>T</strong></td><td>Timer</td><td>Bộ định thời (Đếm thời gian trễ On/Off)</td></tr>
+            <tr><td><strong>C</strong></td><td>Counter</td><td>Bộ đếm xung sự kiện</td></tr>
+          </table>
+        `
+      },
+      {
+        title: '⚙️ Tập Lệnh Logic Ladder Phổ Biến',
+        content: `
+          <table class="cheat-table">
+            <tr><th>Lệnh</th><th>Chức năng</th></tr>
+            <tr><td><code>LD / LDI</code></td><td>Tiếp điểm Thường mở / Thường đóng</td></tr>
+            <tr><td><code>OUT</code></td><td>Kích hoạt cuộn dây ngõ ra (Coil)</td></tr>
+            <tr><td><code>SET / RST</code></td><td>Chốt tự giữ trạng thái / Hủy chốt</td></tr>
+            <tr><td><code>PLS / PLF</code></td><td>Phát xung cạnh lên (Rising) / Cạnh xuống (Falling) trong 1 chu kỳ quét</td></tr>
+            <tr><td><code>MC / MCR</code></td><td>Chủ điều khiển Master Control / Hủy điều khiển</td></tr>
+          </table>
+        `
+      }
+    ],
+
+    pneumatics: [
+      {
+        title: '💨 Ký Hiệu Van Đảo Chiều & Cơ Cấu Khí Nén',
+        content: `
+          <table class="cheat-table">
+            <tr><th>Ký hiệu van</th><th>Ứng dụng điển hình</th></tr>
+            <tr><td><strong>Van 3/2</strong></td><td>Điều khiển xi lanh tác động đơn (1 ngõ vào, 1 ngõ ra, 1 xả)</td></tr>
+            <tr><td><strong>Van 5/2</strong></td><td>Điều khiển xi lanh tác động kép (đẩy tiến / lùi độc lập)</td></tr>
+            <tr><td><strong>Van 5/3</strong></td><td>Van 3 vị trí (Vị trí giữa đóng, xả hoặc cấp áp để dừng lơ lửng)</td></tr>
+            <tr><td><strong>Bộ FRL</strong></td><td>Bộ ba khí nén: Lọc tách nước (Filter) + Điều áp (Regulator) + Bôi trơn (Lubricator)</td></tr>
+            <tr><td><strong>Van tiết lưu một chiều</strong></td><td>Điều chỉnh vận tốc xi lanh (Meter-out / Meter-in)</td></tr>
+          </table>
+        `
+      },
+      {
+        title: '📐 Công Thức Tính Lực Xi Lanh Khí Nén',
+        content: `
+          <table class="cheat-table">
+            <tr><th>Trạng thái</th><th>Công thức tính lực (N)</th></tr>
+            <tr><td><strong>Lực đẩy tiến:</strong></td><td><code>F_đẩy = P × A_piston = P × (π × D² / 4)</code></td></tr>
+            <tr><td><strong>Lực kéo lùi:</strong></td><td><code>F_kéo = P × (A_piston - A_rod) = P × π × (D² - d²) / 4</code></td></tr>
+            <tr><td><strong>Lưu ý áp suất:</strong></td><td><code>1 bar = 10⁵ Pa = 0.1 MPa ≈ 1.02 kgf/cm²</code></td></tr>
+          </table>
+        `
+      }
+    ],
+
+    machine: [
+      {
+        title: '⚙️ Bộ Truyền Động & Ổ Lăn (Bearing)',
+        content: `
+          <table class="cheat-table">
+            <tr><th>Khái niệm</th><th>Quy tắc kỹ thuật</th></tr>
+            <tr><td><strong>Tỉ số truyền bánh răng:</strong></td><td><code>i = Z₂ / Z₁ = n₁ / n₂</code> (Z: số răng, n: tốc độ vòng/phút)</td></tr>
+            <tr><td><strong>Ký hiệu ổ lăn 6204:</strong></td><td>Đường kính trong (d): <code>04 × 5 = 20 mm</code></td></tr>
+            <tr><td><strong>Ký hiệu ổ lăn 6305:</strong></td><td>Đường kính trong (d): <code>05 × 5 = 25 mm</code> (Dòng 63: tải trọng trung bình)</td></tr>
+            <tr><td><strong>Mối ghép Then (Key):</strong></td><td>Then bằng, then bán nguyệt truyền mô-men xoắn giữa trục và bánh răng</td></tr>
+          </table>
+        `
+      },
+      {
+        title: '📏 Dung Sai Lắp Ghép Tiêu Chuẩn (Fits & Tolerances)',
+        content: `
+          <table class="cheat-table">
+            <tr><th>Dạng lắp ghép</th><th>Ký hiệu chuẩn ISO / JIS</th></tr>
+            <tr><td><strong>Lắp lỏng (Clearance fit):</strong></td><td><code>H7/g6</code>, <code>H7/f7</code> (Các chi tiết trượt hoặc quay tương đối)</td></tr>
+            <tr><td><strong>Lắp trung gian (Transition fit):</strong></td><td><code>H7/k6</code>, <code>H7/m6</code> (Định vị chính xác, cần búa cao su hoặc ép nhẹ)</td></tr>
+            <tr><td><strong>Lắp chặt (Interference fit):</strong></td><td><code>H7/p6</code>, <code>H7/s6</code> (Không dịch chuyển, cần ép thủy lực hoặc gia nhiệt)</td></tr>
+          </table>
+        `
+      }
+    ]
+  },
+
+  switchTab(subKey, btn) {
+    this.activeTab = subKey;
+    document.querySelectorAll('.cheatsheet-tab-btn').forEach(b => b.classList.remove('active'));
+    if (btn) btn.classList.add('active');
+
+    const container = document.getElementById('cheatsheet-content');
+    if (!container) return;
+
+    const cards = this.data[subKey] || [];
+    container.innerHTML = cards.map(c => `
+      <div class="cheat-card">
+        <h4>${c.title}</h4>
+        ${c.content}
+      </div>
+    `).join('');
   }
-}
+};
 
-function openExamReviewModal(attemptId) {
-  const attempt = APP_STATE.userHistory.find(h => h.id === attemptId);
-  if (!attempt) return;
+/* --- 12. GALLERY CONTROLLER --- */
+const GalleryController = {
+  currentFilter: 'all',
 
-  const modal = document.getElementById('exam-review-modal');
-  if (!modal) return;
-
-  setText('review-modal-title', `Chi Tiết Bài Thi: ${attempt.examTitle}`);
-  setText('review-modal-meta', `Thí sinh: ${attempt.userName} (${attempt.userCode}) • Nộp bài lúc: ${attempt.date} • Thời lượng: ${attempt.timeSpent}`);
-  setText('review-modal-score', `${attempt.scorePercent}% (${attempt.correctCount}/${attempt.totalQuestions} câu đúng)`);
-
-  const container = document.getElementById('review-modal-questions-stream');
-  if (container) {
-    container.innerHTML = attempt.answers.map(ans => {
-      const qStatusClass = ans.is_correct ? 'correct' : (ans.user_answer ? 'wrong' : 'skipped');
-      const statusIcon = ans.is_correct ? '✅ Đúng' : (ans.user_answer ? `❌ Sai (Bạn chọn ${ans.user_answer})` : '⚠️ Bỏ qua');
-      const expl = ans.explanation || {};
-
-      return `
-        <div class="review-q-card ${qStatusClass}">
-          <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
-            <span class="badge badge-subject">${ans.section}</span>
-            <span style="font-weight: 700; color: ${ans.is_correct ? '#10b981' : '#ef4444'};">
-              Câu ${ans.questionIndex}: ${statusIcon}
-            </span>
-          </div>
-          
-          <div class="q-title" style="margin-bottom: 14px;">${escapeHtml(ans.question)}</div>
-
-          <div class="q-options-list" style="margin-bottom: 14px;">
-            ${(ans.options || []).map(opt => {
-              const isUserChoice = ans.user_answer === opt.key;
-              const isCorrectAnswer = ans.correct_answer === opt.key;
-              let optStyle = '';
-              let badgeText = '';
-
-              if (isCorrectAnswer) {
-                optStyle = 'background: rgba(16, 185, 129, 0.15); border-color: #10b981; color: #10b981; font-weight: 700;';
-                badgeText = ' (Đáp án chuẩn)';
-              } else if (isUserChoice) {
-                optStyle = 'background: rgba(239, 68, 68, 0.15); border-color: #ef4444; color: #ef4444;';
-                badgeText = ' (Lựa chọn của bạn)';
-              }
-
-              return `
-                <div class="opt-btn" style="${optStyle}; pointer-events: none;">
-                  <span class="opt-key">${opt.key}</span>
-                  <span class="opt-text">${escapeHtml(opt.text)}${badgeText}</span>
-                </div>
-              `;
-            }).join('')}
-          </div>
-
-          <!-- Rich Explanation -->
-          <div class="q-explanation-box" style="display: block;">
-            <div class="expl-content-body">
-              <div class="expl-block why-correct">
-                <h5>✓ Phân tích vì sao đáp án chuẩn (${ans.correct_answer}) là đúng:</h5>
-                <p>${expl.why_correct || ('Đáp án ' + ans.correct_answer + ' là phương án chính xác theo nguyên lý kỹ thuật.')}</p>
-              </div>
-              ${expl.why_wrong ? `
-                <div class="expl-block why-wrong">
-                  <h5>⚠️ Phân tích bẫy đề thi & phương án sai:</h5>
-                  <p>${expl.why_wrong}</p>
-                </div>
-              ` : ''}
-              ${expl.supplementary_knowledge ? `
-                <div class="expl-block supplementary">
-                  <h5>💡 Kiến thức bổ trợ & Ghi nhớ nhanh:</h5>
-                  <p>${expl.supplementary_knowledge}</p>
-                </div>
-              ` : ''}
-            </div>
-          </div>
-        </div>
-      `;
-    }).join('');
-  }
-
-  modal.classList.add('active');
-}
-
-function closeExamReviewModal() {
-  const modal = document.getElementById('exam-review-modal');
-  if (modal) modal.classList.remove('active');
-}
-
-function retakeExam(examId) {
-  closeExamReviewModal();
-  selectExamPreset(examId);
-  switchTab('exam');
-  startSelectedExam();
-}
-
-function deleteHistoryAttempt(attemptId) {
-  if (confirm('Bạn có chắc chắn muốn xóa bản ghi kết quả bài thi này?')) {
-    APP_STATE.userHistory = APP_STATE.userHistory.filter(h => h.id !== attemptId);
-    saveUserHistoryAndBookmarks();
-    renderHistoryDashboard();
-  }
-}
-
-function confirmClearHistory() {
-  if (confirm('CẢNH BÁO: Thao tác này sẽ xóa toàn bộ lịch sử các bài thi của học viên hiện tại. Bạn có chắc chắn không?')) {
-    APP_STATE.userHistory = [];
-    saveUserHistoryAndBookmarks();
-    renderHistoryDashboard();
-  }
-}
-
-function exportHistoryData() {
-  const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(APP_STATE.userHistory, null, 2));
-  const downloadAnchor = document.createElement('a');
-  downloadAnchor.setAttribute("href", dataStr);
-  downloadAnchor.setAttribute("download", `white_star_exam_history_${APP_STATE.currentUser.code}.json`);
-  document.body.appendChild(downloadAnchor);
-  downloadAnchor.click();
-  downloadAnchor.remove();
-}
-
-// =============================================================================
-// VIEW 4: SCHEMATIC GALLERY
-// =============================================================================
-function initSchematicGallery() {
-  filterGallery('all');
-}
-
-function filterGallery(category, chipElem) {
-  if (chipElem) {
+  filter(subKey, btn) {
+    this.currentFilter = subKey;
     document.querySelectorAll('.gallery-chip').forEach(c => c.classList.remove('active'));
-    chipElem.classList.add('active');
-  }
+    if (btn) btn.classList.add('active');
+    this.render();
+  },
 
-  const container = document.getElementById('schematic-gallery-grid');
-  if (!container) return;
+  render() {
+    const grid = document.getElementById('gallery-grid');
+    if (!grid) return;
 
-  let items = [];
-  APP_STATE.masterQuestions.forEach(q => {
-    if (q.images && q.images.length > 0) {
-      if (category === 'all' || q.subject_code === category) {
-        q.images.forEach(img => {
-          items.push({
-            imgSrc: img,
-            qId: q.id,
-            subject: q.subject,
-            questionText: q.question
+    // Collect all images from master questions
+    const imgList = [];
+    AppState.masterQuestions.forEach(q => {
+      if (q.images && q.images.length > 0) {
+        if (this.currentFilter === 'all' || q.subject_code === this.currentFilter) {
+          q.images.forEach(img => {
+            imgList.push({
+              src: img,
+              qId: q.id,
+              subject: q.subject || q.subject_code,
+              module: q.module || 'Sơ đồ'
+            });
           });
-        });
+        }
       }
+    });
+
+    if (imgList.length === 0) {
+      grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px;">Không có hình ảnh nào cho phân loại này.</div>';
+      return;
     }
-  });
 
-  if (items.length === 0) {
-    container.innerHTML = `<div style="grid-column: 1 / -1; text-align: center; color: var(--text-muted); padding: 40px;">Không có hình ảnh trong danh mục này.</div>`;
-    return;
-  }
-
-  container.innerHTML = items.map(item => {
-    return `
-      <div class="gallery-card" onclick="openImageModal('${item.imgSrc}', '${escapeHtml(item.questionText)}')">
-        <div class="gallery-card-img-wrap">
-          <img src="${item.imgSrc}" alt="${item.qId}" loading="lazy" onerror="handleImgError(this)">
+    grid.innerHTML = imgList.map(item => `
+      <div class="gallery-item-card" onclick="LightboxEngine.open('${item.src}', '${item.qId}: ${item.module}')">
+        <div class="gallery-img-box">
+          <img src="${item.src}" alt="${item.qId}" onerror="handleImgError(this)" loading="lazy">
         </div>
-        <div class="gallery-card-info">
-          <h5>${item.qId}</h5>
+        <div class="gallery-item-info">
+          <strong>${item.qId}: ${item.module}</strong>
           <span>${item.subject}</span>
         </div>
       </div>
-    `;
-  }).join('');
-}
-
-// =============================================================================
-// MODAL VIEWER & UTILITIES
-// =============================================================================
-function openImageModal(src, caption) {
-  const modal = document.getElementById('image-modal');
-  const img = document.getElementById('modal-img');
-  const cap = document.getElementById('modal-caption');
-  if (modal && img) {
-    img.onerror = function() { handleImgError(this); };
-    img.src = src;
-    if (cap) cap.innerText = caption || '';
-    modal.classList.add('active');
+    `).join('');
   }
-}
+};
 
-function closeImageModal() {
-  const modal = document.getElementById('image-modal');
-  if (modal) modal.classList.remove('active');
-}
+/* --- 13. HISTORY CONTROLLER --- */
+const HistoryController = {
+  render() {
+    const total = AppState.history.length;
+    const countEl = document.getElementById('hist-total-attempts');
+    if (countEl) countEl.innerText = total;
 
-function setText(id, text) {
-  const el = document.getElementById(id);
-  if (el) el.innerText = text;
-}
+    if (total === 0) {
+      const bestEl = document.getElementById('hist-best-score');
+      const avgEl = document.getElementById('hist-avg-score');
+      const passEl = document.getElementById('hist-pass-rate');
+      if (bestEl) bestEl.innerText = '--%';
+      if (avgEl) avgEl.innerText = '--%';
+      if (passEl) passEl.innerText = '--%';
 
-function escapeHtml(str) {
-  if (!str) return '';
-  return str
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#039;');
-}
+      const tbody = document.getElementById('history-table-body');
+      if (tbody) tbody.innerHTML = '<tr><td colspan="7" style="text-align: center; color: var(--text-muted); padding: 30px;">Chưa có lượt thi thử nào được thực hiện.</td></tr>';
+      return;
+    }
+
+    const scores = AppState.history.map(h => h.percent);
+    const best = Math.max(...scores);
+    const avg = Math.round(scores.reduce((a, b) => a + b, 0) / total);
+    const passedCount = AppState.history.filter(h => h.passed).length;
+    const passRate = Math.round((passedCount / total) * 100);
+
+    const bestEl = document.getElementById('hist-best-score');
+    const avgEl = document.getElementById('hist-avg-score');
+    const passEl = document.getElementById('hist-pass-rate');
+    if (bestEl) bestEl.innerText = `${best}%`;
+    if (avgEl) avgEl.innerText = `${avg}%`;
+    if (passEl) passEl.innerText = `${passRate}%`;
+
+    // Table rows
+    const tbody = document.getElementById('history-table-body');
+    if (tbody) {
+      tbody.innerHTML = AppState.history.map((h, i) => {
+        const mins = Math.floor(h.timeSpent / 60);
+        const secs = h.timeSpent % 60;
+        return `
+          <tr>
+            <td>${i + 1}</td>
+            <td><strong>${h.title}</strong></td>
+            <td>${h.date}</td>
+            <td>${mins}m ${secs}s</td>
+            <td><strong style="color: ${h.passed ? 'var(--success)' : 'var(--danger)'};">${h.score}/${h.total} (${h.percent}%)</strong></td>
+            <td><span class="tag ${h.passed ? 'tag-diff-easy' : 'tag-diff-hard'}">${h.passed ? 'ĐẠT' : 'CHƯA ĐẠT'}</span></td>
+            <td>
+              <button class="btn btn-sm btn-outline" onclick="HistoryController.viewDetail('${h.id}')">Xem lại</button>
+              <button class="btn btn-sm btn-danger-outline" onclick="HistoryController.deleteItem('${h.id}')">Xóa</button>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+  },
+
+  viewDetail(historyId) {
+    const item = AppState.history.find(h => h.id === historyId);
+    if (!item) return;
+    AppState.exam.lastResult = item;
+    AppState.exam.activeExam = { questions: AppState.masterQuestions };
+    UI.openExamReview(item);
+  },
+
+  deleteItem(historyId) {
+    if (confirm('Bạn có chắc muốn xóa bản ghi kết quả này?')) {
+      AppState.history = AppState.history.filter(h => h.id !== historyId);
+      AppState.saveStorage();
+      this.render();
+    }
+  },
+
+  clearHistory() {
+    if (confirm('CẢNH BÁO: Toàn bộ lịch sử các bài thi sẽ bị xóa. Bạn có chắc không?')) {
+      AppState.history = [];
+      AppState.saveStorage();
+      this.render();
+    }
+  }
+};
+
+/* --- 14. UI COORDINATOR --- */
+const UI = {
+  init() {
+    this.applyTheme(AppState.theme);
+    this.updateUserProfileDisplay();
+    this.updateBadges();
+
+    // Check query params for tab
+    const urlParams = new URLSearchParams(window.location.search);
+    const tabParam = urlParams.get('tab');
+    if (tabParam) {
+      this.switchTab(tabParam);
+    } else {
+      this.switchTab('dashboard');
+    }
+
+    // Audio status
+    const audioBtn = document.getElementById('btn-audio-toggle');
+    if (audioBtn) {
+      audioBtn.innerHTML = AppState.soundEnabled ? '🔊' : '🔇';
+      audioBtn.classList.toggle('active', AppState.soundEnabled);
+    }
+
+    // Close popovers on click outside
+    document.addEventListener('click', (e) => {
+      const themeWrapper = document.getElementById('theme-menu-wrapper');
+      if (themeWrapper && !themeWrapper.contains(e.target)) {
+        themeWrapper.classList.remove('open');
+      }
+    });
+
+    // Keyboard shortcuts
+    this.initKeyboardShortcuts();
+  },
+
+  switchTab(tabId) {
+    AppState.currentTab = tabId;
+
+    // Sidebar active item
+    document.querySelectorAll('.sidebar .nav-item').forEach(btn => {
+      btn.classList.remove('active');
+    });
+    const sideBtn = document.getElementById(`nav-${tabId}`);
+    if (sideBtn) sideBtn.classList.add('active');
+
+    // Bottom nav active item
+    document.querySelectorAll('.mobile-bottom-nav .bottom-nav-item').forEach(btn => {
+      btn.classList.remove('active');
+    });
+    const bottomBtn = document.getElementById(`b-nav-${tabId}`);
+    if (bottomBtn) bottomBtn.classList.add('active');
+
+    // Show active tab view
+    document.querySelectorAll('.tab-view').forEach(view => {
+      view.classList.remove('active');
+    });
+    const targetView = document.getElementById(`view-${tabId}`);
+    if (targetView) targetView.classList.add('active');
+
+    // Update Breadcrumb
+    const bTitle = document.getElementById('breadcrumb-title');
+    const titles = {
+      dashboard: 'Tổng quan kho đề',
+      practice: 'Luyện tập đa chiều',
+      flashcards: 'Flashcard ghi nhớ',
+      mistakes: 'Sổ tay câu sai',
+      exam: 'Thi thử White Star',
+      cheatsheet: 'Sổ tay công thức',
+      gallery: 'Kho sơ đồ kỹ thuật',
+      history: 'Lịch sử & Sao lưu'
+    };
+    if (bTitle) bTitle.innerText = titles[tabId] || tabId;
+
+    // Trigger tab-specific initialization
+    if (tabId === 'dashboard') DashboardController.render();
+    else if (tabId === 'practice') PracticeController.init();
+    else if (tabId === 'flashcards') FlashcardController.init();
+    else if (tabId === 'mistakes') MistakesController.render();
+    else if (tabId === 'cheatsheet') CheatsheetController.switchTab('electric');
+    else if (tabId === 'gallery') GalleryController.render();
+    else if (tabId === 'history') HistoryController.render();
+
+    this.closeSidebar();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  },
+
+  toggleSidebar() {
+    const sb = document.getElementById('sidebar');
+    const bd = document.getElementById('sidebar-backdrop');
+    if (sb) sb.classList.toggle('mobile-open');
+    if (bd) bd.style.display = sb && sb.classList.contains('mobile-open') ? 'block' : 'none';
+  },
+
+  closeSidebar() {
+    const sb = document.getElementById('sidebar');
+    const bd = document.getElementById('sidebar-backdrop');
+    if (sb) sb.classList.remove('mobile-open');
+    if (bd) bd.style.display = 'none';
+  },
+
+  toggleThemeDropdown() {
+    const wrapper = document.getElementById('theme-menu-wrapper');
+    if (wrapper) wrapper.classList.toggle('open');
+  },
+
+  selectTheme(themeKey) {
+    this.applyTheme(themeKey);
+    const wrapper = document.getElementById('theme-menu-wrapper');
+    if (wrapper) wrapper.classList.remove('open');
+  },
+
+  applyTheme(themeKey) {
+    AppState.theme = themeKey;
+    document.body.className = `theme-${themeKey}`;
+
+    const icons = {
+      midnight: '🌌',
+      cyber: '🔮',
+      emerald: '🌲',
+      light: '☀️'
+    };
+    const names = {
+      midnight: 'Midnight',
+      cyber: 'Cyber Neon',
+      emerald: 'Emerald',
+      light: 'Clean Day'
+    };
+
+    const curIcon = document.getElementById('current-theme-icon');
+    const curName = document.getElementById('current-theme-name');
+    if (curIcon) curIcon.innerText = icons[themeKey] || '🌌';
+    if (curName) curName.innerText = names[themeKey] || 'Theme';
+
+    AppState.saveStorage();
+  },
+
+  updateUserProfileDisplay() {
+    const u = AppState.currentUser;
+    const aEl = document.getElementById('topbar-avatar');
+    const nEl = document.getElementById('topbar-user-name');
+    const cEl = document.getElementById('topbar-user-code');
+
+    if (aEl) aEl.innerText = u.avatar || '👨‍💻';
+    if (nEl) nEl.innerText = u.name || 'Kỹ thuật viên WS';
+    if (cEl) cEl.innerText = u.code || 'WS-2026-001';
+  },
+
+  updateBadges() {
+    const mistakesBadge = document.getElementById('nav-badge-mistakes');
+    if (mistakesBadge) {
+      mistakesBadge.innerText = AppState.mistakes.size;
+    }
+
+    const practiceBadge = document.getElementById('nav-badge-practice');
+    if (practiceBadge) {
+      practiceBadge.innerText = AppState.masterQuestions.length;
+    }
+  },
+
+  openUserProfileModal() {
+    const modal = document.getElementById('modal-user-profile');
+    if (!modal) return;
+
+    const u = AppState.currentUser;
+    const nameInput = document.getElementById('prof-name');
+    const codeInput = document.getElementById('prof-code');
+    const deptInput = document.getElementById('prof-dept');
+
+    if (nameInput) nameInput.value = u.name;
+    if (codeInput) codeInput.value = u.code;
+    if (deptInput) deptInput.value = u.dept || '';
+
+    // Render avatar choices
+    const avatars = ['👨‍💻', '👩‍🔧', '🧑‍🏭', '🧑‍🔬', '⚡', '💻', '⚙️', '💨', '🚀', '⭐'];
+    const grid = document.getElementById('avatar-picker-grid');
+    if (grid) {
+      grid.innerHTML = avatars.map(av => `
+        <button type="button" class="btn btn-sm btn-outline ${av === u.avatar ? 'active' : ''}" 
+                onclick="UI.pickAvatar('${av}', this)" style="font-size: 20px; padding: 6px 12px;">
+          ${av}
+        </button>
+      `).join('');
+    }
+
+    modal.classList.add('open');
+  },
+
+  closeUserProfileModal() {
+    const modal = document.getElementById('modal-user-profile');
+    if (modal) modal.classList.remove('open');
+  },
+
+  pickAvatar(emoji, btn) {
+    document.querySelectorAll('#avatar-picker-grid button').forEach(b => b.classList.remove('active'));
+    if (btn) btn.classList.add('active');
+    AppState.currentUser.avatar = emoji;
+  },
+
+  saveUserProfile(e) {
+    e.preventDefault();
+    const nameVal = document.getElementById('prof-name').value.trim();
+    const codeVal = document.getElementById('prof-code').value.trim();
+    const deptVal = document.getElementById('prof-dept').value.trim();
+
+    if (nameVal) AppState.currentUser.name = nameVal;
+    if (codeVal) AppState.currentUser.code = codeVal;
+    AppState.currentUser.dept = deptVal;
+
+    AppState.saveStorage();
+    this.updateUserProfileDisplay();
+    this.closeUserProfileModal();
+    alert('✅ Đã lưu thông tin hồ sơ thí sinh!');
+  },
+
+  openShortcutsModal() {
+    const modal = document.getElementById('modal-shortcuts');
+    if (modal) modal.classList.add('open');
+  },
+
+  closeShortcutsModal() {
+    const modal = document.getElementById('modal-shortcuts');
+    if (modal) modal.classList.remove('open');
+  },
+
+  openExamReview(res) {
+    const modal = document.getElementById('modal-exam-review');
+    if (!modal) return;
+
+    const titleEl = document.getElementById('review-exam-title');
+    const metaEl = document.getElementById('review-exam-meta');
+    const scoreEl = document.getElementById('review-exam-score');
+
+    if (titleEl) titleEl.innerText = res.title;
+    if (metaEl) metaEl.innerText = `Ngày thi: ${res.date} • Thời gian làm bài: ${Math.floor(res.timeSpent / 60)} phút`;
+    if (scoreEl) scoreEl.innerText = `${res.percent}% (${res.score}/${res.total} câu)`;
+
+    ExamController.filterReview('all');
+    modal.classList.add('open');
+  },
+
+  closeExamReview() {
+    const modal = document.getElementById('modal-exam-review');
+    if (modal) modal.classList.remove('open');
+  },
+
+  toggleAccordion(elemId) {
+    const el = document.getElementById(elemId);
+    if (!el) return;
+    el.style.display = el.style.display === 'none' ? 'flex' : 'none';
+  },
+
+  initKeyboardShortcuts() {
+    window.addEventListener('keydown', (e) => {
+      // Ignore if focus is in an input
+      if (['INPUT', 'SELECT', 'TEXTAREA'].includes(e.target.tagName)) return;
+
+      const key = e.key.toUpperCase();
+
+      // Exam Mode Shortcuts
+      if (AppState.currentTab === 'exam' && AppState.exam.activeExam && !AppState.exam.isSubmitted) {
+        if (['1', '2', '3', '4'].includes(key)) {
+          const optMap = { '1': 'A', '2': 'B', '3': 'C', '4': 'D' };
+          ExamController.selectAnswer(optMap[key]);
+        } else if (['A', 'B', 'C', 'D'].includes(key)) {
+          ExamController.selectAnswer(key);
+        } else if (key === 'ARROWLEFT') {
+          ExamController.prevQuestion();
+        } else if (key === 'ARROWRIGHT' || key === 'ENTER') {
+          ExamController.nextQuestion();
+        } else if (key === 'F') {
+          ExamController.toggleFlag();
+        }
+      }
+
+      // Flashcards Shortcuts
+      if (AppState.currentTab === 'flashcards') {
+        if (e.code === 'Space') {
+          e.preventDefault();
+          FlashcardController.flipCard();
+        } else if (key === 'ARROWLEFT') {
+          FlashcardController.prevCard();
+        } else if (key === 'ARROWRIGHT') {
+          FlashcardController.nextCard();
+        } else if (key === '1') {
+          FlashcardController.rateCard(1);
+        } else if (key === '2') {
+          FlashcardController.rateCard(2);
+        } else if (key === '3') {
+          FlashcardController.rateCard(3);
+        }
+      }
+
+      // Help Shortcut
+      if (key === '?') {
+        UI.openShortcutsModal();
+      }
+    });
+  }
+};
+
+/* --- 15. BOOTSTRAP APPLICATION --- */
+document.addEventListener('DOMContentLoaded', () => {
+  AudioEngine.init();
+  AppState.init();
+  UI.init();
+});

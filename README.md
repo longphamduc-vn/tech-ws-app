@@ -1,6 +1,6 @@
-# Ứng Dụng Ôn Thi Trắc Nghiệm Kỹ Thuật White Star (Tech WS App)
+# Ứng Dụng Ôn Thi Trắc Nghiệm Kỹ Thuật White Star (Tech WS App v3.0 Pro)
 
-Ứng dụng web ôn tập và thi thử trắc nghiệm kỹ thuật toàn diện, được chuẩn hóa từ bộ tài liệu và ngân hàng câu hỏi chính thức White Star. Bao gồm **398 câu hỏi Master**, **213 sơ đồ kỹ thuật minh họa**, hệ thống **giải thích đáp án chuyên sâu**, cùng **5 đề thi thử tiêu chuẩn** (80 câu/đề).
+Nền tảng web học tập, ôn luyện và thi thử trắc nghiệm kỹ thuật toàn diện, được chuẩn hóa từ bộ tài liệu và ngân hàng câu hỏi chính thức White Star. Bao gồm **834 câu hỏi Master**, **330+ sơ đồ kỹ thuật minh họa**, hệ thống **giải thích đáp án chuyên sâu 3 tầng**, cùng **6 đề thi thử tiêu chuẩn** và **hệ thống thẻ ghi nhớ Leitner 3D**.
 
 ---
 
@@ -15,7 +15,7 @@
 
 - Truy cập trực tiếp link web: **[https://longphamduc-vn.github.io/tech-ws-app/](https://longphamduc-vn.github.io/tech-ws-app/)**
 - Hoạt động mượt mà trên mọi thiết bị: Máy tính văn phòng (kể cả máy bị khóa quyền Administrator), Laptop, MacBook, Điện thoại Android, iPhone, iPad.
-- Dữ liệu làm bài, lịch sử thi và câu hỏi đã đánh dấu được tự động lưu trong `localStorage` của trình duyệt riêng của từng thiết bị.
+- Dữ liệu làm bài, lịch sử thi, thẻ ghi nhớ và câu hỏi đã đánh dấu được tự động lưu trong `localStorage` riêng của từng thiết bị.
 
 ---
 
@@ -35,54 +35,57 @@ Nếu máy bạn là môi trường lập trình viên và muốn chạy qua c�
 
 - **Với Python 3:**
   ```bash
-  python -m http.server 8000
-  # Mở trình duyệt tại: http://localhost:8000
+  python -m http.server 8080
+  # Mở trình duyệt tại: http://localhost:8080
   ```
 - **Với Node.js (npx):**
   ```bash
   npx serve .
   ```
-- **Với VS Code:** Cài extension **Live Server**, nhấp chuột phải vào `index.html` chọn *Open with Live Server*.
 
 ---
 
-## ✨ Các Tính Năng Nổi Bật Của Ứng Dụng
+## ✨ 8 Phân Hệ Tính Năng Nổi Bật Của Phiên Bản v3.0 Pro
 
-1. **Bộ Ngân Hàng Câu Hỏi Chuẩn Hóa (398 Câu Master):**
-   - **Điện & Điện tử cơ bản:** 99 câu (Định luật Ohm, Kirchoff, mạch RC/RLC, linh kiện bán dẫn BJT, Diode, Op-Amp, máy biến áp...).
-   - **PLC cơ bản:** 99 câu (Cấu trúc phần cứng PLC, chu kỳ quét Scan Cycle, lập trình Ladder Logic, thanh ghi Timer/Counter, chuyển đổi nhị phân/thập lục phân...).
-   - **Linh kiện máy cơ bản:** 100 câu (Ổ lăn, then - then hoa, bộ truyền đai/xích, bánh răng trụ/nón/trục vít, mối ghép bu lông, dung sai lắp ghép...).
-   - **Khí nén cơ bản:** 100 câu (Máy nén khí, bộ lọc FRL, van đảo chiều 3/2, 5/2, van tiết lưu, xi lanh tác động đơn/kép, sơ đồ mạch khí nén...).
+1. **📊 Dashboard Thông Minh & Bậc Năng Lực Học Viên:**
+   - Thống kê toàn diện 834 câu Master, 6 đề thi, 330+ sơ đồ mạch.
+   - Thước đo cấp bậc năng lực: Kỹ thuật viên tập sự → Bậc 1 → Bậc 2 → White Star Master.
+   - Thanh tiến độ trực quan theo từng môn: Điện (282 câu), PLC (202 câu), Linh kiện máy (192 câu), Khí nén (158 câu).
 
-2. **Hệ Thống Giải Thích Chuyên Sâu Đa Tầng:**
-   - **Tại sao đúng (`why_correct`):** Giải thích cặn kẽ bản chất vật lý, công thức tính toán và tiêu chuẩn kỹ thuật công nghiệp.
-   - **Tại sao sai (`why_wrong`):** Phân tích từng phương án gây nhiễu, chỉ rõ bẫy đề thi hay gặp.
-   - **Kiến thức cốt lõi (`supplementary`):** Tóm tắt nguyên lý then chốt giúp ghi nhớ dài hạn.
+2. **🎯 Chế Độ Luyện Tập Đa Chiều (Smart Practice):**
+   - Bộ lọc linh hoạt: Môn học, Chuyên đề (Module), Dạng câu (Lý thuyết, Sơ đồ, Tính toán, Sự cố), Độ khó, Trạng thái (Chưa làm, Đã làm đúng, Đã làm sai, Bookmark).
+   - Tùy chọn **Phản hồi tức thì** (Instant Feedback) hoặc Tự kiểm tra.
+   - **Xáo trộn ngẫu nhiên đáp án (A, B, C, D)** chống học vẹt vị trí.
+   - Giải thích chuyên sâu 3 tầng: *Tại sao đúng*, *Phân tích bẫy thi*, *Kiến thức cốt lõi*.
 
-3. **Chế Độ Thi Thử Tiêu Chuẩn (Mock Exams):**
-   - 5 bộ đề thi hoàn chỉnh (80 câu/đề) mô phỏng kỳ thi White Star thực tế.
-   - Đồng hồ đếm ngược thời gian thực (60 phút).
-   - Bảng điều hướng câu hỏi (Palette) trực quan, đổi màu theo trạng thái đã làm / chưa làm.
-   - Tự động chấm điểm, tính tỷ lệ % đạt, hiển thị kết quả đậu/rớt (chuẩn 70%).
-   - Xem lại chi tiết toàn bộ bài thi sau khi nộp kèm đáp án đối chiếu.
-   - Lưu trữ lịch sử thi không giới hạn vào bộ nhớ trình duyệt.
+3. **🗂️ Thẻ Ghi Nhớ Flashcard 3D (Phương Pháp Leitner):**
+   - Thẻ lật 3 chiều (Mặt trước: Câu hỏi + sơ đồ ⇄ Mặt sau: Đáp án + công thức).
+   - 3 Hộp ghi nhớ thông minh: 🔴 Chưa nhớ → 🟡 Đang nhớ → 🟢 Đã thuộc.
+   - Hỗ trợ lọc flashcard theo từng môn hoặc riêng các câu trong sổ tay câu sai.
 
-4. **Bộ Lọc Đa Chiều & Công Cụ Ôn Tập Thông Minh:**
-   - Lọc theo Môn học, Chuyên đề / Module chi tiết, Dạng câu hỏi (Lý thuyết, Sơ đồ, Tính toán, Sự cố), Độ khó (Dễ, Trung bình, Khó).
-   - Ngân hàng câu làm sai (tự động gom các câu bạn trả lời sai để luyện tập lại đến khi thành thạo).
-   - Đánh dấu câu hỏi yêu thích (Bookmark) để xem lại nhanh trước giờ thi.
-   - Chế độ xáo trộn thứ tự đáp án (A, B, C, D) ngẫu nhiên để chống học vẹt.
-   - Tùy chọn phản hồi đáp án ngay lập tức (Instant Feedback) hoặc chế độ làm bài tự kiểm tra.
+4. **❌ Sổ Tay Câu Sai (Mistake Notebook & Remedial Training):**
+   - Tự động gom lại tất cả các câu làm sai từ cả Luyện tập và Thi thử.
+   - Đếm tần suất sai của từng câu và cung cấp chế độ "Luyện lại câu sai" chuyên biệt để xóa sạch lỗi sai trước khi thi thật.
 
-5. **Thư Viện Sơ Đồ Kỹ Thuật (Media Gallery):**
-   - Duyệt và tra cứu hơn 210 hình ảnh sơ đồ mạch, ký hiệu và bản vẽ kỹ thuật.
-   - Trình phóng to ảnh chất lượng cao (Lightbox Modal) giúp soi rõ từng chi tiết mạch.
+5. **⏱️ Phòng Thi Thử Chuẩn Hóa (Standard Exam Simulation):**
+   - 6 Đề thi gốc White Star + 4 Chế độ sinh đề thông minh (Đề chuẩn 80 câu, 40 câu, 20 câu, đề 1 môn).
+   - Đồng hồ đếm ngược có cảnh báo nhấp nháy khi còn dưới 5 phút.
+   - Tính năng **Cắm cờ câu hỏi phân vân (🚩 Flag for Review)**.
+   - **Hỗ trợ phím tắt bàn phím**: Phím `1-4` / `A-D` chọn đáp án, `← / →` chuyển câu, `F` cắm cờ.
+   - Bảng phân tích năng lực 4 môn & xem lại chi tiết từng câu sau khi nộp bài.
 
-6. **Giao Diện Hiện Đại & Đa Theme:**
-   - 4 bộ chủ đề màu sắc cao cấp: **Midnight Pro**, **Cyber Neon**, **Emerald Tech**, **Clean Day**.
-   - Hỗ trợ đầy đủ Responsive trên máy tính để bàn, laptop, tablet và điện thoại di động.
+6. **📖 Sổ Tay Tra Cứu Ký Hiệu & Công Thức Trọng Tâm (Cheatsheet):**
+   - Bảng tra cứu ký hiệu van khí nén (3/2, 5/2, tiết lưu), tiếp điểm PLC Mitsubishi/Siemens.
+   - Bảng công thức trọng tâm: Định luật Ohm, RLC, lực xi lanh khí nén, tỉ số truyền bánh răng, mã ổ lăn.
 
----
+7. **🖼️ Thư Viện Sơ Đồ Lightbox Pan & Zoom:**
+   - Tra cứu hơn 330 hình ảnh sơ đồ mạch điện, bản vẽ kỹ thuật.
+   - Trình Lightbox tương tác: lăn chuột phóng to/thu nhỏ, kéo rê (Pan/Drag) soi rõ từng đường dây vi mạch.
+
+8. **📜 Lịch Sử, Hồ Sơ & Sao Lưu Dữ Liệu (Backup & Restore):**
+   - Lưu trữ toàn bộ điểm số, thời gian và đánh giá các lượt thi.
+   - **Sao lưu (Export JSON)** & **Khôi phục (Import JSON)** giúp chuyển đổi dữ liệu dễ dàng giữa điện thoại và máy tính mà không sợ mất tiến độ.
+   - 4 Bộ chủ đề giao diện: Midnight Pro, Cyber Neon, Emerald Tech, Clean Day.
 
 ## 📁 Cấu Trúc Thư Mục Dự Án
 
